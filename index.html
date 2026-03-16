@@ -86,10 +86,10 @@
 <div class="container">
 
   <div class="cards">
-    <div class="card green"><div class="label">Total de Leads</div><div class="value">7.817</div><div class="detail">leads atendidos pela Yara</div></div>
-    <div class="card blue"><div class="label">Interagiram</div><div class="value">1.576</div><div class="detail">20,2% responderam</div></div>
+    <div class="card green"><div class="label">Total de Leads</div><div class="value">14.897</div><div class="detail">leads contatados pela Yara</div></div>
+    <div class="card blue"><div class="label">Interagiram</div><div class="value">1.576</div><div class="detail">10,6% responderam</div></div>
     <div class="card purple"><div class="label">Transferidos ao Vendedor</div><div class="value">272</div><div class="detail">confirmados no sistema</div></div>
-    <div class="card red"><div class="label">Pediram para Parar</div><div class="value">36</div><div class="detail">apenas 0,5% do total</div></div>
+    <div class="card red"><div class="label">Pediram para Parar</div><div class="value">36</div><div class="detail">apenas 0,2% do total</div></div>
   </div>
 
   <!-- Classificacao -->
@@ -98,16 +98,16 @@
     <div class="chart-row">
       <div class="chart-box"><canvas id="chart"></canvas></div>
       <div class="chart-legend">
-        <div class="legend-item"><div class="legend-dot" style="background:#22c55e"></div><span class="legend-label">Positivos</span><span class="legend-value">437</span><span class="legend-pct">5,6%</span></div>
-        <div class="legend-item"><div class="legend-dot" style="background:#f59e0b"></div><span class="legend-label">Neutros</span><span class="legend-value">1.103</span><span class="legend-pct">14,1%</span></div>
-        <div class="legend-item"><div class="legend-dot" style="background:#ef4444"></div><span class="legend-label">Negativos</span><span class="legend-value">36</span><span class="legend-pct">0,5%</span></div>
-        <div class="legend-item"><div class="legend-dot" style="background:#d1d5db"></div><span class="legend-label">Sem Resposta</span><span class="legend-value">6.241</span><span class="legend-pct">79,8%</span></div>
+        <div class="legend-item"><div class="legend-dot" style="background:#22c55e"></div><span class="legend-label">Positivos</span><span class="legend-value">437</span><span class="legend-pct">2,9%</span></div>
+        <div class="legend-item"><div class="legend-dot" style="background:#f59e0b"></div><span class="legend-label">Neutros</span><span class="legend-value">1.103</span><span class="legend-pct">7,4%</span></div>
+        <div class="legend-item"><div class="legend-dot" style="background:#ef4444"></div><span class="legend-label">Negativos</span><span class="legend-value">36</span><span class="legend-pct">0,2%</span></div>
+        <div class="legend-item"><div class="legend-dot" style="background:#d1d5db"></div><span class="legend-label">Sem Resposta</span><span class="legend-value">13.321</span><span class="legend-pct">89,4%</span></div>
       </div>
     </div>
     <div class="insight">
       <p><strong>272 leads foram transferidos ao vendedor</strong> com registro confirmado no sistema.</p>
       <p>Dos 1.576 leads que interagiram, <strong>27,7% demonstraram interesse</strong> (palavras como "quero", "preco", "orcamento", "manda catalogo").</p>
-      <p>A taxa de rejeicao e de apenas <strong>0,5%</strong>, indicando boa aceitacao da abordagem.</p>
+      <p>A taxa de rejeicao e de apenas <strong>0,2%</strong>, indicando excelente aceitacao da abordagem.</p>
     </div>
   </div>
 
@@ -153,7 +153,7 @@
 
 <script>
 // Donut classificacao
-new Chart(document.getElementById('chart').getContext('2d'),{type:'doughnut',data:{labels:['Positivos','Neutros','Negativos','Sem Resposta'],datasets:[{data:[437,1103,36,6241],backgroundColor:['#22c55e','#f59e0b','#ef4444','#d1d5db'],borderWidth:0,hoverOffset:6}]},options:{responsive:true,maintainAspectRatio:true,cutout:'65%',plugins:{legend:{display:false},tooltip:{callbacks:{label:c=>' '+c.label+': '+c.raw.toLocaleString('pt-BR')+' ('+(c.raw/7817*100).toFixed(1)+'%)'}}}}});
+new Chart(document.getElementById('chart').getContext('2d'),{type:'doughnut',data:{labels:['Positivos','Neutros','Negativos','Sem Resposta'],datasets:[{data:[437,1103,36,13321],backgroundColor:['#22c55e','#f59e0b','#ef4444','#d1d5db'],borderWidth:0,hoverOffset:6}]},options:{responsive:true,maintainAspectRatio:true,cutout:'65%',plugins:{legend:{display:false},tooltip:{callbacks:{label:c=>' '+c.label+': '+c.raw.toLocaleString('pt-BR')+' ('+(c.raw/14897*100).toFixed(1)+'%)'}}}}});
 
 // Donut vendedores
 new Chart(document.getElementById('chartVendedor').getContext('2d'),{type:'doughnut',data:{labels:['Maria Luiza','Maria Izabel','Ronaldo','Tharik Rafael','Douglas'],datasets:[{data:[68,60,58,55,31],backgroundColor:['#22c55e','#3b82f6','#f59e0b','#8b5cf6','#ec4899'],borderWidth:0,hoverOffset:6}]},options:{responsive:true,maintainAspectRatio:true,cutout:'60%',plugins:{legend:{display:false},tooltip:{callbacks:{label:c=>' '+c.label+': '+c.raw+' leads ('+(c.raw/272*100).toFixed(1)+'%)'}}}}});
