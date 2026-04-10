@@ -225,7 +225,7 @@ function selectCall(id){
 
   if(c.recording){
     body+='<div class="section-label">Gravacao</div>';
-    body+='<div class="player"><audio controls preload="none" style="width:100%;height:40px;border-radius:12px"><source src="'+c.recording+'" type="audio/mpeg">Seu navegador nao suporta audio.</audio></div>';
+    body+='<div class="player"><audio controls preload="none" style="width:100%;height:40px;border-radius:12px"><source src="/api/audio?url='+encodeURIComponent(c.recording)+'" type="audio/wav">Seu navegador nao suporta audio.</audio></div>';
   }
 
   if(c.summary){
