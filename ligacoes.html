@@ -225,10 +225,7 @@ function selectCall(id){
 
   if(c.recording){
     body+='<div class="section-label">Gravacao</div>';
-    body+='<div class="player"><a href="'+c.recording+'" target="_blank" class="play-btn" title="Ouvir gravacao">&#9654;</a>';
-    body+='<div class="waveform">';
-    for(let i=0;i<50;i++){const h=Math.random()*24+4;body+='<div class="bar" style="height:'+h+'px;background:'+(c.summary?'#22c55e':'#d1d5db')+'"></div>';}
-    body+='</div></div>';
+    body+='<div class="player"><audio controls preload="none" style="width:100%;height:40px;border-radius:12px"><source src="'+c.recording+'" type="audio/mpeg">Seu navegador nao suporta audio.</audio></div>';
   }
 
   if(c.summary){
