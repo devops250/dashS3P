@@ -51,6 +51,8 @@
   .badge-pensando{background:#fef3c7;color:#d97706}
   .badge-transferencia{background:#f3e8ff;color:#7c3aed}
   .badge-pendente{background:#f3f4f6;color:#6b7280}
+  .badge-transferido{background:#dcfce7;color:#166534;border:1px solid #a7f3d0}
+  .badge-nao-transf{background:#fee2e2;color:#991b1b;border:1px solid #fca5a5}
   .cw-link{color:#1a5632;text-decoration:none;font-weight:600;font-size:.82rem}
   .cw-link:hover{text-decoration:underline}
   .supervisor-cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:12px;margin-bottom:20px}
@@ -172,24 +174,28 @@
 
   <!-- Section 5: Pipeline Ativo -->
   <div class="section">
-    <h2>Pipeline Ativo - Detalhes (16 leads)</h2>
+    <h2>Pipeline Ativo - Detalhes (17 leads)</h2>
+    <div class="insight" style="margin-top:0;margin-bottom:16px">
+      <p><strong>4 cooperados ja transferidos</strong> para a area comercial via Campo 3P. <strong>13 aguardam acao.</strong></p>
+    </div>
     <div class="table-controls">
       <input type="text" id="searchPipeline" placeholder="Buscar por nome, municipio, status..." oninput="filterPipeline()">
-      <span class="table-count" id="pipelineCount">16 de 16</span>
+      <span class="table-count" id="pipelineCount">17 de 17</span>
     </div>
     <div class="table-wrap">
       <table>
-        <thead><tr><th>Status</th><th>Nome</th><th>Municipio/UF</th><th>Area (ha)</th><th>Cultivares</th><th>Situacao</th><th>Dias Parado</th><th>Acao Sugerida</th><th>Link CW</th></tr></thead>
+        <thead><tr><th>Status</th><th>Nome</th><th>Municipio/UF</th><th>Area (ha)</th><th>Cultivares</th><th>Situacao</th><th>Dias Parado</th><th>Transf. Comercial</th><th>Acao Sugerida</th><th>Link CW</th></tr></thead>
         <tbody id="pipelineBody">
           <tr>
             <td><span class="badge badge-forte">INTERESSE FORTE</span></td>
             <td>Leticia Isoton</td>
             <td>Planaltina/DF</td>
             <td>47</td>
-            <td>Tormenta:30, Olimpo:17</td>
+            <td>Mitica:17, Olimpo:30</td>
             <td>Informou area e cultivar</td>
             <td><span class="dias-badge dias-ok">0d</span></td>
-            <td>Confirmar area e gerar contrato</td>
+            <td><span class="badge badge-transferido">TRANSFERIDO 14/04</span></td>
+            <td>Acompanhar fechamento comercial</td>
             <td><a class="cw-link" href="https://projetos-chatwoot.0ivxeq.easypanel.host/app/accounts/1/conversations/11957" target="_blank">Conv 11957</a></td>
           </tr>
           <tr>
@@ -197,10 +203,11 @@
             <td>Joel Cenci</td>
             <td>Planaltina/DF</td>
             <td>500</td>
-            <td>Tormenta:500</td>
+            <td>Tormenta:1000 (renovacao)</td>
             <td>Mencionou cultivar</td>
             <td><span class="dias-badge dias-warn">8d</span></td>
-            <td>Follow-up consultivo</td>
+            <td><span class="badge badge-transferido">TRANSFERIDO 06/04</span></td>
+            <td>Acompanhar fechamento comercial</td>
             <td><a class="cw-link" href="https://projetos-chatwoot.0ivxeq.easypanel.host/app/accounts/1/conversations/11927" target="_blank">Conv 11927</a></td>
           </tr>
           <tr>
@@ -211,6 +218,7 @@
             <td>Tormenta:105, Olimpo:189, Mitica:60</td>
             <td>Respostas positivas</td>
             <td><span class="dias-badge dias-warn">8d</span></td>
+            <td><span class="badge badge-nao-transf">PENDENTE</span></td>
             <td>Follow-up consultivo</td>
             <td><a class="cw-link" href="https://projetos-chatwoot.0ivxeq.easypanel.host/app/accounts/1/conversations/11931" target="_blank">Conv 11931</a></td>
           </tr>
@@ -222,6 +230,7 @@
             <td>Mitica:100, Sparta:200</td>
             <td>Respostas positivas</td>
             <td><span class="dias-badge dias-warn">8d</span></td>
+            <td><span class="badge badge-nao-transf">PENDENTE</span></td>
             <td>Follow-up consultivo</td>
             <td><a class="cw-link" href="https://projetos-chatwoot.0ivxeq.easypanel.host/app/accounts/1/conversations/11940" target="_blank">Conv 11940</a></td>
           </tr>
@@ -233,6 +242,7 @@
             <td>Tormenta:96</td>
             <td>Respostas positivas</td>
             <td><span class="dias-badge dias-warn">8d</span></td>
+            <td><span class="badge badge-nao-transf">PENDENTE</span></td>
             <td>Follow-up consultivo</td>
             <td><a class="cw-link" href="https://projetos-chatwoot.0ivxeq.easypanel.host/app/accounts/1/conversations/11945" target="_blank">Conv 11945</a></td>
           </tr>
@@ -241,10 +251,11 @@
             <td>Elias Rapachi</td>
             <td>Brasilia/DF</td>
             <td>90</td>
-            <td>Tormenta:40, Mitica:50</td>
+            <td>Tormenta:40, Olimpo:48</td>
             <td>Mencionou cultivar</td>
             <td><span class="dias-badge dias-warn">5d</span></td>
-            <td>Follow-up consultivo</td>
+            <td><span class="badge badge-transferido">TRANSFERIDO 08/04</span></td>
+            <td>Acompanhar fechamento comercial</td>
             <td><a class="cw-link" href="https://projetos-chatwoot.0ivxeq.easypanel.host/app/accounts/1/conversations/11947" target="_blank">Conv 11947</a></td>
           </tr>
           <tr>
@@ -255,6 +266,7 @@
             <td>Tormenta:64</td>
             <td>Respostas positivas</td>
             <td><span class="dias-badge dias-warn">8d</span></td>
+            <td><span class="badge badge-nao-transf">PENDENTE</span></td>
             <td>Follow-up consultivo</td>
             <td><a class="cw-link" href="https://projetos-chatwoot.0ivxeq.easypanel.host/app/accounts/1/conversations/11940" target="_blank">Conv 11940</a></td>
           </tr>
@@ -266,6 +278,7 @@
             <td>Olimpo:50</td>
             <td>Respostas positivas</td>
             <td><span class="dias-badge dias-warn">5d</span></td>
+            <td><span class="badge badge-nao-transf">PENDENTE</span></td>
             <td>Follow-up consultivo</td>
             <td><a class="cw-link" href="https://projetos-chatwoot.0ivxeq.easypanel.host/app/accounts/1/conversations/11959" target="_blank">Conv 11959</a></td>
           </tr>
@@ -277,6 +290,7 @@
             <td>Sparta:50</td>
             <td>Respostas positivas</td>
             <td><span class="dias-badge dias-warn">5d</span></td>
+            <td><span class="badge badge-nao-transf">PENDENTE</span></td>
             <td>Follow-up consultivo</td>
             <td><a class="cw-link" href="https://projetos-chatwoot.0ivxeq.easypanel.host/app/accounts/1/conversations/11959" target="_blank">Conv 11959</a></td>
           </tr>
@@ -288,6 +302,7 @@
             <td>Mitica:145, Sparta:180</td>
             <td>Pediu ligacao</td>
             <td><span class="dias-badge dias-warn">8d</span></td>
+            <td><span class="badge badge-nao-transf">PENDENTE</span></td>
             <td>Conectar agronomo</td>
             <td><a class="cw-link" href="https://projetos-chatwoot.0ivxeq.easypanel.host/app/accounts/1/conversations/11937" target="_blank">Conv 11937</a></td>
           </tr>
@@ -299,6 +314,7 @@
             <td>Mitica:81, Sparta:250</td>
             <td>"dar uma pesquisada"</td>
             <td><span class="dias-badge dias-warn">8d</span></td>
+            <td><span class="badge badge-nao-transf">PENDENTE</span></td>
             <td>Follow-up consultivo</td>
             <td><a class="cw-link" href="https://projetos-chatwoot.0ivxeq.easypanel.host/app/accounts/1/conversations/11912" target="_blank">Conv 11912</a></td>
           </tr>
@@ -310,6 +326,7 @@
             <td>Mitica:80, Sparta:40</td>
             <td>"trocar ideia"</td>
             <td><span class="dias-badge dias-warn">8d</span></td>
+            <td><span class="badge badge-nao-transf">PENDENTE</span></td>
             <td>Follow-up consultivo</td>
             <td><a class="cw-link" href="https://projetos-chatwoot.0ivxeq.easypanel.host/app/accounts/1/conversations/11943" target="_blank">Conv 11943</a></td>
           </tr>
@@ -321,6 +338,7 @@
             <td>Tormenta:20, Olimpo:55</td>
             <td>"pesquisa um pouco"</td>
             <td><span class="dias-badge dias-warn">5d</span></td>
+            <td><span class="badge badge-nao-transf">PENDENTE</span></td>
             <td>Follow-up consultivo</td>
             <td><a class="cw-link" href="https://projetos-chatwoot.0ivxeq.easypanel.host/app/accounts/1/conversations/11925" target="_blank">Conv 11925</a></td>
           </tr>
@@ -332,6 +350,7 @@
             <td>Tormenta:709, Olimpo:179</td>
             <td>Duvidas respondidas</td>
             <td><span class="dias-badge dias-warn">8d</span></td>
+            <td><span class="badge badge-nao-transf">PENDENTE</span></td>
             <td>Follow-up consultivo</td>
             <td><a class="cw-link" href="https://projetos-chatwoot.0ivxeq.easypanel.host/app/accounts/1/conversations/11905" target="_blank">Conv 11905</a></td>
           </tr>
@@ -343,6 +362,7 @@
             <td>Mitica:70, Sparta:105</td>
             <td>Duvida tecnica</td>
             <td><span class="dias-badge dias-warn">8d</span></td>
+            <td><span class="badge badge-nao-transf">PENDENTE</span></td>
             <td>Follow-up consultivo</td>
             <td><a class="cw-link" href="https://projetos-chatwoot.0ivxeq.easypanel.host/app/accounts/1/conversations/11929" target="_blank">Conv 11929</a></td>
           </tr>
@@ -354,8 +374,21 @@
             <td>Sparta:75</td>
             <td>Duvida tecnica</td>
             <td><span class="dias-badge dias-danger">6d</span></td>
+            <td><span class="badge badge-nao-transf">PENDENTE</span></td>
             <td>Follow-up consultivo</td>
             <td><a class="cw-link" href="https://projetos-chatwoot.0ivxeq.easypanel.host/app/accounts/1/conversations/11935" target="_blank">Conv 11935</a></td>
+          </tr>
+          <tr>
+            <td><span class="badge badge-pendente">PENDENTE</span></td>
+            <td>Jose Airton Ghesti</td>
+            <td>Planaltina/DF</td>
+            <td>200</td>
+            <td>N/D</td>
+            <td>Duvida sobre bonificacoes</td>
+            <td><span class="dias-badge dias-warn">8d</span></td>
+            <td><span class="badge badge-transferido">TRANSFERIDO 06/04</span></td>
+            <td>Acompanhar fechamento comercial</td>
+            <td><a class="cw-link" href="https://projetos-chatwoot.0ivxeq.easypanel.host/app/accounts/1/conversations/11949" target="_blank">Conv 11949</a></td>
           </tr>
         </tbody>
       </table>
@@ -364,7 +397,7 @@
 
   <!-- Section 6: Pendentes Engajados -->
   <div class="section">
-    <h2>Pendentes Engajados - Responderam mas Pararam (21 leads)</h2>
+    <h2>Pendentes Engajados - Responderam mas Pararam (20 leads)</h2>
     <div class="table-wrap" style="max-height:500px">
       <table>
         <thead><tr><th>Nome</th><th>Municipio/UF</th><th>Area (ha)</th><th>Msgs Enviadas</th><th>Msgs Recebidas</th><th>Dias Parado</th><th>Link CW</th></tr></thead>
@@ -404,12 +437,6 @@
             <td>2</td><td>1</td>
             <td><span class="dias-badge dias-warn">8d</span></td>
             <td><a class="cw-link" href="https://projetos-chatwoot.0ivxeq.easypanel.host/app/accounts/1/conversations/11926" target="_blank">Conv 11926</a></td>
-          </tr>
-          <tr>
-            <td>Jose Airton Ghesti</td><td>Planaltina/DF</td><td>200</td>
-            <td>7</td><td>3</td>
-            <td><span class="dias-badge dias-warn">8d</span></td>
-            <td><a class="cw-link" href="https://projetos-chatwoot.0ivxeq.easypanel.host/app/accounts/1/conversations/11949" target="_blank">Conv 11949</a></td>
           </tr>
           <tr>
             <td>Agostinho Luiz Falqueto</td><td>Planaltina/DF</td><td>195</td>
@@ -570,7 +597,7 @@ function filterPipeline(){
     r.style.display=match?'':'none';
     if(match)count++;
   });
-  document.getElementById('pipelineCount').textContent=count+' de 16';
+  document.getElementById('pipelineCount').textContent=count+' de 17';
 }
 </script>
 </body>
