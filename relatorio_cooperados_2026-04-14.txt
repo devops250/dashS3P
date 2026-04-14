@@ -1,0 +1,171 @@
+
+================================================================================
+   RELATORIO CONSOLIDADO - YARA COOPERADOS (Sementes Tres Pinheiros)
+   Extracao: 2026-04-14T15:57:28.072Z
+================================================================================
+
+RESUMO EXECUTIVO
+────────────────
+Total de cooperados trabalhados:  110
+NocoDB (Lista Cooperados Oficial): 110 registros
+Chatwoot (inbox Yara Cooperados):  conversas cruzadas
+
+RESULTADOS POR CATEGORIA
+─────────────────────────
+  FECHAMENTOS:         0  (0.0%)  |  Area: 0 ha
+  INTERESSE FORTE:     1  (0.9%)  |  Area: 47 ha  [informou hectares + cultivar]
+  INTERESSE:           8  (7.3%)
+  PENDENTES:          94  (85.5%)
+  COM DUVIDAS:         3  (2.7%)
+  PENSANDO:            3  (2.7%)
+  TRANSFERENCIAS:      1  (0.9%)
+  DESINTERESSADOS:     0  (0.0%)
+
+AREA TOTAL MAPEADA: 23192 ha
+PIPELINE DE FECHAMENTO: 47 ha (fechados: 0 + interesse forte: 47)
+
+
+INTERESSE FORTE - INFORMOU AREA + CULTIVAR (1)
+────────────────────────────────────────────────────────────
+  Leticia Isoton  | Planaltina/DF | 47ha | Tormenta:30, Olimpo:17
+    Informou área e cultivar com confirmação positiva | Ultima msg: 2026-04-14 (0d)
+    Acao: Prioridade: confirmar área e gerar contrato
+
+
+INTERESSE - RESPOSTA POSITIVA (8)
+────────────────────────────────────────────────────────────
+  Elias Rapachi | Brasília/DF | 90ha
+    Mencionou cultivar de interesse | Ultima msg: 2026-04-08 (5d)
+  Fernando Pezzini Kunz | Sítio D'Abadia/GO | 300ha
+    Respostas positivas na conversa | Ultima msg: 2026-04-06 (8d)
+  Ildemar Garmatz | Planaltina/DF | 64ha
+    Respostas positivas na conversa | Ultima msg: 2026-04-06 (8d)
+  Joel Cenci | Planaltina/DF | 500ha
+    Mencionou cultivar de interesse | Ultima msg: 2026-04-06 (8d)
+  Jolmir Paulinho Cenci | Brasília/DF | 354ha
+    Respostas positivas na conversa | Ultima msg: 2026-04-06 (8d)
+  Luis Eduardo Garmatz | Planaltina/DF | 96ha
+    Respostas positivas na conversa | Ultima msg: 2026-04-06 (8d)
+  Marcos Aurélio Maier  | Chapada Gaúcha /MG  | 50ha
+    Respostas positivas na conversa | Ultima msg: 2026-04-09 (5d)
+  Marcos Aurélio Maier  | Chapada Gaúcha /MG  | 50ha
+    Respostas positivas na conversa | Ultima msg: 2026-04-09 (5d)
+
+
+TRANSFERENCIAS PARA HUMANO (1)
+────────────────────────────────────────────────────────────
+  Gustavo Rossatto Rubin  | Buritis/MG | 325ha
+    Pediu ligação | Parado: 8d
+
+
+PENSANDO (3)
+────────────────────────────────────────────────────────────
+  Alexandre Azevedo Pinho | Buritis/MG | 331ha
+    Lead disse: "dar uma pesquisada" | Ultima msg: 2026-04-06 (8d)
+  Elias Disegna | Planaltina/DF | 75ha
+    Lead disse: "pesquisa um pouco" | Ultima msg: 2026-04-09 (5d)
+  João Francisco Rosa | Buritis/MG | 120ha
+    Lead disse: "trocar ideia" | Ultima msg: 2026-04-06 (8d)
+
+
+COM DUVIDAS (3)
+────────────────────────────────────────────────────────────
+  Adalto Ferreira Morato | Cabeceiras/GO | 75ha
+    Dúvida técnica (cultivares/opções) (respondida pela Yara) | Ultima msg: 2026-04-06 (6d)
+  Elodi Valdemiro Cenci  | Planaltina/DF | 888ha
+    Expressou dúvidas na conversa (respondida pela Yara) | Ultima msg: 2026-04-06 (8d)
+  Gerson Grandi | Unaí/MG | 175ha
+    Dúvida técnica (cultivares/opções) (respondida pela Yara) | Ultima msg: 2026-04-06 (8d)
+
+
+PENDENTES - SEM RESPOSTA/AGUARDANDO (94)
+────────────────────────────────────────────────────────────
+  Olímpio Rotta | Cabeceiras/GO | 818ha | Parado: 8d
+    Disparo feito, sem conversa no Chatwoot
+  José Carlos Wagner  | Planaltina/DF | 805ha | Parado: 8d
+    Sem interação há 8 dias
+  Agro Isoton  | Planaltina/DF | 800ha | Parado: 8d
+    Sem interação há 8 dias
+  Emílio Timo | Buritis/MG | 675ha | Parado: 8d
+    Sem interação há 8 dias
+  Celito Gentil Passinato | Cabeceiras/GO | 523ha | Parado: 8d
+    Sem resposta do lead
+  Jonattan Gonzaga | Planaltina/GO | 516ha | Parado: 8d
+    Sem interação há 8 dias
+  Regis Momo dos Santos | Planaltina/DF | 500ha | Parado: 8d
+    Disparo feito, sem conversa no Chatwoot
+  Michel Momo dos Santos | Brasília/DF | 487ha | Parado: 8d
+    Disparo feito, sem conversa no Chatwoot
+  Roberto Carlos Meotti | Planaltina/DF | 485ha | Parado: 8d
+    Disparo feito, sem conversa no Chatwoot
+  Marcos Vinicius Dal Bello  | Novo Gama/GO | 466ha | Parado: 8d
+    Disparo feito, sem conversa no Chatwoot
+  Marcos Vinicius Dal Bello  | Brasília/DF | 450ha | Parado: 8d
+    Disparo feito, sem conversa no Chatwoot
+  Hermes Isoton | São João D'Aliança/GO | 400ha | Parado: 8d
+    Sem resposta do lead
+  Leomar Cenci  | Brasília/DF | 355ha | Parado: 8d
+    Sem interação há 8 dias
+  Rodrigo Gontijo Morais Soares | Cabeceiras/GO | 350ha | Parado: 8d
+    Sem resposta do lead
+  Silvano Luiz Borghelot | Brasília/DF | 343ha | Parado: 7d
+    Disparo feito, sem conversa no Chatwoot
+  Valdemar Valentin Cenci | Brasília/DF | 342ha | Parado: 7d
+    Disparo feito, sem conversa no Chatwoot
+  Gustavo Ordones Guimaraes Mundim Pena | Planaltina/DF | 322ha | Parado: 999d
+    Sem disparo realizado
+  Sidnei Quatrin Anversa  | Planaltina/DF | 320ha | Parado: 8d
+    Disparo feito, sem conversa no Chatwoot
+  Agostinho Amélio Passinato | Cabeceiras/GO | 305ha | Parado: 8d
+    Sem resposta do lead
+  Joaquim Gatto Cossul  | Sítio D'Abadia/GO | 300ha | Parado: 8d
+    Sem resposta do lead
+  Oscar Wolmann | Planaltina/GO | 285ha | Parado: 8d
+    Disparo feito, sem conversa no Chatwoot
+  Walmor Raimundo Tiggemann | Planaltina/DF | 283ha | Parado: 7d
+    Disparo feito, sem conversa no Chatwoot
+  Flavio Momo dos Santos | Planaltina/DF | 271ha | Parado: 8d
+    Sem resposta do lead
+  Mariano Mazzuco Neto | Alvorada do Norte/GO | 270ha | Parado: 8d
+    Disparo feito, sem conversa no Chatwoot
+  Piktor Marangoni Souza  | Planaltina/GO | 270ha | Parado: 8d
+    Disparo feito, sem conversa no Chatwoot
+  Kelen Lucia Cenci | Brasília/DF | 268ha | Parado: 8d
+    Sem resposta do lead
+  Paulo Riudi Nakamura | Buritis/MG | 260ha | Parado: 8d
+    Disparo feito, sem conversa no Chatwoot
+  João Germano Cossul | Sítio D'Abadia/GO | 250ha | Parado: 8d
+    Sem resposta do lead
+  Elias Ergang | Formosa/GO | 233ha | Parado: 8d
+    Sem interação há 8 dias
+  Volnei Passinato  | Cabeceiras/GO | 219ha | Parado: 8d
+    Sem resposta do lead
+  ... e mais 64 pendentes
+
+
+TOP 10 PRIORIDADES FOLLOW-UP (área + tempo parado)
+──────────────────────────────────────────────────
+  INTERESSE_FORTE Leticia Isoton                    47ha    0d  → Prioridade: confirmar área e gerar contrato
+  COM_DUVIDAS     Elodi Valdemiro Cenci            888ha    8d  → Responder dúvidas pendentes
+  TRANSFERENCIA   Gustavo Rossatto Rubin           325ha    8d  → Conectar com agrônomo/vendedor
+  COM_DUVIDAS     Gerson Grandi                    175ha    8d  → Responder dúvidas pendentes
+  PENSANDO        Alexandre Azevedo Pinho          331ha    8d  → Follow-up consultivo (parado 8d)
+  INTERESSE       Joel Cenci                       500ha    8d  → Follow-up consultivo para avançar ao fechamento
+  COM_DUVIDAS     Adalto Ferreira Morato            75ha    6d  → Responder dúvidas pendentes
+  PENDENTE        Olímpio Rotta                    818ha    8d  → Reenviar abordagem (não respondeu)
+  PENDENTE        José Carlos Wagner               805ha    8d  → Follow-up urgente (>7d parado)
+  PENDENTE        Agro Isoton                      800ha    8d  → Follow-up urgente (>7d parado)
+
+
+PRINCIPAIS MOTIVOS DE NÃO-FECHAMENTO
+──────────────────────────────────────────────────
+   42x  Disparo feito, sem conversa no Chatwoot
+   29x  Sem resposta do lead
+   20x  Sem interação há 8 dias
+    6x  Respostas positivas na conversa
+    2x  Dúvida técnica
+    2x  Mencionou cultivar de interesse
+    2x  Sem disparo realizado
+    1x  Sem interação há 4 dias
+    1x  Lead disse: "dar uma pesquisada"
+    1x  Lead disse: "pesquisa um pouco"

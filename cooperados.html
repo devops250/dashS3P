@@ -1,0 +1,577 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Resultados Cooperados - Sementes Tres Pinheiros</title>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.7/dist/chart.umd.js"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  *{margin:0;padding:0;box-sizing:border-box}
+  body{font-family:'Inter','Segoe UI',system-ui,-apple-system,sans-serif;background:#f0f2f5;color:#1a1a2e;line-height:1.6}
+  .header{background:linear-gradient(135deg,#1a5632 0%,#2d8a4e 100%);color:#fff;padding:32px 24px;text-align:center}
+  .header h1{font-family:'DM Serif Display',serif;font-size:1.8rem;font-weight:400;margin-bottom:4px}
+  .header p{opacity:.85;font-size:.95rem}
+  .header .subtitle{font-size:1.05rem;margin-top:8px;opacity:.95}
+  .header-links{margin-top:16px;display:flex;justify-content:center;gap:16px;flex-wrap:wrap}
+  .header-links a{color:#fff;background:rgba(255,255,255,.15);padding:8px 20px;border-radius:8px;text-decoration:none;font-size:.9rem;font-weight:600;transition:background .2s}
+  .header-links a:hover{background:rgba(255,255,255,.3)}
+  .container{max-width:1200px;margin:0 auto;padding:24px 16px}
+  .cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:16px;margin-bottom:28px}
+  .card{background:#fff;border-radius:12px;padding:20px 24px;box-shadow:0 1px 3px rgba(0,0,0,.08)}
+  .card .label{font-size:.78rem;text-transform:uppercase;letter-spacing:.5px;color:#666;font-weight:600}
+  .card .value{font-size:2rem;font-weight:700;margin:4px 0}
+  .card .detail{font-size:.85rem;color:#888}
+  .card.green .value{color:#1a5632} .card.blue .value{color:#1a56db} .card.red .value{color:#dc2626} .card.purple .value{color:#7c3aed} .card.amber .value{color:#d97706}
+  .section{background:#fff;border-radius:12px;padding:24px;margin-bottom:24px;box-shadow:0 1px 3px rgba(0,0,0,.08)}
+  .section h2{font-family:'DM Serif Display',serif;font-size:1.2rem;font-weight:400;margin-bottom:16px;color:#1a1a2e;padding-bottom:8px;border-bottom:2px solid #e5e7eb}
+  .chart-row{display:flex;gap:24px;flex-wrap:wrap;align-items:center}
+  .chart-box{width:280px;height:280px;flex-shrink:0}
+  .chart-legend{flex:1;min-width:200px}
+  .legend-item{display:flex;align-items:center;padding:10px 0;border-bottom:1px solid #f3f4f6}
+  .legend-dot{width:14px;height:14px;border-radius:50%;margin-right:12px;flex-shrink:0}
+  .legend-label{flex:1;font-size:.95rem} .legend-value{font-weight:700;font-size:1.05rem;margin-right:8px}
+  .legend-pct{color:#888;font-size:.85rem;min-width:50px;text-align:right}
+  .insight{background:#f0fdf4;border-left:4px solid #1a5632;padding:16px 20px;border-radius:0 8px 8px 0;margin-top:16px}
+  .insight p{font-size:.9rem;color:#374151;margin-bottom:6px} .insight strong{color:#1a5632}
+  .table-controls{display:flex;gap:12px;margin-bottom:16px;flex-wrap:wrap;align-items:center}
+  .table-controls input{padding:8px 14px;border:1px solid #d1d5db;border-radius:8px;font-size:.9rem;flex:1;min-width:200px}
+  .table-controls input:focus{outline:none;border-color:#1a5632;box-shadow:0 0 0 2px rgba(26,86,50,.15)}
+  .table-count{font-size:.85rem;color:#888}
+  .table-wrap{overflow-x:auto;max-height:600px;overflow-y:auto}
+  table{width:100%;border-collapse:collapse;font-size:.85rem}
+  th{background:#f9fafb;padding:10px 12px;text-align:left;font-weight:600;color:#374151;border-bottom:2px solid #e5e7eb;position:sticky;top:0;z-index:1}
+  td{padding:10px 12px;border-bottom:1px solid #f3f4f6;color:#1a1a2e}
+  tr:hover td{background:#f9fafb}
+  .badge{display:inline-block;padding:2px 10px;border-radius:99px;font-size:.73rem;font-weight:600;white-space:nowrap}
+  .badge-forte{background:#dcfce7;color:#166534}
+  .badge-interesse{background:#f0fdf4;color:#22c55e}
+  .badge-duvidas{background:#dbeafe;color:#1a56db}
+  .badge-pensando{background:#fef3c7;color:#d97706}
+  .badge-transferencia{background:#f3e8ff;color:#7c3aed}
+  .badge-pendente{background:#f3f4f6;color:#6b7280}
+  .cw-link{color:#1a5632;text-decoration:none;font-weight:600;font-size:.82rem}
+  .cw-link:hover{text-decoration:underline}
+  .supervisor-cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:12px;margin-bottom:20px}
+  .supervisor-card{background:#f9fafb;border-radius:10px;padding:16px;text-align:center;border:1px solid #e5e7eb}
+  .supervisor-card .sname{font-weight:700;font-size:.95rem;color:#1a5632}
+  .supervisor-card .scount{font-size:1.8rem;font-weight:700;color:#1a1a2e;margin:4px 0}
+  .supervisor-card .slabel{font-size:.8rem;color:#888}
+  .chart2-row{display:flex;gap:24px;flex-wrap:wrap;align-items:center;margin-bottom:20px}
+  .chart2-box{width:260px;height:260px;flex-shrink:0}
+  .bar-chart-box{width:100%;max-width:700px;height:300px}
+  .footer{text-align:center;padding:24px;color:#9ca3af;font-size:.8rem}
+  .dias-badge{display:inline-block;padding:2px 8px;border-radius:6px;font-size:.78rem;font-weight:600}
+  .dias-ok{background:#dcfce7;color:#166534}
+  .dias-warn{background:#fef3c7;color:#92400e}
+  .dias-danger{background:#fee2e2;color:#dc2626}
+  @media(max-width:640px){
+    .chart-row,.chart2-row{flex-direction:column;align-items:center}
+    .chart-box,.chart2-box{width:220px;height:220px}
+    .cards{grid-template-columns:repeat(2,1fr)}
+    .supervisor-cards{grid-template-columns:repeat(2,1fr)}
+    .header h1{font-size:1.4rem}
+    .bar-chart-box{height:250px}
+  }
+</style>
+</head>
+<body>
+
+<div class="header">
+  <p>Relatorio de Performance</p>
+  <h1>Resultados Yara Cooperados</h1>
+  <p class="subtitle">Lista Cooperados Oficial | Extracao 14/04/2026</p>
+  <div class="header-links">
+    <a href="/index">Ver Dashboard Geral</a>
+    <a href="/ligacoes">Painel Ligacoes</a>
+  </div>
+</div>
+
+<div class="container">
+
+  <!-- KPI Cards -->
+  <div class="cards">
+    <div class="card green"><div class="label">Total Cooperados</div><div class="value">110</div><div class="detail">lista oficial</div></div>
+    <div class="card blue"><div class="label">Area Total Mapeada</div><div class="value">23.192</div><div class="detail">hectares</div></div>
+    <div class="card green"><div class="label">Com Conversa Chatwoot</div><div class="value">66</div><div class="detail">60% do total</div></div>
+    <div class="card purple"><div class="label">Engajados (responderam)</div><div class="value">37</div><div class="detail">33,6% do total</div></div>
+    <div class="card green"><div class="label">Pipeline Ativo</div><div class="value">16</div><div class="detail">leads com interesse</div></div>
+    <div class="card amber"><div class="label">Sem Resposta (reativacao)</div><div class="value">73</div><div class="detail">leads para reativar</div></div>
+  </div>
+
+  <!-- Section 1: Funil de Conversao -->
+  <div class="section">
+    <h2>Funil de Conversao</h2>
+    <div class="chart-row">
+      <div class="chart-box"><canvas id="chartFunil"></canvas></div>
+      <div class="chart-legend">
+        <div class="legend-item"><div class="legend-dot" style="background:#166534"></div><span class="legend-label">Interesse Forte</span><span class="legend-value">1</span><span class="legend-pct">0,9%</span></div>
+        <div class="legend-item"><div class="legend-dot" style="background:#22c55e"></div><span class="legend-label">Interesse</span><span class="legend-value">8</span><span class="legend-pct">7,3%</span></div>
+        <div class="legend-item"><div class="legend-dot" style="background:#3b82f6"></div><span class="legend-label">Com Duvidas</span><span class="legend-value">3</span><span class="legend-pct">2,7%</span></div>
+        <div class="legend-item"><div class="legend-dot" style="background:#f59e0b"></div><span class="legend-label">Pensando</span><span class="legend-value">3</span><span class="legend-pct">2,7%</span></div>
+        <div class="legend-item"><div class="legend-dot" style="background:#8b5cf6"></div><span class="legend-label">Transferencia</span><span class="legend-value">1</span><span class="legend-pct">0,9%</span></div>
+        <div class="legend-item"><div class="legend-dot" style="background:#d1d5db"></div><span class="legend-label">Pendentes</span><span class="legend-value">94</span><span class="legend-pct">85,5%</span></div>
+      </div>
+    </div>
+    <div class="insight">
+      <p><strong>16 cooperados demonstraram interesse ativo</strong> (14,5% dos que tem conversa).</p>
+      <p>Area potencial do pipeline ativo: <strong>3.540 ha</strong>.</p>
+      <p><strong>73 cooperados</strong> nao responderam e estao na lista de reativacao.</p>
+    </div>
+  </div>
+
+  <!-- Section 2: Distribuicao por Cultivar -->
+  <div class="section">
+    <h2>Distribuicao por Cultivar</h2>
+    <div style="display:flex;justify-content:center">
+      <div class="bar-chart-box"><canvas id="chartCultivar"></canvas></div>
+    </div>
+  </div>
+
+  <!-- Section 3: Cooperados por Supervisor -->
+  <div class="section">
+    <h2>Cooperados por Supervisor</h2>
+    <div class="supervisor-cards">
+      <div class="supervisor-card"><div class="sname">Ygor</div><div class="scount">27</div><div class="slabel">cooperados | 4.113 ha</div></div>
+      <div class="supervisor-card"><div class="sname">Vinicius</div><div class="scount">24</div><div class="slabel">cooperados | 5.781 ha</div></div>
+      <div class="supervisor-card"><div class="sname">David</div><div class="scount">22</div><div class="slabel">cooperados | 5.424 ha</div></div>
+      <div class="supervisor-card"><div class="sname">Eliton</div><div class="scount">22</div><div class="slabel">cooperados | 3.610 ha</div></div>
+      <div class="supervisor-card"><div class="sname">Eriksson</div><div class="scount">15</div><div class="slabel">cooperados | 4.264 ha</div></div>
+    </div>
+    <div class="chart2-row">
+      <div style="flex:1;max-width:700px;height:300px"><canvas id="chartSupervisor"></canvas></div>
+    </div>
+    <div class="table-wrap">
+      <table>
+        <thead><tr><th>Supervisor</th><th>Cooperados</th><th>Area (ha)</th><th>Com Conversa</th><th>Interesse</th></tr></thead>
+        <tbody>
+          <tr><td>Ygor</td><td>27</td><td>4.113</td><td>10</td><td>4</td></tr>
+          <tr><td>Vinicius</td><td>24</td><td>5.781</td><td>13</td><td>2</td></tr>
+          <tr><td>David</td><td>22</td><td>5.424</td><td>16</td><td>2</td></tr>
+          <tr><td>Eliton</td><td>22</td><td>3.610</td><td>15</td><td>5</td></tr>
+          <tr><td>Eriksson</td><td>15</td><td>4.264</td><td>12</td><td>3</td></tr>
+          <tr style="font-weight:700;background:#f0fdf4"><td>TOTAL</td><td>110</td><td>23.192</td><td>66</td><td>16</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <!-- Section 4: Cooperados por Estado -->
+  <div class="section">
+    <h2>Cooperados por Estado</h2>
+    <div class="chart-row">
+      <div class="chart-box"><canvas id="chartEstado"></canvas></div>
+      <div class="chart-legend">
+        <div class="legend-item"><div class="legend-dot" style="background:#1a5632"></div><span class="legend-label">DF</span><span class="legend-value">58</span><span class="legend-pct">12.212 ha</span></div>
+        <div class="legend-item"><div class="legend-dot" style="background:#22c55e"></div><span class="legend-label">GO</span><span class="legend-value">36</span><span class="legend-pct">8.166 ha</span></div>
+        <div class="legend-item"><div class="legend-dot" style="background:#86efac"></div><span class="legend-label">MG</span><span class="legend-value">16</span><span class="legend-pct">2.814 ha</span></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Section 5: Pipeline Ativo -->
+  <div class="section">
+    <h2>Pipeline Ativo - Detalhes (16 leads)</h2>
+    <div class="table-controls">
+      <input type="text" id="searchPipeline" placeholder="Buscar por nome, municipio, status..." oninput="filterPipeline()">
+      <span class="table-count" id="pipelineCount">16 de 16</span>
+    </div>
+    <div class="table-wrap">
+      <table>
+        <thead><tr><th>Status</th><th>Nome</th><th>Municipio/UF</th><th>Area (ha)</th><th>Cultivares</th><th>Situacao</th><th>Dias Parado</th><th>Acao Sugerida</th><th>Link CW</th></tr></thead>
+        <tbody id="pipelineBody">
+          <tr>
+            <td><span class="badge badge-forte">INTERESSE FORTE</span></td>
+            <td>Leticia Isoton</td>
+            <td>Planaltina/DF</td>
+            <td>47</td>
+            <td>Tormenta:30, Olimpo:17</td>
+            <td>Informou area e cultivar</td>
+            <td><span class="dias-badge dias-ok">0d</span></td>
+            <td>Confirmar area e gerar contrato</td>
+            <td><a class="cw-link" href="https://projetos-chatwoot.0ivxeq.easypanel.host/app/accounts/1/conversations/11957" target="_blank">Conv 11957</a></td>
+          </tr>
+          <tr>
+            <td><span class="badge badge-interesse">INTERESSE</span></td>
+            <td>Joel Cenci</td>
+            <td>Planaltina/DF</td>
+            <td>500</td>
+            <td>Tormenta:500</td>
+            <td>Mencionou cultivar</td>
+            <td><span class="dias-badge dias-warn">8d</span></td>
+            <td>Follow-up consultivo</td>
+            <td><a class="cw-link" href="https://projetos-chatwoot.0ivxeq.easypanel.host/app/accounts/1/conversations/11927" target="_blank">Conv 11927</a></td>
+          </tr>
+          <tr>
+            <td><span class="badge badge-interesse">INTERESSE</span></td>
+            <td>Jolmir Paulinho Cenci</td>
+            <td>Brasilia/DF</td>
+            <td>354</td>
+            <td>Tormenta:105, Olimpo:189, Mitica:60</td>
+            <td>Respostas positivas</td>
+            <td><span class="dias-badge dias-warn">8d</span></td>
+            <td>Follow-up consultivo</td>
+            <td><a class="cw-link" href="https://projetos-chatwoot.0ivxeq.easypanel.host/app/accounts/1/conversations/11931" target="_blank">Conv 11931</a></td>
+          </tr>
+          <tr>
+            <td><span class="badge badge-interesse">INTERESSE</span></td>
+            <td>Fernando Pezzini Kunz</td>
+            <td>Sitio D'Abadia/GO</td>
+            <td>300</td>
+            <td>Mitica:100, Sparta:200</td>
+            <td>Respostas positivas</td>
+            <td><span class="dias-badge dias-warn">8d</span></td>
+            <td>Follow-up consultivo</td>
+            <td><a class="cw-link" href="https://projetos-chatwoot.0ivxeq.easypanel.host/app/accounts/1/conversations/11940" target="_blank">Conv 11940</a></td>
+          </tr>
+          <tr>
+            <td><span class="badge badge-interesse">INTERESSE</span></td>
+            <td>Luis Eduardo Garmatz</td>
+            <td>Planaltina/DF</td>
+            <td>96</td>
+            <td>Tormenta:96</td>
+            <td>Respostas positivas</td>
+            <td><span class="dias-badge dias-warn">8d</span></td>
+            <td>Follow-up consultivo</td>
+            <td><a class="cw-link" href="https://projetos-chatwoot.0ivxeq.easypanel.host/app/accounts/1/conversations/11945" target="_blank">Conv 11945</a></td>
+          </tr>
+          <tr>
+            <td><span class="badge badge-interesse">INTERESSE</span></td>
+            <td>Elias Rapachi</td>
+            <td>Brasilia/DF</td>
+            <td>90</td>
+            <td>Tormenta:40, Mitica:50</td>
+            <td>Mencionou cultivar</td>
+            <td><span class="dias-badge dias-warn">5d</span></td>
+            <td>Follow-up consultivo</td>
+            <td><a class="cw-link" href="https://projetos-chatwoot.0ivxeq.easypanel.host/app/accounts/1/conversations/11947" target="_blank">Conv 11947</a></td>
+          </tr>
+          <tr>
+            <td><span class="badge badge-interesse">INTERESSE</span></td>
+            <td>Ildemar Garmatz</td>
+            <td>Planaltina/DF</td>
+            <td>64</td>
+            <td>Tormenta:64</td>
+            <td>Respostas positivas</td>
+            <td><span class="dias-badge dias-warn">8d</span></td>
+            <td>Follow-up consultivo</td>
+            <td><a class="cw-link" href="https://projetos-chatwoot.0ivxeq.easypanel.host/app/accounts/1/conversations/11940" target="_blank">Conv 11940</a></td>
+          </tr>
+          <tr>
+            <td><span class="badge badge-interesse">INTERESSE</span></td>
+            <td>Marcos Aurelio Maier</td>
+            <td>Chapada Gaucha/MG</td>
+            <td>50</td>
+            <td>Olimpo:50</td>
+            <td>Respostas positivas</td>
+            <td><span class="dias-badge dias-warn">5d</span></td>
+            <td>Follow-up consultivo</td>
+            <td><a class="cw-link" href="https://projetos-chatwoot.0ivxeq.easypanel.host/app/accounts/1/conversations/11959" target="_blank">Conv 11959</a></td>
+          </tr>
+          <tr>
+            <td><span class="badge badge-interesse">INTERESSE</span></td>
+            <td>Marcos Aurelio Maier</td>
+            <td>Chapada Gaucha/MG</td>
+            <td>50</td>
+            <td>Sparta:50</td>
+            <td>Respostas positivas</td>
+            <td><span class="dias-badge dias-warn">5d</span></td>
+            <td>Follow-up consultivo</td>
+            <td><a class="cw-link" href="https://projetos-chatwoot.0ivxeq.easypanel.host/app/accounts/1/conversations/11959" target="_blank">Conv 11959</a></td>
+          </tr>
+          <tr>
+            <td><span class="badge badge-transferencia">TRANSFERENCIA</span></td>
+            <td>Gustavo Rossatto Rubin</td>
+            <td>Buritis/MG</td>
+            <td>325</td>
+            <td>Mitica:145, Sparta:180</td>
+            <td>Pediu ligacao</td>
+            <td><span class="dias-badge dias-warn">8d</span></td>
+            <td>Conectar agronomo</td>
+            <td><a class="cw-link" href="https://projetos-chatwoot.0ivxeq.easypanel.host/app/accounts/1/conversations/11937" target="_blank">Conv 11937</a></td>
+          </tr>
+          <tr>
+            <td><span class="badge badge-pensando">PENSANDO</span></td>
+            <td>Alexandre Azevedo Pinho</td>
+            <td>Buritis/MG</td>
+            <td>331</td>
+            <td>Mitica:81, Sparta:250</td>
+            <td>"dar uma pesquisada"</td>
+            <td><span class="dias-badge dias-warn">8d</span></td>
+            <td>Follow-up consultivo</td>
+            <td><a class="cw-link" href="https://projetos-chatwoot.0ivxeq.easypanel.host/app/accounts/1/conversations/11912" target="_blank">Conv 11912</a></td>
+          </tr>
+          <tr>
+            <td><span class="badge badge-pensando">PENSANDO</span></td>
+            <td>Joao Francisco Rosa</td>
+            <td>Buritis/MG</td>
+            <td>120</td>
+            <td>Mitica:80, Sparta:40</td>
+            <td>"trocar ideia"</td>
+            <td><span class="dias-badge dias-warn">8d</span></td>
+            <td>Follow-up consultivo</td>
+            <td><a class="cw-link" href="https://projetos-chatwoot.0ivxeq.easypanel.host/app/accounts/1/conversations/11943" target="_blank">Conv 11943</a></td>
+          </tr>
+          <tr>
+            <td><span class="badge badge-pensando">PENSANDO</span></td>
+            <td>Elias Disegna</td>
+            <td>Planaltina/DF</td>
+            <td>75</td>
+            <td>Tormenta:20, Olimpo:55</td>
+            <td>"pesquisa um pouco"</td>
+            <td><span class="dias-badge dias-warn">5d</span></td>
+            <td>Follow-up consultivo</td>
+            <td><a class="cw-link" href="https://projetos-chatwoot.0ivxeq.easypanel.host/app/accounts/1/conversations/11925" target="_blank">Conv 11925</a></td>
+          </tr>
+          <tr>
+            <td><span class="badge badge-duvidas">COM DUVIDAS</span></td>
+            <td>Elodi Valdemiro Cenci</td>
+            <td>Planaltina/DF</td>
+            <td>888</td>
+            <td>Tormenta:709, Olimpo:179</td>
+            <td>Duvidas respondidas</td>
+            <td><span class="dias-badge dias-warn">8d</span></td>
+            <td>Follow-up consultivo</td>
+            <td><a class="cw-link" href="https://projetos-chatwoot.0ivxeq.easypanel.host/app/accounts/1/conversations/11905" target="_blank">Conv 11905</a></td>
+          </tr>
+          <tr>
+            <td><span class="badge badge-duvidas">COM DUVIDAS</span></td>
+            <td>Gerson Grandi</td>
+            <td>Unai/MG</td>
+            <td>175</td>
+            <td>Mitica:70, Sparta:105</td>
+            <td>Duvida tecnica</td>
+            <td><span class="dias-badge dias-warn">8d</span></td>
+            <td>Follow-up consultivo</td>
+            <td><a class="cw-link" href="https://projetos-chatwoot.0ivxeq.easypanel.host/app/accounts/1/conversations/11929" target="_blank">Conv 11929</a></td>
+          </tr>
+          <tr>
+            <td><span class="badge badge-duvidas">COM DUVIDAS</span></td>
+            <td>Adalto Ferreira Morato</td>
+            <td>Cabeceiras/GO</td>
+            <td>75</td>
+            <td>Sparta:75</td>
+            <td>Duvida tecnica</td>
+            <td><span class="dias-badge dias-danger">6d</span></td>
+            <td>Follow-up consultivo</td>
+            <td><a class="cw-link" href="https://projetos-chatwoot.0ivxeq.easypanel.host/app/accounts/1/conversations/11935" target="_blank">Conv 11935</a></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <!-- Section 6: Pendentes Engajados -->
+  <div class="section">
+    <h2>Pendentes Engajados - Responderam mas Pararam (21 leads)</h2>
+    <div class="table-wrap" style="max-height:500px">
+      <table>
+        <thead><tr><th>Nome</th><th>Municipio/UF</th><th>Area (ha)</th><th>Msgs Enviadas</th><th>Msgs Recebidas</th><th>Dias Parado</th><th>Link CW</th></tr></thead>
+        <tbody>
+          <tr>
+            <td>Jose Carlos Wagner</td><td>Planaltina/DF</td><td>805</td>
+            <td>3</td><td>1</td>
+            <td><span class="dias-badge dias-warn">8d</span></td>
+            <td><a class="cw-link" href="https://projetos-chatwoot.0ivxeq.easypanel.host/app/accounts/1/conversations/11950" target="_blank">Conv 11950</a></td>
+          </tr>
+          <tr>
+            <td>Agro Isoton</td><td>Planaltina/DF</td><td>800</td>
+            <td>4</td><td>1</td>
+            <td><span class="dias-badge dias-warn">8d</span></td>
+            <td><a class="cw-link" href="https://projetos-chatwoot.0ivxeq.easypanel.host/app/accounts/1/conversations/11911" target="_blank">Conv 11911</a></td>
+          </tr>
+          <tr>
+            <td>Emilio Timo</td><td>Buritis/MG</td><td>675</td>
+            <td>2</td><td>1</td>
+            <td><span class="dias-badge dias-warn">8d</span></td>
+            <td><a class="cw-link" href="https://projetos-chatwoot.0ivxeq.easypanel.host/app/accounts/1/conversations/11930" target="_blank">Conv 11930</a></td>
+          </tr>
+          <tr>
+            <td>Jonattan Gonzaga</td><td>Planaltina/GO</td><td>516</td>
+            <td>2</td><td>2</td>
+            <td><span class="dias-badge dias-warn">8d</span></td>
+            <td><a class="cw-link" href="https://projetos-chatwoot.0ivxeq.easypanel.host/app/accounts/1/conversations/11948" target="_blank">Conv 11948</a></td>
+          </tr>
+          <tr>
+            <td>Leomar Cenci</td><td>Brasilia/DF</td><td>355</td>
+            <td>10</td><td>5</td>
+            <td><span class="dias-badge dias-warn">8d</span></td>
+            <td><a class="cw-link" href="https://projetos-chatwoot.0ivxeq.easypanel.host/app/accounts/1/conversations/11954" target="_blank">Conv 11954</a></td>
+          </tr>
+          <tr>
+            <td>Elias Ergang</td><td>Formosa/GO</td><td>233</td>
+            <td>2</td><td>1</td>
+            <td><span class="dias-badge dias-warn">8d</span></td>
+            <td><a class="cw-link" href="https://projetos-chatwoot.0ivxeq.easypanel.host/app/accounts/1/conversations/11926" target="_blank">Conv 11926</a></td>
+          </tr>
+          <tr>
+            <td>Jose Airton Ghesti</td><td>Planaltina/DF</td><td>200</td>
+            <td>7</td><td>3</td>
+            <td><span class="dias-badge dias-warn">8d</span></td>
+            <td><a class="cw-link" href="https://projetos-chatwoot.0ivxeq.easypanel.host/app/accounts/1/conversations/11949" target="_blank">Conv 11949</a></td>
+          </tr>
+          <tr>
+            <td>Agostinho Luiz Falqueto</td><td>Planaltina/DF</td><td>195</td>
+            <td>2</td><td>2</td>
+            <td><span class="dias-badge dias-warn">8d</span></td>
+            <td><a class="cw-link" href="https://projetos-chatwoot.0ivxeq.easypanel.host/app/accounts/1/conversations/11910" target="_blank">Conv 11910</a></td>
+          </tr>
+          <tr>
+            <td>Elias Ergang</td><td>Planaltina/DF</td><td>183</td>
+            <td>2</td><td>1</td>
+            <td><span class="dias-badge dias-warn">8d</span></td>
+            <td><a class="cw-link" href="https://projetos-chatwoot.0ivxeq.easypanel.host/app/accounts/1/conversations/11926" target="_blank">Conv 11926</a></td>
+          </tr>
+          <tr>
+            <td>Jonattan Gonzaga</td><td>Planaltina/GO</td><td>172</td>
+            <td>2</td><td>2</td>
+            <td><span class="dias-badge dias-warn">8d</span></td>
+            <td><a class="cw-link" href="https://projetos-chatwoot.0ivxeq.easypanel.host/app/accounts/1/conversations/11948" target="_blank">Conv 11948</a></td>
+          </tr>
+          <tr>
+            <td>Lauro Luiz Melim Falqueto</td><td>Planaltina/DF</td><td>165</td>
+            <td>2</td><td>2</td>
+            <td><span class="dias-badge dias-warn">8d</span></td>
+            <td><a class="cw-link" href="https://projetos-chatwoot.0ivxeq.easypanel.host/app/accounts/1/conversations/11910" target="_blank">Conv 11910</a></td>
+          </tr>
+          <tr>
+            <td>Carlos Alberto Maier</td><td>Chapada Gaucha/MG</td><td>150</td>
+            <td>2</td><td>1</td>
+            <td><span class="dias-badge dias-warn">8d</span></td>
+            <td><a class="cw-link" href="https://projetos-chatwoot.0ivxeq.easypanel.host/app/accounts/1/conversations/11918" target="_blank">Conv 11918</a></td>
+          </tr>
+          <tr>
+            <td>Carlos Alberto Maier</td><td>Chapada Gaucha/MG</td><td>135</td>
+            <td>2</td><td>1</td>
+            <td><span class="dias-badge dias-warn">8d</span></td>
+            <td><a class="cw-link" href="https://projetos-chatwoot.0ivxeq.easypanel.host/app/accounts/1/conversations/11918" target="_blank">Conv 11918</a></td>
+          </tr>
+          <tr>
+            <td>Adelar Girelli</td><td>Planaltina/DF</td><td>123</td>
+            <td>4</td><td>1</td>
+            <td><span class="dias-badge dias-ok">4d</span></td>
+            <td><a class="cw-link" href="https://projetos-chatwoot.0ivxeq.easypanel.host/app/accounts/1/conversations/11906" target="_blank">Conv 11906</a></td>
+          </tr>
+          <tr>
+            <td>Camilo Machado de Miranda</td><td>Arinos/MG</td><td>118</td>
+            <td>2</td><td>1</td>
+            <td><span class="dias-badge dias-warn">8d</span></td>
+            <td><a class="cw-link" href="https://projetos-chatwoot.0ivxeq.easypanel.host/app/accounts/1/conversations/11917" target="_blank">Conv 11917</a></td>
+          </tr>
+          <tr>
+            <td>Danilo Aparecida Melo</td><td>Brasilia/DF</td><td>116</td>
+            <td>2</td><td>3</td>
+            <td><span class="dias-badge dias-warn">8d</span></td>
+            <td><a class="cw-link" href="https://projetos-chatwoot.0ivxeq.easypanel.host/app/accounts/1/conversations/11921" target="_blank">Conv 11921</a></td>
+          </tr>
+          <tr>
+            <td>Danilo Aparecida Melo</td><td>Cidade Ocidental/GO</td><td>100</td>
+            <td>2</td><td>3</td>
+            <td><span class="dias-badge dias-warn">8d</span></td>
+            <td><a class="cw-link" href="https://projetos-chatwoot.0ivxeq.easypanel.host/app/accounts/1/conversations/11921" target="_blank">Conv 11921</a></td>
+          </tr>
+          <tr>
+            <td>Jose Luiz Jesus Rosario</td><td>Buritis/MG</td><td>100</td>
+            <td>2</td><td>1</td>
+            <td><span class="dias-badge dias-warn">8d</span></td>
+            <td><a class="cw-link" href="https://projetos-chatwoot.0ivxeq.easypanel.host/app/accounts/1/conversations/11951" target="_blank">Conv 11951</a></td>
+          </tr>
+          <tr>
+            <td>Liborio Barbosa de Morais</td><td>Agua Fria de Goias/GO</td><td>100</td>
+            <td>3</td><td>1</td>
+            <td><span class="dias-badge dias-warn">8d</span></td>
+            <td><a class="cw-link" href="https://projetos-chatwoot.0ivxeq.easypanel.host/app/accounts/1/conversations/11958" target="_blank">Conv 11958</a></td>
+          </tr>
+          <tr>
+            <td>Camilo Machado de Miranda</td><td>Arinos/MG</td><td>70</td>
+            <td>2</td><td>1</td>
+            <td><span class="dias-badge dias-warn">8d</span></td>
+            <td><a class="cw-link" href="https://projetos-chatwoot.0ivxeq.easypanel.host/app/accounts/1/conversations/11917" target="_blank">Conv 11917</a></td>
+          </tr>
+          <tr>
+            <td>Jose Luiz Jesus Rosario</td><td>Buritis/MG</td><td>55</td>
+            <td>2</td><td>1</td>
+            <td><span class="dias-badge dias-warn">8d</span></td>
+            <td><a class="cw-link" href="https://projetos-chatwoot.0ivxeq.easypanel.host/app/accounts/1/conversations/11951" target="_blank">Conv 11951</a></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+</div>
+
+<div class="footer">Cognita AI | Dados extraidos do NocoDB + Chatwoot | 14/04/2026</div>
+
+<script>
+// Funil de Conversao - Doughnut
+new Chart(document.getElementById('chartFunil'),{
+  type:'doughnut',
+  data:{
+    labels:['Interesse Forte','Interesse','Com Duvidas','Pensando','Transferencia','Pendentes'],
+    datasets:[{data:[1,8,3,3,1,94],backgroundColor:['#166534','#22c55e','#3b82f6','#f59e0b','#8b5cf6','#d1d5db'],borderWidth:0}]
+  },
+  options:{responsive:true,maintainAspectRatio:true,cutout:'60%',plugins:{legend:{display:false}}}
+});
+
+// Distribuicao por Cultivar - Horizontal Bar
+new Chart(document.getElementById('chartCultivar'),{
+  type:'bar',
+  data:{
+    labels:['Olimpo','Sparta','Tormenta','Mitica','Hera'],
+    datasets:[{label:'Area (ha)',data:[6874,6082,5913,4323,0],backgroundColor:['#22c55e','#3b82f6','#f59e0b','#8b5cf6','#d1d5db'],borderRadius:6,barThickness:32}]
+  },
+  options:{
+    indexAxis:'y',
+    responsive:true,
+    maintainAspectRatio:false,
+    plugins:{legend:{display:false},tooltip:{callbacks:{label:function(c){return c.parsed.x.toLocaleString('pt-BR')+' ha'}}}},
+    scales:{x:{grid:{display:false},ticks:{callback:function(v){return v.toLocaleString('pt-BR')}}},y:{grid:{display:false}}}
+  }
+});
+
+// Cooperados por Supervisor - Bar
+new Chart(document.getElementById('chartSupervisor'),{
+  type:'bar',
+  data:{
+    labels:['Ygor','Vinicius','David','Eliton','Eriksson'],
+    datasets:[
+      {label:'Cooperados',data:[27,24,22,22,15],backgroundColor:'#1a5632',borderRadius:6,barThickness:24},
+      {label:'Com Conversa',data:[10,13,16,15,12],backgroundColor:'#22c55e',borderRadius:6,barThickness:24},
+      {label:'Interesse',data:[4,2,2,5,3],backgroundColor:'#f59e0b',borderRadius:6,barThickness:24}
+    ]
+  },
+  options:{
+    responsive:true,
+    maintainAspectRatio:false,
+    plugins:{legend:{position:'bottom',labels:{usePointStyle:true,padding:16}}},
+    scales:{x:{grid:{display:false}},y:{grid:{color:'#f3f4f6'},beginAtZero:true}}
+  }
+});
+
+// Cooperados por Estado - Doughnut
+new Chart(document.getElementById('chartEstado'),{
+  type:'doughnut',
+  data:{
+    labels:['DF','GO','MG'],
+    datasets:[{data:[58,36,16],backgroundColor:['#1a5632','#22c55e','#86efac'],borderWidth:0}]
+  },
+  options:{responsive:true,maintainAspectRatio:true,cutout:'60%',plugins:{legend:{display:false}}}
+});
+
+// Pipeline filter
+function filterPipeline(){
+  const q=document.getElementById('searchPipeline').value.toLowerCase();
+  const rows=document.querySelectorAll('#pipelineBody tr');
+  let count=0;
+  rows.forEach(r=>{
+    const match=r.textContent.toLowerCase().includes(q);
+    r.style.display=match?'':'none';
+    if(match)count++;
+  });
+  document.getElementById('pipelineCount').textContent=count+' de 16';
+}
+</script>
+</body>
+</html>
