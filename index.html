@@ -81,7 +81,71 @@
 <div class="header">
   <p>Relatorio de Performance</p>
   <h1>SDR Yara - Sementes Tres Pinheiros</h1>
-  <p class="subtitle">Consolidado de todas as inboxes | 10/04/2026</p>
+  <p class="subtitle">Consolidado de todas as inboxes | 26/04/2026</p>
+
+  <!-- ========== RECORTE DISPARO LIGACAO 20-24/04 ========== -->
+  <div style="background:linear-gradient(135deg,#5b21b6 0%,#7c3aed 100%);color:#fff;border-radius:16px;padding:20px 24px 10px;margin-bottom:28px">
+    <h2 style="color:#fff;margin:0 0 4px;font-size:1.1rem">&#x1f4de; Recorte DISPARO LIGACAO + WhatsApp — 20 a 24/04/2026</h2>
+    <p style="color:#ddd6fe;font-size:.85rem;margin:0 0 16px">NocoDB: tabela DISPARO LIGACAO &middot; Chatwoot: inboxes Leads 6125 + Leads Ligacao</p>
+  </div>
+
+  <div class="cards">
+    <div class="card green"><div class="label">Leads Contatados</div><div class="value">84</div><div class="detail">DISPARO LIGACAO 20-24/04</div></div>
+    <div class="card blue"><div class="label">Responderam</div><div class="value">9</div><div class="detail">10,7% taxa de resposta</div></div>
+    <div class="card purple"><div class="label">Convertidos ao Vendedor</div><div class="value">0</div><div class="detail">nenhuma transferencia no periodo</div></div>
+    <div class="card red"><div class="label">Contatos Errados</div><div class="value">4</div><div class="detail">numero/pessoa nao confere</div></div>
+    <div class="card amber"><div class="label">Recusas</div><div class="value">0</div><div class="detail">pediram para parar</div></div>
+    <div class="card blue"><div class="label">Ligacoes Efetuadas</div><div class="value">57</div><div class="detail">19 atendidas (33%)</div></div>
+    <div class="card green"><div class="label">WhatsApp Disparado</div><div class="value">37</div><div class="detail">apos ligacao</div></div>
+    <div class="card amber"><div class="label">Outras Respostas</div><div class="value">5</div><div class="detail">audios + saudacoes (revisar)</div></div>
+  </div>
+
+  <!-- Funil 20-24/04 -->
+  <div class="section">
+    <h2>Funil DISPARO LIGACAO (20-24/04)</h2>
+    <div class="table-wrap">
+      <table>
+        <thead><tr><th>Etapa</th><th>Quantidade</th><th>% sobre contatados</th></tr></thead>
+        <tbody>
+          <tr><td>Contatados</td><td>84</td><td>100%</td></tr>
+          <tr><td>Ligacoes efetuadas</td><td>57</td><td>67,9%</td></tr>
+          <tr><td>Ligacoes atendidas</td><td>19</td><td>22,6%</td></tr>
+          <tr><td>WhatsApp disparado</td><td>37</td><td>44,0%</td></tr>
+          <tr><td>Responderam no Chatwoot</td><td>9</td><td>10,7%</td></tr>
+          <tr><td>Contatos errados</td><td>4</td><td>4,8%</td></tr>
+          <tr><td>Recusas</td><td>0</td><td>0,0%</td></tr>
+          <tr style="font-weight:700;background:#f5f3ff"><td>Convertidos ao Vendedor</td><td>0</td><td>0,0%</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="insight">
+      <p><strong>84 leads</strong> entraram no fluxo DISPARO LIGACAO no periodo 20-24/04, com <strong>57 ligacoes efetuadas</strong> e 33% de taxa de atendimento.</p>
+      <p>Apenas <strong>9 leads (10,7%)</strong> responderam no WhatsApp. Destes, 4 foram contatos errados (44%) e nenhum demonstrou interesse claro suficiente para transferencia ao vendedor no periodo analisado.</p>
+      <p>Os <strong>5 "outras respostas"</strong> incluem audios nao transcritos automaticamente e saudacoes curtas ("Ola", "O que seria") que devem ser revistos manualmente — podem virar oportunidades.</p>
+      <p style="background:#fef3c7;padding:10px;border-radius:8px;border-left:3px solid #d97706"><strong>Acao recomendada:</strong> revisar manualmente os 5 leads neutros (audios + saudacoes), em especial Luciane "O que seria" e Lussandra "Ola" — possiveis ganhos perdidos.</p>
+    </div>
+  </div>
+
+  <!-- Detalhe respostas -->
+  <div class="section">
+    <h2>Detalhe das Respostas (Chatwoot)</h2>
+    <div class="table-wrap">
+      <table>
+        <thead><tr><th>Categoria</th><th>Lead</th><th>Telefone</th><th>Mensagem</th><th>Inbox</th></tr></thead>
+        <tbody>
+          <tr><td><span style="color:#dc2626;font-weight:600">Errado</span></td><td>~Lanches Martins</td><td>(99) 9975-1862</td><td>Esse numero nao e de Luiz</td><td>6125</td></tr>
+          <tr><td><span style="color:#dc2626;font-weight:600">Errado</span></td><td>~+556696275288</td><td>(66) 9962-75288</td><td>Eu nao sou o Roberson. Nao conheco nenhum Roberson</td><td>6125</td></tr>
+          <tr><td><span style="color:#dc2626;font-weight:600">Errado</span></td><td>Paulo</td><td>(65) 9961-44761</td><td>Nao sou PAULO</td><td>6125/Ligacao</td></tr>
+          <tr><td><span style="color:#dc2626;font-weight:600">Errado</span></td><td>Cristiano</td><td>(66) 9922-74858</td><td>Nao sou cristiano</td><td>6125/Ligacao</td></tr>
+          <tr><td><span style="color:#d97706;font-weight:600">Revisar</span></td><td>Lussandra</td><td>(62) 9984-60092</td><td>Ola</td><td>6125/Ligacao</td></tr>
+          <tr><td><span style="color:#d97706;font-weight:600">Revisar</span></td><td>Antonio</td><td>(66) 9998-42821</td><td>Mensagem automatica de ausencia</td><td>6125/Ligacao</td></tr>
+          <tr><td><span style="color:#d97706;font-weight:600">Revisar</span></td><td>Alex</td><td>(66) 9960-02418</td><td>[audio - transcrever]</td><td>6125</td></tr>
+          <tr><td><span style="color:#d97706;font-weight:600">Revisar</span></td><td>Marcos</td><td>(66) 9963-74550</td><td>[audio - transcrever]</td><td>6125</td></tr>
+          <tr><td><span style="color:#d97706;font-weight:600">Revisar</span></td><td>Luciane</td><td>(66) 9966-97979</td><td>O que seria</td><td>6125</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
 
   <!-- ========== CAMPANHAS ATIVAS ========== -->
   <div style="background:linear-gradient(135deg,#065f46 0%,#047857 100%);color:#fff;border-radius:16px;padding:20px 24px 10px;margin-bottom:28px">
@@ -221,9 +285,9 @@
   </div>
 
 <div style="text-align:center;padding:20px 0">
-    <a href="/ligacoes" style="display:inline-block;padding:14px 32px;background:linear-gradient(135deg,#1a5632 0%,#2d8a4e 100%);color:#fff;text-decoration:none;border-radius:10px;font-weight:600;font-size:.95rem;box-shadow:0 2px 8px rgba(26,86,50,.2);transition:all .2s">&#x1f4de; Ver Painel de Ligacoes (56 chamadas)</a>
+    <a href="/ligacoes" style="display:inline-block;padding:14px 32px;background:linear-gradient(135deg,#5b21b6 0%,#7c3aed 100%);color:#fff;text-decoration:none;border-radius:10px;font-weight:600;font-size:.95rem;box-shadow:0 2px 8px rgba(91,33,182,.2);transition:all .2s">&#x1f4de; Ver Painel de Ligacoes 20-24/04 (57 chamadas)</a>
   </div>
-<div class="footer">Relatorio gerado automaticamente | Cognita AI | 10/04/2026</div>
+<div class="footer">Relatorio gerado automaticamente | Cognita AI | 26/04/2026 | Periodo recorte: 20-24/04</div>
 </div>
 
 <script>

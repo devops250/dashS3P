@@ -1,0 +1,13 @@
+# Arquivos de trabalho intermediarios
+leads_LIMPOS_FINAL*.json
+leads_classificados*.json
+leads_filtrados*.json
+leads_ambiguos*.json
+leads_positivos_sumidos*.json
+limpar_*.js
+filtrar_*.js
+refinar_*.js
+analise_conversas.json
+resultado_filtro_completo.json
+fup_engajados_cooperados.csv
+reativacao_b64.txt
