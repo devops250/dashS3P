@@ -12,14 +12,40 @@
       "name": "TIAGO GRANDO",
       "phone": "+5566999889499",
       "status": "voicemail",
-      "duration": 0,
+      "duration": 63,
       "createdAt": "2026-04-22T21:24:00.000Z",
       "endedReason": "silence-timed-out",
-      "cost": 0,
+      "cost": 0.0631,
       "summary": "",
       "success": "",
-      "recording": "",
-      "transcript": [],
+      "recording": "/audio/019db74b-4d0.wav",
+      "transcript": [
+        {
+          "role": "assistant",
+          "content": "Oi, tudo bem? Aqui é a Yara, da sementes 3 pinheiros. Eu posso falar com o Tiago?",
+          "time": "0:02"
+        },
+        {
+          "role": "user",
+          "content": "Permaneça na linha, Tiago.",
+          "time": "0:15"
+        },
+        {
+          "role": "assistant",
+          "content": "Certo? Eu sou a Yara, consultora aqui da semente 3 pinheiros, a gente é de planaltina, no d f, e trabalhamos com sementes de soja de alta performance. Vigor acima do padrão e resultado consistente no campo. Você planta soja aí na sua região Thiago?",
+          "time": "0:19"
+        },
+        {
+          "role": "user",
+          "content": "Esta pessoa não está disponível. Se desejar, deixe outra mensagem após o sinal.",
+          "time": "0:38"
+        },
+        {
+          "role": "assistant",
+          "content": "Opa, desculpa pelo incômodo. Tenha 1 ótimo dia.",
+          "time": "0:45"
+        }
+      ],
       "temperatura": "",
       "whatsapp": true
     },
@@ -60,14 +86,40 @@
       "name": "LUSSANDRA FERREIRA DA SILVA",
       "phone": "+5562998460092",
       "status": "voicemail",
-      "duration": 0,
+      "duration": 49,
       "createdAt": "2026-04-22T21:06:00.000Z",
       "endedReason": "silence-timed-out",
-      "cost": 0,
+      "cost": 0.0496,
       "summary": "",
       "success": "",
-      "recording": "",
-      "transcript": [],
+      "recording": "/audio/019db73a-cba.wav",
+      "transcript": [
+        {
+          "role": "assistant",
+          "content": "Oi, tudo bem? Aqui é Yara da 3 Pinheiros. Eu posso falar com a Lu Sandra?",
+          "time": "0:01"
+        },
+        {
+          "role": "user",
+          "content": "Esta pessoa está disponível.",
+          "time": "0:05"
+        },
+        {
+          "role": "assistant",
+          "content": "Bom dia, Lu Sandra. Eu sou a Yara, consultora aqui da sementes 3 pinheiros. A gente é de Planaltina, no d f, e trabalhamos com sementes de soja de alta performance. Vigor acima do padrão e resultado consistente no campo. Você planta soja aí na sua região?",
+          "time": "0:08"
+        },
+        {
+          "role": "user",
+          "content": "Permaneça na linha, Landra.",
+          "time": "0:28"
+        },
+        {
+          "role": "assistant",
+          "content": "Entendido, Luçandra, estou na linha. Você planta soja aí na sua região?",
+          "time": "0:31"
+        }
+      ],
       "temperatura": "",
       "whatsapp": true
     },
@@ -92,14 +144,20 @@
       "name": "NAUR CELESTINO TEDESCHI",
       "phone": "+5565996363414",
       "status": "completed",
-      "duration": 0,
+      "duration": 16,
       "createdAt": "2026-04-22T20:54:00.000Z",
       "endedReason": "customer-ended-call",
-      "cost": 0,
+      "cost": 0.0162,
       "summary": "O lead encerrou a chamada antes mesmo de a atendente Yara conseguir completar a apresentação inicial da empresa Sementes 3 Pinheiros. Não foi possível coletar nenhuma informação sobre hectares, cidade ou qualquer outro dado. A ligação foi interrompida pelo cliente imediatamente no início da abordagem.",
       "success": "false",
-      "recording": "",
-      "transcript": [],
+      "recording": "/audio/019db72f-ca6.wav",
+      "transcript": [
+        {
+          "role": "assistant",
+          "content": "Oi, tudo bem? Aqui é a Yara, da sementes 3 pinheiros. Eu posso falar com o",
+          "time": "0:01"
+        }
+      ],
       "temperatura": "FRIO",
       "whatsapp": false
     },
@@ -124,14 +182,20 @@
       "name": "ANTONIO CARLOS SKOWRONEK REZENDE",
       "phone": "+5566999842821",
       "status": "no-answer",
-      "duration": 0,
+      "duration": 7,
       "createdAt": "2026-04-22T20:42:00.000Z",
       "endedReason": "customer-ended-call",
-      "cost": 0,
+      "cost": 0.0078,
       "summary": "",
       "success": "",
-      "recording": "",
-      "transcript": [],
+      "recording": "/audio/019db724-c87.wav",
+      "transcript": [
+        {
+          "role": "assistant",
+          "content": "Oi, tudo bem? Aqui é a Yara, da Sementes 3, pinheiros. Eu posso falar com o Antônio?",
+          "time": "0:01"
+        }
+      ],
       "temperatura": "",
       "whatsapp": true
     },
@@ -140,14 +204,30 @@
       "name": "LUCIANO BIANCHI",
       "phone": "+5555997219900",
       "status": "voicemail",
-      "duration": 0,
+      "duration": 32,
       "createdAt": "2026-04-22T20:36:00.000Z",
       "endedReason": "silence-timed-out",
-      "cost": 0,
+      "cost": 0.0324,
       "summary": "",
       "success": "",
-      "recording": "",
-      "transcript": [],
+      "recording": "/audio/019db71f-489.wav",
+      "transcript": [
+        {
+          "role": "assistant",
+          "content": "Oi, tudo bem? Aqui é a Yara, da sementes 3 pinheiros. Eu posso falar com o Luciano?",
+          "time": "0:01"
+        },
+        {
+          "role": "user",
+          "content": "Não está disponível. Grave a sua mensagem após o sinal. Você pode desligar quando terminar a gravação.",
+          "time": "0:05"
+        },
+        {
+          "role": "assistant",
+          "content": "Opa, desculpa pelo incômodo. Tenha 1 ótimo dia.",
+          "time": "0:14"
+        }
+      ],
       "temperatura": "",
       "whatsapp": true
     },
@@ -156,14 +236,25 @@
       "name": "MAGAIVER ZANON",
       "phone": "+5555991558510",
       "status": "completed",
-      "duration": 0,
+      "duration": 14,
       "createdAt": "2026-04-22T20:30:00.000Z",
       "endedReason": "customer-ended-call",
-      "cost": 0,
+      "cost": 0.0143,
       "summary": "**Resumo da Conversa:**\n\nO lead não atendeu. A ligação foi direcionada para uma caixa postal ou secretária eletrônica que informou que o recado seria entregue quando o celular estivesse disponível. Não foram coletados dados de hectares ou cidade. A chamada foi encerrada pelo sistema do cliente.",
       "success": "false",
-      "recording": "",
-      "transcript": [],
+      "recording": "/audio/019db719-c7e.wav",
+      "transcript": [
+        {
+          "role": "assistant",
+          "content": "Oi, tudo bem? Aqui é a Yara, das sementes 3 pinheiros. Eu posso falar com o McGyver?",
+          "time": "0:01"
+        },
+        {
+          "role": "user",
+          "content": "Vamos entregar o seu recado assim que o celular estiver",
+          "time": "0:11"
+        }
+      ],
       "temperatura": "MORNO",
       "whatsapp": false
     },
@@ -172,14 +263,20 @@
       "name": "RICARDO PARIZOTTO",
       "phone": "+5566999851986",
       "status": "no-answer",
-      "duration": 0,
+      "duration": 9,
       "createdAt": "2026-04-22T20:24:00.000Z",
       "endedReason": "customer-ended-call",
-      "cost": 0,
+      "cost": 0.009,
       "summary": "",
       "success": "",
-      "recording": "",
-      "transcript": [],
+      "recording": "/audio/019db714-8f8.wav",
+      "transcript": [
+        {
+          "role": "assistant",
+          "content": "Oi, tudo bem? Aqui é a Yara, sementes 3 pinheiros. Eu posso falar com Ricardo?",
+          "time": "0:01"
+        }
+      ],
       "temperatura": "",
       "whatsapp": true
     },
@@ -188,14 +285,20 @@
       "name": "KAROLINE PAULA VIMERCATI MODESTO",
       "phone": "+5566981140672",
       "status": "completed",
-      "duration": 0,
+      "duration": 10,
       "createdAt": "2026-04-22T20:18:00.000Z",
       "endedReason": "customer-ended-call",
-      "cost": 0,
+      "cost": 0.0106,
       "summary": "O lead atendeu a ligação. A atendente Yara, da Sementes 3 Pinheiros, iniciou o contato perguntando por Caroline, mas a conversa foi encerrada pelo cliente imediatamente após a apresentação inicial. Não foi possível coletar informações sobre hectares ou cidade, pois o lead desligou antes de qualquer interação adicional.",
       "success": "false",
-      "recording": "",
-      "transcript": [],
+      "recording": "/audio/019db70f-0f9.wav",
+      "transcript": [
+        {
+          "role": "assistant",
+          "content": "Oi, tudo bem? Aqui é a Yara, da sementes 3 pinheiros, eu posso falar com Caroline?",
+          "time": "0:01"
+        }
+      ],
       "temperatura": "FRIO",
       "whatsapp": false
     },
@@ -204,14 +307,30 @@
       "name": "MARIO DO AMARAL",
       "phone": "+5566992203724",
       "status": "completed",
-      "duration": 0,
+      "duration": 18,
       "createdAt": "2026-04-22T20:12:00.000Z",
       "endedReason": "customer-ended-call",
-      "cost": 0,
+      "cost": 0.0182,
       "summary": "O lead não atendeu a ligação. A chamada caiu na caixa postal/secretária eletrônica, que informou que entregaria o recado quando o celular estivesse disponível. Não foram coletados dados sobre hectares ou cidade, e a ligação foi encerrada pelo sistema automático.",
       "success": "false",
-      "recording": "",
-      "transcript": [],
+      "recording": "/audio/019db709-8f4.wav",
+      "transcript": [
+        {
+          "role": "assistant",
+          "content": "Oi tudo bem, Aqui é a Yara da sementes 3 pinheiros. Eu posso falar com o Mário.",
+          "time": "0:01"
+        },
+        {
+          "role": "user",
+          "content": "Vamos entregar o teu recado assim que o celular estiver disponível.",
+          "time": "0:11"
+        },
+        {
+          "role": "assistant",
+          "content": "Entendi, sem problemas.",
+          "time": "0:16"
+        }
+      ],
       "temperatura": "MORNO",
       "whatsapp": false
     },
@@ -220,14 +339,20 @@
       "name": "ROBERSON LANZARIN",
       "phone": "+5566996275288",
       "status": "no-answer",
-      "duration": 0,
+      "duration": 5,
       "createdAt": "2026-04-22T20:06:00.000Z",
       "endedReason": "customer-ended-call",
-      "cost": 0,
+      "cost": 0.0051,
       "summary": "",
       "success": "",
-      "recording": "",
-      "transcript": [],
+      "recording": "/audio/019db704-0f0.wav",
+      "transcript": [
+        {
+          "role": "assistant",
+          "content": "Oi, tudo bem? Aqui é a Yara. Das sementes 3 pinheiros,",
+          "time": "0:01"
+        }
+      ],
       "temperatura": "",
       "whatsapp": true
     },
@@ -252,14 +377,20 @@
       "name": "ALANA CAROLINA ROVARIS",
       "phone": "+5566997252922",
       "status": "completed",
-      "duration": 0,
+      "duration": 11,
       "createdAt": "2026-04-22T19:54:00.000Z",
       "endedReason": "customer-ended-call",
-      "cost": 0,
+      "cost": 0.0117,
       "summary": "O lead atendeu a ligação, mas encerrou a chamada imediatamente após a Yara se apresentar como representante da Sementes 3 Pinheiros e perguntar pela Lana. Não foi possível coletar nenhuma informação sobre hectares ou cidade. A conversa foi interrompida pelo cliente antes que qualquer dado pudesse ser obtido.",
       "success": "false",
-      "recording": "",
-      "transcript": [],
+      "recording": "/audio/019db6f9-0ec.wav",
+      "transcript": [
+        {
+          "role": "assistant",
+          "content": "Oi, tudo bem? Aqui é a Yara, da sementes 3 pinheiros. Eu posso falar com a Lana?",
+          "time": "0:01"
+        }
+      ],
       "temperatura": "MORNO",
       "whatsapp": false
     },
@@ -316,14 +447,20 @@
       "name": "LUIZ ALBERTO GOTARDO",
       "phone": "+5565999871330",
       "status": "no-answer",
-      "duration": 0,
+      "duration": 10,
       "createdAt": "2026-04-22T19:30:00.000Z",
       "endedReason": "customer-ended-call",
-      "cost": 0,
+      "cost": 0.0101,
       "summary": "",
       "success": "",
-      "recording": "",
-      "transcript": [],
+      "recording": "/audio/019db6e2-dcd.wav",
+      "transcript": [
+        {
+          "role": "assistant",
+          "content": "Oi, tudo bem? Aqui é a Yara, da sementes 3 pinheiros. Eu posso falar com o Luís?",
+          "time": "0:01"
+        }
+      ],
       "temperatura": "",
       "whatsapp": true
     },
@@ -348,14 +485,20 @@
       "name": "PAULO SERGIO RODRIGUES DA SILVA",
       "phone": "+5565996144761",
       "status": "no-answer",
-      "duration": 0,
+      "duration": 10,
       "createdAt": "2026-04-22T19:18:00.000Z",
       "endedReason": "customer-ended-call",
-      "cost": 0,
+      "cost": 0.0102,
       "summary": "",
       "success": "",
-      "recording": "",
-      "transcript": [],
+      "recording": "/audio/019db6d7-fab.wav",
+      "transcript": [
+        {
+          "role": "assistant",
+          "content": "Oi, tudo bem? Aqui é a Yara, sementes 3 pinheiros, eu posso falar com Paulo?",
+          "time": "0:01"
+        }
+      ],
       "temperatura": "",
       "whatsapp": true
     },
@@ -364,14 +507,30 @@
       "name": "FLAVIO ZANETTE",
       "phone": "+5566984345616",
       "status": "completed",
-      "duration": 0,
+      "duration": 23,
       "createdAt": "2026-04-22T19:12:00.000Z",
       "endedReason": "customer-ended-call",
-      "cost": 0,
+      "cost": 0.0235,
       "summary": "O lead não atendeu - a pessoa que atendeu informou que passaria o recado quando o telefone estivesse disponível. Não foram coletados dados sobre hectares ou cidade. A ligação foi encerrada pelo cliente sem que houvesse contato direto com o Flávio.",
       "success": "false",
-      "recording": "",
-      "transcript": [],
+      "recording": "/audio/019db6d2-7ab.wav",
+      "transcript": [
+        {
+          "role": "assistant",
+          "content": "Tudo bem? Aqui é a Yara. Das sementes 3 pinheiros. Eu posso falar com o Flávio?",
+          "time": "0:01"
+        },
+        {
+          "role": "user",
+          "content": "Ótimo, assim que o telefone estiver disponível, entrego o seu recado.",
+          "time": "0:12"
+        },
+        {
+          "role": "assistant",
+          "content": "Entendido. Muito obrigada, tenha 1 ótimo dia.",
+          "time": "0:18"
+        }
+      ],
       "temperatura": "MORNO",
       "whatsapp": false
     },
@@ -396,14 +555,20 @@
       "name": "RONALDO SANTOS DE OLIVEIRA",
       "phone": "+5566996228435",
       "status": "voicemail",
-      "duration": 0,
+      "duration": 20,
       "createdAt": "2026-04-22T19:00:00.000Z",
       "endedReason": "silence-timed-out",
-      "cost": 0,
+      "cost": 0.0202,
       "summary": "",
       "success": "",
-      "recording": "",
-      "transcript": [],
+      "recording": "/audio/019db6c7-7a6.wav",
+      "transcript": [
+        {
+          "role": "assistant",
+          "content": "Oi, tudo bem? Aqui é a Yara, da Sementes 3 pinheiros. Eu posso falar com o Ronaldo?",
+          "time": "0:01"
+        }
+      ],
       "temperatura": "",
       "whatsapp": true
     },
@@ -412,14 +577,30 @@
       "name": "LUIZ ZAPPANI",
       "phone": "+5566984330042",
       "status": "completed",
-      "duration": 0,
+      "duration": 21,
       "createdAt": "2026-04-22T18:54:00.000Z",
       "endedReason": "customer-ended-call",
-      "cost": 0,
+      "cost": 0.021,
       "summary": "**Resumo da Conversa:**\n\nO lead não atendeu - a ligação foi atendida por outra pessoa (provavelmente secretária/recepcionista). A atendente Yara da Sementes 3 Pinheiros tentou falar com Luís, mas não conseguiu contato direto. Nenhum dado foi coletado e não foi possível deixar recado ou agendar retorno.",
       "success": "false",
-      "recording": "",
-      "transcript": [],
+      "recording": "/audio/019db6c1-f78.wav",
+      "transcript": [
+        {
+          "role": "assistant",
+          "content": "Oi, tudo bem? Aqui é a Yara, da sementes 3 pinheiros. Eu posso falar com o Luís?",
+          "time": "0:01"
+        },
+        {
+          "role": "user",
+          "content": "Ótimo, às que o telefone estiver disponível, eu entrego o seu recado.",
+          "time": "0:11"
+        },
+        {
+          "role": "assistant",
+          "content": "Entendido, muito obrigada. Tenha 1 ótimo dia.",
+          "time": "0:17"
+        }
+      ],
       "temperatura": "MORNO",
       "whatsapp": false
     },
@@ -428,14 +609,20 @@
       "name": "THAIS KAROLYNE DE MORAES",
       "phone": "+5566996959993",
       "status": "completed",
-      "duration": 0,
+      "duration": 17,
       "createdAt": "2026-04-22T18:48:00.000Z",
       "endedReason": "customer-ended-call",
-      "cost": 0,
+      "cost": 0.0171,
       "summary": "**Resumo da Conversa:**\n\nO lead não atendeu a ligação. A atendente Yara, da Sementes 3 Pinheiros, iniciou a apresentação perguntando se poderia falar com \"Tas\", mas a chamada foi encerrada pelo cliente imediatamente. Não foi possível coletar nenhuma informação ou qualificar o lead.",
       "success": "false",
-      "recording": "",
-      "transcript": [],
+      "recording": "/audio/019db6bc-76a.wav",
+      "transcript": [
+        {
+          "role": "assistant",
+          "content": "Oi, tudo bem? Aqui é a Yara, da sementes 3 Pinheiros, Eu posso falar com o Tas?",
+          "time": "0:01"
+        }
+      ],
       "temperatura": "FRIO",
       "whatsapp": false
     },
@@ -540,14 +727,20 @@
       "name": "ROSANGELA APARECIDA ROTHMUND TOPANOTTI",
       "phone": "+5565999533268",
       "status": "completed",
-      "duration": 0,
+      "duration": 16,
       "createdAt": "2026-04-22T18:06:00.000Z",
       "endedReason": "customer-ended-call",
-      "cost": 0,
+      "cost": 0.0159,
       "summary": "**Resumo da Conversa:**\n\nO lead encerrou a chamada imediatamente após a apresentação inicial da Yara, da Sementes 3 Pinheiros. Não houve tempo para coletar informações sobre hectares ou cidade, nem para desenvolver qualquer conversa. O contato foi interrompido antes que qualquer dado pudesse ser obtido.",
       "success": "false",
-      "recording": "",
-      "transcript": [],
+      "recording": "/audio/019db696-6be.wav",
+      "transcript": [
+        {
+          "role": "assistant",
+          "content": "Oi, tudo bem? Aqui é a Yara, da sementes 3 Pinheiros. Eu posso falar com",
+          "time": "0:01"
+        }
+      ],
       "temperatura": "FRIO",
       "whatsapp": false
     },
@@ -556,14 +749,20 @@
       "name": "ELCLERION ANTONIO BARUFFI",
       "phone": "+5565996105900",
       "status": "no-answer",
-      "duration": 0,
+      "duration": 6,
       "createdAt": "2026-04-22T18:00:00.000Z",
       "endedReason": "customer-ended-call",
-      "cost": 0,
+      "cost": 0.0061,
       "summary": "",
       "success": "",
-      "recording": "",
-      "transcript": [],
+      "recording": "/audio/019db690-eb9.wav",
+      "transcript": [
+        {
+          "role": "assistant",
+          "content": "Oi, tudo bem? Aqui é a Yara, das sementes 3 pinheiros. Eu posso falar com o Euclerion?",
+          "time": "0:01"
+        }
+      ],
       "temperatura": "",
       "whatsapp": true
     },
@@ -572,14 +771,20 @@
       "name": "JANAINA SCHWEITZER CHITOLINA",
       "phone": "+5566996079871",
       "status": "completed",
-      "duration": 0,
+      "duration": 12,
       "createdAt": "2026-04-22T17:54:00.000Z",
       "endedReason": "customer-ended-call",
-      "cost": 0,
+      "cost": 0.0123,
       "summary": "O lead atendeu a ligação da Yara da empresa Sementes 3 Pinheiros, que perguntou por Janaína. A conversa foi encerrada pelo cliente imediatamente após a apresentação inicial, sem que houvesse tempo para coletar informações sobre hectares, cidade ou qualificar o lead. Não foi possível avançar na qualificação.",
       "success": "false",
-      "recording": "",
-      "transcript": [],
+      "recording": "/audio/019db68b-6b7.wav",
+      "transcript": [
+        {
+          "role": "assistant",
+          "content": "Oi, tudo bem? Aqui é a Yara, sementes 3 pinheiros. Eu posso falar com a Janaína?",
+          "time": "0:01"
+        }
+      ],
       "temperatura": "FRIO",
       "whatsapp": false
     },
@@ -588,14 +793,30 @@
       "name": "PEDRO NERES DE SOUZA",
       "phone": "+5566984369514",
       "status": "completed",
-      "duration": 0,
+      "duration": 19,
       "createdAt": "2026-04-22T17:48:00.000Z",
       "endedReason": "customer-ended-call",
-      "cost": 0,
+      "cost": 0.0196,
       "summary": "O lead não atendeu a ligação. A pessoa que atendeu informou que passaria o recado quando o telefone estivesse disponível, mas não forneceu nenhuma informação sobre hectares ou cidade. A ligação foi encerrada pelo cliente antes que qualquer dado pudesse ser coletado.",
       "success": "false",
-      "recording": "",
-      "transcript": [],
+      "recording": "/audio/019db685-eb9.wav",
+      "transcript": [
+        {
+          "role": "assistant",
+          "content": "Oi, tudo bem? Aqui é a Yara, da Sementes 3 Pinheiros, Eu posso falar com o Pedro?",
+          "time": "0:01"
+        },
+        {
+          "role": "user",
+          "content": "Ótimo, assim que o telefone estiver disponível, entrego o seu recado.",
+          "time": "0:12"
+        },
+        {
+          "role": "assistant",
+          "content": "Entendi,",
+          "time": "0:18"
+        }
+      ],
       "temperatura": "MORNO",
       "whatsapp": false
     },
@@ -604,14 +825,20 @@
       "name": "IRIA TEIXEIRA SACKSER",
       "phone": "+5566996006734",
       "status": "completed",
-      "duration": 0,
+      "duration": 12,
       "createdAt": "2026-04-22T17:42:00.000Z",
       "endedReason": "customer-ended-call",
-      "cost": 0,
+      "cost": 0.0126,
       "summary": "O lead atendeu a ligação da Yara, representante da Sementes 3 Pinheiros. No entanto, a conversa foi encerrada pelo cliente imediatamente após a apresentação inicial, antes que qualquer informação pudesse ser coletada. Não foram obtidos dados sobre hectares ou cidade.",
       "success": "false",
-      "recording": "",
-      "transcript": [],
+      "recording": "/audio/019db680-6b2.wav",
+      "transcript": [
+        {
+          "role": "assistant",
+          "content": "Oi, tudo bem? Aqui é a Yara. Das sementes 3 pinheiros, Eu posso falar coiria?",
+          "time": "0:01"
+        }
+      ],
       "temperatura": "FRIO",
       "whatsapp": false
     },
@@ -636,14 +863,20 @@
       "name": "NAPOLEAO ESTANISLAU RUTILLI",
       "phone": "+5565999871621",
       "status": "completed",
-      "duration": 0,
+      "duration": 11,
       "createdAt": "2026-04-22T17:30:00.000Z",
       "endedReason": "customer-ended-call",
-      "cost": 0,
+      "cost": 0.0112,
       "summary": "O lead atendeu a ligação. A atendente Yara da Sementes 3 Pinheiros iniciou o contato perguntando por Napoleão, mas a conversa foi encerrada imediatamente pelo cliente antes que qualquer informação pudesse ser coletada. Não foram obtidos dados sobre hectares ou cidade.",
       "success": "false",
-      "recording": "",
-      "transcript": [],
+      "recording": "/audio/019db675-696.wav",
+      "transcript": [
+        {
+          "role": "assistant",
+          "content": "Oi? Tudo bem? Aqui é a Yara, da sementes 3 pinheiros. Eu posso falar com o Napoleão.",
+          "time": "0:01"
+        }
+      ],
       "temperatura": "FRIO",
       "whatsapp": false
     },
@@ -684,14 +917,20 @@
       "name": "LIBERO FAVARIN",
       "phone": "+5566999104812",
       "status": "completed",
-      "duration": 0,
+      "duration": 10,
       "createdAt": "2026-04-22T17:12:00.000Z",
       "endedReason": "customer-ended-call",
-      "cost": 0,
+      "cost": 0.0108,
       "summary": "O lead atendeu a ligação da Yara da empresa Sementes 3 Pinheiros, que perguntou pelo Libero. A conversa foi extremamente breve e encerrada pelo cliente imediatamente após a apresentação inicial, sem que houvesse tempo para coletar qualquer informação sobre hectares, cidade ou outros dados relevantes.",
       "success": "false",
-      "recording": "",
-      "transcript": [],
+      "recording": "/audio/019db664-e50.wav",
+      "transcript": [
+        {
+          "role": "assistant",
+          "content": "Oi, tudo bem? Aqui é Yara, sementes 3 pinheiros. Eu posso falar com o Libero?",
+          "time": "0:01"
+        }
+      ],
       "temperatura": "FRIO",
       "whatsapp": false
     },
@@ -700,14 +939,20 @@
       "name": "ELIZABETE SOUTO VIEIRA PARZIANELLO",
       "phone": "+5566999982950",
       "status": "completed",
-      "duration": 0,
+      "duration": 17,
       "createdAt": "2026-04-22T17:06:00.000Z",
       "endedReason": "customer-ended-call",
-      "cost": 0,
+      "cost": 0.0172,
       "summary": "O lead atendeu a ligação. A atendente Yara, da Sementes 3 Pinheiros, iniciou o contato perguntando pela Elisabet, mas a conversa foi encerrada pelo cliente imediatamente após a apresentação inicial. Não foi possível coletar informações sobre hectares, cidade ou qualificar o lead devido ao encerramento precoce da chamada.",
       "success": "false",
-      "recording": "",
-      "transcript": [],
+      "recording": "/audio/019db65f-648.wav",
+      "transcript": [
+        {
+          "role": "assistant",
+          "content": "Oi tudo bem? Aqui é a Yara, da sementes 3 pinheiros, Eu posso falar com a Elisabet?",
+          "time": "0:01"
+        }
+      ],
       "temperatura": "FRIO",
       "whatsapp": false
     },
@@ -716,14 +961,20 @@
       "name": "ODAIR BUENO RAMOS",
       "phone": "+5565996334631",
       "status": "completed",
-      "duration": 0,
+      "duration": 16,
       "createdAt": "2026-04-22T17:00:00.000Z",
       "endedReason": "customer-ended-call",
-      "cost": 0,
+      "cost": 0.0166,
       "summary": "O lead atendeu a ligação. A conversa foi extremamente breve, sendo encerrada pelo cliente logo após a apresentação inicial da atendente Yara, da empresa Sementes 3 Pinheiros. Não foi possível coletar nenhuma informação sobre hectares, cidade ou qualquer outro dado do produtor.",
       "success": "false",
-      "recording": "",
-      "transcript": [],
+      "recording": "/audio/019db659-e3d.wav",
+      "transcript": [
+        {
+          "role": "assistant",
+          "content": "Oi, tudo bem? Aqui é a Yara, das sementes 3 pinheiros. Eu posso falar com o Odair.",
+          "time": "0:01"
+        }
+      ],
       "temperatura": "FRIO",
       "whatsapp": false
     },
@@ -748,14 +999,20 @@
       "name": "GLADIS REGINA MILANESI KETZER",
       "phone": "+5566999030418",
       "status": "completed",
-      "duration": 0,
+      "duration": 14,
       "createdAt": "2026-04-22T16:48:00.000Z",
       "endedReason": "customer-ended-call",
-      "cost": 0,
+      "cost": 0.0146,
       "summary": "O lead atendeu a ligação da Yara, representante da Semente 3 Pinheiros. A conversa foi extremamente breve, sendo encerrada pelo cliente imediatamente após a apresentação inicial, sem que houvesse tempo para coletar informações sobre hectares, cidade ou qualquer outro dado relevante.",
       "success": "false",
-      "recording": "",
-      "transcript": [],
+      "recording": "/audio/019db64e-dfb.wav",
+      "transcript": [
+        {
+          "role": "assistant",
+          "content": "Oi, tudo bem? Aqui é a Yara da semente 3 pinheiros. Eu posso falar com Gladys?",
+          "time": "0:01"
+        }
+      ],
       "temperatura": "FRIO",
       "whatsapp": false
     },
@@ -764,14 +1021,20 @@
       "name": "ENIO OMAR SCHNEIDER",
       "phone": "+5566999654384",
       "status": "no-answer",
-      "duration": 0,
+      "duration": 10,
       "createdAt": "2026-04-22T16:42:00.000Z",
       "endedReason": "customer-ended-call",
-      "cost": 0,
+      "cost": 0.0101,
       "summary": "",
       "success": "",
-      "recording": "",
-      "transcript": [],
+      "recording": "/audio/019db649-5fc.wav",
+      "transcript": [
+        {
+          "role": "assistant",
+          "content": "Oi, tudo bem? Aqui é a Yara da sementes 3 pinheiros. Eu posso falar com ele?",
+          "time": "0:00"
+        }
+      ],
       "temperatura": "",
       "whatsapp": true
     },
@@ -780,14 +1043,20 @@
       "name": "CRISTIANO AUGUSTO ENGELMANN",
       "phone": "+5566992274858",
       "status": "voicemail",
-      "duration": 0,
+      "duration": 21,
       "createdAt": "2026-04-22T16:36:00.000Z",
       "endedReason": "silence-timed-out",
-      "cost": 0,
+      "cost": 0.0214,
       "summary": "",
       "success": "",
-      "recording": "",
-      "transcript": [],
+      "recording": "/audio/019db643-e00.wav",
+      "transcript": [
+        {
+          "role": "assistant",
+          "content": "Oi, tudo bem? Aqui é a Yara. Sementes 3 pinheiros. Posso falar com o Cristiano.",
+          "time": "0:01"
+        }
+      ],
       "temperatura": "",
       "whatsapp": true
     },
@@ -812,14 +1081,20 @@
       "name": "HAIRON IAGO FEDRIZZI",
       "phone": "+5565981332586",
       "status": "completed",
-      "duration": 0,
+      "duration": 11,
       "createdAt": "2026-04-22T16:24:00.000Z",
       "endedReason": "customer-ended-call",
-      "cost": 0,
+      "cost": 0.011,
       "summary": "O lead atendeu a ligação da Yara, representante da Sementes 3 Pinheiros, que perguntou por Rayron. A conversa foi encerrada pelo cliente imediatamente após a apresentação inicial, antes que qualquer informação pudesse ser coletada. Não foram obtidos dados sobre hectares ou cidade.",
       "success": "false",
-      "recording": "",
-      "transcript": [],
+      "recording": "/audio/019db638-d71.wav",
+      "transcript": [
+        {
+          "role": "assistant",
+          "content": "Oi, tudo bem? Aqui é a Yara, da sementes 3 Pinheiros. Eu posso falar com o Rayron?",
+          "time": "0:01"
+        }
+      ],
       "temperatura": "FRIO",
       "whatsapp": false
     },
@@ -876,14 +1151,20 @@
       "name": "LUCIANE MACIEL WINTER",
       "phone": "+5566996697979",
       "status": "voicemail",
-      "duration": 0,
+      "duration": 22,
       "createdAt": "2026-04-22T16:00:00.000Z",
       "endedReason": "silence-timed-out",
-      "cost": 0,
+      "cost": 0.022,
       "summary": "",
       "success": "",
-      "recording": "",
-      "transcript": [],
+      "recording": "/audio/019db622-d63.wav",
+      "transcript": [
+        {
+          "role": "assistant",
+          "content": "Oi, tudo bem? Aqui é a Yara, da sementes 3 pinheiros. Eu posso falar com Luciane?",
+          "time": "0:01"
+        }
+      ],
       "temperatura": "",
       "whatsapp": true
     },
@@ -892,14 +1173,40 @@
       "name": "VALZUMIRO CEOLIM",
       "phone": "+5567999811981",
       "status": "completed",
-      "duration": 0,
+      "duration": 50,
       "createdAt": "2026-04-22T15:54:00.000Z",
       "endedReason": "customer-ended-call",
-      "cost": 0,
+      "cost": 0.0503,
       "summary": "O lead Valdemiro atendeu a ligação, mas a conversa foi muito breve. A consultora Yara se apresentou como representante da Sementes 3 Pinheiros de Planaltina-DF, oferecendo sementes de soja de alta performance, mas não conseguiu coletar informações sobre hectares ou cidade do produtor. A ligação foi encerrada pelo cliente antes que ele respondesse se planta soja na região.",
       "success": "false",
-      "recording": "",
-      "transcript": [],
+      "recording": "/audio/019db61d-559.wav",
+      "transcript": [
+        {
+          "role": "assistant",
+          "content": "Oi Oi, tudo bem? Aqui é a Yara. Das sementes 3 pinheiros. Posso falar com o Valzomiro.",
+          "time": "0:02"
+        },
+        {
+          "role": "user",
+          "content": "Permaneça na linha, Valdemiro.",
+          "time": "0:15"
+        },
+        {
+          "role": "assistant",
+          "content": "Boa tarde Valdemiro, eu sou a Yara, consultora aqui da Sementes 3 Pinheiros. A gente é de Planaltina, no d f, trabalhamos com sementes de soja de alta performance. Vigor acima do padrão e resultado consistente no campo. Você planta soja aí na sua região?",
+          "time": "0:18"
+        },
+        {
+          "role": "user",
+          "content": "Alô?",
+          "time": "0:34"
+        },
+        {
+          "role": "assistant",
+          "content": "Boa tarde Valdemiro, eu sou a Yara. Consultora da sementes 3 pinheiros. Somos de Planaltina no DF, e trabalhamos com sementes de soja de alta performance, vigor acima do padrão e resultado consistente no campo. Você planta soja aí na sua região?",
+          "time": "0:36"
+        }
+      ],
       "temperatura": "FRIO",
       "whatsapp": false
     },
@@ -908,14 +1215,20 @@
       "name": "IGO ZANON",
       "phone": "+5566996516422",
       "status": "voicemail",
-      "duration": 0,
+      "duration": 21,
       "createdAt": "2026-04-22T15:48:00.000Z",
       "endedReason": "silence-timed-out",
-      "cost": 0,
+      "cost": 0.0213,
       "summary": "O lead não respondeu à chamada. A atendente Yara da Sementes 3 Pinheiros se apresentou, mas a ligação foi encerrada por timeout de silêncio, indicando que não houve interação ou o lead não estava disponível para atender.",
       "success": "false",
-      "recording": "",
-      "transcript": [],
+      "recording": "/audio/019db617-d58.wav",
+      "transcript": [
+        {
+          "role": "assistant",
+          "content": "Oi, tudo bem? Aqui é a Yara, da Sementes 3, pinheiros. Eu posso falar comigo?",
+          "time": "0:01"
+        }
+      ],
       "temperatura": "MORNO",
       "whatsapp": true
     }
