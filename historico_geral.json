@@ -1,0 +1,258 @@
+{
+  "geradoEm": "2026-04-27T02:11:21.341Z",
+  "totais": {
+    "total_leads": 26098,
+    "interagiram": 449,
+    "transferidos_vendedor": 341,
+    "pediram_parar": 0
+  },
+  "por_vendedor": {
+    "Douglas": 29,
+    "Maria Izabel": 79,
+    "Ronaldo": 75,
+    "Maria Luiza": 84,
+    "Tharik Rafael": 72,
+    "Nao informado": 1,
+    "Hitalo": 1
+  },
+  "por_tabela": [
+    {
+      "tabela": "Disparos API Ofc 2",
+      "leads": 6943,
+      "transferidos": 72,
+      "pararam": 0,
+      "interagiram": 72
+    },
+    {
+      "tabela": "Disparos API Ofc 1",
+      "leads": 3450,
+      "transferidos": 61,
+      "pararam": 0,
+      "interagiram": 61
+    },
+    {
+      "tabela": "Disparos API Ofc 3",
+      "leads": 3248,
+      "transferidos": 34,
+      "pararam": 0,
+      "interagiram": 34
+    },
+    {
+      "tabela": "Disparos API Oficial 5",
+      "leads": 2522,
+      "transferidos": 44,
+      "pararam": 0,
+      "interagiram": 44
+    },
+    {
+      "tabela": "Disparos API Ofc 4",
+      "leads": 1357,
+      "transferidos": 12,
+      "pararam": 0,
+      "interagiram": 12
+    },
+    {
+      "tabela": "Reativação",
+      "leads": 608,
+      "transferidos": 1,
+      "pararam": 0,
+      "interagiram": 1
+    },
+    {
+      "tabela": "Lista 6125",
+      "leads": 502,
+      "transferidos": 1,
+      "pararam": 0,
+      "interagiram": 1
+    },
+    {
+      "tabela": "Lista 6158",
+      "leads": 502,
+      "transferidos": 2,
+      "pararam": 0,
+      "interagiram": 2
+    },
+    {
+      "tabela": "Lista 8921",
+      "leads": 502,
+      "transferidos": 0,
+      "pararam": 0,
+      "interagiram": 0
+    },
+    {
+      "tabela": "Lista 6530",
+      "leads": 501,
+      "transferidos": 0,
+      "pararam": 0,
+      "interagiram": 0
+    },
+    {
+      "tabela": "Lista 3649",
+      "leads": 501,
+      "transferidos": 1,
+      "pararam": 0,
+      "interagiram": 1
+    },
+    {
+      "tabela": "Lista 4176",
+      "leads": 500,
+      "transferidos": 0,
+      "pararam": 0,
+      "interagiram": 0
+    },
+    {
+      "tabela": "Lista 6184",
+      "leads": 500,
+      "transferidos": 0,
+      "pararam": 0,
+      "interagiram": 0
+    },
+    {
+      "tabela": "LISTA QUENTE",
+      "leads": 498,
+      "transferidos": 33,
+      "pararam": 0,
+      "interagiram": 35
+    },
+    {
+      "tabela": "LISTA MT",
+      "leads": 482,
+      "transferidos": 26,
+      "pararam": 0,
+      "interagiram": 26
+    },
+    {
+      "tabela": "disparo leads contato",
+      "leads": 365,
+      "transferidos": 0,
+      "pararam": 0,
+      "interagiram": 0
+    },
+    {
+      "tabela": "LISTA Carla 1",
+      "leads": 352,
+      "transferidos": 10,
+      "pararam": 0,
+      "interagiram": 10
+    },
+    {
+      "tabela": "LISTA Carla 2",
+      "leads": 326,
+      "transferidos": 16,
+      "pararam": 0,
+      "interagiram": 16
+    },
+    {
+      "tabela": "leads Fazenda",
+      "leads": 246,
+      "transferidos": 0,
+      "pararam": 0,
+      "interagiram": 50
+    },
+    {
+      "tabela": "Lista Diluida 3",
+      "leads": 205,
+      "transferidos": 13,
+      "pararam": 0,
+      "interagiram": 13
+    },
+    {
+      "tabela": "LISTA Rafael 2",
+      "leads": 193,
+      "transferidos": 0,
+      "pararam": 0,
+      "interagiram": 0
+    },
+    {
+      "tabela": "LISTA Rafael 1",
+      "leads": 189,
+      "transferidos": 0,
+      "pararam": 0,
+      "interagiram": 0
+    },
+    {
+      "tabela": "Lista Diluida 2",
+      "leads": 167,
+      "transferidos": 6,
+      "pararam": 0,
+      "interagiram": 6
+    },
+    {
+      "tabela": "Lista Diluida 1",
+      "leads": 164,
+      "transferidos": 1,
+      "pararam": 0,
+      "interagiram": 1
+    },
+    {
+      "tabela": "Disparos lista 4658",
+      "leads": 162,
+      "transferidos": 2,
+      "pararam": 0,
+      "interagiram": 2
+    },
+    {
+      "tabela": "Disparos lista 6184",
+      "leads": 160,
+      "transferidos": 0,
+      "pararam": 0,
+      "interagiram": 0
+    },
+    {
+      "tabela": "Disparos lista 2499",
+      "leads": 159,
+      "transferidos": 2,
+      "pararam": 0,
+      "interagiram": 2
+    },
+    {
+      "tabela": "Disparos lista 6530",
+      "leads": 159,
+      "transferidos": 1,
+      "pararam": 0,
+      "interagiram": 1
+    },
+    {
+      "tabela": "Disparos lista 8921",
+      "leads": 158,
+      "transferidos": 2,
+      "pararam": 0,
+      "interagiram": 2
+    },
+    {
+      "tabela": "Disparos lista 4176",
+      "leads": 157,
+      "transferidos": 1,
+      "pararam": 0,
+      "interagiram": 1
+    },
+    {
+      "tabela": "Lista Leads",
+      "leads": 151,
+      "transferidos": 0,
+      "pararam": 0,
+      "interagiram": 0
+    },
+    {
+      "tabela": "leads novos 05",
+      "leads": 85,
+      "transferidos": 0,
+      "pararam": 0,
+      "interagiram": 0
+    },
+    {
+      "tabela": "DISPARO LIGAÇÃO",
+      "leads": 84,
+      "transferidos": 0,
+      "pararam": 0,
+      "interagiram": 56
+    },
+    {
+      "tabela": "Features",
+      "leads": 0,
+      "transferidos": 0,
+      "pararam": 0,
+      "interagiram": 0
+    }
+  ]
+}

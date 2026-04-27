@@ -91,13 +91,13 @@
 
   <div class="cards">
     <div class="card green"><div class="label">Leads na Base</div><div class="value">84</div><div class="detail">57 contatados &middot; 27 invalidos</div></div>
-    <div class="card blue"><div class="label">Responderam</div><div class="value">9</div><div class="detail">10,7% taxa de resposta</div></div>
-    <div class="card purple"><div class="label">Convertidos ao Vendedor</div><div class="value">0</div><div class="detail">nenhuma transferencia no periodo</div></div>
-    <div class="card red"><div class="label">Contatos Errados</div><div class="value">4</div><div class="detail">numero/pessoa nao confere</div></div>
-    <div class="card amber"><div class="label">Recusas</div><div class="value">0</div><div class="detail">pediram para parar</div></div>
+    <div class="card blue"><div class="label">Responderam</div><div class="value">9</div><div class="detail">15,8% sobre 57 contatados</div></div>
+    <div class="card purple"><div class="label">Convertidos ao Vendedor</div><div class="value">1</div><div class="detail">ja fechou - transferido p/ proxima safra</div></div>
+    <div class="card red"><div class="label">Contatos Errados</div><div class="value">5</div><div class="detail">numero/pessoa nao confere</div></div>
+    <div class="card amber"><div class="label">Fora do Perfil</div><div class="value">1</div><div class="detail">nao planta soja</div></div>
+    <div class="card green"><div class="label">Lead Positivo</div><div class="value">1</div><div class="detail">marido planta - follow-up</div></div>
     <div class="card blue"><div class="label">Ligacoes Efetuadas</div><div class="value">57</div><div class="detail">19 atendidas (33%)</div></div>
-    <div class="card green"><div class="label">WhatsApp Disparado</div><div class="value">37</div><div class="detail">apos ligacao</div></div>
-    <div class="card amber"><div class="label">Outras Respostas</div><div class="value">5</div><div class="detail">audios + saudacoes (revisar)</div></div>
+    <div class="card amber"><div class="label">A Revisar</div><div class="value">1</div><div class="detail">auto-resposta de ausencia</div></div>
   </div>
 
   <!-- Funil 20-24/04 -->
@@ -112,18 +112,20 @@
           <tr><td>Ligacoes efetuadas</td><td>57</td><td>67,9%</td></tr>
           <tr><td>Ligacoes atendidas</td><td>19</td><td>22,6%</td></tr>
           <tr><td>WhatsApp disparado</td><td>37</td><td>44,0%</td></tr>
-          <tr><td>Responderam no Chatwoot</td><td>9</td><td>10,7%</td></tr>
-          <tr><td>Contatos errados</td><td>4</td><td>4,8%</td></tr>
-          <tr><td>Recusas</td><td>0</td><td>0,0%</td></tr>
-          <tr style="font-weight:700;background:#f5f3ff"><td>Convertidos ao Vendedor</td><td>0</td><td>0,0%</td></tr>
+          <tr><td>Responderam no WhatsApp</td><td>9</td><td>10,7%</td></tr>
+          <tr><td>Contatos errados</td><td>5</td><td>5,9%</td></tr>
+          <tr><td>Fora do perfil (nao planta soja)</td><td>1</td><td>1,2%</td></tr>
+          <tr><td>Lead positivo - marido planta (follow-up)</td><td>1</td><td>1,2%</td></tr>
+          <tr><td>A revisar (auto-resposta)</td><td>1</td><td>1,2%</td></tr>
+          <tr style="font-weight:700;background:#f5f3ff"><td>Convertidos ao Vendedor (ja fechou - proxima safra)</td><td>1</td><td>1,2%</td></tr>
         </tbody>
       </table>
     </div>
     <div class="insight">
       <p><strong>84 leads</strong> entraram no fluxo DISPARO LIGACAO no periodo 20-24/04, com <strong>57 ligacoes efetuadas</strong> e 33% de taxa de atendimento.</p>
-      <p>Apenas <strong>9 leads (10,7%)</strong> responderam no WhatsApp. Destes, 4 foram contatos errados (44%) e nenhum demonstrou interesse claro suficiente para transferencia ao vendedor no periodo analisado.</p>
-      <p>Os <strong>5 "outras respostas"</strong> incluem audios nao transcritos automaticamente e saudacoes curtas ("Ola", "O que seria") que devem ser revistos manualmente — podem virar oportunidades.</p>
+      <p><strong>9 leads (15,8% dos contatados)</strong> responderam no WhatsApp. Apos analise manual: 5 contatos errados, 1 fora do perfil, 1 lead positivo (marido planta - aguardando contato), 1 ja fechou plantacao (transferido para proxima safra) e 1 auto-resposta a revisar.</p>
       <p><strong>Obs.:</strong> dos 84 leads, <strong>57 foram efetivamente contatados</strong> via ligacao. Os <strong>27 restantes possuiam contatos invalidos</strong> (numeros incorretos, fora de servico ou bloqueados), nao sendo possivel contata-los.</p>
+      <p style="background:#dbeafe;padding:10px;border-radius:8px;border-left:3px solid #2563eb"><strong>Nova regra operacional:</strong> quando o lead informar que ja fechou a plantacao da safra atual, transferir o contato ao vendedor responsavel e avisar o cliente que o atendimento sera transferido para que, na proxima safra, possamos entrar em contato a tempo de participar das cotacoes.</p>
     </div>
   </div>
 
@@ -132,17 +134,17 @@
     <h2>Detalhe das Respostas (Chatwoot)</h2>
     <div class="table-wrap">
       <table>
-        <thead><tr><th>Categoria</th><th>Lead</th><th>Telefone</th><th>Mensagem</th><th>Inbox</th></tr></thead>
+        <thead><tr><th>Categoria</th><th>Lead</th><th>Telefone</th><th>Mensagem / Observacao</th><th>Inbox</th></tr></thead>
         <tbody>
           <tr><td><span style="color:#dc2626;font-weight:600">Errado</span></td><td>~Lanches Martins</td><td>(99) 9975-1862</td><td>Esse numero nao e de Luiz</td><td>6125</td></tr>
           <tr><td><span style="color:#dc2626;font-weight:600">Errado</span></td><td>~+556696275288</td><td>(66) 9962-75288</td><td>Eu nao sou o Roberson. Nao conheco nenhum Roberson</td><td>6125</td></tr>
           <tr><td><span style="color:#dc2626;font-weight:600">Errado</span></td><td>Paulo</td><td>(65) 9961-44761</td><td>Nao sou PAULO</td><td>6125/Ligacao</td></tr>
           <tr><td><span style="color:#dc2626;font-weight:600">Errado</span></td><td>Cristiano</td><td>(66) 9922-74858</td><td>Nao sou cristiano</td><td>6125/Ligacao</td></tr>
-          <tr><td><span style="color:#d97706;font-weight:600">Revisar</span></td><td>Lussandra</td><td>(62) 9984-60092</td><td>Ola</td><td>6125/Ligacao</td></tr>
-          <tr><td><span style="color:#d97706;font-weight:600">Revisar</span></td><td>Antonio</td><td>(66) 9998-42821</td><td>Mensagem automatica de ausencia</td><td>6125/Ligacao</td></tr>
-          <tr><td><span style="color:#d97706;font-weight:600">Revisar</span></td><td>Alex</td><td>(66) 9960-02418</td><td>[audio - transcrever]</td><td>6125</td></tr>
-          <tr><td><span style="color:#d97706;font-weight:600">Revisar</span></td><td>Marcos</td><td>(66) 9963-74550</td><td>[audio - transcrever]</td><td>6125</td></tr>
-          <tr><td><span style="color:#d97706;font-weight:600">Revisar</span></td><td>Luciane</td><td>(66) 9966-97979</td><td>O que seria</td><td>6125</td></tr>
+          <tr><td><span style="color:#dc2626;font-weight:600">Errado</span></td><td>Luciane</td><td>(66) 9966-97979</td><td>Confirmado contato errado</td><td>6125</td></tr>
+          <tr><td><span style="color:#22c55e;font-weight:600">Positivo</span></td><td>Lussandra</td><td>(62) 9984-60092</td><td>Marido que planta — Yara solicitou contato dele para repasse</td><td>6125/Ligacao</td></tr>
+          <tr><td><span style="color:#7c3aed;font-weight:600">Convertido</span></td><td>Alex</td><td>(66) 9960-02418</td><td>Ja fechou plantacao desta safra — transferido ao vendedor para proxima safra</td><td>6125</td></tr>
+          <tr><td><span style="color:#f59e0b;font-weight:600">Fora do perfil</span></td><td>Marcos</td><td>(66) 9963-74550</td><td>Nao planta soja</td><td>6125</td></tr>
+          <tr><td><span style="color:#d97706;font-weight:600">Revisar</span></td><td>Antonio</td><td>(66) 9998-42821</td><td>Auto-resposta de ausencia (sem retorno ate o fechamento)</td><td>6125/Ligacao</td></tr>
         </tbody>
       </table>
     </div>
@@ -225,14 +227,14 @@
   <!-- ========== HISTORICO GERAL ========== -->
   <div style="background:linear-gradient(135deg,#1e3a5f 0%,#2563eb 100%);color:#fff;border-radius:16px;padding:20px 24px 10px;margin:40px 0 28px">
     <h2 style="color:#fff;margin:0 0 4px;font-size:1.1rem">&#x1f4ca; Historico Geral — Todas as Campanhas</h2>
-    <p style="color:#bfdbfe;font-size:.85rem;margin:0 0 16px">Acumulado desde janeiro/2026 | Inclui campanhas encerradas</p>
+    <p style="color:#bfdbfe;font-size:.85rem;margin:0 0 16px">Acumulado desde janeiro/2026 | Atualizado em 26/04/2026 | Inclui DISPARO LIGACAO</p>
   </div>
 
   <div class="cards">
-    <div class="card green"><div class="label">Total de Leads</div><div class="value">14.897</div><div class="detail">leads contatados pela Yara</div></div>
-    <div class="card blue"><div class="label">Interagiram</div><div class="value">1.709</div><div class="detail">11,5% responderam</div></div>
-    <div class="card purple"><div class="label">Transferidos ao Vendedor</div><div class="value">289</div><div class="detail">confirmados no sistema</div></div>
-    <div class="card red"><div class="label">Pediram para Parar</div><div class="value">36</div><div class="detail">apenas 0,2% do total</div></div>
+    <div class="card green"><div class="label">Total de Leads</div><div class="value">26.098</div><div class="detail">em 33 tabelas de campanha</div></div>
+    <div class="card blue"><div class="label">Interagiram</div><div class="value">1.718</div><div class="detail">leads com retorno</div></div>
+    <div class="card purple"><div class="label">Transferidos ao Vendedor</div><div class="value">342</div><div class="detail">confirmados no sistema</div></div>
+    <div class="card red"><div class="label">Pediram para Parar</div><div class="value">36</div><div class="detail">apenas 0,1% do total</div></div>
   </div>
 
   <!-- Classificacao Historico -->
@@ -241,14 +243,14 @@
     <div class="chart-row">
       <div class="chart-box"><canvas id="chart"></canvas></div>
       <div class="chart-legend">
-        <div class="legend-item"><div class="legend-dot" style="background:#22c55e"></div><span class="legend-label">Positivos</span><span class="legend-value">437</span><span class="legend-pct">2,9%</span></div>
-        <div class="legend-item"><div class="legend-dot" style="background:#f59e0b"></div><span class="legend-label">Neutros</span><span class="legend-value">1.103</span><span class="legend-pct">7,4%</span></div>
-        <div class="legend-item"><div class="legend-dot" style="background:#ef4444"></div><span class="legend-label">Negativos</span><span class="legend-value">36</span><span class="legend-pct">0,2%</span></div>
-        <div class="legend-item"><div class="legend-dot" style="background:#d1d5db"></div><span class="legend-label">Sem Resposta</span><span class="legend-value">13.321</span><span class="legend-pct">89,4%</span></div>
+        <div class="legend-item"><div class="legend-dot" style="background:#22c55e"></div><span class="legend-label">Positivos</span><span class="legend-value">438</span><span class="legend-pct">1,7%</span></div>
+        <div class="legend-item"><div class="legend-dot" style="background:#f59e0b"></div><span class="legend-label">Neutros</span><span class="legend-value">1.111</span><span class="legend-pct">4,3%</span></div>
+        <div class="legend-item"><div class="legend-dot" style="background:#ef4444"></div><span class="legend-label">Negativos</span><span class="legend-value">36</span><span class="legend-pct">0,1%</span></div>
+        <div class="legend-item"><div class="legend-dot" style="background:#d1d5db"></div><span class="legend-label">Sem Resposta</span><span class="legend-value">24.513</span><span class="legend-pct">93,9%</span></div>
       </div>
     </div>
     <div class="insight">
-      <p><strong>289 leads foram transferidos ao vendedor</strong> com registro confirmado no sistema (todas as campanhas).</p>
+      <p><strong>342 leads foram transferidos ao vendedor</strong> com registro confirmado no sistema (todas as campanhas, incluindo DISPARO LIGACAO).</p>
       <p>Dos 1.709 leads que interagiram, <strong>25,6% demonstraram interesse</strong>.</p>
     </div>
   </div>
@@ -259,11 +261,11 @@
     <div class="chart2-row">
       <div class="chart2-box"><canvas id="chartVendedor"></canvas></div>
       <div class="vendedor-cards" style="flex:1">
-        <div class="vendedor-card"><div class="vname">Maria Luiza</div><div class="vcount">72</div><div class="vlabel">leads recebidos</div></div>
-        <div class="vendedor-card"><div class="vname">Maria Izabel</div><div class="vcount">66</div><div class="vlabel">leads recebidos</div></div>
-        <div class="vendedor-card"><div class="vname">Ronaldo</div><div class="vcount">64</div><div class="vlabel">leads recebidos</div></div>
-        <div class="vendedor-card"><div class="vname">Tharik Rafael</div><div class="vcount">61</div><div class="vlabel">leads recebidos</div></div>
-        <div class="vendedor-card"><div class="vname">Douglas</div><div class="vcount">26</div><div class="vlabel">leads recebidos</div></div>
+        <div class="vendedor-card"><div class="vname">Maria Luiza</div><div class="vcount">84</div><div class="vlabel">leads recebidos</div></div>
+        <div class="vendedor-card"><div class="vname">Maria Izabel</div><div class="vcount">79</div><div class="vlabel">leads recebidos</div></div>
+        <div class="vendedor-card"><div class="vname">Ronaldo</div><div class="vcount">75</div><div class="vlabel">leads recebidos</div></div>
+        <div class="vendedor-card"><div class="vname">Tharik Rafael</div><div class="vcount">72</div><div class="vlabel">leads recebidos</div></div>
+        <div class="vendedor-card"><div class="vname">Douglas</div><div class="vcount">29</div><div class="vlabel">leads recebidos</div></div>
       </div>
     </div>
 
@@ -271,11 +273,11 @@
       <input type="text" id="searchNL" placeholder="Buscar lead, vendedor ou cidade..." oninput="filterNL()">
       <select id="filterVendedor" onchange="filterNL()">
         <option value="">Todos os vendedores</option>
-        <option value="Maria Luiza">Maria Luiza (72)</option>
-        <option value="Maria Izabel">Maria Izabel (66)</option>
-        <option value="Ronaldo">Ronaldo (64)</option>
-        <option value="Tharik Rafael">Tharik Rafael (61)</option>
-        <option value="Douglas">Douglas (26)</option>
+        <option value="Maria Luiza">Maria Luiza (84)</option>
+        <option value="Maria Izabel">Maria Izabel (79)</option>
+        <option value="Ronaldo">Ronaldo (75)</option>
+        <option value="Tharik Rafael">Tharik Rafael (72)</option>
+        <option value="Douglas">Douglas (29)</option>
       </select>
       <span class="table-count" id="nlCount"></span>
     </div>
@@ -299,10 +301,10 @@ new Chart(document.getElementById('chartAtivo').getContext('2d'),{type:'doughnut
 new Chart(document.getElementById('chartVendedorAtivo').getContext('2d'),{type:'doughnut',data:{labels:['Maria Izabel','Maria Luiza','Ronaldo','Tharik Rafael'],datasets:[{data:[4,4,4,4],backgroundColor:['#3b82f6','#22c55e','#f59e0b','#8b5cf6'],borderWidth:0,hoverOffset:6}]},options:{responsive:true,maintainAspectRatio:true,cutout:'60%',plugins:{legend:{display:false},tooltip:{callbacks:{label:c=>' '+c.label+': '+c.raw+' leads ('+(c.raw/16*100).toFixed(1)+'%)'}}}}});
 
 // Historical classification chart
-new Chart(document.getElementById('chart').getContext('2d'),{type:'doughnut',data:{labels:['Positivos','Neutros','Negativos','Sem Resposta'],datasets:[{data:[437,1103,36,13321],backgroundColor:['#22c55e','#f59e0b','#ef4444','#d1d5db'],borderWidth:0,hoverOffset:6}]},options:{responsive:true,maintainAspectRatio:true,cutout:'65%',plugins:{legend:{display:false},tooltip:{callbacks:{label:c=>' '+c.label+': '+c.raw.toLocaleString('pt-BR')+' ('+(c.raw/14897*100).toFixed(1)+'%)'}}}}});
+new Chart(document.getElementById('chart').getContext('2d'),{type:'doughnut',data:{labels:['Positivos','Neutros','Negativos','Sem Resposta'],datasets:[{data:[438,1111,36,24513],backgroundColor:['#22c55e','#f59e0b','#ef4444','#d1d5db'],borderWidth:0,hoverOffset:6}]},options:{responsive:true,maintainAspectRatio:true,cutout:'65%',plugins:{legend:{display:false},tooltip:{callbacks:{label:c=>' '+c.label+': '+c.raw.toLocaleString('pt-BR')+' ('+(c.raw/26098*100).toFixed(1)+'%)'}}}}});
 
 // Historical vendedor chart
-new Chart(document.getElementById('chartVendedor').getContext('2d'),{type:'doughnut',data:{labels:['Maria Luiza','Maria Izabel','Ronaldo','Tharik Rafael','Douglas'],datasets:[{data:[72,66,64,61,26],backgroundColor:['#22c55e','#3b82f6','#f59e0b','#8b5cf6','#ec4899'],borderWidth:0,hoverOffset:6}]},options:{responsive:true,maintainAspectRatio:true,cutout:'60%',plugins:{legend:{display:false},tooltip:{callbacks:{label:c=>' '+c.label+': '+c.raw+' leads ('+(c.raw/289*100).toFixed(1)+'%)'}}}}});
+new Chart(document.getElementById('chartVendedor').getContext('2d'),{type:'doughnut',data:{labels:['Maria Luiza','Maria Izabel','Ronaldo','Tharik Rafael','Douglas'],datasets:[{data:[84,79,75,72,29,1,1,1],backgroundColor:['#22c55e','#3b82f6','#f59e0b','#8b5cf6','#ec4899','#06b6d4','#a855f7','#d4d4d8'],borderWidth:0,hoverOffset:6}]},options:{responsive:true,maintainAspectRatio:true,cutout:'60%',plugins:{legend:{display:false},tooltip:{callbacks:{label:c=>' '+c.label+': '+c.raw+' leads ('+(c.raw/342*100).toFixed(1)+'%)'}}}}});
 
 // Active campaign data
 const ACTIVE_DATA=[{"vendedor":"Maria Izabel","nome":"~Mauro Jose Becker","telefone":"5566997247306","cidade":"Nova Xavantina","uf":"","temperatura":"Morno","hectares":"200","cultivar":"","porte":"AGM","dataTransf":"2026-04-06T09:28:42.504-03:00","origem":"Reativação"},{"vendedor":"Maria Luiza","nome":"PAULO EDUARDO DE SOUZA PRIANTI","telefone":"11973351101","cidade":"Nova Alvorada do Sul","uf":"","temperatura":"Quente","hectares":"1500","cultivar":"","porte":"AGG","dataTransf":"2026-04-08T13:57:09.748-03:00","origem":"Disparos"},{"vendedor":"Tharik Rafael","nome":"RAFAEL NOVAES PINTO","telefone":"64992422998","cidade":"Piracanjuba","uf":"","temperatura":"Morno","hectares":"200","cultivar":"","porte":"AGM","dataTransf":"2026-04-08T19:14:54.033-03:00","origem":"Disparos"},{"vendedor":"Tharik Rafael","nome":"RAUL DE MORAES PINTO","telefone":"34997781192","cidade":"Canápolis","uf":"","temperatura":"Morno","hectares":"105","cultivar":"","porte":"AGM","dataTransf":"2026-04-09T11:02:43.598-03:00","origem":"Disparos"},{"vendedor":"Maria Luiza","nome":"RENATA MACCARI","telefone":"69999163300","cidade":"Rio Crespo","uf":"","temperatura":"Quente","hectares":"4220","cultivar":"","porte":"AGG","dataTransf":"2026-04-09T10:36:51.265-03:00","origem":"Disparos"},{"vendedor":"Maria Luiza","nome":"RENATO DE SOUZA RAMOS","telefone":"65996262034","cidade":"Diamantino","uf":"","temperatura":"Morno","hectares":"300","cultivar":"","porte":"AGM","dataTransf":"2026-04-09T12:00:24.195-03:00","origem":"Disparos"},{"vendedor":"Ronaldo","nome":"RENATO FERREIRA DE OLIVEIRA","telefone":"61984542131","cidade":"Teresina de Goiás","uf":"","temperatura":"Quente","hectares":"100","cultivar":"","porte":"AGP","dataTransf":"2026-04-09T10:35:40.978-03:00","origem":"Disparos"},{"vendedor":"Tharik Rafael","nome":"RICARDO MARTINS SANTOS","telefone":"64999099115","cidade":"São Valério","uf":"","temperatura":"Morno","hectares":"160","cultivar":"","porte":"AGM","dataTransf":"2026-04-09T12:30:38.026-03:00","origem":"Disparos"},{"vendedor":"Ronaldo","nome":"STEFANIO MACEDO FERREIRA","telefone":"62981429714","cidade":"","uf":"","temperatura":"","hectares":"","cultivar":"","porte":"","dataTransf":"2026-04-09T11:08:54.238-03:00","origem":"Disparos"},{"vendedor":"Ronaldo","nome":"Sanitize","telefone":"556296535918","cidade":"Nove Crixás","uf":"","temperatura":"Morno","hectares":"250","cultivar":"","porte":"AGM","dataTransf":"2026-04-08T12:21:27.825-03:00","origem":"Disparos"},{"vendedor":"Maria Izabel","nome":"Luiz Carlos Genari","telefone":"55997126138","cidade":"","uf":"","temperatura":"","hectares":"","cultivar":"","porte":"","dataTransf":"2026-04-09T06:10:18.268-03:00","origem":"Disparos"},{"vendedor":"Maria Izabel","nome":"Lamaro","telefone":"5531995396312","cidade":"","uf":"","temperatura":"","hectares":"","cultivar":"","porte":"","dataTransf":"2026-04-09T11:04:46.880-03:00","origem":"Disparos"},{"vendedor":"Maria Izabel","nome":"Roberto Soja","telefone":"5516982191950","cidade":"","uf":"","temperatura":"","hectares":"","cultivar":"","porte":"","dataTransf":"2026-04-09T12:36:15.447-03:00","origem":"Disparos"},{"vendedor":"Ronaldo","nome":"Eduardo Feltre","telefone":"5514997450820","cidade":"","uf":"","temperatura":"","hectares":"","cultivar":"","porte":"","dataTransf":"2026-04-09T13:26:01.395-03:00","origem":"Disparos"},{"vendedor":"Maria Luiza","nome":"Ricardo Fogaça","telefone":"5515997423342","cidade":"","uf":"","temperatura":"","hectares":"","cultivar":"","porte":"","dataTransf":"2026-04-09T13:33:04.309-03:00","origem":"Disparos"},{"vendedor":"Tharik Rafael","nome":"Jefferson","telefone":"5516991359182","cidade":"","uf":"","temperatura":"","hectares":"","cultivar":"","porte":"","dataTransf":"2026-04-09T14:49:37.291-03:00","origem":"Disparos"}];
