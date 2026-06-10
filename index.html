@@ -224,6 +224,72 @@
     </div>
   </div>
 
+  <!-- ========== CAMPANHAS MAIO/JUNHO 2026 ========== -->
+  <div style="background:linear-gradient(135deg,#065f46 0%,#10b981 100%);color:#fff;border-radius:16px;padding:20px 24px 10px;margin:40px 0 28px">
+    <h2 style="color:#fff;margin:0 0 4px;font-size:1.1rem">&#x1f33f; Campanhas Maio/Junho 2026 — Disparo mai26 + Disparo Jun26</h2>
+    <p style="color:#d1fae5;font-size:.85rem;margin:0 0 16px">Yara SDR | Recorte: 25/mai a 10/jun/2026 | Atualizado em 10/06/2026</p>
+  </div>
+
+  <div class="cards">
+    <div class="card green"><div class="label">Leads Disparados</div><div class="value">2.916</div><div class="detail">somando mai26 + Jun26</div></div>
+    <div class="card blue"><div class="label">Interagiram</div><div class="value">34</div><div class="detail">1,17% do disparado</div></div>
+    <div class="card purple"><div class="label">Transferidos ao Vendedor</div><div class="value">34</div><div class="detail">1,17% conversão</div></div>
+    <div class="card red"><div class="label">Pediram para Parar</div><div class="value">0</div><div class="detail">nenhum opt-out</div></div>
+  </div>
+
+  <!-- Breakdown por tabela mai/jun -->
+  <div class="section">
+    <h2>Breakdown por Campanha (Maio/Junho)</h2>
+    <div class="table-wrap">
+      <table><thead><tr><th>Campanha</th><th>Leads Disparados</th><th>Interagiram</th><th>Transferidos</th><th>Taxa Conversão</th></tr></thead>
+      <tbody>
+        <tr><td>Disparo mai26</td><td>1.646</td><td>22</td><td>22</td><td>1,34%</td></tr>
+        <tr><td>Disparo Jun26</td><td>1.270</td><td>12</td><td>12</td><td>0,94%</td></tr>
+      </tbody></table>
+    </div>
+  </div>
+
+  <!-- Vendedores Maio/Junho -->
+  <div class="section">
+    <h2>Leads Transferidos por Vendedor — Maio/Junho (34)</h2>
+    <div class="chart2-row">
+      <div class="chart2-box"><canvas id="chartVendedorMJ"></canvas></div>
+      <div class="vendedor-cards" style="flex:1">
+        <div class="vendedor-card"><div class="vname">Tharik Rafael</div><div class="vcount">7</div><div class="vlabel">leads recebidos</div></div>
+        <div class="vendedor-card"><div class="vname">Fabio</div><div class="vcount">6</div><div class="vlabel">leads recebidos</div></div>
+        <div class="vendedor-card"><div class="vname">Maria Luiza</div><div class="vcount">6</div><div class="vlabel">leads recebidos</div></div>
+        <div class="vendedor-card"><div class="vname">Rhuan</div><div class="vcount">5</div><div class="vlabel">leads recebidos</div></div>
+        <div class="vendedor-card"><div class="vname">Ronaldo</div><div class="vcount">5</div><div class="vlabel">leads recebidos</div></div>
+        <div class="vendedor-card"><div class="vname">Douglas</div><div class="vcount">3</div><div class="vlabel">leads recebidos</div></div>
+        <div class="vendedor-card"><div class="vname">Maria Izabel</div><div class="vcount">2</div><div class="vlabel">leads recebidos</div></div>
+      </div>
+    </div>
+
+    <div class="table-controls">
+      <input type="text" id="searchMJ" placeholder="Buscar lead, vendedor ou cidade..." oninput="filterMJ()">
+      <select id="filterVendedorMJ" onchange="filterMJ()">
+        <option value="">Todos os vendedores</option>
+        <option value="Tharik Rafael">Tharik Rafael (7)</option>
+        <option value="Fabio">Fabio (6)</option>
+        <option value="Maria Luiza">Maria Luiza (6)</option>
+        <option value="Rhuan">Rhuan (5)</option>
+        <option value="Ronaldo">Ronaldo (5)</option>
+        <option value="Douglas">Douglas (3)</option>
+        <option value="Maria Izabel">Maria Izabel (2)</option>
+      </select>
+      <select id="filterOrigemMJ" onchange="filterMJ()">
+        <option value="">Todas as campanhas</option>
+        <option value="Disparo mai26">Disparo mai26 (22)</option>
+        <option value="Disparo Jun26">Disparo Jun26 (12)</option>
+      </select>
+      <span class="table-count" id="mjCount"></span>
+    </div>
+    <div class="table-wrap">
+      <table><thead><tr><th>Data</th><th>Vendedor</th><th>Lead</th><th>Telefone</th><th>Temperatura</th><th>Origem</th></tr></thead>
+      <tbody id="mjBody"></tbody></table>
+    </div>
+  </div>
+
   <!-- ========== HISTORICO GERAL ========== -->
   <div style="background:linear-gradient(135deg,#1e3a5f 0%,#2563eb 100%);color:#fff;border-radius:16px;padding:20px 24px 10px;margin:40px 0 28px">
     <h2 style="color:#fff;margin:0 0 4px;font-size:1.1rem">&#x1f4ca; Historico Geral — Todas as Campanhas</h2>
@@ -278,6 +344,8 @@
         <option value="Ronaldo">Ronaldo (75)</option>
         <option value="Tharik Rafael">Tharik Rafael (72)</option>
         <option value="Douglas">Douglas (29)</option>
+        <option value="Fabio">Fabio (6) — novo, Mai/Jun</option>
+        <option value="Rhuan">Rhuan (5) — novo, Mai/Jun</option>
       </select>
       <span class="table-count" id="nlCount"></span>
     </div>
@@ -290,7 +358,7 @@
 <div style="text-align:center;padding:20px 0">
     <a href="/ligacoes" style="display:inline-block;padding:14px 32px;background:linear-gradient(135deg,#5b21b6 0%,#7c3aed 100%);color:#fff;text-decoration:none;border-radius:10px;font-weight:600;font-size:.95rem;box-shadow:0 2px 8px rgba(91,33,182,.2);transition:all .2s">&#x1f4de; Ver Painel de Ligacoes 20-24/04 (57 chamadas)</a>
   </div>
-<div class="footer">Relatorio gerado automaticamente | Cognita AI | 26/04/2026 | Periodo recorte: 20-24/04</div>
+<div class="footer">Relatorio gerado automaticamente | Cognita AI | Atualizado em 10/06/2026 | Recorte mais recente: Disparo Jun26 (08-10/06)</div>
 </div>
 
 <script>
@@ -323,6 +391,16 @@ renderActive(ACTIVE_DATA);
 function renderNL(d){document.getElementById('nlBody').innerHTML=d.map(r=>'<tr><td>'+r.vendedor+'</td><td>'+r.nome+'</td><td class="phone-col">'+r.telefone+'</td><td>'+(r.cidade?(r.cidade+(r.uf?'/'+r.uf:'')):r.uf||'-')+'</td><td>'+tb(r.temperatura)+'</td></tr>').join('');document.getElementById('nlCount').textContent=d.length+' de '+NOCO_DATA.length;}
 function filterNL(){const q=document.getElementById('searchNL').value.toLowerCase(),v=document.getElementById('filterVendedor').value;let d=NOCO_DATA;if(v)d=d.filter(r=>r.vendedor===v);if(q)d=d.filter(r=>r.nome.toLowerCase().includes(q)||r.vendedor.toLowerCase().includes(q)||r.telefone.includes(q)||(r.cidade||'').toLowerCase().includes(q));renderNL(d);}
 renderNL(NOCO_DATA);
+
+// Maio/Junho 2026 vendedor doughnut
+new Chart(document.getElementById('chartVendedorMJ').getContext('2d'),{type:'doughnut',data:{labels:['Tharik Rafael','Fabio','Maria Luiza','Rhuan','Ronaldo','Douglas','Maria Izabel'],datasets:[{data:[7,6,6,5,5,3,2],backgroundColor:['#8b5cf6','#06b6d4','#22c55e','#ec4899','#f59e0b','#3b82f6','#a855f7'],borderWidth:0,hoverOffset:6}]},options:{responsive:true,maintainAspectRatio:true,cutout:'60%',plugins:{legend:{display:false},tooltip:{callbacks:{label:c=>' '+c.label+': '+c.raw+' leads ('+(c.raw/34*100).toFixed(1)+'%)'}}}}});
+
+// Maio/Junho 2026 transferidos table
+const MAIO_JUNHO_DATA=[{"vendedor":"Douglas","nome":"DIVINO AMARILHA BALTA","telefone":"5567999864520","cidade":"","uf":"","temperatura":"","hectares":"","cultivar":"","porte":"","dataTransf":"2026-05-25T16:37:15.188-03:00","origem":"Disparo mai26"},{"vendedor":"Tharik Rafael","nome":"Tiago Kraesk","telefone":"556696809213","cidade":"","uf":"","temperatura":"","hectares":"","cultivar":"","porte":"","dataTransf":"2026-05-26T13:16:34.207-03:00","origem":"Disparo mai26"},{"vendedor":"Maria Izabel","nome":"Papai","telefone":"556798202475","cidade":"","uf":"","temperatura":"","hectares":"","cultivar":"","porte":"","dataTransf":"2026-05-26T17:39:26.641-03:00","origem":"Disparo mai26"},{"vendedor":"Fabio","nome":"PAULO FELIPE COSSUL","telefone":"5561999681270","cidade":"","uf":"","temperatura":"Morno","hectares":"","cultivar":"","porte":"","dataTransf":"2026-05-27T08:43:21.024-03:00","origem":"Disparo mai26"},{"vendedor":"Douglas","nome":"JULIANO LORENO SAMPAIO DE MARTINS","telefone":"5534992430935","cidade":"","uf":"","temperatura":"quente","hectares":"","cultivar":"","porte":"","dataTransf":"2026-05-27T08:46:42.531-03:00","origem":"Disparo mai26"},{"vendedor":"Rhuan","nome":"SERGIO PEDRO NESELLO","telefone":"5562996898644","cidade":"","uf":"","temperatura":"","hectares":"","cultivar":"Guapó","porte":"","dataTransf":"2026-05-27T11:16:54.668-03:00","origem":"Disparo mai26"},{"vendedor":"Tharik Rafael","nome":"Ana Maria Canali","telefone":"5562999724287","cidade":"","uf":"","temperatura":"","hectares":"","cultivar":"Guapó","porte":"","dataTransf":"2026-05-27T11:19:58.539-03:00","origem":"Disparo mai26"},{"vendedor":"Maria Izabel","nome":"EBRO JOVIANO MARIA LEITE","telefone":"5514997138074","cidade":"","uf":"","temperatura":"","hectares":"","cultivar":"Pirapo","porte":"","dataTransf":"2026-05-27T11:27:46.539-03:00","origem":"Disparo mai26"},{"vendedor":"Maria Luiza","nome":"Guilherme (Escritório)","telefone":"5535988635327","cidade":"","uf":"","temperatura":"","hectares":"","cultivar":"","porte":"","dataTransf":"2026-05-28T13:31:46.524-03:00","origem":"Disparo mai26"},{"vendedor":"Tharik Rafael","nome":"EDEMAR JOSE ROSSATO","telefone":"5567999716258","cidade":"","uf":"","temperatura":"","hectares":"","cultivar":"","porte":"","dataTransf":"2026-05-28T15:02:44.334-03:00","origem":"Disparo mai26"},{"vendedor":"Maria Luiza","nome":"JOMIR LEZANDRO QUINTANILHA","telefone":"5565999082197","cidade":"","uf":"","temperatura":"Frio","hectares":"","cultivar":"","porte":"","dataTransf":"2026-05-28T15:15:34.960-03:00","origem":"Disparo mai26"},{"vendedor":"Tharik Rafael","nome":"Fernando (SV)","telefone":"5564996444774","cidade":"","uf":"","temperatura":"","hectares":"","cultivar":"","porte":"","dataTransf":"2026-05-28T15:44:00.609-03:00","origem":"Disparo mai26"},{"vendedor":"Fabio","nome":"Ricardo Gerente","telefone":"553496998544","cidade":"","uf":"","temperatura":"","hectares":"","cultivar":"","porte":"","dataTransf":"2026-05-28T15:48:33.359-03:00","origem":"Disparo mai26"},{"vendedor":"Rhuan","nome":"ADRIANA CASTANHO","telefone":"5515996167361","cidade":"","uf":"","temperatura":"","hectares":"","cultivar":"","porte":"","dataTransf":"2026-05-28T15:49:36.339-03:00","origem":"Disparo mai26"},{"vendedor":"Ronaldo","nome":"FREDERICO RODRIGUES QUIRINO","telefone":"5538999616081","cidade":"","uf":"","temperatura":"","hectares":"","cultivar":"","porte":"","dataTransf":"2026-05-28T15:59:05.465-03:00","origem":"Disparo mai26"},{"vendedor":"Maria Luiza","nome":"Aldecir José Terol","telefone":"5567999730080","cidade":"","uf":"","temperatura":"","hectares":"","cultivar":"","porte":"","dataTransf":"2026-05-28T16:42:43.914-03:00","origem":"Disparo mai26"},{"vendedor":"Tharik Rafael","nome":"Bia","telefone":"5514996644005","cidade":"","uf":"","temperatura":"","hectares":"","cultivar":"","porte":"","dataTransf":"2026-05-28T16:49:06.676-03:00","origem":"Disparo mai26"},{"vendedor":"Fabio","nome":"Luiz Carlos Vieira","telefone":"5515996270795","cidade":"","uf":"","temperatura":"","hectares":"","cultivar":"","porte":"","dataTransf":"2026-05-29T08:42:24.076-03:00","origem":"Disparo mai26"},{"vendedor":"Douglas","nome":"MARIA MERCEDES GAVIOLI","telefone":"5569992949915","cidade":"","uf":"","temperatura":"","hectares":"","cultivar":"","porte":"","dataTransf":"2026-05-29T10:07:47.524-03:00","origem":"Disparo mai26"},{"vendedor":"Rhuan","nome":"","telefone":"556298605985","cidade":"","uf":"","temperatura":"","hectares":"","cultivar":"","porte":"","dataTransf":"2026-05-29T12:43:18.561-03:00","origem":"Disparo mai26"},{"vendedor":"Ronaldo","nome":"ESLEI CASTILHO URBANO","telefone":"5564992949506","cidade":"","uf":"","temperatura":"Quente","hectares":"","cultivar":"","porte":"","dataTransf":"2026-05-29T13:43:17.751-03:00","origem":"Disparo mai26"},{"vendedor":"Maria Luiza","nome":"Abitio","telefone":"556596928280","cidade":"","uf":"","temperatura":"","hectares":"","cultivar":"","porte":"","dataTransf":"2026-06-03T09:20:46.785-03:00","origem":"Disparo mai26"},{"vendedor":"Fabio","nome":"ABEL DE CASTRO GUIMARAES","telefone":"5564996442694","cidade":"","uf":"","temperatura":"Frio","hectares":"","cultivar":"","porte":"","dataTransf":"2026-06-09T08:51:31.587-03:00","origem":"Disparo Jun26"},{"vendedor":"Rhuan","nome":"ADELMO PEREIRA JUSTINO","telefone":"5566996353976","cidade":"","uf":"","temperatura":"","hectares":"","cultivar":"","porte":"","dataTransf":"2026-06-10T08:32:38.216-03:00","origem":"Disparo Jun26"},{"vendedor":"Ronaldo","nome":"ADELSON CRUVINEL LEAO","telefone":"5564999026697","cidade":"","uf":"","temperatura":"","hectares":"","cultivar":"","porte":"","dataTransf":"2026-06-10T08:43:16.980-03:00","origem":"Disparo Jun26"},{"vendedor":"Maria Luiza","nome":"ADEMAR FRANCISCO HEMSING","telefone":"5565996724962","cidade":"","uf":"","temperatura":"","hectares":"","cultivar":"","porte":"","dataTransf":"2026-06-10T12:09:51.500-03:00","origem":"Disparo Jun26"},{"vendedor":"Tharik Rafael","nome":"FABULO CIRINEU ISOTON","telefone":"5561996483638","cidade":"","uf":"","temperatura":"","hectares":"","cultivar":"","porte":"","dataTransf":"2026-06-10T13:07:26.685-03:00","origem":"Disparo Jun26"},{"vendedor":"Fabio","nome":"ADEMIR ANTUNES DA ROSA","telefone":"5567999468719","cidade":"","uf":"","temperatura":"","hectares":"","cultivar":"","porte":"","dataTransf":"2026-06-10T14:21:19.487-03:00","origem":"Disparo Jun26"},{"vendedor":"Rhuan","nome":"ADEMIR DERLAM","telefone":"5566996647527","cidade":"","uf":"","temperatura":"Frio","hectares":"","cultivar":"","porte":"","dataTransf":"2026-06-10T15:03:47.055-03:00","origem":"Disparo Jun26"},{"vendedor":"Ronaldo","nome":"ADEMIR DOS SANTOS DIAS","telefone":"5535999447791","cidade":"Minduri","uf":"","temperatura":"Morno","hectares":"","cultivar":"","porte":"","dataTransf":"2026-06-10T15:23:21.201-03:00","origem":"Disparo Jun26"},{"vendedor":"Maria Luiza","nome":"ADEMIR FISCHER","telefone":"5565999858052","cidade":"","uf":"","temperatura":"Frio","hectares":"","cultivar":"","porte":"","dataTransf":"2026-06-10T15:23:56.732-03:00","origem":"Disparo Jun26"},{"vendedor":"Tharik Rafael","nome":"ADEMIR JESUS ALMEIDA DOS SANTOS","telefone":"5566997244853","cidade":"","uf":"","temperatura":"","hectares":"","cultivar":"","porte":"","dataTransf":"2026-06-10T17:12:43.068-03:00","origem":"Disparo Jun26"},{"vendedor":"Fabio","nome":"ADEMIR PEREZ FERRUZZI","telefone":"5514996853734","cidade":"","uf":"","temperatura":"","hectares":"","cultivar":"","porte":"","dataTransf":"2026-06-10T17:16:23.936-03:00","origem":"Disparo Jun26"},{"vendedor":"Ronaldo","nome":"ADEMIR PRIMAZ","telefone":"5569999911131","cidade":"","uf":"","temperatura":"","hectares":"","cultivar":"","porte":"","dataTransf":"2026-06-10T17:30:35.943-03:00","origem":"Disparo Jun26"}];
+function fmtDateMJ(s){if(!s)return'-';const d=new Date(s);if(isNaN(d))return s.slice(0,10);return d.toLocaleDateString('pt-BR',{day:'2-digit',month:'2-digit'})+' '+d.toLocaleTimeString('pt-BR',{hour:'2-digit',minute:'2-digit'});}
+function renderMJ(d){document.getElementById('mjBody').innerHTML=d.map(r=>'<tr><td style="white-space:nowrap;font-size:11px;color:#6b7280">'+fmtDateMJ(r.dataTransf)+'</td><td>'+r.vendedor+'</td><td>'+(r.nome||'-')+'</td><td class="phone-col">'+r.telefone+'</td><td>'+tb(r.temperatura)+'</td><td><span style="display:inline-block;padding:2px 8px;border-radius:8px;font-size:10px;font-weight:600;background:'+(r.origem==='Disparo Jun26'?'#dcfce7;color:#15803d':'#dbeafe;color:#1e40af')+'">'+r.origem+'</span></td></tr>').join('');document.getElementById('mjCount').textContent=d.length+' de '+MAIO_JUNHO_DATA.length;}
+function filterMJ(){const q=document.getElementById('searchMJ').value.toLowerCase(),v=document.getElementById('filterVendedorMJ').value,o=document.getElementById('filterOrigemMJ').value;let d=MAIO_JUNHO_DATA;if(v)d=d.filter(r=>r.vendedor===v);if(o)d=d.filter(r=>r.origem===o);if(q)d=d.filter(r=>(r.nome||'').toLowerCase().includes(q)||r.vendedor.toLowerCase().includes(q)||r.telefone.includes(q)||(r.cidade||'').toLowerCase().includes(q));renderMJ(d);}
+renderMJ(MAIO_JUNHO_DATA);
 </script>
 </body>
 </html>

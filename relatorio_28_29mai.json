@@ -1,0 +1,389 @@
+{
+  "periodo": {
+    "inicio": "2026-05-28",
+    "fim": "2026-05-29"
+  },
+  "fonte": {
+    "tabela": "Disparo mai25 (mhsizs8nybch0be)",
+    "chatwoot": "todos inboxes"
+  },
+  "metricas": {
+    "contatados": 736,
+    "responderam_chatwoot": 24,
+    "taxa_resposta_pct": 3.26,
+    "direcionados_vendedor": 7,
+    "taxa_conversao_pct": 0.95,
+    "responderam_sem_transferencia": 19
+  },
+  "direcionados_por_vendedor": {
+    "Rhuan": 1,
+    "Douglas": 2,
+    "Tharik Rafael": 1,
+    "Maria Luiza": 1,
+    "Ronaldo": 2
+  },
+  "detalhes": {
+    "transferidos": [
+      {
+        "nome": "ADRIANA CASTANHO",
+        "telefone": "+5515996167361",
+        "vendedor": "Rhuan",
+        "status": "Transferido Vendedor",
+        "data_transferencia": "2026-05-28T15:49:36.339-03:00",
+        "cidade": "",
+        "temperatura": "",
+        "fonte": "nocodb"
+      },
+      {
+        "nome": "DIVINO AMARILHA BALTA",
+        "telefone": "+5567999864520",
+        "vendedor": "Douglas",
+        "status": "Transferido Douglas",
+        "data_transferencia": "2026-05-25T16:37:15.188-03:00",
+        "cidade": "",
+        "temperatura": "",
+        "fonte": "nocodb"
+      },
+      {
+        "nome": "EDEMAR JOSE ROSSATO",
+        "telefone": "+5567999716258",
+        "vendedor": "Tharik Rafael",
+        "status": "Transferido Vendedor",
+        "data_transferencia": "2026-05-28T15:02:44.334-03:00",
+        "cidade": "",
+        "temperatura": "",
+        "fonte": "nocodb"
+      },
+      {
+        "nome": "JOMIR LEZANDRO QUINTANILHA",
+        "telefone": "+5565999082197",
+        "vendedor": "Maria Luiza",
+        "status": "Transferido Vendedor",
+        "data_transferencia": "2026-05-28T15:15:34.960-03:00",
+        "cidade": "",
+        "temperatura": "Frio",
+        "fonte": "nocodb"
+      },
+      {
+        "nome": "FREDERICO RODRIGUES QUIRINO",
+        "telefone": "+5538999616081",
+        "vendedor": "Ronaldo",
+        "status": "Transferido Vendedor",
+        "data_transferencia": "2026-05-28T15:59:05.465-03:00",
+        "cidade": "",
+        "temperatura": "",
+        "fonte": "nocodb"
+      },
+      {
+        "nome": "MARIA MERCEDES GAVIOLI",
+        "telefone": "+5569992949915",
+        "vendedor": "Douglas",
+        "status": "Transferido Douglas",
+        "data_transferencia": "2026-05-29T10:07:47.524-03:00",
+        "cidade": "",
+        "temperatura": "",
+        "fonte": "nocodb"
+      },
+      {
+        "nome": "ESLEI CASTILHO URBANO",
+        "telefone": "+5564992949506",
+        "vendedor": "Ronaldo",
+        "status": "Transferido Vendedor",
+        "data_transferencia": "2026-05-29T13:43:17.751-03:00",
+        "cidade": "",
+        "temperatura": "Quente",
+        "fonte": "nocodb"
+      }
+    ],
+    "respostas": [
+      {
+        "conv_id": 18918,
+        "inbox": "Yara 4530",
+        "nome": "Alessandra",
+        "telefone": "64999005161",
+        "status": "open",
+        "assignee_id": null,
+        "assignee_name": null,
+        "qtd_mensagens_periodo": 2,
+        "primeira": "2026-05-29T16:26:10.000Z",
+        "amostra": ""
+      },
+      {
+        "conv_id": 19012,
+        "inbox": "Yara 4530",
+        "nome": "Eslei",
+        "telefone": "64992949506",
+        "status": "open",
+        "assignee_id": null,
+        "assignee_name": null,
+        "qtd_mensagens_periodo": 3,
+        "primeira": "2026-05-29T16:42:35.000Z",
+        "amostra": "Chefe  tô esperando  escolhe safrinha"
+      },
+      {
+        "conv_id": 19047,
+        "inbox": "Yara 4530",
+        "nome": "Leandra",
+        "telefone": "62981577087",
+        "status": "open",
+        "assignee_id": null,
+        "assignee_name": null,
+        "qtd_mensagens_periodo": 3,
+        "primeira": "2026-05-29T15:05:14.000Z",
+        "amostra": ""
+      },
+      {
+        "conv_id": 19032,
+        "inbox": "Yara 4530",
+        "nome": "Vagner Strazza",
+        "telefone": "19981967330",
+        "status": "open",
+        "assignee_id": 1,
+        "assignee_name": "Sementes Três Pinheiros",
+        "qtd_mensagens_periodo": 1,
+        "primeira": "2026-05-29T14:40:58.000Z",
+        "amostra": "Bom dia,a harea nossa é pequena, esse ano não vamos plantar soja!"
+      },
+      {
+        "conv_id": 18921,
+        "inbox": "Yara 4530",
+        "nome": "Gildo",
+        "telefone": "15997527633",
+        "status": "open",
+        "assignee_id": null,
+        "assignee_name": null,
+        "qtd_mensagens_periodo": 1,
+        "primeira": "2026-05-29T13:18:11.000Z",
+        "amostra": ""
+      },
+      {
+        "conv_id": 18930,
+        "inbox": "Yara 4530",
+        "nome": "Adriana",
+        "telefone": "18996837656",
+        "status": "open",
+        "assignee_id": null,
+        "assignee_name": null,
+        "qtd_mensagens_periodo": 2,
+        "primeira": "2026-05-29T12:26:12.000Z",
+        "amostra": "Engano  não sou fernanda"
+      },
+      {
+        "conv_id": 18912,
+        "inbox": "Yara 4530",
+        "nome": "Danielli",
+        "telefone": "34991195209",
+        "status": "open",
+        "assignee_id": null,
+        "assignee_name": null,
+        "qtd_mensagens_periodo": 2,
+        "primeira": "2026-05-29T12:46:19.000Z",
+        "amostra": "Oi"
+      },
+      {
+        "conv_id": 18881,
+        "inbox": "Yara 4530",
+        "nome": "Rita",
+        "telefone": "16997081575",
+        "status": "open",
+        "assignee_id": null,
+        "assignee_name": null,
+        "qtd_mensagens_periodo": 1,
+        "primeira": "2026-05-29T11:12:20.000Z",
+        "amostra": "Não conheço nenhum Florindo"
+      },
+      {
+        "conv_id": 18882,
+        "inbox": "Yara 4530",
+        "nome": "✨JLBV",
+        "telefone": "15997070512",
+        "status": "open",
+        "assignee_id": null,
+        "assignee_name": null,
+        "qtd_mensagens_periodo": 2,
+        "primeira": "2026-05-29T11:41:50.000Z",
+        "amostra": "Luiz Carlos Vieira"
+      },
+      {
+        "conv_id": 18811,
+        "inbox": "Yara 4530",
+        "nome": "Uplinio",
+        "telefone": "62996511327",
+        "status": "open",
+        "assignee_id": 1,
+        "assignee_name": "Sementes Três Pinheiros",
+        "qtd_mensagens_periodo": 1,
+        "primeira": "2026-05-28T21:20:53.000Z",
+        "amostra": "Opa já sim"
+      },
+      {
+        "conv_id": 18828,
+        "inbox": "Yara 4530",
+        "nome": "Adorável pet",
+        "telefone": "15997389712",
+        "status": "open",
+        "assignee_id": 1,
+        "assignee_name": "Sementes Três Pinheiros",
+        "qtd_mensagens_periodo": 1,
+        "primeira": "2026-05-28T20:06:04.000Z",
+        "amostra": "‎CLÍNICA ADORÁVEL PET agradece seu contato, Como podemos ajudar? \n\nNosso horário de funcionamento é das 08:30 às 18:00, de segunda a sexta-feira 🐶🐱\n\nConsultas, exames, vacinas, cirurgias e farmácia "
+      },
+      {
+        "conv_id": 18816,
+        "inbox": "Yara 4530",
+        "nome": "Joao",
+        "telefone": "64996243222",
+        "status": "open",
+        "assignee_id": null,
+        "assignee_name": null,
+        "qtd_mensagens_periodo": 3,
+        "primeira": "2026-05-28T20:17:24.000Z",
+        "amostra": "Oi"
+      },
+      {
+        "conv_id": 18778,
+        "inbox": "Yara 4530",
+        "nome": "Mariana Vita",
+        "telefone": "14996644002",
+        "status": "open",
+        "assignee_id": null,
+        "assignee_name": null,
+        "qtd_mensagens_periodo": 3,
+        "primeira": "2026-05-28T19:48:42.000Z",
+        "amostra": "Bia"
+      },
+      {
+        "conv_id": 18744,
+        "inbox": "Yara 4530",
+        "nome": "Frederico",
+        "telefone": "38999616081",
+        "status": "open",
+        "assignee_id": null,
+        "assignee_name": null,
+        "qtd_mensagens_periodo": 4,
+        "primeira": "2026-05-28T18:58:36.000Z",
+        "amostra": "Tarde"
+      },
+      {
+        "conv_id": 18589,
+        "inbox": "Yara 4530",
+        "nome": "Deividy",
+        "telefone": "64984151197",
+        "status": "open",
+        "assignee_id": null,
+        "assignee_name": null,
+        "qtd_mensagens_periodo": 2,
+        "primeira": "2026-05-28T16:15:07.000Z",
+        "amostra": "Ok"
+      },
+      {
+        "conv_id": 18731,
+        "inbox": "Yara 4530",
+        "nome": "Filadelfo",
+        "telefone": "65999637001",
+        "status": "open",
+        "assignee_id": null,
+        "assignee_name": null,
+        "qtd_mensagens_periodo": 1,
+        "primeira": "2026-05-28T18:55:44.000Z",
+        "amostra": "Boa tarde, amigo (a) aqui neste número não tem nenhum Filadélfio"
+      },
+      {
+        "conv_id": 18438,
+        "inbox": "Yara 4530",
+        "nome": "Adriana",
+        "telefone": "15996167361",
+        "status": "open",
+        "assignee_id": 1,
+        "assignee_name": "Sementes Três Pinheiros",
+        "qtd_mensagens_periodo": 6,
+        "primeira": "2026-05-28T18:47:20.000Z",
+        "amostra": "Boa tarde"
+      },
+      {
+        "conv_id": 18705,
+        "inbox": "Yara 4530",
+        "nome": "Jomir",
+        "telefone": "65999082197",
+        "status": "open",
+        "assignee_id": null,
+        "assignee_name": null,
+        "qtd_mensagens_periodo": 5,
+        "primeira": "2026-05-28T18:14:59.000Z",
+        "amostra": "Boa tarde , nossa semente pra safra 26/27 já está toda comprada já"
+      },
+      {
+        "conv_id": 18628,
+        "inbox": "Yara 4530",
+        "nome": "Edemar",
+        "telefone": "67999716258",
+        "status": "open",
+        "assignee_id": null,
+        "assignee_name": null,
+        "qtd_mensagens_periodo": 2,
+        "primeira": "2026-05-28T18:02:16.000Z",
+        "amostra": "Quais os produtos que você tem?"
+      },
+      {
+        "conv_id": 18640,
+        "inbox": "Yara 4530",
+        "nome": "Clarice",
+        "telefone": "18997282765",
+        "status": "open",
+        "assignee_id": null,
+        "assignee_name": null,
+        "qtd_mensagens_periodo": 1,
+        "primeira": "2026-05-28T17:17:53.000Z",
+        "amostra": "Não sou Clarice"
+      },
+      {
+        "conv_id": 18625,
+        "inbox": "Yara 4530",
+        "nome": "Antonio",
+        "telefone": "18991217448",
+        "status": "open",
+        "assignee_id": null,
+        "assignee_name": null,
+        "qtd_mensagens_periodo": 1,
+        "primeira": "2026-05-28T17:11:30.000Z",
+        "amostra": "Olá \nBoa tarde \nEste número não é do Antônio"
+      },
+      {
+        "conv_id": 18634,
+        "inbox": "Yara 4530",
+        "nome": "Wellington",
+        "telefone": "16999990029",
+        "status": "open",
+        "assignee_id": null,
+        "assignee_name": null,
+        "qtd_mensagens_periodo": 5,
+        "primeira": "2026-05-28T16:55:08.000Z",
+        "amostra": "Boa tarde tudo bom estou mexendo nas cotações"
+      },
+      {
+        "conv_id": 18489,
+        "inbox": "Yara 4530",
+        "nome": "Emilio",
+        "telefone": "66984174497",
+        "status": "open",
+        "assignee_id": null,
+        "assignee_name": null,
+        "qtd_mensagens_periodo": 1,
+        "primeira": "2026-05-28T16:16:25.000Z",
+        "amostra": "Boa tarde este contato n e do Emílio"
+      },
+      {
+        "conv_id": 18430,
+        "inbox": "Yara 4530",
+        "nome": "Paulo",
+        "telefone": "34998234242",
+        "status": "open",
+        "assignee_id": 1,
+        "assignee_name": "Sementes Três Pinheiros",
+        "qtd_mensagens_periodo": 3,
+        "primeira": "2026-05-28T15:11:56.000Z",
+        "amostra": "Minha área é de arrendamento"
+      }
+    ]
+  }
+}

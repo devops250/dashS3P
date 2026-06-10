@@ -1,0 +1,173 @@
+{
+  "fonte": {
+    "tabela": "Disparo Jun26 (mp1noylkq6er2jy)",
+    "total_registros": 59267
+  },
+  "totais": {
+    "transferidos_total": 12,
+    "com_data_transferencia": 12,
+    "sem_data_transferencia": 0
+  },
+  "por_vendedor": {
+    "Fabio": 3,
+    "Rhuan": 2,
+    "Ronaldo": 3,
+    "Maria Luiza": 2,
+    "Tharik Rafael": 2
+  },
+  "por_temperatura": {
+    "Frio": 3,
+    "(vazio)": 8,
+    "Morno": 1
+  },
+  "por_data": {
+    "2026-06-09": 1,
+    "2026-06-10": 11
+  },
+  "detalhes": [
+    {
+      "nome": "ABEL DE CASTRO GUIMARAES",
+      "telefone": "+5564996442694",
+      "vendedor": "Fabio",
+      "data_transferencia": "2026-06-09T08:51:31.587-03:00",
+      "status": "Transferido Vendedor",
+      "temperatura": "Frio",
+      "cidade": "",
+      "hectares": "",
+      "cultivar": "",
+      "resumo_conversa": "Lead respondeu template marketing - já definiu demanda para safra atual. LEAD FUTURO - não agendar contato imediato. Manter para próxima safra."
+    },
+    {
+      "nome": "ADELMO PEREIRA JUSTINO",
+      "telefone": "+5566996353976",
+      "vendedor": "Rhuan",
+      "data_transferencia": "2026-06-10T08:32:38.216-03:00",
+      "status": "Transferido Vendedor",
+      "temperatura": "",
+      "cidade": "",
+      "hectares": "",
+      "cultivar": "",
+      "resumo_conversa": "Lead INBOUND - solicitou portfólio. Enviado. Dar continuidade ao atendimento."
+    },
+    {
+      "nome": "ADELSON CRUVINEL LEAO",
+      "telefone": "+5564999026697",
+      "vendedor": "Ronaldo",
+      "data_transferencia": "2026-06-10T08:43:16.980-03:00",
+      "status": "Transferido Vendedor",
+      "temperatura": "",
+      "cidade": "",
+      "hectares": "",
+      "cultivar": "",
+      "resumo_conversa": "Lead INBOUND - pediu informações sobre ciclo, valor e condições de pagamento das sementes. Prioridade de atendimento."
+    },
+    {
+      "nome": "ADEMAR FRANCISCO HEMSING",
+      "telefone": "+5565996724962",
+      "vendedor": "Maria Luiza",
+      "data_transferencia": "2026-06-10T12:09:51.500-03:00",
+      "status": "Transferido Vendedor",
+      "temperatura": "",
+      "cidade": "",
+      "hectares": "",
+      "cultivar": "",
+      "resumo_conversa": "Lead respondeu template marketing - já definiu demanda para safra atual. LEAD FUTURO - não agendar contato imediato. Manter para próxima safra."
+    },
+    {
+      "nome": "FABULO CIRINEU ISOTON",
+      "telefone": "+5561996483638",
+      "vendedor": "Tharik Rafael",
+      "data_transferencia": "2026-06-10T13:07:26.685-03:00",
+      "status": "Transferido Vendedor",
+      "temperatura": "",
+      "cidade": "",
+      "hectares": "",
+      "cultivar": "",
+      "resumo_conversa": "Lead indicado por Ademar. Nome: Fabulo. Passar contato para atendimento comercial."
+    },
+    {
+      "nome": "ADEMIR ANTUNES DA ROSA",
+      "telefone": "+5567999468719",
+      "vendedor": "Fabio",
+      "data_transferencia": "2026-06-10T14:21:19.487-03:00",
+      "status": "Transferido Vendedor",
+      "temperatura": "",
+      "cidade": "",
+      "hectares": "",
+      "cultivar": "",
+      "resumo_conversa": "Lead INBOUND - solicitou variedades de sementes de soja e valores. Prioridade de atendimento."
+    },
+    {
+      "nome": "ADEMIR DERLAM",
+      "telefone": "+5566996647527",
+      "vendedor": "Rhuan",
+      "data_transferencia": "2026-06-10T15:03:47.055-03:00",
+      "status": "Transferido Vendedor",
+      "temperatura": "Frio",
+      "cidade": "",
+      "hectares": "",
+      "cultivar": "",
+      "resumo_conversa": "Lead respondeu template marketing - já definiu demanda para safra atual. LEAD FUTURO - não agendar contato imediato. Manter para próxima safra."
+    },
+    {
+      "nome": "ADEMIR DOS SANTOS DIAS",
+      "telefone": "+5535999447791",
+      "vendedor": "Ronaldo",
+      "data_transferencia": "2026-06-10T15:23:21.201-03:00",
+      "status": "Transferido Vendedor",
+      "temperatura": "Morno",
+      "cidade": "Minduri",
+      "hectares": "",
+      "cultivar": "",
+      "resumo_conversa": "Lead qualificado - produtor de Minduri, MG. Pronto para atendimento comercial."
+    },
+    {
+      "nome": "ADEMIR FISCHER",
+      "telefone": "+5565999858052",
+      "vendedor": "Maria Luiza",
+      "data_transferencia": "2026-06-10T15:23:56.732-03:00",
+      "status": "Transferido Vendedor",
+      "temperatura": "Frio",
+      "cidade": "",
+      "hectares": "",
+      "cultivar": "",
+      "resumo_conversa": "Lead respondeu que já comprou tudo. Lead futuro para próxima safra. Não agendar contato imediato."
+    },
+    {
+      "nome": "ADEMIR JESUS ALMEIDA DOS SANTOS",
+      "telefone": "+5566997244853",
+      "vendedor": "Tharik Rafael",
+      "data_transferencia": "2026-06-10T17:12:43.068-03:00",
+      "status": "Transferido Vendedor",
+      "temperatura": "",
+      "cidade": "",
+      "hectares": "",
+      "cultivar": "",
+      "resumo_conversa": "Lead pediu para ser contatado em outro momento. Retornar quando ele estiver disponível."
+    },
+    {
+      "nome": "ADEMIR PEREZ FERRUZZI",
+      "telefone": "+5514996853734",
+      "vendedor": "Fabio",
+      "data_transferencia": "2026-06-10T17:16:23.936-03:00",
+      "status": "Transferido Vendedor",
+      "temperatura": "",
+      "cidade": "",
+      "hectares": "",
+      "cultivar": "",
+      "resumo_conversa": "Lead respondeu template marketing - já definiu demanda para safra atual. LEAD FUTURO - não agendar contato imediato. Manter para próxima safra."
+    },
+    {
+      "nome": "ADEMIR PRIMAZ",
+      "telefone": "+5569999911131",
+      "vendedor": "Ronaldo",
+      "data_transferencia": "2026-06-10T17:30:35.943-03:00",
+      "status": "Transferido Vendedor",
+      "temperatura": "",
+      "cidade": "",
+      "hectares": "",
+      "cultivar": "",
+      "resumo_conversa": "Lead indicou Amor como responsável pelo contato. Solicitação para falar diretamente com ele. Transferir para atendimento comercial."
+    }
+  ]
+}

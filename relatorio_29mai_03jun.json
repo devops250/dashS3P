@@ -1,0 +1,301 @@
+{
+  "periodo": {
+    "inicio": "2026-05-29",
+    "fim": "2026-06-03"
+  },
+  "fonte": {
+    "tabela": "Disparo mai25 (mhsizs8nybch0be)",
+    "chatwoot": "todos inboxes"
+  },
+  "metricas": {
+    "contatados": 237,
+    "responderam_chatwoot": 11,
+    "taxa_resposta_pct": 4.64,
+    "direcionados_vendedor": 3,
+    "taxa_conversao_pct": 1.27,
+    "responderam_sem_transferencia": 9
+  },
+  "direcionados_por_vendedor": {
+    "Douglas": 1,
+    "Ronaldo": 1,
+    "Maria Luiza": 1
+  },
+  "detalhes": {
+    "transferidos": [
+      {
+        "nome": "MARIA MERCEDES GAVIOLI",
+        "telefone": "+5569992949915",
+        "vendedor": "Douglas",
+        "status": "Transferido Douglas",
+        "data_transferencia": "2026-05-29T10:07:47.524-03:00",
+        "cidade": "",
+        "temperatura": "",
+        "fonte": "nocodb"
+      },
+      {
+        "nome": "ESLEI CASTILHO URBANO",
+        "telefone": "+5564992949506",
+        "vendedor": "Ronaldo",
+        "status": "Transferido Vendedor",
+        "data_transferencia": "2026-05-29T13:43:17.751-03:00",
+        "cidade": "",
+        "temperatura": "Quente",
+        "fonte": "nocodb"
+      },
+      {
+        "nome": "Abitio",
+        "telefone": "556596928280",
+        "vendedor": "Maria Luiza",
+        "status": "Transferido Vendedor",
+        "data_transferencia": "2026-06-03T09:20:46.785-03:00",
+        "cidade": "",
+        "temperatura": "",
+        "fonte": "nocodb"
+      }
+    ],
+    "respostas": [
+      {
+        "conv_id": 19082,
+        "inbox": "Yara 4530",
+        "nome": "Abitio",
+        "telefone": "6596928280",
+        "status": "open",
+        "assignee_id": 1,
+        "assignee_name": "Sementes Três Pinheiros",
+        "qtd_mensagens_periodo": 1,
+        "primeira": "2026-06-03T12:20:16.000Z",
+        "amostra": "Bom dia, que preço tem no big bag de semente de soja?"
+      },
+      {
+        "conv_id": 19078,
+        "inbox": "Yara 4530",
+        "nome": "Claudio",
+        "telefone": "41999754114",
+        "status": "open",
+        "assignee_id": null,
+        "assignee_name": null,
+        "qtd_mensagens_periodo": 2,
+        "primeira": "2026-05-30T12:15:08.000Z",
+        "amostra": "Bom dia Três Pinheiros,\nAgradeço contato, mas não estamos mais plantando 👍🏻"
+      },
+      {
+        "conv_id": 18918,
+        "inbox": "Yara 4530",
+        "nome": "Alessandra",
+        "telefone": "64999005161",
+        "status": "open",
+        "assignee_id": null,
+        "assignee_name": null,
+        "qtd_mensagens_periodo": 2,
+        "primeira": "2026-05-29T16:26:10.000Z",
+        "amostra": ""
+      },
+      {
+        "conv_id": 19012,
+        "inbox": "Yara 4530",
+        "nome": "Eslei",
+        "telefone": "64992949506",
+        "status": "open",
+        "assignee_id": null,
+        "assignee_name": null,
+        "qtd_mensagens_periodo": 3,
+        "primeira": "2026-05-29T16:42:35.000Z",
+        "amostra": "Chefe  tô esperando  escolhe safrinha"
+      },
+      {
+        "conv_id": 19047,
+        "inbox": "Yara 4530",
+        "nome": "Leandra",
+        "telefone": "62981577087",
+        "status": "open",
+        "assignee_id": null,
+        "assignee_name": null,
+        "qtd_mensagens_periodo": 3,
+        "primeira": "2026-05-29T15:05:14.000Z",
+        "amostra": ""
+      },
+      {
+        "conv_id": 19032,
+        "inbox": "Yara 4530",
+        "nome": "Vagner Strazza",
+        "telefone": "19981967330",
+        "status": "open",
+        "assignee_id": 1,
+        "assignee_name": "Sementes Três Pinheiros",
+        "qtd_mensagens_periodo": 1,
+        "primeira": "2026-05-29T14:40:58.000Z",
+        "amostra": "Bom dia,a harea nossa é pequena, esse ano não vamos plantar soja!"
+      },
+      {
+        "conv_id": 18921,
+        "inbox": "Yara 4530",
+        "nome": "Gildo",
+        "telefone": "15997527633",
+        "status": "open",
+        "assignee_id": null,
+        "assignee_name": null,
+        "qtd_mensagens_periodo": 1,
+        "primeira": "2026-05-29T13:18:11.000Z",
+        "amostra": ""
+      },
+      {
+        "conv_id": 18930,
+        "inbox": "Yara 4530",
+        "nome": "Adriana",
+        "telefone": "18996837656",
+        "status": "open",
+        "assignee_id": null,
+        "assignee_name": null,
+        "qtd_mensagens_periodo": 2,
+        "primeira": "2026-05-29T12:26:12.000Z",
+        "amostra": "Engano  não sou fernanda"
+      },
+      {
+        "conv_id": 18912,
+        "inbox": "Yara 4530",
+        "nome": "Danielli",
+        "telefone": "34991195209",
+        "status": "open",
+        "assignee_id": null,
+        "assignee_name": null,
+        "qtd_mensagens_periodo": 2,
+        "primeira": "2026-05-29T12:46:19.000Z",
+        "amostra": "Oi"
+      },
+      {
+        "conv_id": 18881,
+        "inbox": "Yara 4530",
+        "nome": "Rita",
+        "telefone": "16997081575",
+        "status": "open",
+        "assignee_id": null,
+        "assignee_name": null,
+        "qtd_mensagens_periodo": 1,
+        "primeira": "2026-05-29T11:12:20.000Z",
+        "amostra": "Não conheço nenhum Florindo"
+      },
+      {
+        "conv_id": 18882,
+        "inbox": "Yara 4530",
+        "nome": "✨JLBV",
+        "telefone": "15997070512",
+        "status": "open",
+        "assignee_id": null,
+        "assignee_name": null,
+        "qtd_mensagens_periodo": 2,
+        "primeira": "2026-05-29T11:41:50.000Z",
+        "amostra": "Luiz Carlos Vieira"
+      }
+    ],
+    "respostas_sem_transferencia": [
+      {
+        "conv_id": 19078,
+        "inbox": "Yara 4530",
+        "nome": "Claudio",
+        "telefone": "41999754114",
+        "status": "open",
+        "assignee_id": null,
+        "assignee_name": null,
+        "qtd_mensagens_periodo": 2,
+        "primeira": "2026-05-30T12:15:08.000Z",
+        "amostra": "Bom dia Três Pinheiros,\nAgradeço contato, mas não estamos mais plantando 👍🏻"
+      },
+      {
+        "conv_id": 18918,
+        "inbox": "Yara 4530",
+        "nome": "Alessandra",
+        "telefone": "64999005161",
+        "status": "open",
+        "assignee_id": null,
+        "assignee_name": null,
+        "qtd_mensagens_periodo": 2,
+        "primeira": "2026-05-29T16:26:10.000Z",
+        "amostra": ""
+      },
+      {
+        "conv_id": 19047,
+        "inbox": "Yara 4530",
+        "nome": "Leandra",
+        "telefone": "62981577087",
+        "status": "open",
+        "assignee_id": null,
+        "assignee_name": null,
+        "qtd_mensagens_periodo": 3,
+        "primeira": "2026-05-29T15:05:14.000Z",
+        "amostra": ""
+      },
+      {
+        "conv_id": 19032,
+        "inbox": "Yara 4530",
+        "nome": "Vagner Strazza",
+        "telefone": "19981967330",
+        "status": "open",
+        "assignee_id": 1,
+        "assignee_name": "Sementes Três Pinheiros",
+        "qtd_mensagens_periodo": 1,
+        "primeira": "2026-05-29T14:40:58.000Z",
+        "amostra": "Bom dia,a harea nossa é pequena, esse ano não vamos plantar soja!"
+      },
+      {
+        "conv_id": 18921,
+        "inbox": "Yara 4530",
+        "nome": "Gildo",
+        "telefone": "15997527633",
+        "status": "open",
+        "assignee_id": null,
+        "assignee_name": null,
+        "qtd_mensagens_periodo": 1,
+        "primeira": "2026-05-29T13:18:11.000Z",
+        "amostra": ""
+      },
+      {
+        "conv_id": 18930,
+        "inbox": "Yara 4530",
+        "nome": "Adriana",
+        "telefone": "18996837656",
+        "status": "open",
+        "assignee_id": null,
+        "assignee_name": null,
+        "qtd_mensagens_periodo": 2,
+        "primeira": "2026-05-29T12:26:12.000Z",
+        "amostra": "Engano  não sou fernanda"
+      },
+      {
+        "conv_id": 18912,
+        "inbox": "Yara 4530",
+        "nome": "Danielli",
+        "telefone": "34991195209",
+        "status": "open",
+        "assignee_id": null,
+        "assignee_name": null,
+        "qtd_mensagens_periodo": 2,
+        "primeira": "2026-05-29T12:46:19.000Z",
+        "amostra": "Oi"
+      },
+      {
+        "conv_id": 18881,
+        "inbox": "Yara 4530",
+        "nome": "Rita",
+        "telefone": "16997081575",
+        "status": "open",
+        "assignee_id": null,
+        "assignee_name": null,
+        "qtd_mensagens_periodo": 1,
+        "primeira": "2026-05-29T11:12:20.000Z",
+        "amostra": "Não conheço nenhum Florindo"
+      },
+      {
+        "conv_id": 18882,
+        "inbox": "Yara 4530",
+        "nome": "✨JLBV",
+        "telefone": "15997070512",
+        "status": "open",
+        "assignee_id": null,
+        "assignee_name": null,
+        "qtd_mensagens_periodo": 2,
+        "primeira": "2026-05-29T11:41:50.000Z",
+        "amostra": "Luiz Carlos Vieira"
+      }
+    ]
+  }
+}
