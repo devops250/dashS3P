@@ -323,15 +323,17 @@
 
   <!-- Vendedores Historico -->
   <div class="section">
-    <h2>Leads Transferidos por Vendedor — Historico (289)</h2>
+    <h2>Leads Transferidos por Vendedor — Historico + Mai/Jun (373)</h2>
     <div class="chart2-row">
       <div class="chart2-box"><canvas id="chartVendedor"></canvas></div>
       <div class="vendedor-cards" style="flex:1">
-        <div class="vendedor-card"><div class="vname">Maria Luiza</div><div class="vcount">84</div><div class="vlabel">leads recebidos</div></div>
-        <div class="vendedor-card"><div class="vname">Maria Izabel</div><div class="vcount">79</div><div class="vlabel">leads recebidos</div></div>
-        <div class="vendedor-card"><div class="vname">Ronaldo</div><div class="vcount">75</div><div class="vlabel">leads recebidos</div></div>
-        <div class="vendedor-card"><div class="vname">Tharik Rafael</div><div class="vcount">72</div><div class="vlabel">leads recebidos</div></div>
-        <div class="vendedor-card"><div class="vname">Douglas</div><div class="vcount">29</div><div class="vlabel">leads recebidos</div></div>
+        <div class="vendedor-card"><div class="vname">Maria Luiza</div><div class="vcount">90</div><div class="vlabel">leads recebidos (+6 mai/jun)</div></div>
+        <div class="vendedor-card"><div class="vname">Maria Izabel</div><div class="vcount">81</div><div class="vlabel">leads recebidos (+2 mai/jun)</div></div>
+        <div class="vendedor-card"><div class="vname">Ronaldo</div><div class="vcount">80</div><div class="vlabel">leads recebidos (+5 mai/jun)</div></div>
+        <div class="vendedor-card"><div class="vname">Tharik Rafael</div><div class="vcount">79</div><div class="vlabel">leads recebidos (+7 mai/jun)</div></div>
+        <div class="vendedor-card"><div class="vname">Douglas</div><div class="vcount">32</div><div class="vlabel">leads recebidos (+3 mai/jun)</div></div>
+        <div class="vendedor-card"><div class="vname">Fabio</div><div class="vcount">6</div><div class="vlabel">leads recebidos (mai/jun)</div></div>
+        <div class="vendedor-card"><div class="vname">Rhuan</div><div class="vcount">5</div><div class="vlabel">leads recebidos (mai/jun)</div></div>
       </div>
     </div>
 
@@ -339,13 +341,13 @@
       <input type="text" id="searchNL" placeholder="Buscar lead, vendedor ou cidade..." oninput="filterNL()">
       <select id="filterVendedor" onchange="filterNL()">
         <option value="">Todos os vendedores</option>
-        <option value="Maria Luiza">Maria Luiza (84)</option>
-        <option value="Maria Izabel">Maria Izabel (79)</option>
-        <option value="Ronaldo">Ronaldo (75)</option>
-        <option value="Tharik Rafael">Tharik Rafael (72)</option>
-        <option value="Douglas">Douglas (29)</option>
-        <option value="Fabio">Fabio (6) — novo, Mai/Jun</option>
-        <option value="Rhuan">Rhuan (5) — novo, Mai/Jun</option>
+        <option value="Maria Luiza">Maria Luiza (90)</option>
+        <option value="Maria Izabel">Maria Izabel (81)</option>
+        <option value="Ronaldo">Ronaldo (80)</option>
+        <option value="Tharik Rafael">Tharik Rafael (79)</option>
+        <option value="Douglas">Douglas (32)</option>
+        <option value="Fabio">Fabio (6)</option>
+        <option value="Rhuan">Rhuan (5)</option>
       </select>
       <span class="table-count" id="nlCount"></span>
     </div>
@@ -372,7 +374,7 @@ new Chart(document.getElementById('chartVendedorAtivo').getContext('2d'),{type:'
 new Chart(document.getElementById('chart').getContext('2d'),{type:'doughnut',data:{labels:['Positivos','Neutros','Negativos','Sem Resposta'],datasets:[{data:[438,1111,36,24513],backgroundColor:['#22c55e','#f59e0b','#ef4444','#d1d5db'],borderWidth:0,hoverOffset:6}]},options:{responsive:true,maintainAspectRatio:true,cutout:'65%',plugins:{legend:{display:false},tooltip:{callbacks:{label:c=>' '+c.label+': '+c.raw.toLocaleString('pt-BR')+' ('+(c.raw/26098*100).toFixed(1)+'%)'}}}}});
 
 // Historical vendedor chart
-new Chart(document.getElementById('chartVendedor').getContext('2d'),{type:'doughnut',data:{labels:['Maria Luiza','Maria Izabel','Ronaldo','Tharik Rafael','Douglas'],datasets:[{data:[84,79,75,72,29,1,1,1],backgroundColor:['#22c55e','#3b82f6','#f59e0b','#8b5cf6','#ec4899','#06b6d4','#a855f7','#d4d4d8'],borderWidth:0,hoverOffset:6}]},options:{responsive:true,maintainAspectRatio:true,cutout:'60%',plugins:{legend:{display:false},tooltip:{callbacks:{label:c=>' '+c.label+': '+c.raw+' leads ('+(c.raw/342*100).toFixed(1)+'%)'}}}}});
+new Chart(document.getElementById('chartVendedor').getContext('2d'),{type:'doughnut',data:{labels:['Maria Luiza','Maria Izabel','Ronaldo','Tharik Rafael','Douglas','Fabio','Rhuan'],datasets:[{data:[90,81,80,79,32,6,5],backgroundColor:['#22c55e','#3b82f6','#f59e0b','#8b5cf6','#ec4899','#06b6d4','#a855f7'],borderWidth:0,hoverOffset:6}]},options:{responsive:true,maintainAspectRatio:true,cutout:'60%',plugins:{legend:{display:false},tooltip:{callbacks:{label:c=>' '+c.label+': '+c.raw+' leads ('+(c.raw/373*100).toFixed(1)+'%)'}}}}});
 
 // Active campaign data
 const ACTIVE_DATA=[{"vendedor":"Maria Izabel","nome":"~Mauro Jose Becker","telefone":"5566997247306","cidade":"Nova Xavantina","uf":"","temperatura":"Morno","hectares":"200","cultivar":"","porte":"AGM","dataTransf":"2026-04-06T09:28:42.504-03:00","origem":"Reativação"},{"vendedor":"Maria Luiza","nome":"PAULO EDUARDO DE SOUZA PRIANTI","telefone":"11973351101","cidade":"Nova Alvorada do Sul","uf":"","temperatura":"Quente","hectares":"1500","cultivar":"","porte":"AGG","dataTransf":"2026-04-08T13:57:09.748-03:00","origem":"Disparos"},{"vendedor":"Tharik Rafael","nome":"RAFAEL NOVAES PINTO","telefone":"64992422998","cidade":"Piracanjuba","uf":"","temperatura":"Morno","hectares":"200","cultivar":"","porte":"AGM","dataTransf":"2026-04-08T19:14:54.033-03:00","origem":"Disparos"},{"vendedor":"Tharik Rafael","nome":"RAUL DE MORAES PINTO","telefone":"34997781192","cidade":"Canápolis","uf":"","temperatura":"Morno","hectares":"105","cultivar":"","porte":"AGM","dataTransf":"2026-04-09T11:02:43.598-03:00","origem":"Disparos"},{"vendedor":"Maria Luiza","nome":"RENATA MACCARI","telefone":"69999163300","cidade":"Rio Crespo","uf":"","temperatura":"Quente","hectares":"4220","cultivar":"","porte":"AGG","dataTransf":"2026-04-09T10:36:51.265-03:00","origem":"Disparos"},{"vendedor":"Maria Luiza","nome":"RENATO DE SOUZA RAMOS","telefone":"65996262034","cidade":"Diamantino","uf":"","temperatura":"Morno","hectares":"300","cultivar":"","porte":"AGM","dataTransf":"2026-04-09T12:00:24.195-03:00","origem":"Disparos"},{"vendedor":"Ronaldo","nome":"RENATO FERREIRA DE OLIVEIRA","telefone":"61984542131","cidade":"Teresina de Goiás","uf":"","temperatura":"Quente","hectares":"100","cultivar":"","porte":"AGP","dataTransf":"2026-04-09T10:35:40.978-03:00","origem":"Disparos"},{"vendedor":"Tharik Rafael","nome":"RICARDO MARTINS SANTOS","telefone":"64999099115","cidade":"São Valério","uf":"","temperatura":"Morno","hectares":"160","cultivar":"","porte":"AGM","dataTransf":"2026-04-09T12:30:38.026-03:00","origem":"Disparos"},{"vendedor":"Ronaldo","nome":"STEFANIO MACEDO FERREIRA","telefone":"62981429714","cidade":"","uf":"","temperatura":"","hectares":"","cultivar":"","porte":"","dataTransf":"2026-04-09T11:08:54.238-03:00","origem":"Disparos"},{"vendedor":"Ronaldo","nome":"Sanitize","telefone":"556296535918","cidade":"Nove Crixás","uf":"","temperatura":"Morno","hectares":"250","cultivar":"","porte":"AGM","dataTransf":"2026-04-08T12:21:27.825-03:00","origem":"Disparos"},{"vendedor":"Maria Izabel","nome":"Luiz Carlos Genari","telefone":"55997126138","cidade":"","uf":"","temperatura":"","hectares":"","cultivar":"","porte":"","dataTransf":"2026-04-09T06:10:18.268-03:00","origem":"Disparos"},{"vendedor":"Maria Izabel","nome":"Lamaro","telefone":"5531995396312","cidade":"","uf":"","temperatura":"","hectares":"","cultivar":"","porte":"","dataTransf":"2026-04-09T11:04:46.880-03:00","origem":"Disparos"},{"vendedor":"Maria Izabel","nome":"Roberto Soja","telefone":"5516982191950","cidade":"","uf":"","temperatura":"","hectares":"","cultivar":"","porte":"","dataTransf":"2026-04-09T12:36:15.447-03:00","origem":"Disparos"},{"vendedor":"Ronaldo","nome":"Eduardo Feltre","telefone":"5514997450820","cidade":"","uf":"","temperatura":"","hectares":"","cultivar":"","porte":"","dataTransf":"2026-04-09T13:26:01.395-03:00","origem":"Disparos"},{"vendedor":"Maria Luiza","nome":"Ricardo Fogaça","telefone":"5515997423342","cidade":"","uf":"","temperatura":"","hectares":"","cultivar":"","porte":"","dataTransf":"2026-04-09T13:33:04.309-03:00","origem":"Disparos"},{"vendedor":"Tharik Rafael","nome":"Jefferson","telefone":"5516991359182","cidade":"","uf":"","temperatura":"","hectares":"","cultivar":"","porte":"","dataTransf":"2026-04-09T14:49:37.291-03:00","origem":"Disparos"}];
