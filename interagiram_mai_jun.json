@@ -1,0 +1,823 @@
+{
+  "geradoEm": "2026-06-11T02:58:51.905Z",
+  "periodo": {
+    "inicio": "2026-05-01",
+    "fim": "2026-06-10"
+  },
+  "fonte": "NocoDB (base disparada) x Chatwoot (incoming) - dedup por telefone",
+  "totais": {
+    "leads_disparados_unicos": 2902,
+    "interagiram_unicos": 80,
+    "taxa_interacao_pct": 2.76
+  },
+  "por_origem": {
+    "Disparo mai26": 53,
+    "Disparo Jun26": 27
+  },
+  "por_tabela_disparados": {
+    "Disparo mai26": 1646,
+    "Disparo Jun26": 1270
+  },
+  "detalhes_respondentes": [
+    {
+      "telefone": "66999855321",
+      "primeira": "2026-05-26T11:04:47.000Z",
+      "qtd_msgs": 1,
+      "conv_id": 17522,
+      "inbox": "Yara 4530",
+      "assignee": null,
+      "nome": "Clomir",
+      "origem": "Disparo mai26"
+    },
+    {
+      "telefone": "64996520123",
+      "primeira": "2026-05-26T11:48:41.000Z",
+      "qtd_msgs": 6,
+      "conv_id": 17513,
+      "inbox": "Yara 4530",
+      "assignee": null,
+      "nome": "Jose",
+      "origem": "Disparo mai26"
+    },
+    {
+      "telefone": "66992092142",
+      "primeira": "2026-05-26T11:53:46.000Z",
+      "qtd_msgs": 5,
+      "conv_id": 17175,
+      "inbox": "Yara 4530",
+      "assignee": null,
+      "nome": "Tania",
+      "origem": "Disparo mai26"
+    },
+    {
+      "telefone": "67981218000",
+      "primeira": "2026-05-26T12:05:36.000Z",
+      "qtd_msgs": 4,
+      "conv_id": 17535,
+      "inbox": "Yara 4530",
+      "assignee": null,
+      "nome": "Regina",
+      "origem": "Disparo mai26"
+    },
+    {
+      "telefone": "66996267785",
+      "primeira": "2026-05-26T15:15:09.000Z",
+      "qtd_msgs": 5,
+      "conv_id": 17623,
+      "inbox": "Yara 4530",
+      "assignee": "Sementes Três Pinheiros",
+      "nome": "Renato",
+      "origem": "Disparo mai26"
+    },
+    {
+      "telefone": "62996223818",
+      "primeira": "2026-05-26T15:32:53.000Z",
+      "qtd_msgs": 1,
+      "conv_id": 17630,
+      "inbox": "Yara 4530",
+      "assignee": null,
+      "nome": "Edilson",
+      "origem": "Disparo mai26"
+    },
+    {
+      "telefone": "38998021027",
+      "primeira": "2026-05-26T16:13:42.000Z",
+      "qtd_msgs": 3,
+      "conv_id": 17622,
+      "inbox": "Yara 4530",
+      "assignee": "Sementes Três Pinheiros",
+      "nome": "Epirajara",
+      "origem": "Disparo mai26"
+    },
+    {
+      "telefone": "19982132841",
+      "primeira": "2026-05-26T16:43:55.000Z",
+      "qtd_msgs": 1,
+      "conv_id": 17649,
+      "inbox": "Yara 4530",
+      "assignee": "Sementes Três Pinheiros",
+      "nome": "Saboreza - Atacado de Polpas de Frutas",
+      "origem": "Disparo mai26"
+    },
+    {
+      "telefone": "15996195672",
+      "primeira": "2026-05-26T19:38:16.000Z",
+      "qtd_msgs": 2,
+      "conv_id": 17729,
+      "inbox": "Yara 4530",
+      "assignee": null,
+      "nome": "Luiz",
+      "origem": "Disparo mai26"
+    },
+    {
+      "telefone": "62996347597",
+      "primeira": "2026-05-26T20:48:44.000Z",
+      "qtd_msgs": 3,
+      "conv_id": 17807,
+      "inbox": "Yara 4530",
+      "assignee": "Sementes Três Pinheiros",
+      "nome": "Pau",
+      "origem": "Disparo mai26"
+    },
+    {
+      "telefone": "64996711696",
+      "primeira": "2026-05-26T21:11:12.000Z",
+      "qtd_msgs": 1,
+      "conv_id": 17706,
+      "inbox": "Yara 4530",
+      "assignee": "Sementes Três Pinheiros",
+      "nome": "Leiliane",
+      "origem": "Disparo mai26"
+    },
+    {
+      "telefone": "4499825163",
+      "primeira": "2026-05-26T23:56:33.000Z",
+      "qtd_msgs": 1,
+      "conv_id": 17854,
+      "inbox": "Yara - API Oficial",
+      "assignee": null,
+      "nome": "Antoninho Marcon",
+      "origem": "Disparo mai26"
+    },
+    {
+      "telefone": "61999681270",
+      "primeira": "2026-05-27T11:50:58.000Z",
+      "qtd_msgs": 1,
+      "conv_id": 17866,
+      "inbox": "Yara 4530",
+      "assignee": null,
+      "nome": "Paulo",
+      "origem": "Disparo mai26"
+    },
+    {
+      "telefone": "34998038788",
+      "primeira": "2026-05-27T11:54:07.000Z",
+      "qtd_msgs": 5,
+      "conv_id": 17884,
+      "inbox": "Yara 4530",
+      "assignee": null,
+      "nome": "Caio",
+      "origem": "Disparo mai26"
+    },
+    {
+      "telefone": "16991949884",
+      "primeira": "2026-05-27T13:39:34.000Z",
+      "qtd_msgs": 1,
+      "conv_id": 17936,
+      "inbox": "Yara 4530",
+      "assignee": null,
+      "nome": "Casa",
+      "origem": "Disparo mai26"
+    },
+    {
+      "telefone": "54999694801",
+      "primeira": "2026-05-27T14:05:20.000Z",
+      "qtd_msgs": 2,
+      "conv_id": 17892,
+      "inbox": "Yara 4530",
+      "assignee": null,
+      "nome": "Liziane",
+      "origem": "Disparo mai26"
+    },
+    {
+      "telefone": "14997138074",
+      "primeira": "2026-05-27T14:26:34.000Z",
+      "qtd_msgs": 2,
+      "conv_id": 17961,
+      "inbox": "Yara 4530",
+      "assignee": null,
+      "nome": "Ebro",
+      "origem": "Disparo mai26"
+    },
+    {
+      "telefone": "17996031910",
+      "primeira": "2026-05-27T14:44:31.000Z",
+      "qtd_msgs": 4,
+      "conv_id": 18010,
+      "inbox": "Yara 4530",
+      "assignee": null,
+      "nome": "Ligia Bocalon",
+      "origem": "Disparo mai26"
+    },
+    {
+      "telefone": "18981298255",
+      "primeira": "2026-05-27T19:08:56.000Z",
+      "qtd_msgs": 1,
+      "conv_id": 18265,
+      "inbox": "Yara 4530",
+      "assignee": null,
+      "nome": "Nicolas",
+      "origem": "Disparo mai26"
+    },
+    {
+      "telefone": "93991030263",
+      "primeira": "2026-05-27T19:16:27.000Z",
+      "qtd_msgs": 1,
+      "conv_id": 18238,
+      "inbox": "Yara 4530",
+      "assignee": "Sementes Três Pinheiros",
+      "nome": "Valdomiro",
+      "origem": "Disparo mai26"
+    },
+    {
+      "telefone": "15997354387",
+      "primeira": "2026-05-27T20:48:22.000Z",
+      "qtd_msgs": 2,
+      "conv_id": 18324,
+      "inbox": "Yara 4530",
+      "assignee": null,
+      "nome": "Joao",
+      "origem": "Disparo mai26"
+    },
+    {
+      "telefone": "49991735678",
+      "primeira": "2026-05-27T20:53:43.000Z",
+      "qtd_msgs": 1,
+      "conv_id": 18344,
+      "inbox": "Yara 4530",
+      "assignee": "Sementes Três Pinheiros",
+      "nome": "Joao",
+      "origem": "Disparo mai26"
+    },
+    {
+      "telefone": "18997452376",
+      "primeira": "2026-05-27T21:52:11.000Z",
+      "qtd_msgs": 1,
+      "conv_id": 18333,
+      "inbox": "Yara 4530",
+      "assignee": null,
+      "nome": "Augusto",
+      "origem": "Disparo mai26"
+    },
+    {
+      "telefone": "34998234242",
+      "primeira": "2026-05-28T15:11:56.000Z",
+      "qtd_msgs": 3,
+      "conv_id": 18430,
+      "inbox": "Yara 4530",
+      "assignee": "Sementes Três Pinheiros",
+      "nome": "Paulo",
+      "origem": "Disparo mai26"
+    },
+    {
+      "telefone": "64984151197",
+      "primeira": "2026-05-28T16:15:07.000Z",
+      "qtd_msgs": 2,
+      "conv_id": 18589,
+      "inbox": "Yara 4530",
+      "assignee": null,
+      "nome": "Deividy",
+      "origem": "Disparo mai26"
+    },
+    {
+      "telefone": "66984174497",
+      "primeira": "2026-05-28T16:16:25.000Z",
+      "qtd_msgs": 1,
+      "conv_id": 18489,
+      "inbox": "Yara 4530",
+      "assignee": null,
+      "nome": "Emilio",
+      "origem": "Disparo mai26"
+    },
+    {
+      "telefone": "16999990029",
+      "primeira": "2026-05-28T16:55:08.000Z",
+      "qtd_msgs": 5,
+      "conv_id": 18634,
+      "inbox": "Yara 4530",
+      "assignee": null,
+      "nome": "Wellington",
+      "origem": "Disparo mai26"
+    },
+    {
+      "telefone": "18991217448",
+      "primeira": "2026-05-28T17:11:30.000Z",
+      "qtd_msgs": 1,
+      "conv_id": 18625,
+      "inbox": "Yara 4530",
+      "assignee": null,
+      "nome": "Antonio",
+      "origem": "Disparo mai26"
+    },
+    {
+      "telefone": "18997282765",
+      "primeira": "2026-05-28T17:17:53.000Z",
+      "qtd_msgs": 1,
+      "conv_id": 18640,
+      "inbox": "Yara 4530",
+      "assignee": null,
+      "nome": "Clarice",
+      "origem": "Disparo mai26"
+    },
+    {
+      "telefone": "67999716258",
+      "primeira": "2026-05-28T18:02:16.000Z",
+      "qtd_msgs": 2,
+      "conv_id": 18628,
+      "inbox": "Yara 4530",
+      "assignee": null,
+      "nome": "Edemar",
+      "origem": "Disparo mai26"
+    },
+    {
+      "telefone": "65999082197",
+      "primeira": "2026-05-28T18:14:59.000Z",
+      "qtd_msgs": 5,
+      "conv_id": 18705,
+      "inbox": "Yara 4530",
+      "assignee": null,
+      "nome": "Jomir",
+      "origem": "Disparo mai26"
+    },
+    {
+      "telefone": "64992163455",
+      "primeira": "2026-05-28T18:27:23.000Z",
+      "qtd_msgs": 3,
+      "conv_id": 18101,
+      "inbox": "Yara 4530",
+      "assignee": null,
+      "nome": "Daniele",
+      "origem": "Disparo mai26"
+    },
+    {
+      "telefone": "15996167361",
+      "primeira": "2026-05-28T18:47:20.000Z",
+      "qtd_msgs": 6,
+      "conv_id": 18438,
+      "inbox": "Yara 4530",
+      "assignee": "Sementes Três Pinheiros",
+      "nome": "Adriana",
+      "origem": "Disparo mai26"
+    },
+    {
+      "telefone": "65999637001",
+      "primeira": "2026-05-28T18:55:44.000Z",
+      "qtd_msgs": 1,
+      "conv_id": 18731,
+      "inbox": "Yara 4530",
+      "assignee": null,
+      "nome": "Filadelfo",
+      "origem": "Disparo mai26"
+    },
+    {
+      "telefone": "38999616081",
+      "primeira": "2026-05-28T18:58:36.000Z",
+      "qtd_msgs": 4,
+      "conv_id": 18744,
+      "inbox": "Yara 4530",
+      "assignee": null,
+      "nome": "Frederico",
+      "origem": "Disparo mai26"
+    },
+    {
+      "telefone": "14996644002",
+      "primeira": "2026-05-28T19:48:42.000Z",
+      "qtd_msgs": 3,
+      "conv_id": 18778,
+      "inbox": "Yara 4530",
+      "assignee": null,
+      "nome": "Mariana Vita",
+      "origem": "Disparo mai26"
+    },
+    {
+      "telefone": "15997389712",
+      "primeira": "2026-05-28T20:06:04.000Z",
+      "qtd_msgs": 1,
+      "conv_id": 18828,
+      "inbox": "Yara 4530",
+      "assignee": "Sementes Três Pinheiros",
+      "nome": "Adorável pet",
+      "origem": "Disparo mai26"
+    },
+    {
+      "telefone": "64996243222",
+      "primeira": "2026-05-28T20:17:24.000Z",
+      "qtd_msgs": 3,
+      "conv_id": 18816,
+      "inbox": "Yara 4530",
+      "assignee": null,
+      "nome": "Joao",
+      "origem": "Disparo mai26"
+    },
+    {
+      "telefone": "62996511327",
+      "primeira": "2026-05-28T21:20:53.000Z",
+      "qtd_msgs": 1,
+      "conv_id": 18811,
+      "inbox": "Yara 4530",
+      "assignee": "Sementes Três Pinheiros",
+      "nome": "Uplinio",
+      "origem": "Disparo mai26"
+    },
+    {
+      "telefone": "16997081575",
+      "primeira": "2026-05-29T11:12:20.000Z",
+      "qtd_msgs": 1,
+      "conv_id": 18881,
+      "inbox": "Yara 4530",
+      "assignee": null,
+      "nome": "Rita",
+      "origem": "Disparo mai26"
+    },
+    {
+      "telefone": "15997070512",
+      "primeira": "2026-05-29T11:41:50.000Z",
+      "qtd_msgs": 2,
+      "conv_id": 18882,
+      "inbox": "Yara 4530",
+      "assignee": null,
+      "nome": "✨JLBV",
+      "origem": "Disparo mai26"
+    },
+    {
+      "telefone": "18996837656",
+      "primeira": "2026-05-29T12:26:12.000Z",
+      "qtd_msgs": 2,
+      "conv_id": 18930,
+      "inbox": "Yara 4530",
+      "assignee": null,
+      "nome": "Adriana",
+      "origem": "Disparo mai26"
+    },
+    {
+      "telefone": "34991195209",
+      "primeira": "2026-05-29T12:46:19.000Z",
+      "qtd_msgs": 2,
+      "conv_id": 18912,
+      "inbox": "Yara 4530",
+      "assignee": null,
+      "nome": "Danielli",
+      "origem": "Disparo mai26"
+    },
+    {
+      "telefone": "15997527633",
+      "primeira": "2026-05-29T13:18:11.000Z",
+      "qtd_msgs": 1,
+      "conv_id": 18921,
+      "inbox": "Yara 4530",
+      "assignee": null,
+      "nome": "Gildo",
+      "origem": "Disparo mai26"
+    },
+    {
+      "telefone": "19981967330",
+      "primeira": "2026-05-29T14:40:58.000Z",
+      "qtd_msgs": 1,
+      "conv_id": 19032,
+      "inbox": "Yara 4530",
+      "assignee": "Sementes Três Pinheiros",
+      "nome": "Vagner Strazza",
+      "origem": "Disparo mai26"
+    },
+    {
+      "telefone": "62981577087",
+      "primeira": "2026-05-29T15:05:14.000Z",
+      "qtd_msgs": 3,
+      "conv_id": 19047,
+      "inbox": "Yara 4530",
+      "assignee": null,
+      "nome": "Leandra",
+      "origem": "Disparo mai26"
+    },
+    {
+      "telefone": "64999005161",
+      "primeira": "2026-05-29T16:26:10.000Z",
+      "qtd_msgs": 2,
+      "conv_id": 18918,
+      "inbox": "Yara 4530",
+      "assignee": null,
+      "nome": "Alessandra",
+      "origem": "Disparo mai26"
+    },
+    {
+      "telefone": "64992949506",
+      "primeira": "2026-05-29T16:42:35.000Z",
+      "qtd_msgs": 3,
+      "conv_id": 19012,
+      "inbox": "Yara 4530",
+      "assignee": null,
+      "nome": "Eslei",
+      "origem": "Disparo mai26"
+    },
+    {
+      "telefone": "41999754114",
+      "primeira": "2026-05-30T12:15:08.000Z",
+      "qtd_msgs": 2,
+      "conv_id": 19078,
+      "inbox": "Yara 4530",
+      "assignee": null,
+      "nome": "Claudio",
+      "origem": "Disparo mai26"
+    },
+    {
+      "telefone": "69984547261",
+      "primeira": "2026-05-31T22:00:34.000Z",
+      "qtd_msgs": 1,
+      "conv_id": 18427,
+      "inbox": "Yara 4530",
+      "assignee": "Sementes Três Pinheiros",
+      "nome": "Jean",
+      "origem": "Disparo mai26"
+    },
+    {
+      "telefone": "66997245528",
+      "primeira": "2026-06-01T14:38:46.000Z",
+      "qtd_msgs": 1,
+      "conv_id": 18501,
+      "inbox": "Yara 4530",
+      "assignee": null,
+      "nome": "Clacir",
+      "origem": "Disparo mai26"
+    },
+    {
+      "telefone": "6596928280",
+      "primeira": "2026-06-03T12:20:16.000Z",
+      "qtd_msgs": 1,
+      "conv_id": 19082,
+      "inbox": "Yara 4530",
+      "assignee": "Sementes Três Pinheiros",
+      "nome": "Abitio",
+      "origem": "Disparo mai26"
+    },
+    {
+      "telefone": "61999654638",
+      "primeira": "2026-06-09T08:59:31.000Z",
+      "qtd_msgs": 2,
+      "conv_id": 18758,
+      "inbox": "Yara 4530",
+      "assignee": null,
+      "nome": "Abadio",
+      "origem": "Disparo mai26"
+    },
+    {
+      "telefone": "67996635060",
+      "primeira": "2026-06-09T12:21:00.000Z",
+      "qtd_msgs": 1,
+      "conv_id": 19181,
+      "inbox": "Yara 4530",
+      "assignee": null,
+      "nome": "Abeldes",
+      "origem": "Disparo Jun26"
+    },
+    {
+      "telefone": "67996429951",
+      "primeira": "2026-06-09T13:44:30.000Z",
+      "qtd_msgs": 9,
+      "conv_id": 19243,
+      "inbox": "Yara 4530",
+      "assignee": null,
+      "nome": "Abizai",
+      "origem": "Disparo Jun26"
+    },
+    {
+      "telefone": "11995506232",
+      "primeira": "2026-06-09T13:55:07.000Z",
+      "qtd_msgs": 1,
+      "conv_id": 19175,
+      "inbox": "Yara 4530",
+      "assignee": null,
+      "nome": "Aberilio",
+      "origem": "Disparo Jun26"
+    },
+    {
+      "telefone": "66996052244",
+      "primeira": "2026-06-09T14:47:13.000Z",
+      "qtd_msgs": 1,
+      "conv_id": 16794,
+      "inbox": "Yara 4530",
+      "assignee": "Sementes Três Pinheiros",
+      "nome": "Acir",
+      "origem": "Disparo Jun26"
+    },
+    {
+      "telefone": "14997061773",
+      "primeira": "2026-06-09T16:32:39.000Z",
+      "qtd_msgs": 2,
+      "conv_id": 19301,
+      "inbox": "Yara 4530",
+      "assignee": null,
+      "nome": "Acacio",
+      "origem": "Disparo Jun26"
+    },
+    {
+      "telefone": "67999731229",
+      "primeira": "2026-06-09T16:45:54.000Z",
+      "qtd_msgs": 1,
+      "conv_id": 19344,
+      "inbox": "Yara 4530",
+      "assignee": null,
+      "nome": "Acyr",
+      "origem": "Disparo Jun26"
+    },
+    {
+      "telefone": "34988871771",
+      "primeira": "2026-06-09T18:20:28.000Z",
+      "qtd_msgs": 7,
+      "conv_id": 19420,
+      "inbox": "Yara 4530",
+      "assignee": null,
+      "nome": "Adao",
+      "origem": "Disparo Jun26"
+    },
+    {
+      "telefone": "67999037648",
+      "primeira": "2026-06-09T20:32:10.000Z",
+      "qtd_msgs": 6,
+      "conv_id": 19629,
+      "inbox": "Yara 4530",
+      "assignee": "Sementes Três Pinheiros",
+      "nome": "Adelino",
+      "origem": "Disparo Jun26"
+    },
+    {
+      "telefone": "18996544760",
+      "primeira": "2026-06-09T20:47:18.000Z",
+      "qtd_msgs": 1,
+      "conv_id": 19686,
+      "inbox": "Yara 4530",
+      "assignee": null,
+      "nome": "Consultorio Odontoligico",
+      "origem": "Disparo Jun26"
+    },
+    {
+      "telefone": "65999942802",
+      "primeira": "2026-06-09T21:09:13.000Z",
+      "qtd_msgs": 3,
+      "conv_id": 19695,
+      "inbox": "Yara 4530",
+      "assignee": null,
+      "nome": "Adelmo",
+      "origem": "Disparo Jun26"
+    },
+    {
+      "telefone": "19997312713",
+      "primeira": "2026-06-09T21:59:05.000Z",
+      "qtd_msgs": 4,
+      "conv_id": 19466,
+      "inbox": "Yara 4530",
+      "assignee": null,
+      "nome": "Adelaide",
+      "origem": "Disparo Jun26"
+    },
+    {
+      "telefone": "66999017111",
+      "primeira": "2026-06-09T22:08:03.000Z",
+      "qtd_msgs": 2,
+      "conv_id": 19562,
+      "inbox": "Yara 4530",
+      "assignee": "Sementes Três Pinheiros",
+      "nome": "Adelar",
+      "origem": "Disparo Jun26"
+    },
+    {
+      "telefone": "65999174720",
+      "primeira": "2026-06-10T00:54:55.000Z",
+      "qtd_msgs": 2,
+      "conv_id": 19487,
+      "inbox": "Yara 4530",
+      "assignee": "Sementes Três Pinheiros",
+      "nome": "Adeilza",
+      "origem": "Disparo Jun26"
+    },
+    {
+      "telefone": "64981501418",
+      "primeira": "2026-06-10T14:15:24.000Z",
+      "qtd_msgs": 1,
+      "conv_id": 19904,
+      "inbox": "Yara 4530",
+      "assignee": null,
+      "nome": "Ademar",
+      "origem": "Disparo Jun26"
+    },
+    {
+      "telefone": "65996724962",
+      "primeira": "2026-06-10T15:09:17.000Z",
+      "qtd_msgs": 2,
+      "conv_id": 19927,
+      "inbox": "Yara 4530",
+      "assignee": null,
+      "nome": "Ademar",
+      "origem": "Disparo Jun26"
+    },
+    {
+      "telefone": "61982986818",
+      "primeira": "2026-06-10T16:05:42.000Z",
+      "qtd_msgs": 2,
+      "conv_id": 19913,
+      "inbox": "Yara 4530",
+      "assignee": null,
+      "nome": "Ademar",
+      "origem": "Disparo Jun26"
+    },
+    {
+      "telefone": "66984177376",
+      "primeira": "2026-06-10T16:57:22.000Z",
+      "qtd_msgs": 1,
+      "conv_id": 20029,
+      "inbox": "Yara 4530",
+      "assignee": "Sementes Três Pinheiros",
+      "nome": "Ademar",
+      "origem": "Disparo Jun26"
+    },
+    {
+      "telefone": "67999294682",
+      "primeira": "2026-06-10T17:06:14.000Z",
+      "qtd_msgs": 15,
+      "conv_id": 19675,
+      "inbox": "Yara 4530",
+      "assignee": "Sementes Três Pinheiros",
+      "nome": "Adelina",
+      "origem": "Disparo Jun26"
+    },
+    {
+      "telefone": "64996068347",
+      "primeira": "2026-06-10T17:15:50.000Z",
+      "qtd_msgs": 2,
+      "conv_id": 20069,
+      "inbox": "Yara 4530",
+      "assignee": null,
+      "nome": "Ademir",
+      "origem": "Disparo Jun26"
+    },
+    {
+      "telefone": "67999468719",
+      "primeira": "2026-06-10T17:17:56.000Z",
+      "qtd_msgs": 2,
+      "conv_id": 20080,
+      "inbox": "Yara 4530",
+      "assignee": null,
+      "nome": "Ademir",
+      "origem": "Disparo Jun26"
+    },
+    {
+      "telefone": "35999447791",
+      "primeira": "2026-06-10T18:22:48.000Z",
+      "qtd_msgs": 1,
+      "conv_id": 20124,
+      "inbox": "Yara 4530",
+      "assignee": "Sementes Três Pinheiros",
+      "nome": "Ademir",
+      "origem": "Disparo Jun26"
+    },
+    {
+      "telefone": "66996647527",
+      "primeira": "2026-06-10T19:49:42.000Z",
+      "qtd_msgs": 2,
+      "conv_id": 20139,
+      "inbox": "Yara 4530",
+      "assignee": "Sementes Três Pinheiros",
+      "nome": "Ademir",
+      "origem": "Disparo Jun26"
+    },
+    {
+      "telefone": "66997244853",
+      "primeira": "2026-06-10T20:12:13.000Z",
+      "qtd_msgs": 1,
+      "conv_id": 20199,
+      "inbox": "Yara 4530",
+      "assignee": null,
+      "nome": "Ademir",
+      "origem": "Disparo Jun26"
+    },
+    {
+      "telefone": "19997712500",
+      "primeira": "2026-06-10T20:12:24.000Z",
+      "qtd_msgs": 1,
+      "conv_id": 20260,
+      "inbox": "Yara 4530",
+      "assignee": null,
+      "nome": "Ademir",
+      "origem": "Disparo Jun26"
+    },
+    {
+      "telefone": "14996853734",
+      "primeira": "2026-06-10T20:15:59.000Z",
+      "qtd_msgs": 2,
+      "conv_id": 20237,
+      "inbox": "Yara 4530",
+      "assignee": null,
+      "nome": "Ademir",
+      "origem": "Disparo Jun26"
+    },
+    {
+      "telefone": "67996882128",
+      "primeira": "2026-06-10T20:34:44.000Z",
+      "qtd_msgs": 1,
+      "conv_id": 20185,
+      "inbox": "Yara 4530",
+      "assignee": null,
+      "nome": "Ademir",
+      "origem": "Disparo Jun26"
+    },
+    {
+      "telefone": "34992601975",
+      "primeira": "2026-06-10T20:55:21.000Z",
+      "qtd_msgs": 1,
+      "conv_id": 19959,
+      "inbox": "Yara 4530",
+      "assignee": null,
+      "nome": "Ademar",
+      "origem": "Disparo Jun26"
+    }
+  ]
+}
