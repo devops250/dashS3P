@@ -377,6 +377,7 @@
       <table>
         <thead><tr><th>Semana</th><th>Período</th><th>Transferidos</th><th>Média/dia</th><th>Observação</th></tr></thead>
         <tbody>
+          <tr><td>Início parcial</td><td>11-12/jul (sáb-dom)</td><td>6</td><td>3,0</td><td>Fim-de-semana — volume residual</td></tr>
           <tr><td>Sem 13/jul</td><td>13/jul → 19/jul</td><td>84</td><td>12,0</td><td>Semana de pico — ramp-up do warm-up concluído</td></tr>
           <tr><td>Sem 20/jul</td><td>20/jul → 26/jul</td><td>67</td><td>9,6</td><td>Volume estável em 250/dia</td></tr>
           <tr><td>Sem 27/jul</td><td>27/jul → 02/ago</td><td>65</td><td>9,3</td><td>Consistência mantida</td></tr>
@@ -446,18 +447,20 @@
   <!-- Comparativo por fase -->
   <div class="section">
     <h2>Comparativo por Fase — Evolução da Yara SDR</h2>
+    <p style="font-size:.85rem;color:#666;margin:0 0 12px">Recortes chave (não somam ao total — alguns períodos jun/jul não têm recorte próprio dentro da tabela Disparo Jun26).</p>
     <div class="table-wrap">
       <table>
-        <thead><tr><th>Fase</th><th>Período</th><th>Leads</th><th>Transferidos</th><th>Conversão</th><th>Marco</th></tr></thead>
+        <thead><tr><th>Fase (recorte)</th><th>Período</th><th>Leads</th><th>Transferidos</th><th>Conversão</th><th>Marco</th></tr></thead>
         <tbody>
           <tr><td>Legado inicial</td><td>Jan → Abr/2026</td><td>~27.744</td><td>342</td><td>~1,23%</td><td>35 campanhas em tabelas separadas</td></tr>
           <tr><td>Disparo mai26</td><td>Mai/2026</td><td>1.646</td><td>22</td><td>1,34%</td><td>Template antigo — pré-refatoração</td></tr>
           <tr><td>Disparo Jun26 (parcial)</td><td>Jun/2026 até 10/jun</td><td>1.270</td><td>12</td><td>0,94%</td><td>Início da tabela atual</td></tr>
           <tr><td>Novo template</td><td>22-24/jun/2026</td><td>1.396</td><td>47</td><td>3,37%</td><td>Primeira grande melhoria — +240%</td></tr>
+          <tr><td>Recorte 24-26/jun</td><td>24-26/jun/2026</td><td>900</td><td>34</td><td>3,78%</td><td>Consistência do novo template</td></tr>
           <tr><td>Queda de qualidade</td><td>29/jun → 01/jul</td><td>885</td><td>1</td><td>0,11%</td><td>Meta baixou score p/ Low — warm-up iniciado</td></tr>
           <tr><td>Recuperação</td><td>10-13/jul</td><td>800</td><td>25</td><td>3,13%</td><td>Warm-up funcionando</td></tr>
           <tr style="font-weight:700;background:#dbeafe"><td>Últimos 30 dias</td><td>11/jul → 10/ago</td><td>6.343</td><td>289</td><td>4,56%</td><td><strong>Recorde absoluto do projeto</strong></td></tr>
-          <tr style="font-weight:700;background:#f0f9ff"><td>ACUMULADO GERAL</td><td>Jan → 10/ago/2026</td><td>44.070</td><td>797</td><td>1,81%</td><td>Consolidado todas as fases</td></tr>
+          <tr style="font-weight:700;background:#f0f9ff"><td>ACUMULADO GERAL</td><td>Jan → 10/ago/2026</td><td>44.070</td><td>797</td><td>1,81%</td><td>27.744 legado + 16.326 era Yara atual</td></tr>
         </tbody>
       </table>
     </div>
@@ -471,12 +474,13 @@
   <!-- Vendedores acumulados atualizado -->
   <div class="section">
     <h2>Leads Acumulados por Vendedor — Jan a 10/ago/2026</h2>
+    <p style="font-size:.85rem;color:#666;margin:0 0 12px">Soma bruta legado (snapshot 10/jun) + era Yara atual (Disparo Jun26 completa). Sobreposição estimada de ~9 leads (Jun26 pré-10/jun contados em ambos).</p>
     <div class="chart2-row">
       <div class="chart2-box"><canvas id="chartVendedorHistAtu"></canvas></div>
       <div class="vendedor-cards" style="flex:1">
-        <div class="vendedor-card"><div class="vname">Maria Luiza</div><div class="vcount">190</div><div class="vlabel">84 legado + 106 era atual</div></div>
-        <div class="vendedor-card"><div class="vname">Ronaldo</div><div class="vcount">177</div><div class="vlabel">75 legado + 102 era atual</div></div>
-        <div class="vendedor-card"><div class="vname">Tharik Rafael</div><div class="vcount">173</div><div class="vlabel">72 legado + 101 era atual</div></div>
+        <div class="vendedor-card"><div class="vname">Maria Luiza</div><div class="vcount">196</div><div class="vlabel">90 legado + 106 era atual</div></div>
+        <div class="vendedor-card"><div class="vname">Ronaldo</div><div class="vcount">182</div><div class="vlabel">80 legado + 102 era atual</div></div>
+        <div class="vendedor-card"><div class="vname">Tharik Rafael</div><div class="vcount">180</div><div class="vlabel">79 legado + 101 era atual</div></div>
         <div class="vendedor-card"><div class="vname">Rhuan</div><div class="vcount">112</div><div class="vlabel">5 legado + 107 era atual (crescimento explosivo)</div></div>
         <div class="vendedor-card"><div class="vname">Maria Izabel</div><div class="vcount">81</div><div class="vlabel">saiu do round-robin em jun/26</div></div>
         <div class="vendedor-card"><div class="vname">Douglas</div><div class="vcount">38</div><div class="vlabel">32 legado + 6 era atual (roteamento a revisar)</div></div>
@@ -484,7 +488,7 @@
       </div>
     </div>
     <div class="insight">
-      <p><strong>Maria Luiza, Ronaldo e Tharik Rafael formam o núcleo do time</strong> — juntos concentram 540 transferências (67,7% do acumulado).</p>
+      <p><strong>Maria Luiza, Ronaldo e Tharik Rafael formam o núcleo do time</strong> — juntos concentram 558 transferências (~70% do acumulado).</p>
       <p><strong>Rhuan é o destaque da era atual</strong> (107 em ~3 meses, saindo de 5 no legado). Único vendedor cuja carga cresceu proporcionalmente ao volume da Yara.</p>
       <p><strong>Maria Izabel foi retirada do round-robin</strong> após mai/2026 — se a decisão foi comercial, ok; se foi bug, precisa voltar.</p>
     </div>
@@ -560,7 +564,7 @@ new Chart(document.getElementById('chartVendedor30d').getContext('2d'),{type:'do
 new Chart(document.getElementById('chartTemp30d').getContext('2d'),{type:'doughnut',data:{labels:['(vazio)','Quente','Morno','Frio','Follow-up'],datasets:[{data:[215,23,25,16,10],backgroundColor:['#d1d5db','#f59e0b','#a78bfa','#60a5fa','#22c55e'],borderWidth:0,hoverOffset:6}]},options:{responsive:true,maintainAspectRatio:true,cutout:'65%',plugins:{legend:{display:false},tooltip:{callbacks:{label:c=>' '+c.label+': '+c.raw+' ('+(c.raw/289*100).toFixed(1)+'%)'}}}}});
 
 // Histórico atualizado — vendedor doughnut acumulado Jan→10/ago
-new Chart(document.getElementById('chartVendedorHistAtu').getContext('2d'),{type:'doughnut',data:{labels:['Maria Luiza','Ronaldo','Tharik Rafael','Rhuan','Maria Izabel','Douglas','Fabio'],datasets:[{data:[190,177,173,112,81,38,17],backgroundColor:['#22c55e','#f59e0b','#8b5cf6','#ec4899','#3b82f6','#a855f7','#06b6d4'],borderWidth:0,hoverOffset:6}]},options:{responsive:true,maintainAspectRatio:true,cutout:'60%',plugins:{legend:{display:false},tooltip:{callbacks:{label:c=>' '+c.label+': '+c.raw+' leads ('+(c.raw/788*100).toFixed(1)+'%)'}}}}});
+new Chart(document.getElementById('chartVendedorHistAtu').getContext('2d'),{type:'doughnut',data:{labels:['Maria Luiza','Ronaldo','Tharik Rafael','Rhuan','Maria Izabel','Douglas','Fabio'],datasets:[{data:[196,182,180,112,81,38,17],backgroundColor:['#22c55e','#f59e0b','#8b5cf6','#ec4899','#3b82f6','#a855f7','#06b6d4'],borderWidth:0,hoverOffset:6}]},options:{responsive:true,maintainAspectRatio:true,cutout:'60%',plugins:{legend:{display:false},tooltip:{callbacks:{label:c=>' '+c.label+': '+c.raw+' leads ('+(c.raw/806*100).toFixed(1)+'%)'}}}}});
 </script>
 </body>
 </html>
