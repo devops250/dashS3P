@@ -1,0 +1,4967 @@
+{
+  "periodo": {
+    "inicio": "2026-07-11",
+    "fim": "2026-08-10",
+    "dias": 31
+  },
+  "fonte": {
+    "nocodb_tabela": "Disparo Jun26",
+    "chatwoot_inbox": "18 - Yara API Oficial"
+  },
+  "contatados": 6343,
+  "responderam": 504,
+  "taxa_resposta_pct": 7.95,
+  "transferidos": 289,
+  "taxa_conversao_pct": 4.56,
+  "transferidos_por_dia_media": 9.32,
+  "disparos_por_dia": {
+    "11 julho": 200,
+    "13 julho": 400,
+    "14 julho": 400,
+    "15 julho": 398,
+    "16 julho": 400,
+    "17 julho": 250,
+    "18 julho": 125,
+    "20 julho": 250,
+    "21 julho": 245,
+    "22 julho": 250,
+    "23 julho": 250,
+    "24 julho": 250,
+    "25 julho": 125,
+    "27 julho": 213,
+    "28 julho": 229,
+    "29 julho": 250,
+    "30 julho": 250,
+    "31 julho": 250,
+    "01 agosto": 125,
+    "03 agosto": 250,
+    "04 agosto": 233,
+    "05 agosto": 250,
+    "06 agosto": 250,
+    "07 agosto": 250,
+    "08 agosto": 125,
+    "10 agosto": 125
+  },
+  "transferencias_por_dia": {
+    "23/07": 12,
+    "11/07": 6,
+    "13/07": 13,
+    "14/07": 24,
+    "15/07": 28,
+    "21/07": 16,
+    "16/07": 11,
+    "17/07": 5,
+    "04/08": 7,
+    "18/07": 3,
+    "20/07": 12,
+    "22/07": 18,
+    "27/07": 10,
+    "28/07": 15,
+    "29/07": 13,
+    "30/07": 14,
+    "31/07": 10,
+    "07/08": 10,
+    "01/08": 3,
+    "03/08": 6,
+    "05/08": 17,
+    "06/08": 13,
+    "10/08": 7,
+    "08/08": 7,
+    "24/07": 7,
+    "25/07": 2
+  },
+  "transferencias_por_semana": {
+    "sem-20/07": 67,
+    "sem-06/07": 6,
+    "sem-13/07": 84,
+    "sem-03/08": 60,
+    "sem-27/07": 65,
+    "sem-10/08": 7
+  },
+  "por_vendedor": {
+    "Rhuan": 73,
+    "Maria Luiza": 74,
+    "Tharik Rafael": 70,
+    "Ronaldo": 69,
+    "Douglas": 3
+  },
+  "temperatura": {
+    "(vazio)": 215,
+    "quente": 9,
+    "Morno": 17,
+    "Frio": 16,
+    "Quente": 14,
+    "Follow-up": 10,
+    "morno": 8
+  },
+  "respostas_detalhe": [
+    {
+      "tel": "17982299444",
+      "nome": "Claudio",
+      "primeira": "Oi Yara, boa tarde! Obrigado por me consultar mas eu tenho as minhas propriedades em parceria com uma Usina da minha região e nas terras a c"
+    },
+    {
+      "tel": "66984228383",
+      "nome": "Claudio",
+      "primeira": "👍🙏"
+    },
+    {
+      "tel": "14997792682",
+      "nome": "Cinira",
+      "primeira": "Nao"
+    },
+    {
+      "tel": "18997458902",
+      "nome": "Claudio",
+      "primeira": "Boa tarde \nNo momento estou com cana em toda área"
+    },
+    {
+      "tel": "65999787557",
+      "nome": "Claudio",
+      "primeira": "Oiii"
+    },
+    {
+      "tel": "11982119708",
+      "nome": "Claudio",
+      "primeira": "Bom dia \nNão estamos comprando obrigado."
+    },
+    {
+      "tel": "65999858134",
+      "nome": "Claudio",
+      "primeira": "Bom dia"
+    },
+    {
+      "tel": "38999622711",
+      "nome": "Claudio",
+      "primeira": "Bom dia"
+    },
+    {
+      "tel": "34999653261",
+      "nome": "Claudio",
+      "primeira": "Bom  dia  \nEstou  a  por  definir  esta  safra  verão  \nMas  respondendo  sua  pergunta  ainda  não  fechei  semente de soja."
+    },
+    {
+      "tel": "65981179095",
+      "nome": "Claudio",
+      "primeira": "Bom dia. \nJá comprei...obrigado"
+    },
+    {
+      "tel": "34991028614",
+      "nome": "Claudio",
+      "primeira": "Bom dia \nNa sou produtor, sou arrendatário ok"
+    },
+    {
+      "tel": "65999661155",
+      "nome": "Claudio",
+      "primeira": "Bom dia Yara\nSim já comprei toda semente."
+    },
+    {
+      "tel": "17997446337",
+      "nome": "Claudio",
+      "primeira": "Bom dia , não tenho fazenda , já vendi"
+    },
+    {
+      "tel": "13981351783",
+      "nome": "Claudino",
+      "primeira": "Não"
+    },
+    {
+      "tel": "65999050368",
+      "nome": "Claudio",
+      "primeira": "Bom dia, não plantamos mais, arrendamos nossa área, obrigada por entrar em contato"
+    },
+    {
+      "tel": "65981470103",
+      "nome": "Claudia",
+      "primeira": "Yara sinceramente por mim eu exterminar ia a soja do Brasil. O Agronegócio é o fator de maior impactos e degradação ambiental. Infelizmente "
+    },
+    {
+      "tel": "93991229110",
+      "nome": "Claudio",
+      "primeira": "Sim para esta safra sim"
+    },
+    {
+      "tel": "66996060740",
+      "nome": "Claudio",
+      "primeira": "Boa tarde sim já comprei a semente sim"
+    },
+    {
+      "tel": "14997843410",
+      "nome": "Claudio",
+      "primeira": "Opa acho que vc mandou pro número errado"
+    },
+    {
+      "tel": "64999198008",
+      "nome": "Claudio",
+      "primeira": "Bom dia!\nEsse numero nao é de Claudio. Já tem mais de ano que é de uma loja"
+    },
+    {
+      "tel": "14991241296",
+      "nome": "Claudio",
+      "primeira": "Oi boa tarde Yara eu agradeco mais não estou prantando mais"
+    },
+    {
+      "tel": "34988741126",
+      "nome": "Claudio",
+      "primeira": "Bom dia Iara tudo bem A jóia né de semente de soja você tem ali"
+    },
+    {
+      "tel": "66999857548",
+      "nome": "Clair",
+      "primeira": "Boa tarde, sim"
+    },
+    {
+      "tel": "34991161223",
+      "nome": "Claudio",
+      "primeira": "Ainda não"
+    },
+    {
+      "tel": "99988340455",
+      "nome": "Claudio",
+      "primeira": "Bom dia ainda não"
+    },
+    {
+      "tel": "66999024702",
+      "nome": "Claudino",
+      "primeira": "Bom dia. Já comprei e semente .blz"
+    },
+    {
+      "tel": "67996376308",
+      "nome": "Claudio",
+      "primeira": "Boa tarde"
+    },
+    {
+      "tel": "62998274424",
+      "nome": "Claudia",
+      "primeira": "Olá, bom dia\nFechamos um pouco, ainda não fechamos tudo",
+      "assignee": "Sementes Três Pinheiros"
+    },
+    {
+      "tel": "14998048864",
+      "nome": "Claudinei",
+      "primeira": "Quantos tá sementes de soja d 200.000 m sementes guassu"
+    },
+    {
+      "tel": "61999711326",
+      "nome": "Claudio",
+      "primeira": "Boa noite \nAinda falta para alguns talhões"
+    },
+    {
+      "tel": "65999637217",
+      "nome": "Claudino",
+      "primeira": "Boa tarde Yara. Vou lhe passar o contato do Claudino. Esse é de Walter. Ok?"
+    },
+    {
+      "tel": "65992541794",
+      "nome": "Claudino",
+      "primeira": "Blz"
+    },
+    {
+      "tel": "18997187958",
+      "nome": "Claudinei",
+      "primeira": "Boa tarde"
+    },
+    {
+      "tel": "18997136367",
+      "nome": "thrumming-fog-294",
+      "primeira": "Boa tarde"
+    },
+    {
+      "tel": "35999771095",
+      "nome": "Claudinei",
+      "primeira": "Não estou plantando mais"
+    },
+    {
+      "tel": "66996152702",
+      "nome": "Claudemiro",
+      "assignee": "Sementes Três Pinheiros"
+    },
+    {
+      "tel": "63999519106",
+      "nome": "Claudia",
+      "primeira": "Boa tarde",
+      "assignee": "Sementes Três Pinheiros"
+    },
+    {
+      "tel": "67999188420",
+      "nome": "Claudia",
+      "primeira": "Oie não temos",
+      "assignee": "Sementes Três Pinheiros"
+    },
+    {
+      "tel": "61999896839",
+      "nome": "Claudi",
+      "primeira": "Temos 40"
+    },
+    {
+      "tel": "67999399887",
+      "nome": "Claudemir",
+      "primeira": "Não tou plantando mais"
+    },
+    {
+      "tel": "17981686997",
+      "nome": "Claudia",
+      "primeira": "Oi boa tarde tudo bem?\nNo momento não estou precisando \nQualquer coisa entro em contato \nMuito obrigada",
+      "assignee": "Sementes Três Pinheiros"
+    },
+    {
+      "tel": "61998544980",
+      "nome": "Claubison",
+      "primeira": "Bom dia Yara"
+    },
+    {
+      "tel": "41998188773",
+      "nome": "Claudete",
+      "primeira": "BOM dia esse telefone é  meu Sandra"
+    },
+    {
+      "tel": "46999191070",
+      "nome": "Claudere",
+      "assignee": "Sementes Três Pinheiros"
+    },
+    {
+      "tel": "12988433225",
+      "nome": "Bruno",
+      "primeira": "Oi"
+    },
+    {
+      "tel": "66999733256",
+      "nome": "Claudemir"
+    },
+    {
+      "tel": "14996953032",
+      "nome": "Claudemir Monteiro",
+      "primeira": "Bom dia",
+      "assignee": "Sementes Três Pinheiros"
+    },
+    {
+      "tel": "16997120417",
+      "nome": "Claudemir",
+      "primeira": "Bom dia tudo bem \nJá fechei  obrigado."
+    },
+    {
+      "tel": "64999738890",
+      "nome": "Charles",
+      "primeira": "Oi"
+    },
+    {
+      "tel": "63999362002",
+      "nome": "Claro",
+      "primeira": "Bom dia"
+    },
+    {
+      "tel": "66984142903",
+      "nome": "Claudecir",
+      "primeira": "Sim"
+    },
+    {
+      "tel": "15997812069",
+      "nome": "Robson Gil",
+      "primeira": "Bom dia \nTudo bem"
+    },
+    {
+      "tel": "66996120937",
+      "nome": "Carlos"
+    },
+    {
+      "tel": "66996535759",
+      "nome": "Cintia",
+      "primeira": "Nao sou Cintia"
+    },
+    {
+      "tel": "66999150101",
+      "nome": "Clarenir"
+    },
+    {
+      "tel": "66999961359",
+      "nome": "Clarice",
+      "primeira": "Oie já tenho. Obrigada"
+    },
+    {
+      "tel": "65999629068",
+      "nome": "Ciria",
+      "primeira": "Não  estou plantando mais,obrigada, boa tarde"
+    },
+    {
+      "tel": "64999871800",
+      "nome": "Clarindo",
+      "primeira": "Sim"
+    },
+    {
+      "tel": "65999983093",
+      "nome": "Claldimir",
+      "primeira": "Sim já tenho"
+    },
+    {
+      "tel": "99991615753",
+      "nome": "Clarenita",
+      "primeira": "2.000"
+    },
+    {
+      "tel": "66999959971",
+      "nome": "Cladimir",
+      "primeira": "👏🏻👍🏻"
+    },
+    {
+      "tel": "62991620861",
+      "nome": "Cilas",
+      "primeira": "Sim já tenho obrigado"
+    },
+    {
+      "tel": "35992377744",
+      "nome": "Ciro",
+      "primeira": "Oi yara. Boa tarde. Ja fechei sim"
+    },
+    {
+      "tel": "77999296600",
+      "nome": "Cintia",
+      "primeira": "Boa tarde esse contato é de um consultório ondotólogico"
+    },
+    {
+      "tel": "66996911023",
+      "nome": "Charles",
+      "primeira": "Esse telefone não é do Charles, desconsidere, mto obrigada"
+    },
+    {
+      "tel": "67996861867",
+      "nome": "Cintia"
+    },
+    {
+      "tel": "18997826866",
+      "nome": "Cinthia",
+      "primeira": "Acho q vc mandou errado"
+    },
+    {
+      "tel": "18997013092",
+      "nome": "Izaura Tristão",
+      "primeira": "Vcs quer o endereço do cemitério pra vender  pra ele"
+    },
+    {
+      "tel": "62996792703",
+      "nome": "Charles",
+      "primeira": "Boa tarde tenho sim obrigado pela atenção"
+    },
+    {
+      "tel": "66999996619",
+      "nome": "Cilvano",
+      "primeira": "‎Cilvano agradece seu contato. Como podemos ajudar?"
+    },
+    {
+      "tel": "12997759697",
+      "nome": "Cideney"
+    },
+    {
+      "tel": "67981430474",
+      "nome": "Cilnio",
+      "primeira": "Sim"
+    },
+    {
+      "tel": "44988111420",
+      "nome": "Cicero",
+      "primeira": "Bom dia\n\nVocê enviou a mensagem para pessoa errada."
+    },
+    {
+      "tel": "11971713532",
+      "nome": "Cibele",
+      "primeira": "Bom dia. Sim. Ja fechei as sementes."
+    },
+    {
+      "tel": "37999572575",
+      "nome": "Chester",
+      "primeira": "Oi bom dia"
+    },
+    {
+      "tel": "11981893388",
+      "nome": "Chou Hsiu I",
+      "primeira": "Sim"
+    },
+    {
+      "tel": "17999783451",
+      "nome": "Cezar",
+      "primeira": "Meu nome é marcio"
+    },
+    {
+      "tel": "11971256035",
+      "nome": "Cesar",
+      "primeira": "Boa tarde Yara \nTemos sim \nJá foi fechado \nObrigado"
+    },
+    {
+      "tel": "18997066523",
+      "nome": "Cezario",
+      "primeira": "Já fechei"
+    },
+    {
+      "tel": "66999843143",
+      "nome": "Charles",
+      "primeira": "ja fechei tudo, vcs sao de onde?"
+    },
+    {
+      "tel": "64999815068",
+      "nome": "Charles",
+      "primeira": "Eu tomei um prejuízo tão grande em 2024, que nem com roça ruim you mexendo mais."
+    },
+    {
+      "tel": "38988214757",
+      "nome": "Cesar",
+      "primeira": "Boa tarde! Não estou mais no ramo . Obrigado!",
+      "assignee": "Sementes Três Pinheiros"
+    },
+    {
+      "tel": "94991521907",
+      "nome": "Cezar"
+    },
+    {
+      "tel": "19998135414",
+      "nome": "Cesar",
+      "primeira": "Boa tarde \nJá fechei"
+    },
+    {
+      "tel": "62991050455",
+      "nome": "Cezar",
+      "primeira": "Não vendo semente"
+    },
+    {
+      "tel": "11930810412",
+      "nome": "Kenzo",
+      "primeira": "A vai dar golpe pra outra rapariga"
+    },
+    {
+      "tel": "16999614432",
+      "nome": "CESAR",
+      "primeira": "Oi"
+    },
+    {
+      "tel": "65996369337",
+      "nome": "Cesar",
+      "primeira": "Boa tarde"
+    },
+    {
+      "tel": "67999615504",
+      "nome": "Cesar",
+      "primeira": "Sim obrigado",
+      "assignee": "Sementes Três Pinheiros"
+    },
+    {
+      "tel": "67999715359",
+      "nome": "Cesar"
+    },
+    {
+      "tel": "65999170545",
+      "nome": "Cesar",
+      "primeira": "Não sou Cesar"
+    },
+    {
+      "tel": "67998328750",
+      "nome": "Cesar",
+      "primeira": "Não",
+      "assignee": "Sementes Três Pinheiros"
+    },
+    {
+      "tel": "15997162976",
+      "nome": "Celso",
+      "primeira": "Não sabe se vai plantar ainda"
+    },
+    {
+      "tel": "65999433881",
+      "nome": "Celso",
+      "primeira": "Bom dia Yara, sim já foi comprado."
+    },
+    {
+      "tel": "34998358769",
+      "nome": "Celso",
+      "primeira": "Opa boa tarde\nEsse número não é do Celso \nSou de Uberaba \nMas estou vendo que comercializam sementes"
+    },
+    {
+      "tel": "62999397159",
+      "nome": "Celso"
+    },
+    {
+      "tel": "34999737647",
+      "nome": "Celson",
+      "primeira": "Capinópolis"
+    },
+    {
+      "tel": "54996676237",
+      "nome": "Centrosul",
+      "primeira": "certo, a Valentina nossa consultora, já cota com o Rafael sempre que precisa"
+    },
+    {
+      "tel": "93981242155",
+      "nome": "Celson",
+      "primeira": "Ainda nao",
+      "assignee": "Sementes Três Pinheiros"
+    },
+    {
+      "tel": "15997693359",
+      "nome": "Celso",
+      "primeira": "Bom dia me desculpe eu parei com lavoura obrigado",
+      "assignee": "Sementes Três Pinheiros"
+    },
+    {
+      "tel": "67999571660",
+      "nome": "Celso",
+      "primeira": "Oi bom dia"
+    },
+    {
+      "tel": "18996060613",
+      "nome": "Celso",
+      "primeira": "Já tenho sim"
+    },
+    {
+      "tel": "41999976036",
+      "nome": "Celso",
+      "primeira": "Falar com Fábio\nVilhena tô"
+    },
+    {
+      "tel": "67996694899",
+      "nome": "Celia",
+      "primeira": "Sim"
+    },
+    {
+      "tel": "61999479732",
+      "nome": "Celso"
+    },
+    {
+      "tel": "64999582067",
+      "nome": "Celso",
+      "primeira": "ainda nao"
+    },
+    {
+      "tel": "65996631807",
+      "nome": "Celso",
+      "primeira": "nha"
+    },
+    {
+      "tel": "65996130968",
+      "nome": "Celito",
+      "primeira": "Oi Yara tudo bem ?\nEu tenho sim o soja eu planto o convencional"
+    },
+    {
+      "tel": "34999633650",
+      "nome": "Celio",
+      "primeira": "Oi tudo"
+    },
+    {
+      "tel": "38997379505",
+      "nome": "Celito",
+      "primeira": "Não sou celito nem sei quem é essa praga"
+    },
+    {
+      "tel": "67996717526",
+      "nome": "Celso",
+      "primeira": "Boa tarde tudo bom \nJá comprei pra área toda"
+    },
+    {
+      "tel": "65999288111",
+      "nome": "Celia",
+      "primeira": "Bom dia"
+    },
+    {
+      "tel": "67999062162",
+      "nome": "Celina"
+    },
+    {
+      "tel": "69984898848",
+      "nome": "Celio"
+    },
+    {
+      "tel": "66999155551",
+      "nome": "Carolina",
+      "primeira": "Bom dia !\nTudo bem ?!\n\nNão plantamos \nArrendamos\n\nObrigada pelo contato"
+    },
+    {
+      "tel": "18997605015",
+      "nome": "Celio",
+      "primeira": "Oi, já tenho"
+    },
+    {
+      "tel": "99991222274",
+      "nome": "Celina",
+      "primeira": "Bom dia, não é nesse telefone"
+    },
+    {
+      "tel": "18996551909",
+      "nome": "Edna ARO",
+      "primeira": "Bom dia esse não é o telefone do Célio"
+    },
+    {
+      "tel": "16992714777",
+      "nome": "Claudinei Soarez",
+      "primeira": "?????"
+    },
+    {
+      "tel": "66999356252",
+      "nome": "Antonio",
+      "primeira": "Bom dia"
+    },
+    {
+      "tel": "19982470001",
+      "nome": "Celia",
+      "primeira": "Número errado"
+    },
+    {
+      "tel": "11996055333",
+      "nome": "Celia Nalevaiko",
+      "primeira": "Não sou agricultora, eu arrendo minha terra para terceiros"
+    },
+    {
+      "tel": "65999721480",
+      "nome": "Catucho",
+      "primeira": "Obrigado Yara porém nossa área de planta está arrendada para terceiros."
+    },
+    {
+      "tel": "66999128275",
+      "nome": "Catia",
+      "primeira": "Boa tarde",
+      "assignee": "Sementes Três Pinheiros"
+    },
+    {
+      "tel": "67981247343",
+      "nome": "Celia",
+      "primeira": "Oi quem vc"
+    },
+    {
+      "tel": "67991128603",
+      "nome": "Catiele",
+      "assignee": "Sementes Três Pinheiros"
+    },
+    {
+      "tel": "44999922702",
+      "nome": "Catia",
+      "primeira": "Boa tarde, como obteve este contato?"
+    },
+    {
+      "tel": "32999435003",
+      "nome": "Casa",
+      "primeira": "Olá Boa tarde, Acho que vc mandou mensagem para o numero errado."
+    },
+    {
+      "tel": "61999710008",
+      "nome": "Cassio",
+      "primeira": "Boa tarde \nSim ja fechamos"
+    },
+    {
+      "tel": "64992456282",
+      "nome": "Cassio"
+    },
+    {
+      "tel": "64999245378",
+      "nome": "Cassia",
+      "primeira": "Olá bom dia",
+      "assignee": "Sementes Três Pinheiros"
+    },
+    {
+      "tel": "66984027874",
+      "nome": "Carlos",
+      "primeira": "Bom dia"
+    },
+    {
+      "tel": "18997515777",
+      "nome": "Casimiro",
+      "primeira": "Eu só arrendo , não planto"
+    },
+    {
+      "tel": "35999620995",
+      "nome": "Caroline",
+      "primeira": "Bom dia Yara!\nSobre esse assunto tem que ser com meu gerente"
+    },
+    {
+      "tel": "65999549767",
+      "nome": "Caroline",
+      "primeira": "Bom dia \nSim"
+    },
+    {
+      "tel": "66996477446",
+      "nome": "Caroline",
+      "primeira": "não sou a carol"
+    },
+    {
+      "tel": "16991007203",
+      "nome": "Carolina",
+      "primeira": "Oi Yara bom dia tudo bem?"
+    },
+    {
+      "tel": "62991274116",
+      "nome": "Carmem",
+      "primeira": "Oiee"
+    },
+    {
+      "tel": "62991413034",
+      "nome": "Carmerindo",
+      "primeira": "Olá Yara, bom dia, esse contato não pertence ao Sr. Carmerindo."
+    },
+    {
+      "tel": "15997312109",
+      "nome": "Carlos",
+      "primeira": "Boa tarde. Já tá fechado"
+    },
+    {
+      "tel": "66996726462",
+      "nome": "Carmen",
+      "primeira": "Obrigado"
+    },
+    {
+      "tel": "66999855472",
+      "nome": "Carme",
+      "primeira": "Já   Bom dia"
+    },
+    {
+      "tel": "18997703147",
+      "nome": "Marcia Tiritan",
+      "primeira": "Bom dia o carlos não planta"
+    },
+    {
+      "tel": "61999856073",
+      "nome": "Carlos",
+      "primeira": "Bom dia! Yara, já está tudo fechado para essa safra, ok"
+    },
+    {
+      "tel": "34999950260",
+      "nome": "Carlos",
+      "primeira": "Oi você está com número errado"
+    },
+    {
+      "tel": "67992088015",
+      "nome": "Carlos",
+      "primeira": "Olá, vou passar para o Carlos."
+    },
+    {
+      "tel": "66999170306",
+      "nome": "Carlos"
+    },
+    {
+      "tel": "64996076872",
+      "nome": "Carlos",
+      "primeira": "Boa noite"
+    },
+    {
+      "tel": "16999916600",
+      "nome": "Carlos",
+      "primeira": "Quem governa isso é meu filho Humberto 9 9991.6622"
+    },
+    {
+      "tel": "66999116354",
+      "nome": "Carlos",
+      "primeira": "👍obrigado"
+    },
+    {
+      "tel": "62996670467",
+      "nome": "Carlos",
+      "primeira": "Boa tarde"
+    },
+    {
+      "tel": "67999855887",
+      "nome": "Carlos",
+      "primeira": "Sim"
+    },
+    {
+      "tel": "65999895967",
+      "nome": "Carlos",
+      "primeira": "Boa tarde"
+    },
+    {
+      "tel": "16999921518",
+      "nome": "Carlos",
+      "primeira": "Obrigada yara eu não planto mais lavoura somente gado 🐄"
+    },
+    {
+      "tel": "15997680762",
+      "nome": "Carlos Junior",
+      "primeira": "Boa tardee"
+    },
+    {
+      "tel": "66999514485",
+      "nome": "Carlos",
+      "primeira": "Boa tarde tudo bom"
+    },
+    {
+      "tel": "66996262223",
+      "nome": "Carlos",
+      "primeira": "Ok"
+    },
+    {
+      "tel": "14996818557",
+      "nome": "Carlos Pilati",
+      "primeira": "Boa tarde sai da atividade me aposentei"
+    },
+    {
+      "tel": "67991164501",
+      "nome": "Carlos",
+      "primeira": "Bom dia"
+    },
+    {
+      "tel": "67999850265",
+      "nome": "Carlos"
+    },
+    {
+      "tel": "66996436880",
+      "nome": "Carlos",
+      "primeira": "Obrigada. Mas eu não planto. Só  recebo rendas."
+    },
+    {
+      "tel": "62999944710",
+      "nome": "Carlos",
+      "primeira": "A NOUVELLE é uma empresa especializada no design de interiores. Nosso mix de produtos: Mobiliário para ambientes internos e externos; ilumin"
+    },
+    {
+      "tel": "14998005150",
+      "nome": "Carlos",
+      "primeira": "gostaria de saber os precos"
+    },
+    {
+      "tel": "19994979738",
+      "nome": "Carlos",
+      "primeira": "Não é o Carlos aqui n"
+    },
+    {
+      "tel": "65999098216",
+      "nome": "Carlos",
+      "primeira": "Ola tudo bem?\nEsse não é o telefone do meu pai, e ele não esta mais mexendo com soja por enquanto, esta na parte da pecuaria"
+    },
+    {
+      "tel": "61999619076",
+      "nome": "Carlos",
+      "primeira": "Não sou produtor rural não amiga kkkk",
+      "assignee": "Sementes Três Pinheiros"
+    },
+    {
+      "tel": "91991758028",
+      "nome": "Carlos",
+      "primeira": "Boa tarde"
+    },
+    {
+      "tel": "17996547270",
+      "nome": "Maria Isabel Corrêa 🍀",
+      "primeira": "Carlos Eduardo"
+    },
+    {
+      "tel": "11999934250",
+      "nome": "Carlos",
+      "primeira": "Obrigado"
+    },
+    {
+      "tel": "18997811159",
+      "nome": "Carlos",
+      "primeira": "Sim"
+    },
+    {
+      "tel": "19993453617",
+      "nome": "Carlos Trasfereti",
+      "primeira": "Boa tarde"
+    },
+    {
+      "tel": "17997383221",
+      "nome": "Carlos Vanzela",
+      "primeira": "Não vou plantar esse ano."
+    },
+    {
+      "tel": "64996765065",
+      "nome": "Carlos",
+      "primeira": "Eu não , eu sou criança eu não trabalho com isso não mas meu pai trabalha"
+    },
+    {
+      "tel": "15998444172",
+      "nome": "Carlos",
+      "primeira": "Boa tarde"
+    },
+    {
+      "tel": "65999835149",
+      "nome": "Carlos",
+      "primeira": "Yara, aposentei."
+    },
+    {
+      "tel": "64999994098",
+      "nome": "Carlos",
+      "primeira": "Oii\nEsse telefone não é do Carlos"
+    },
+    {
+      "tel": "18996781537",
+      "nome": "Carlos"
+    },
+    {
+      "tel": "43999816077",
+      "nome": "Carlos"
+    },
+    {
+      "tel": "67996608287",
+      "nome": "Carlindo",
+      "primeira": "Bom dia o seu Carlindo não trabalha mais com lavoura obg."
+    },
+    {
+      "tel": "34999625100",
+      "nome": "Carlos",
+      "primeira": "Oi  ainda não"
+    },
+    {
+      "tel": "62999782379",
+      "nome": "Carlos",
+      "primeira": "100 bags de 78ix80"
+    },
+    {
+      "tel": "16997893230",
+      "nome": "Carlos",
+      "primeira": "Bom dia, numero errado"
+    },
+    {
+      "tel": "34999750359",
+      "nome": "Carlos"
+    },
+    {
+      "tel": "66999549339",
+      "nome": "Carlos"
+    },
+    {
+      "tel": "61996679010",
+      "nome": "Carlos",
+      "primeira": "Bom dia"
+    },
+    {
+      "tel": "64999441188",
+      "nome": "Carlos",
+      "primeira": "bom dia"
+    },
+    {
+      "tel": "66999885602",
+      "nome": "Carlos",
+      "primeira": "Bom dia Yara"
+    },
+    {
+      "tel": "65984332306",
+      "nome": "Carlos",
+      "primeira": "Sim vou entrar em contato"
+    },
+    {
+      "tel": "66999861280",
+      "nome": "Canisio",
+      "primeira": "Bom dia"
+    },
+    {
+      "tel": "18997221261",
+      "nome": "Carlos"
+    },
+    {
+      "tel": "34999250074",
+      "nome": "Carliston",
+      "primeira": "Boa tarde!\nBeleza\nSim"
+    },
+    {
+      "tel": "34999577731",
+      "nome": "Carlos",
+      "primeira": "Oii"
+    },
+    {
+      "tel": "34991550278",
+      "nome": "Carlindo",
+      "primeira": "Boa tarde"
+    },
+    {
+      "tel": "66999856220",
+      "nome": "Carlito",
+      "primeira": "👍"
+    },
+    {
+      "tel": "66999887180",
+      "nome": "Carlos",
+      "primeira": "Boa tarde o telefone do Carlos é 66999882264"
+    },
+    {
+      "tel": "14997961480",
+      "nome": "Carlos Andrino",
+      "primeira": "Oiii\nJá fechei toda as sementes"
+    },
+    {
+      "tel": "62991322103",
+      "nome": "Canassa",
+      "primeira": "Boa tarde!"
+    },
+    {
+      "tel": "61996131050",
+      "nome": "Carlito",
+      "primeira": "Boa tarde \nObrigado \nNo momento não preciso"
+    },
+    {
+      "tel": "61996131050",
+      "nome": "Carlito",
+      "primeira": "O Advocacia Lacerda agradece seu contato. Como podemos ajudar?"
+    },
+    {
+      "tel": "11983030999",
+      "nome": "Carla M De Cesare - ATM",
+      "primeira": "Boa tarde. Agradeço o contato"
+    },
+    {
+      "tel": "66992451945",
+      "nome": "Carla",
+      "primeira": "vou  falar pra meu esposo  e o cunhado  se eles se enteresa",
+      "assignee": "Sementes Três Pinheiros"
+    },
+    {
+      "tel": "19996450838",
+      "nome": "Carla",
+      "primeira": "Olá este ano estamos de cama de açúcar"
+    },
+    {
+      "tel": "62996044493",
+      "nome": "Cardoso",
+      "primeira": "Boa tarde Yara! Tudo bem?\nSou representante e não produtor."
+    },
+    {
+      "tel": "66996557835",
+      "nome": "Campeira",
+      "primeira": "Bom dia"
+    },
+    {
+      "tel": "49991366765",
+      "nome": "Camila",
+      "primeira": "Vanderlam"
+    },
+    {
+      "tel": "77999880074",
+      "nome": "Camila",
+      "primeira": "300 ha"
+    },
+    {
+      "tel": "62999330944",
+      "nome": "Clodoaldo",
+      "primeira": "Boa noite"
+    },
+    {
+      "tel": "61984123500",
+      "nome": "Cairo",
+      "primeira": "Boa tarde Yara tudo bem?\nAinda não decidi se vou plantar \nTalvez eu pule esse ano."
+    },
+    {
+      "tel": "18997866023",
+      "nome": "Tamires Costa",
+      "primeira": "Boa tarde\nTudo bem?\nAcredito que mandou no número errado"
+    },
+    {
+      "tel": "66999564464",
+      "nome": "Camila",
+      "primeira": "Ola",
+      "assignee": "Sementes Três Pinheiros"
+    },
+    {
+      "tel": "18997139727",
+      "nome": "Calil",
+      "primeira": "Oi, Yara \nNão somos nós que compramos as sementes. \nSão os arrendatários"
+    },
+    {
+      "tel": "66996757474",
+      "nome": "Caetano",
+      "primeira": "Oi"
+    },
+    {
+      "tel": "66996076522",
+      "nome": "Camila",
+      "primeira": "Alcione S. Barbieri"
+    },
+    {
+      "tel": "16999953575",
+      "nome": "Tixa",
+      "primeira": "Esse numero não é dele"
+    },
+    {
+      "tel": "67996376148",
+      "nome": "Callibra",
+      "primeira": "‎Callibra-MT agradece seu contato. Como podemos ajudar?",
+      "assignee": "Sementes Três Pinheiros"
+    },
+    {
+      "tel": "11999073899",
+      "nome": "Caio",
+      "primeira": "Boa tarde. \nTô negociando."
+    },
+    {
+      "tel": "61981536979",
+      "nome": "Cairo",
+      "primeira": "?",
+      "assignee": "Sementes Três Pinheiros"
+    },
+    {
+      "tel": "65999660478",
+      "nome": "Bruno",
+      "primeira": "Clóvis - Essência",
+      "assignee": "Sementes Três Pinheiros"
+    },
+    {
+      "tel": "66997268084",
+      "nome": "Caio"
+    },
+    {
+      "tel": "34998038788",
+      "nome": "Caio",
+      "primeira": "Oi, tudo bem?"
+    },
+    {
+      "tel": "66996224257",
+      "nome": "Bryan",
+      "primeira": "Oi boa tarde, não sou o Bryan e muito conheço"
+    },
+    {
+      "tel": "34999039798",
+      "nome": "Caio",
+      "primeira": "Ainda falta um pouco pra eu comprar"
+    },
+    {
+      "tel": "31999698068",
+      "nome": "Caetano"
+    },
+    {
+      "tel": "11999718893",
+      "nome": "Wilson Fumio Onoda",
+      "primeira": "Yara, não sou eu q compro sementes de soja \nlá em cristalina- go"
+    },
+    {
+      "tel": "69999456745",
+      "nome": "C.a.",
+      "primeira": "Olá"
+    },
+    {
+      "tel": "17991360380",
+      "nome": "Bruno",
+      "primeira": "Bom dia",
+      "assignee": "Sementes Três Pinheiros"
+    },
+    {
+      "tel": "16999615373",
+      "nome": "Bruno R",
+      "primeira": "Bom dia"
+    },
+    {
+      "tel": "61996029105",
+      "nome": "Bruno",
+      "primeira": "oi"
+    },
+    {
+      "tel": "63981132651",
+      "nome": "Bruno",
+      "primeira": "Este número é corporativo e não pertence mais ao Bruno"
+    },
+    {
+      "tel": "44999018829",
+      "nome": "Bruno"
+    },
+    {
+      "tel": "67999764351",
+      "nome": "Bruno",
+      "primeira": "Oi boa noite nao tenho"
+    },
+    {
+      "tel": "65981530000",
+      "nome": "Bruno",
+      "primeira": "Boa tarde! Acho que mandou no número errado. Aqui é escritório de advocacia."
+    },
+    {
+      "tel": "11999529408",
+      "nome": "Bruno Melcher",
+      "primeira": "Boa tarde. Já estamos com toda a semente comprada. Obrigado"
+    },
+    {
+      "tel": "67996809245",
+      "nome": "Bruno",
+      "primeira": "Olá , não estamos mais com lavoura , apenas pecuária"
+    },
+    {
+      "tel": "14996463023",
+      "nome": "Bruno Henrique (Xoriño)",
+      "primeira": "Boa tarde"
+    },
+    {
+      "tel": "67998315877",
+      "nome": "Bruno",
+      "primeira": "Boa tarde tudo bem"
+    },
+    {
+      "tel": "66999070776",
+      "nome": "Bruno",
+      "primeira": "Boa tarde"
+    },
+    {
+      "tel": "67998282878",
+      "nome": "Bruno",
+      "primeira": "Parei com a lavoura"
+    },
+    {
+      "tel": "67998382878",
+      "nome": "Bruno",
+      "primeira": "Bom dia"
+    },
+    {
+      "tel": "66981033366",
+      "nome": "Bruno",
+      "primeira": "Bom dia"
+    },
+    {
+      "tel": "66999652080",
+      "nome": "Bruno",
+      "primeira": "Sim já tenho"
+    },
+    {
+      "tel": "66996240571",
+      "nome": "Bruno",
+      "primeira": "Bom dia \nAqui é a mãe dele"
+    },
+    {
+      "tel": "19997712503",
+      "nome": "Bruno",
+      "primeira": "Bom dia"
+    },
+    {
+      "tel": "66984081459",
+      "nome": "Bruno",
+      "primeira": "Bom dia"
+    },
+    {
+      "tel": "18996139696",
+      "nome": "Bruno",
+      "primeira": "Bom dia"
+    },
+    {
+      "tel": "64996996212",
+      "nome": "Antonio",
+      "primeira": "Bom dia"
+    },
+    {
+      "tel": "18997172207",
+      "nome": "Sergio",
+      "primeira": "Esse telefone não é do Braz."
+    },
+    {
+      "tel": "37999836272",
+      "nome": "Boaz",
+      "primeira": "Bom dia!\nNão planto mais soja.\nSomente milho."
+    },
+    {
+      "tel": "66996644298",
+      "nome": "Bom",
+      "primeira": "Bom dia! Esse processo é  com o comercial fico na fazenda  pode entrar em contato pelo (66)3411-5600"
+    },
+    {
+      "tel": "61998878590",
+      "nome": "Boa",
+      "primeira": "Bom dia, tudo bem?"
+    },
+    {
+      "tel": "45999083943",
+      "nome": "Bm",
+      "primeira": "Bom dia"
+    },
+    {
+      "tel": "18997452376",
+      "nome": "Augusto",
+      "primeira": "Aqui não tem nenhum Augusto"
+    },
+    {
+      "tel": "62981595665",
+      "nome": "Bernadete",
+      "primeira": "Boa noite. Esse número não é da Bernadete",
+      "assignee": "Sementes Três Pinheiros"
+    },
+    {
+      "tel": "14996644002",
+      "nome": "Mariana Vita",
+      "primeira": "Bia"
+    },
+    {
+      "tel": "44991678384",
+      "nome": "Bertolino",
+      "primeira": "Boa tarde"
+    },
+    {
+      "tel": "66999103856",
+      "nome": "Bernardino",
+      "primeira": "Boa tarde",
+      "assignee": "Sementes Três Pinheiros"
+    },
+    {
+      "tel": "14996233762",
+      "nome": "Bento",
+      "primeira": "Sim",
+      "assignee": "Sementes Três Pinheiros"
+    },
+    {
+      "tel": "37999063822",
+      "nome": "Baltazar",
+      "primeira": "Não tô pramtando soja mais"
+    },
+    {
+      "tel": "67996730847",
+      "nome": "Benjamim",
+      "primeira": "Esse contato e do Cesar"
+    },
+    {
+      "tel": "17991446862",
+      "nome": "Bento",
+      "primeira": "Esse telefone  não  é  do Bento",
+      "assignee": "Sementes Três Pinheiros"
+    },
+    {
+      "tel": "66999834677",
+      "nome": "Benhuer",
+      "primeira": "Boa tarde",
+      "assignee": "Sementes Três Pinheiros"
+    },
+    {
+      "tel": "66996316659",
+      "nome": "Avelino",
+      "primeira": "Ok"
+    },
+    {
+      "tel": "14991963002",
+      "nome": "Samuel",
+      "primeira": "Mandou mensagem pra pessoa errada"
+    },
+    {
+      "tel": "64999487795",
+      "nome": "Arthur",
+      "primeira": "Olá, tudo bem? \n\nMeu nome é Melicia e sou responsável pelo setor de Planejamento e Controle da Manutenção da DNA Agropecuária. A partir de a"
+    },
+    {
+      "tel": "62991020939",
+      "nome": "Benedito",
+      "primeira": "Olá não é Benedito"
+    },
+    {
+      "tel": "67999736102",
+      "nome": "Benedito",
+      "assignee": "Sementes Três Pinheiros"
+    },
+    {
+      "tel": "15997846523",
+      "nome": "beneditomessiasmoraesmess",
+      "primeira": "Tô plantando milho só",
+      "assignee": "Sementes Três Pinheiros"
+    },
+    {
+      "tel": "61996066860",
+      "nome": "Benedito",
+      "primeira": "Vc tá falando com a pessoa errada",
+      "assignee": "Sementes Três Pinheiros"
+    },
+    {
+      "tel": "67996026727",
+      "nome": "Beatriz",
+      "primeira": "Bom dia"
+    },
+    {
+      "tel": "61999051535",
+      "nome": "Belchior",
+      "primeira": "Bom dia ! \nNão estou plantando mais não, graças a Deus !"
+    },
+    {
+      "tel": "14997522384",
+      "nome": "Benedita",
+      "primeira": "Bom dia , eu sou a Valéria de São Pedro do Turvo ,foi número errado."
+    },
+    {
+      "tel": "61984844002",
+      "nome": "Beatriz",
+      "primeira": "Sim, obrigado"
+    },
+    {
+      "tel": "67999225931",
+      "nome": "Beatriz",
+      "primeira": "Obrigada e pra vc tbm"
+    },
+    {
+      "tel": "37999957841",
+      "nome": "Beadilce",
+      "primeira": "Bom dia \nTudo bem?\nAinda não sei \nVou ver com eles e te falo,pode ser?",
+      "assignee": "Sementes Três Pinheiros"
+    },
+    {
+      "tel": "67999762031",
+      "nome": "Baco",
+      "primeira": "Oi, boa noite\nNão estou mais plantando"
+    },
+    {
+      "tel": "41992267401",
+      "nome": "Barbarah",
+      "primeira": "Eu sou mãe dela, nós arrendamos a propriedade"
+    },
+    {
+      "tel": "66999954050",
+      "nome": "Avelino",
+      "primeira": "Boa tarde"
+    },
+    {
+      "tel": "66999562464",
+      "nome": "Avelino"
+    },
+    {
+      "tel": "55999250257",
+      "nome": "Avila",
+      "primeira": "Boa tarde",
+      "assignee": "Sementes Três Pinheiros"
+    },
+    {
+      "tel": "66999887711",
+      "nome": "Auro",
+      "primeira": "Boa tarde yara tudo bem com você",
+      "assignee": "Sementes Três Pinheiros"
+    },
+    {
+      "tel": "66999593323",
+      "nome": "Aylton",
+      "primeira": "Tranquilo",
+      "assignee": "Sementes Três Pinheiros"
+    },
+    {
+      "tel": "66996265359",
+      "nome": "Ayres",
+      "primeira": "Boa tarde tudo certo",
+      "assignee": "Sementes Três Pinheiros"
+    },
+    {
+      "tel": "67999244593",
+      "nome": "Avelar",
+      "primeira": "Ja sim"
+    },
+    {
+      "tel": "66992239824",
+      "nome": "Avelino",
+      "primeira": "Boa tarde"
+    },
+    {
+      "tel": "14997018996",
+      "nome": "Avelino",
+      "primeira": "Boa tarde não sou o avelino"
+    },
+    {
+      "tel": "35998351001",
+      "nome": "Aureliano",
+      "primeira": "Oi, esse contato não é de Aureliano."
+    },
+    {
+      "tel": "18996051591",
+      "nome": "Auro Rodrigues Damasceno",
+      "assignee": "Sementes Três Pinheiros"
+    },
+    {
+      "tel": "64992124640",
+      "nome": "Arthur",
+      "primeira": "Falta um pouco",
+      "assignee": "Sementes Três Pinheiros"
+    },
+    {
+      "tel": "62996180653",
+      "nome": "Aroldo",
+      "primeira": "Não"
+    },
+    {
+      "tel": "67996244651",
+      "nome": "Aurelio",
+      "primeira": "Não"
+    },
+    {
+      "tel": "64992901174",
+      "nome": "Augusto",
+      "primeira": "Tenho sim fechei semana passada"
+    },
+    {
+      "tel": "77999060661",
+      "nome": "Augusto",
+      "primeira": "Bom dia \nJá sim"
+    },
+    {
+      "tel": "69999537937",
+      "nome": "Atair",
+      "primeira": "Bom dia pra plantio de soja sim",
+      "assignee": "Sementes Três Pinheiros"
+    },
+    {
+      "tel": "18997515697",
+      "nome": "Augusto"
+    },
+    {
+      "tel": "32984039223",
+      "nome": "Augusto",
+      "primeira": "Opaa"
+    },
+    {
+      "tel": "62996849801",
+      "nome": "Ataides",
+      "primeira": "Oi Yara"
+    },
+    {
+      "tel": "66992459992",
+      "nome": "Arnaldo"
+    },
+    {
+      "tel": "16997911080",
+      "nome": "Artur",
+      "primeira": "Olá Yara, obrigado,  mas não planto mais soja, só arrendo prá outros.",
+      "assignee": "Sementes Três Pinheiros"
+    },
+    {
+      "tel": "64992996167",
+      "nome": "Ataides",
+      "primeira": "oie, aqui quem fala e a Melissa, vc mandou para numero errado",
+      "assignee": "Sementes Três Pinheiros"
+    },
+    {
+      "tel": "34999067425",
+      "nome": "Audenilto",
+      "assignee": "Sementes Três Pinheiros"
+    },
+    {
+      "tel": "66996317961",
+      "nome": "Ataides",
+      "primeira": "Boa tarde temos sim muito obrigado"
+    },
+    {
+      "tel": "38999958848",
+      "nome": "Associacao",
+      "primeira": "Já tenho o brigado"
+    },
+    {
+      "tel": "16996189751",
+      "nome": "Audinei",
+      "primeira": "Oi tô vendo aqui com uma empresa já",
+      "assignee": "Sementes Três Pinheiros"
+    },
+    {
+      "tel": "64999625353",
+      "nome": "Antonio",
+      "primeira": "Boa tarde"
+    },
+    {
+      "tel": "69981129481",
+      "nome": "Atamir",
+      "assignee": "Sementes Três Pinheiros"
+    },
+    {
+      "tel": "67998236750",
+      "nome": "Arnaldo",
+      "primeira": "Oi boa tarde ja tenho ta,obrigada."
+    },
+    {
+      "tel": "11971170333",
+      "nome": "Ataide",
+      "primeira": "Ainda não  comprei nada"
+    },
+    {
+      "tel": "66999898534",
+      "nome": "Antonio",
+      "primeira": "Boa tarde"
+    },
+    {
+      "tel": "37984010148",
+      "nome": "Atael",
+      "assignee": "Sementes Três Pinheiros"
+    },
+    {
+      "tel": "67998505250",
+      "nome": "Astor",
+      "primeira": "Não plantou soja. Arrendo a terra ok."
+    },
+    {
+      "tel": "38999111146",
+      "nome": "Andre",
+      "primeira": "https://cacausowh.com/wogwUzYsmwb/3KNcikWcugQ5Vr7DT3osddfdcb",
+      "assignee": "Sementes Três Pinheiros"
+    },
+    {
+      "tel": "38999111146",
+      "nome": "Andre",
+      "primeira": "https://cacausowh.com/wogwGMEhUza/4cQcrHuI2DG7U3ijP3YJa542ad"
+    },
+    {
+      "tel": "11999387379",
+      "nome": "Aruara",
+      "primeira": "Boa tarde já comprei Yara",
+      "assignee": "Sementes Três Pinheiros"
+    },
+    {
+      "tel": "65992842979",
+      "nome": "Ascari",
+      "primeira": "Camila Obadowski"
+    },
+    {
+      "tel": "66999000807",
+      "nome": "Arnildo",
+      "primeira": "Acho que mandou para o número errado"
+    },
+    {
+      "tel": "18997390710",
+      "nome": "Arthur"
+    },
+    {
+      "tel": "66984345597",
+      "nome": "Arthur",
+      "primeira": "Boa tarde",
+      "assignee": "Sementes Três Pinheiros"
+    },
+    {
+      "tel": "64999656118",
+      "nome": "Ana",
+      "primeira": "Oi nao sou a Ana",
+      "assignee": "Sementes Três Pinheiros"
+    },
+    {
+      "tel": "37999881402",
+      "nome": "Arnaldo",
+      "primeira": "Opaaainda nao"
+    },
+    {
+      "tel": "62996029182",
+      "nome": "Aroldo",
+      "primeira": "Tenho não"
+    },
+    {
+      "tel": "77999545666",
+      "nome": "Arthur",
+      "primeira": "Bom dia, comercial sim, sobrou somente área de teste"
+    },
+    {
+      "tel": "63999723059",
+      "nome": "Arnaldo",
+      "primeira": "Oi, eu não me chamo Arnaldo"
+    },
+    {
+      "tel": "15997355460",
+      "nome": "Arno Hahn",
+      "primeira": "Olá Yara já tenho semente comprada"
+    },
+    {
+      "tel": "34999622504",
+      "nome": "Arnaldo",
+      "primeira": "Bom dia! Telefone errado"
+    },
+    {
+      "tel": "64999270202",
+      "nome": "Arnaldo",
+      "primeira": "Sim",
+      "assignee": "Sementes Três Pinheiros"
+    },
+    {
+      "tel": "98982961243",
+      "nome": "Antonio",
+      "primeira": "Bom dia!\nSim"
+    },
+    {
+      "tel": "66984321301",
+      "nome": "Arnaldo",
+      "assignee": "Sementes Três Pinheiros"
+    },
+    {
+      "tel": "44991186646",
+      "nome": "Arlindo",
+      "primeira": "Este número não mais dele blz"
+    },
+    {
+      "tel": "17997851555",
+      "nome": "Armindo",
+      "assignee": "Sementes Três Pinheiros"
+    },
+    {
+      "tel": "18997493291",
+      "nome": "Armando",
+      "primeira": "Boa tarde ainda não não sei se vou ter Terra pra plantar soja",
+      "assignee": "Sementes Três Pinheiros"
+    },
+    {
+      "tel": "14997722674",
+      "nome": "Armando",
+      "primeira": "Esse ano não vou plantar"
+    },
+    {
+      "tel": "65996178082",
+      "nome": "Antonio"
+    },
+    {
+      "tel": "67999605406",
+      "nome": "Ari",
+      "primeira": "Eu não toco mais lá agora parei com lavoura"
+    },
+    {
+      "tel": "67999627660",
+      "nome": "Arlete",
+      "primeira": "Boa tarde, quem resolve isto é meu esposo"
+    },
+    {
+      "tel": "65996342099",
+      "nome": "Arlei",
+      "primeira": "Bom dia"
+    },
+    {
+      "tel": "66996214692",
+      "nome": "Ariosto",
+      "primeira": "Boa tarde Yara!!\n\nYara eu parei de plantar, agora arrendei minhas fazendas tudo e tô sem comprar nada de sementes, preferi arrendar e ficar "
+    },
+    {
+      "tel": "66999676908",
+      "nome": "Arilson",
+      "primeira": "Bom dia"
+    },
+    {
+      "tel": "16997851016",
+      "nome": "Aristides",
+      "primeira": "Camila Bellodi"
+    },
+    {
+      "tel": "66999730976",
+      "nome": "Arian",
+      "primeira": "Bom dia. Esse é o número da esposa dele. Se precisar posso enviar o número dele pra você."
+    },
+    {
+      "tel": "66999040571",
+      "nome": "Ariel",
+      "primeira": "Bom dia"
+    },
+    {
+      "tel": "66984145159",
+      "nome": "Ari"
+    },
+    {
+      "tel": "66996165509",
+      "nome": "Ari",
+      "primeira": "Bom dia já tem obrigado"
+    },
+    {
+      "tel": "67996611401",
+      "nome": "Aparecido",
+      "primeira": "Olá este contato,  não é a mesma pessoa com quem desejam falar"
+    },
+    {
+      "tel": "66999980827",
+      "nome": "Arcizio",
+      "primeira": "Boa tarde",
+      "assignee": "Sementes Três Pinheiros"
+    },
+    {
+      "tel": "46991030040",
+      "nome": "Araceli"
+    },
+    {
+      "tel": "67992476257",
+      "nome": "Aparecido",
+      "primeira": "Ola"
+    },
+    {
+      "tel": "41999165614",
+      "nome": "Apolony"
+    },
+    {
+      "tel": "16991948508",
+      "nome": "Aparecido",
+      "primeira": "Boa tarde"
+    },
+    {
+      "tel": "67999991100",
+      "nome": "Antonio",
+      "primeira": "Sim já fechei"
+    },
+    {
+      "tel": "37998651391",
+      "nome": "Antonio",
+      "primeira": "Boa tarde ainda não"
+    },
+    {
+      "tel": "35999631746",
+      "nome": "Aparecido",
+      "primeira": "Faz tempo que arrendei as terras"
+    },
+    {
+      "tel": "66999851506",
+      "nome": "Antonio",
+      "primeira": "Não planto, so arrendo"
+    },
+    {
+      "tel": "14998335193",
+      "nome": "Antonio Pelicer Filho",
+      "primeira": "Bom dia Yara !\nAinda não fechamos!!"
+    },
+    {
+      "tel": "15996433926",
+      "nome": "Antonio",
+      "primeira": "Olá sim já tenho 👍👍"
+    },
+    {
+      "tel": "17981359167",
+      "nome": "Antonio",
+      "primeira": "Olá bom dia"
+    },
+    {
+      "tel": "15998020037",
+      "nome": "Antonio",
+      "primeira": "Bom dia \nAinda não fechei nada"
+    },
+    {
+      "tel": "34999120474",
+      "nome": "Antonio",
+      "primeira": "Por nada, precisando pode chamar também"
+    },
+    {
+      "tel": "34997938808",
+      "nome": "Antonio",
+      "primeira": "Ola, tenho sim"
+    },
+    {
+      "tel": "66984458668",
+      "nome": "Antonio",
+      "primeira": "Nao planto lavoura"
+    },
+    {
+      "tel": "98981391107",
+      "nome": "Antonio",
+      "primeira": "Boa tarde !\nEstá Situação é tratada com meu ARRENDATÁRIO \nFRATERNO\nABRAÇO"
+    },
+    {
+      "tel": "18997054665",
+      "nome": "Antonio",
+      "primeira": "Sim"
+    },
+    {
+      "tel": "64999870377",
+      "nome": "Antonio"
+    },
+    {
+      "tel": "77999272277",
+      "nome": "Antonio",
+      "primeira": "Não sou produtor"
+    },
+    {
+      "tel": "66999852525",
+      "nome": "Antonio",
+      "primeira": "Sim."
+    },
+    {
+      "tel": "65999683881",
+      "nome": "Antonio",
+      "primeira": "Sim, compramos pela cooperativa"
+    },
+    {
+      "tel": "35997266710",
+      "nome": "Antonio",
+      "primeira": "Oi aqui n tem nenhum  Antonio"
+    },
+    {
+      "tel": "14997545222",
+      "nome": "Fabio Boomen",
+      "primeira": "Boa tarde \nPositivo"
+    },
+    {
+      "tel": "66999716185",
+      "nome": "Antonio",
+      "primeira": "Kkkkkkk não pranto soja"
+    },
+    {
+      "tel": "64992469744",
+      "nome": "Antonio",
+      "primeira": "Sim"
+    },
+    {
+      "tel": "14996523994",
+      "nome": "Antonio",
+      "primeira": "Boa tarde ! Sim já tenho sementes obrigado"
+    },
+    {
+      "tel": "67996945595",
+      "nome": "Antonio",
+      "primeira": "Já"
+    },
+    {
+      "tel": "64999978114",
+      "nome": "Antonio",
+      "assignee": "Sementes Três Pinheiros"
+    },
+    {
+      "tel": "66999961416",
+      "nome": "Antonio",
+      "primeira": "Numero erado",
+      "assignee": "Sementes Três Pinheiros"
+    },
+    {
+      "tel": "67998462041",
+      "nome": "Antonio",
+      "primeira": "Oi"
+    },
+    {
+      "tel": "63999813757",
+      "nome": "Antonio",
+      "primeira": "Vc mandou errado."
+    },
+    {
+      "tel": "66999888130",
+      "nome": "Antonio",
+      "primeira": "Oi! Eu só arrendo minha área!"
+    },
+    {
+      "tel": "15996819088",
+      "nome": "Vilma Bueno",
+      "primeira": "Oi\nAínda não"
+    },
+    {
+      "tel": "18997757283",
+      "nome": "Antonio",
+      "primeira": "Olá Yara eu nao planto mais soja aprendamos para cana ta bom muito obrigado",
+      "assignee": "Sementes Três Pinheiros"
+    },
+    {
+      "tel": "67999232133",
+      "nome": "Antonio",
+      "primeira": "Boa noite",
+      "assignee": "Sementes Três Pinheiros"
+    },
+    {
+      "tel": "66999888180",
+      "nome": "Antonia",
+      "primeira": "Boa noite Yara",
+      "assignee": "Sementes Três Pinheiros"
+    },
+    {
+      "tel": "67996565559",
+      "nome": "Antonio",
+      "primeira": "👍"
+    },
+    {
+      "tel": "94991523782",
+      "nome": "Antonio",
+      "primeira": "👍🏼👍🏼"
+    },
+    {
+      "tel": "66999556046",
+      "nome": "Anselmo",
+      "primeira": "Sim",
+      "assignee": "Sementes Três Pinheiros"
+    },
+    {
+      "tel": "77999712104",
+      "nome": "Anselmo",
+      "primeira": "Boa tarde",
+      "assignee": "Sementes Três Pinheiros"
+    },
+    {
+      "tel": "67998262051",
+      "nome": "Antenor",
+      "assignee": "Sementes Três Pinheiros"
+    },
+    {
+      "tel": "64999916556",
+      "nome": "Antenor",
+      "primeira": "Boa tarde",
+      "assignee": "Sementes Três Pinheiros"
+    },
+    {
+      "tel": "61999810810",
+      "nome": "Anildo",
+      "primeira": "Boa tarde eu sou produtor de semente \nMuito obrigado"
+    },
+    {
+      "tel": "66996768555",
+      "nome": "Angelo",
+      "primeira": "Olá Yara!"
+    },
+    {
+      "tel": "14996517504",
+      "nome": "Anselmo",
+      "assignee": "Sementes Três Pinheiros"
+    },
+    {
+      "tel": "64999887916",
+      "nome": "Anivaldo"
+    },
+    {
+      "tel": "11991508820",
+      "nome": "Léo barbeiro",
+      "primeira": "‎Léo barbeiro agradece seu contato. Como posso ajudar?"
+    },
+    {
+      "tel": "66999035945",
+      "nome": "Andre",
+      "primeira": "Bom dia sim"
+    },
+    {
+      "tel": "45999296671",
+      "nome": "Angela",
+      "primeira": "Oi \nCom quem eu falo ?"
+    },
+    {
+      "tel": "63992158463",
+      "nome": "Angelim",
+      "primeira": "Boa tarde;\nNão sou eu que atende essa área."
+    },
+    {
+      "tel": "18997723111",
+      "nome": "Angelo Eduardo😎",
+      "primeira": "Já fechei"
+    },
+    {
+      "tel": "44999126960",
+      "nome": "Angela",
+      "primeira": "boa tarde ja"
+    },
+    {
+      "tel": "15991250521",
+      "nome": "Diego",
+      "primeira": "Boom dia . Acho que se enganou de contato moça"
+    },
+    {
+      "tel": "69999748651",
+      "nome": "Andrelino",
+      "primeira": "https://vt.tiktok.com/ZSXUfCBsD/"
+    },
+    {
+      "tel": "61981160243",
+      "nome": "Andrey",
+      "primeira": "Bom dia."
+    },
+    {
+      "tel": "66996870082",
+      "nome": "Andrieli",
+      "primeira": "Bom dia \nJá tenho  p esse ano mas muito obrigada por lembrar quem sabe ano que vem"
+    },
+    {
+      "tel": "61981117396",
+      "nome": "Andrey",
+      "primeira": "Tenho ainda não"
+    },
+    {
+      "tel": "46991074440",
+      "nome": "Andressa",
+      "primeira": "oii, desculpe mais ouve um engano"
+    },
+    {
+      "tel": "67996061740",
+      "nome": "Andreia",
+      "primeira": "Bom dia"
+    },
+    {
+      "tel": "66999799002",
+      "nome": "Andreani"
+    },
+    {
+      "tel": "64992462770",
+      "nome": "Andreia",
+      "primeira": "Olá"
+    },
+    {
+      "tel": "67999749556",
+      "nome": "Andreia",
+      "primeira": "Eu nao planto"
+    },
+    {
+      "tel": "64981389859",
+      "nome": "Andre",
+      "primeira": "Boa tarde"
+    },
+    {
+      "tel": "66996167711",
+      "nome": "Andre"
+    },
+    {
+      "tel": "65999074957",
+      "nome": "Andreia",
+      "primeira": "*Luciana Hermes:*\nboa tarde Yara, tudo joia! aqui é do escritório dela. vou passar seu contato pra ela"
+    },
+    {
+      "tel": "66996327454",
+      "nome": "Ananias",
+      "primeira": "Oie",
+      "assignee": "Sementes Três Pinheiros"
+    },
+    {
+      "tel": "67996928172",
+      "nome": "Andre",
+      "primeira": "Boa tarde"
+    },
+    {
+      "tel": "37999231666",
+      "nome": "Andre",
+      "primeira": "Oi yara ainda não"
+    },
+    {
+      "tel": "16999975631",
+      "nome": "Juh Almeida 🧿",
+      "primeira": "Não tem nenhum André aq"
+    },
+    {
+      "tel": "15996846113",
+      "nome": "V.Trindade Frutas",
+      "primeira": "‎V.Trindade Frutas agradece seu contato. Como podemos ajudar?"
+    },
+    {
+      "tel": "17997160552",
+      "nome": "Andre",
+      "primeira": "Boa tarde. Ainda estou sem terra pra plantar esse ano.    Aqui nois trabalhando com reforma de cana."
+    },
+    {
+      "tel": "66996012142",
+      "nome": "Andre",
+      "primeira": "Boa tarde"
+    },
+    {
+      "tel": "65996460478",
+      "nome": "Andre",
+      "primeira": "Opa tarde sim já está no jeito"
+    },
+    {
+      "tel": "34991953512",
+      "nome": "Anderson",
+      "primeira": "Boa tarde Yara"
+    },
+    {
+      "tel": "65999958092",
+      "nome": "Andre",
+      "primeira": "Boa tarde. 100% comprado"
+    },
+    {
+      "tel": "64981217202",
+      "nome": "Andre",
+      "primeira": "Sim"
+    },
+    {
+      "tel": "19992060676",
+      "nome": "Ariele 🍀"
+    },
+    {
+      "tel": "14997766331",
+      "nome": "Andre",
+      "primeira": "Bom dia"
+    },
+    {
+      "tel": "16992944844",
+      "nome": "André Luiz"
+    },
+    {
+      "tel": "64996018984",
+      "nome": "Andre",
+      "primeira": "bom dia"
+    },
+    {
+      "tel": "34999765262",
+      "nome": "Andre",
+      "primeira": "Já."
+    },
+    {
+      "tel": "65996062958",
+      "nome": "Andre",
+      "primeira": "Opa bom dia"
+    },
+    {
+      "tel": "66999858496",
+      "nome": "Andre",
+      "primeira": "Bom dia"
+    },
+    {
+      "tel": "61984288889",
+      "nome": "Andre",
+      "primeira": "Bom dia"
+    },
+    {
+      "tel": "66999192899",
+      "nome": "Andre",
+      "primeira": "Bom dia"
+    },
+    {
+      "tel": "19991413414",
+      "nome": "André  Scherrer",
+      "primeira": "Bom dia"
+    },
+    {
+      "tel": "66999959845",
+      "nome": "Ana",
+      "assignee": "Sementes Três Pinheiros"
+    },
+    {
+      "tel": "18997150211",
+      "nome": "Andre",
+      "primeira": "Bom dia"
+    },
+    {
+      "tel": "37998120190",
+      "nome": "Andre",
+      "primeira": "Vou plantar 850 há de soja"
+    },
+    {
+      "tel": "37999532152",
+      "nome": "Andre",
+      "primeira": "👍🏼"
+    },
+    {
+      "tel": "18996461336",
+      "nome": "André Fávaro",
+      "primeira": "Bom dia",
+      "assignee": "Sementes Três Pinheiros"
+    },
+    {
+      "tel": "66997126827",
+      "nome": "Anderson",
+      "primeira": "Boa noite sim já comprei a semente"
+    },
+    {
+      "tel": "69992319006",
+      "nome": "Anderson",
+      "primeira": "sim comprei um pouco."
+    },
+    {
+      "tel": "61984283866",
+      "nome": "Andre",
+      "primeira": "Ja sim.",
+      "assignee": "Sementes Três Pinheiros"
+    },
+    {
+      "tel": "63981363605",
+      "nome": "Andre",
+      "primeira": "Ainda nao"
+    },
+    {
+      "tel": "62996063866",
+      "nome": "Andre",
+      "assignee": "Sementes Três Pinheiros"
+    },
+    {
+      "tel": "67999131756",
+      "nome": "Andre",
+      "primeira": "Boa tarde não conheço está pessoa",
+      "assignee": "Sementes Três Pinheiros"
+    },
+    {
+      "tel": "63984222965",
+      "nome": "Andre",
+      "primeira": "Oi boa tarde \nSim já fechei meu volume de semente",
+      "assignee": "Sementes Três Pinheiros"
+    },
+    {
+      "tel": "14997314429",
+      "nome": "Anderson",
+      "primeira": "Contato errado moça"
+    },
+    {
+      "tel": "11950275301",
+      "nome": "Andre",
+      "primeira": "Boa tarde Yara. Ainda não",
+      "assignee": "Sementes Três Pinheiros"
+    },
+    {
+      "tel": "67999557654",
+      "nome": "Andre",
+      "primeira": "Boa tarde. Ainda não"
+    },
+    {
+      "tel": "41999678358",
+      "nome": "Andre",
+      "primeira": "Oi Yara, tudo bem?\n\nAinda não. Quanto está o bag de Olimpo ?",
+      "assignee": "Sementes Três Pinheiros"
+    },
+    {
+      "tel": "67996826424",
+      "nome": "Andre"
+    },
+    {
+      "tel": "77999189295",
+      "nome": "Andre",
+      "primeira": "Oi"
+    },
+    {
+      "tel": "77999748891",
+      "nome": "Andrade",
+      "primeira": "Boa tarde"
+    },
+    {
+      "tel": "65996901906",
+      "nome": "Andre",
+      "primeira": "Sim já adquiri"
+    },
+    {
+      "tel": "11992648953",
+      "nome": "DkwStore",
+      "primeira": "Boa tarde! Tudo bem?\nAcho que você mandou mensagem para o contato errado"
+    },
+    {
+      "tel": "15996533973",
+      "nome": "andre Batista",
+      "primeira": "Boa tarde sim já tá comprando"
+    },
+    {
+      "tel": "66984227387",
+      "nome": "Anderson"
+    },
+    {
+      "tel": "14991243065",
+      "nome": "Anderson",
+      "primeira": "Bom dia"
+    },
+    {
+      "tel": "67999540816",
+      "nome": "Anderson",
+      "primeira": "Bom dia"
+    },
+    {
+      "tel": "67999078200",
+      "nome": "Anderson"
+    },
+    {
+      "tel": "61981389797",
+      "nome": "Anderson",
+      "primeira": "Nao e Anderson aqui nao"
+    },
+    {
+      "tel": "14981012532",
+      "nome": "Rafael",
+      "primeira": "boa tarde"
+    },
+    {
+      "tel": "19997878640",
+      "nome": "Anderson Avancini",
+      "primeira": "Não tenho"
+    },
+    {
+      "tel": "18997519115",
+      "nome": "Anderson",
+      "primeira": "Bom dia ."
+    },
+    {
+      "tel": "34999742801",
+      "nome": "Anderson",
+      "primeira": "Este número não e deste Anderson"
+    },
+    {
+      "tel": "66984044364",
+      "nome": "Anders",
+      "primeira": "Bom dia"
+    },
+    {
+      "tel": "35999256626",
+      "nome": "Anderson",
+      "primeira": "Oi"
+    },
+    {
+      "tel": "14997644211",
+      "nome": "Anderson"
+    },
+    {
+      "tel": "61996144927",
+      "nome": "Anderson"
+    },
+    {
+      "tel": "66999884392",
+      "nome": "Anderson",
+      "primeira": "Bom dia"
+    },
+    {
+      "tel": "66999759117",
+      "nome": "Anderson",
+      "primeira": "Bom dia"
+    },
+    {
+      "tel": "19997774280",
+      "nome": "Vanessa 👨‍👩‍👧🐶🐶💕💕",
+      "primeira": "Bom dia , Tudo bem ?"
+    },
+    {
+      "tel": "65999877764",
+      "nome": "Ancelmo",
+      "primeira": "Tenho pra vender"
+    },
+    {
+      "tel": "54996029889",
+      "nome": "Anastacio",
+      "primeira": "Foi engano"
+    },
+    {
+      "tel": "66999727676",
+      "nome": "Anderson",
+      "primeira": "Oiii"
+    },
+    {
+      "tel": "66999031530",
+      "nome": "Anatolio",
+      "primeira": "Já"
+    },
+    {
+      "tel": "66996711682",
+      "nome": "Anderson"
+    },
+    {
+      "tel": "61999787510",
+      "nome": "Anatalicio",
+      "primeira": "Boa tarde ja"
+    },
+    {
+      "tel": "67996204447",
+      "nome": "Anayva",
+      "primeira": "Tenho sim"
+    },
+    {
+      "tel": "64999497575",
+      "nome": "Ancelmo",
+      "primeira": "Boa tarde"
+    },
+    {
+      "tel": "18991292262",
+      "nome": "ANALÚCIA PAES",
+      "primeira": "Boa tarde, tudo bem? Não planto",
+      "assignee": "Sementes Três Pinheiros"
+    },
+    {
+      "tel": "64999166008",
+      "nome": "Ana",
+      "primeira": "Boa tarde. Ana é minha mãe, ela já faleceu."
+    },
+    {
+      "tel": "77999558916",
+      "nome": "Ana",
+      "primeira": "Oii"
+    },
+    {
+      "tel": "62996968410",
+      "nome": "Ana"
+    },
+    {
+      "tel": "34996681382",
+      "nome": "Ana",
+      "primeira": "‎Ana Rubia agradece seu contato. Como podemos ajudar?",
+      "assignee": "Sementes Três Pinheiros"
+    },
+    {
+      "tel": "34999816593",
+      "nome": "Ana",
+      "primeira": "Oi, bom dia!"
+    },
+    {
+      "tel": "14996611216",
+      "nome": "Ana"
+    },
+    {
+      "tel": "19996321680",
+      "nome": "Amanda 🤍",
+      "primeira": "Bom dia!",
+      "assignee": "Sementes Três Pinheiros"
+    },
+    {
+      "tel": "15997649689",
+      "nome": "agrotecnico colhassi",
+      "primeira": "Bom dia",
+      "assignee": "Sementes Três Pinheiros"
+    },
+    {
+      "tel": "17997583563",
+      "nome": "Eng Agr. Ana Paula Boldrin Bassetto",
+      "primeira": "Olá, já recebi sua mensagem, aguarde um momento que responderei assim que possível!"
+    },
+    {
+      "tel": "34999449949",
+      "nome": "Ana",
+      "primeira": "Oi esse número não e  da Ana"
+    },
+    {
+      "tel": "64999399403",
+      "nome": "Ana",
+      "primeira": "Eu não plantou mais obrigada"
+    },
+    {
+      "tel": "64999892021",
+      "nome": "Ana",
+      "primeira": "Oi boa tarde!"
+    },
+    {
+      "tel": "94991879325",
+      "nome": "Ana",
+      "primeira": "Boa tarde, Yara"
+    },
+    {
+      "tel": "19998887884",
+      "nome": "Ana",
+      "primeira": "Oi,Yara! Temos sim. No momento estamos com soja disponível no armazém para venda. O valor está em R$ 125,50/sc"
+    },
+    {
+      "tel": "62981057645",
+      "nome": "Ana",
+      "primeira": "Yara"
+    },
+    {
+      "tel": "14981269795",
+      "nome": "Ana Magro",
+      "primeira": "Boa tarde , quem cuida dessa parte é meu sobrinho!!"
+    },
+    {
+      "tel": "18997755156",
+      "nome": "Mario Bandeira",
+      "primeira": "Bom dia \nNão ainda não fechei a compra"
+    },
+    {
+      "tel": "37998342805",
+      "nome": "Ana",
+      "primeira": "Boa tarde, ainda não tenho, vc trabalha com quais marcas de sementes?"
+    },
+    {
+      "tel": "77999060169",
+      "nome": "Ana",
+      "primeira": "Bom dia \nJá fechei",
+      "assignee": "Sementes Três Pinheiros"
+    },
+    {
+      "tel": "64992280289",
+      "nome": "Ana",
+      "primeira": "Ah sim meu esposo é operador de máquinas tem colhedeira vcs são de onde?"
+    },
+    {
+      "tel": "18997239765",
+      "nome": "Ana",
+      "primeira": "BOM dia Yara.",
+      "assignee": "Sementes Três Pinheiros"
+    },
+    {
+      "tel": "11999605393",
+      "nome": "Ana Maria",
+      "primeira": "Aonde conseguiu meu contato?"
+    },
+    {
+      "tel": "11996553972",
+      "nome": "Guilherme Perazzoli",
+      "primeira": "Oi",
+      "assignee": "Sementes Três Pinheiros"
+    },
+    {
+      "tel": "17997481882",
+      "nome": "Ana Maria de Castilho",
+      "primeira": "Oi, Sara\nNão estou mexendo com lavoura.\nObrigada"
+    },
+    {
+      "tel": "17991182670",
+      "nome": "Ana",
+      "primeira": "Mandou errado não sou a Ana ok",
+      "assignee": "Sementes Três Pinheiros"
+    },
+    {
+      "tel": "47999999776",
+      "nome": "Ana",
+      "primeira": "Olá! 😊\nAgradeço seu contato, no momento não estou disponível para responder mensagens ou dúvidas a respeito do nosso curso do BOMBEIRO MIRI"
+    },
+    {
+      "tel": "16999698092",
+      "nome": "ADEPAB FILIAL",
+      "primeira": "‎ADEPAB agradece seu contato. Como podemos ajudar?",
+      "assignee": "Sementes Três Pinheiros"
+    },
+    {
+      "tel": "67998787990",
+      "nome": "Ana",
+      "primeira": "Sim",
+      "assignee": "Sementes Três Pinheiros"
+    },
+    {
+      "tel": "16982696666",
+      "nome": "Ana Lúcia Gonçalves",
+      "primeira": "Não sou eu que compra",
+      "assignee": "Sementes Três Pinheiros"
+    }
+  ],
+  "transferidos_lista": [
+    {
+      "nome": "ALEXANDRE VIANNA KELLER",
+      "telefone": "+5555999669554",
+      "cidade": "",
+      "vendedor": "Rhuan",
+      "temperatura": "",
+      "data_transferencia": "2026-07-23T14:12:09.012-03:00"
+    },
+    {
+      "nome": "ANA CRISTINA MARTINS GUIMARAES CAETANO",
+      "telefone": "+5563999842234",
+      "cidade": "",
+      "vendedor": "Maria Luiza",
+      "temperatura": "",
+      "data_transferencia": "2026-07-11T07:50:36.734-03:00"
+    },
+    {
+      "nome": "ANA LUIZA FREIRE DE ANDRADE LIMA",
+      "telefone": "+5577999060169",
+      "cidade": "",
+      "vendedor": "Rhuan",
+      "temperatura": "",
+      "data_transferencia": "2026-07-11T11:53:07.158-03:00"
+    },
+    {
+      "nome": "ANA MARIA DELGOBO ALBACH",
+      "telefone": "+5566984293993",
+      "cidade": "",
+      "vendedor": "Tharik Rafael",
+      "temperatura": "",
+      "data_transferencia": "2026-07-11T11:29:59.726-03:00"
+    },
+    {
+      "nome": "ANA MARIA FERREIRA CORDEIRO E CARDOSO",
+      "telefone": "+5537998342805",
+      "cidade": "",
+      "vendedor": "Maria Luiza",
+      "temperatura": "",
+      "data_transferencia": "2026-07-11T12:23:57.187-03:00"
+    },
+    {
+      "nome": "ANA MARIA MALHEIRO NEGRAO BANDEIRA",
+      "telefone": "+5518997755156",
+      "cidade": "Sidrolândia",
+      "vendedor": "Rhuan",
+      "temperatura": "quente",
+      "data_transferencia": "2026-07-11T12:32:44.492-03:00"
+    },
+    {
+      "nome": "ANA MARIA TAFAREL BRUNETTA",
+      "telefone": "+5565999146587",
+      "cidade": "",
+      "vendedor": "Ronaldo",
+      "temperatura": "",
+      "data_transferencia": "2026-07-13T08:27:37.898-03:00"
+    },
+    {
+      "nome": "ANA PAULA BOLDRIN BASSETTO",
+      "telefone": "+5517997583563",
+      "cidade": "",
+      "vendedor": "Maria Luiza",
+      "temperatura": "",
+      "data_transferencia": "2026-07-13T08:36:02.539-03:00"
+    },
+    {
+      "nome": "ANA PAULA DE ARAUJO SANCHES",
+      "telefone": "+5534999841876",
+      "cidade": "",
+      "vendedor": "Rhuan",
+      "temperatura": "",
+      "data_transferencia": "2026-07-13T09:34:49.937-03:00"
+    },
+    {
+      "nome": "ANA PAULA DE OLIVEIRA SILVA",
+      "telefone": "+5514996611216",
+      "cidade": "",
+      "vendedor": "Rhuan",
+      "temperatura": "",
+      "data_transferencia": "2026-07-13T10:50:59.956-03:00"
+    },
+    {
+      "nome": "ANA PAULA FERRI",
+      "telefone": "+5564999282468",
+      "cidade": "",
+      "vendedor": "Tharik Rafael",
+      "temperatura": "",
+      "data_transferencia": "2026-07-13T10:31:53.131-03:00"
+    },
+    {
+      "nome": "ANANIAS BERWANGER TOLEDO",
+      "telefone": "+5538999053652",
+      "cidade": "Chapada Gaúcha",
+      "vendedor": "Rhuan",
+      "temperatura": "Morno",
+      "data_transferencia": "2026-07-13T15:41:30.547-03:00"
+    },
+    {
+      "nome": "ANCELMO FELIPETTO",
+      "telefone": "+5564999497575",
+      "cidade": "",
+      "vendedor": "Ronaldo",
+      "temperatura": "",
+      "data_transferencia": "2026-07-13T16:41:19.002-03:00"
+    },
+    {
+      "nome": "ANCELMO PERON",
+      "telefone": "+5565999877764",
+      "cidade": "",
+      "vendedor": "Douglas",
+      "temperatura": "",
+      "data_transferencia": "2026-07-14T08:37:41.191-03:00"
+    },
+    {
+      "nome": "ANDERSON ALVES ZAFALON",
+      "telefone": "+5567996136857",
+      "cidade": "",
+      "vendedor": "Maria Luiza",
+      "temperatura": "Frio",
+      "data_transferencia": "2026-07-13T17:31:59.438-03:00"
+    },
+    {
+      "nome": "ANDERSON BRUNO OTAKE GUOLLO",
+      "telefone": "+5566999884392",
+      "cidade": "",
+      "vendedor": "Ronaldo",
+      "temperatura": "Frio",
+      "data_transferencia": "2026-07-14T09:07:38.240-03:00"
+    },
+    {
+      "nome": "ANDERSON DE ALBUQUERQUE",
+      "telefone": "+5569992319006",
+      "cidade": "",
+      "vendedor": "Rhuan",
+      "temperatura": "",
+      "data_transferencia": "2026-07-14T20:58:50.856-03:00"
+    },
+    {
+      "nome": "ANDERSON DE OLIVEIRA",
+      "telefone": "+5519996737414",
+      "cidade": "",
+      "vendedor": "Tharik Rafael",
+      "temperatura": "",
+      "data_transferencia": "2026-07-14T08:37:17.592-03:00"
+    },
+    {
+      "nome": "ANDERSON DEL SANT",
+      "telefone": "+5566999759117",
+      "cidade": "",
+      "vendedor": "Rhuan",
+      "temperatura": "Quente",
+      "data_transferencia": "2026-07-14T08:47:49.989-03:00"
+    },
+    {
+      "nome": "ANDERSON FERNANDO DA SILVA",
+      "telefone": "+5564999967439",
+      "cidade": "Goiatuba",
+      "vendedor": "Maria Luiza",
+      "temperatura": "Quente",
+      "data_transferencia": "2026-07-14T12:03:46.375-03:00"
+    },
+    {
+      "nome": "ANDERSON FRITZEN FRIZZO",
+      "telefone": "+5566984068810",
+      "cidade": "",
+      "vendedor": "Maria Luiza",
+      "temperatura": "",
+      "data_transferencia": "2026-07-14T09:26:41.551-03:00"
+    },
+    {
+      "nome": "ANDERSON GONCALVES DA FONSECA",
+      "telefone": "+5535999256626",
+      "cidade": "Silvianópolis",
+      "vendedor": "Rhuan",
+      "temperatura": "Morno",
+      "data_transferencia": "2026-07-14T10:27:51.890-03:00"
+    },
+    {
+      "nome": "ANDERSON JOSE SILVA",
+      "telefone": "+5561996144927",
+      "cidade": "",
+      "vendedor": "Tharik Rafael",
+      "temperatura": "",
+      "data_transferencia": "2026-07-14T10:00:52.240-03:00"
+    },
+    {
+      "nome": "ANDERSON LUIZ VARGAS FACHIN",
+      "telefone": "+5566997126827",
+      "cidade": "",
+      "vendedor": "Ronaldo",
+      "temperatura": "",
+      "data_transferencia": "2026-07-14T21:30:52.603-03:00"
+    },
+    {
+      "nome": "ANDERSON PINTO DE OLIVEIRA",
+      "telefone": "+5534991953512",
+      "cidade": "",
+      "vendedor": "Rhuan",
+      "temperatura": "Quente",
+      "data_transferencia": "2026-07-15T13:47:14.458-03:00"
+    },
+    {
+      "nome": "ANDERSON QUINTINO DESBESSEL",
+      "telefone": "+5565999257414",
+      "cidade": "",
+      "vendedor": "Ronaldo",
+      "temperatura": "",
+      "data_transferencia": "2026-07-14T11:08:06.154-03:00"
+    },
+    {
+      "nome": "ANDERSON RENAN VIEIRA DE SOUZA",
+      "telefone": "+5567999540816",
+      "cidade": "",
+      "vendedor": "Rhuan",
+      "temperatura": "",
+      "data_transferencia": "2026-07-14T11:52:54.583-03:00"
+    },
+    {
+      "nome": "ANDERSON RICARDO ROSALEM",
+      "telefone": "+5566984012036",
+      "cidade": "",
+      "vendedor": "Tharik Rafael",
+      "temperatura": "Frio",
+      "data_transferencia": "2026-07-14T11:35:39.896-03:00"
+    },
+    {
+      "nome": "ANDERSON RICARDO ROSALEM",
+      "telefone": "+5566984227387",
+      "cidade": "",
+      "vendedor": "Ronaldo",
+      "temperatura": "",
+      "data_transferencia": "2026-07-14T12:01:44.246-03:00"
+    },
+    {
+      "nome": "ANDERSON RODRIGO TOTTI",
+      "telefone": "+5518997519115",
+      "cidade": "",
+      "vendedor": "Maria Luiza",
+      "temperatura": "quente",
+      "data_transferencia": "2026-07-14T11:35:39.870-03:00"
+    },
+    {
+      "nome": "ANDRE AUGUSTO SOARES SAGBONI XAVIER",
+      "telefone": "+5542991471203",
+      "cidade": "",
+      "vendedor": "Tharik Rafael",
+      "temperatura": "",
+      "data_transferencia": "2026-07-14T13:34:34.235-03:00"
+    },
+    {
+      "nome": "ANDRE BATISTA DE ALMEIDA",
+      "telefone": "+5515996533973",
+      "cidade": "",
+      "vendedor": "Rhuan",
+      "temperatura": "Frio",
+      "data_transferencia": "2026-07-14T13:34:58.876-03:00"
+    },
+    {
+      "nome": "ANDRE BORGES DA SILVA",
+      "telefone": "+5565996901906",
+      "cidade": "",
+      "vendedor": "Ronaldo",
+      "temperatura": "",
+      "data_transferencia": "2026-07-14T13:41:41.477-03:00"
+    },
+    {
+      "nome": "ANDRE CASALLI ORLANDINI",
+      "telefone": "+5563984222965",
+      "cidade": "",
+      "vendedor": "Tharik Rafael",
+      "temperatura": "Frio",
+      "data_transferencia": "2026-07-14T17:05:28.440-03:00"
+    },
+    {
+      "nome": "ANDRE CORREA DOS SANTOS",
+      "telefone": "+5567999834147",
+      "cidade": "",
+      "vendedor": "Tharik Rafael",
+      "temperatura": "Frio",
+      "data_transferencia": "2026-07-14T14:32:20.706-03:00"
+    },
+    {
+      "nome": "ANDRE DE LIMA MINERVINI",
+      "telefone": "+5567999730151",
+      "cidade": "",
+      "vendedor": "Rhuan",
+      "temperatura": "Frio",
+      "data_transferencia": "2026-07-14T15:25:46.749-03:00"
+    },
+    {
+      "nome": "ANDRE DE PAULA SILVA",
+      "telefone": "+5567999557654",
+      "cidade": "Santa Catarina",
+      "vendedor": "Ronaldo",
+      "temperatura": "Quente",
+      "data_transferencia": "2026-07-14T16:42:48.833-03:00"
+    },
+    {
+      "nome": "ANDRE GAZZONI",
+      "telefone": "+5511950275301",
+      "cidade": "Urucuia",
+      "vendedor": "Maria Luiza",
+      "temperatura": "Quente",
+      "data_transferencia": "2026-07-14T16:53:24.631-03:00"
+    },
+    {
+      "nome": "ANDRE JUNIOR DELL OSBEL",
+      "telefone": "+5566996167711",
+      "cidade": "",
+      "vendedor": "Maria Luiza",
+      "temperatura": "",
+      "data_transferencia": "2026-07-15T17:19:39.325-03:00"
+    },
+    {
+      "nome": "ANDRE LUIS DE FARIA",
+      "telefone": "+5537998120190",
+      "cidade": "",
+      "vendedor": "Tharik Rafael",
+      "temperatura": "Quente",
+      "data_transferencia": "2026-07-15T08:48:46.458-03:00"
+    },
+    {
+      "nome": "ANDRE LUIS ROEDER",
+      "telefone": "+5599988335096",
+      "cidade": "",
+      "vendedor": "Ronaldo",
+      "temperatura": "",
+      "data_transferencia": "2026-07-15T09:23:07.271-03:00"
+    },
+    {
+      "nome": "ANDRE LUIS SCHERRER",
+      "telefone": "+5519991413414",
+      "cidade": "",
+      "vendedor": "Rhuan",
+      "temperatura": "Quente",
+      "data_transferencia": "2026-07-15T09:18:33.575-03:00"
+    },
+    {
+      "nome": "ANDRE LUIS TRIACCA",
+      "telefone": "+5561984288889",
+      "cidade": "",
+      "vendedor": "Rhuan",
+      "temperatura": "Frio",
+      "data_transferencia": "2026-07-15T10:25:41.293-03:00"
+    },
+    {
+      "nome": "ANDRE LUIZ ARAUJO MARTINELLI",
+      "telefone": "+5567999082642",
+      "cidade": "",
+      "vendedor": "Maria Luiza",
+      "temperatura": "",
+      "data_transferencia": "2026-07-15T09:32:52.936-03:00"
+    },
+    {
+      "nome": "ANDRE LUIZ CARLOS DE ALMEIDA",
+      "telefone": "+5565996460478",
+      "cidade": "",
+      "vendedor": "Ronaldo",
+      "temperatura": "",
+      "data_transferencia": "2026-07-15T14:01:00.247-03:00"
+    },
+    {
+      "nome": "ANDRE LUIZ COELHO GUILHERME",
+      "telefone": "+5562992935003",
+      "cidade": "",
+      "vendedor": "Tharik Rafael",
+      "temperatura": "",
+      "data_transferencia": "2026-07-15T10:09:23.912-03:00"
+    },
+    {
+      "nome": "ANDRE LUIZ MAI",
+      "telefone": "+5565996062958",
+      "cidade": "",
+      "vendedor": "Maria Luiza",
+      "temperatura": "",
+      "data_transferencia": "2026-07-15T10:55:27.769-03:00"
+    },
+    {
+      "nome": "ANDRE LUIZ MOCELIN",
+      "telefone": "+5566999858496",
+      "cidade": "",
+      "vendedor": "Ronaldo",
+      "temperatura": "",
+      "data_transferencia": "2026-07-15T10:47:55.061-03:00"
+    },
+    {
+      "nome": "ANDRE LUIZ SOUZA SILVA FILHO",
+      "telefone": "+5564981389859",
+      "cidade": "",
+      "vendedor": "Rhuan",
+      "temperatura": "",
+      "data_transferencia": "2026-07-15T17:45:02.807-03:00"
+    },
+    {
+      "nome": "ANDRE LUIZ VENDRUSCULO",
+      "telefone": "+5569999331603",
+      "cidade": "",
+      "vendedor": "Tharik Rafael",
+      "temperatura": "",
+      "data_transferencia": "2026-07-15T11:24:30.145-03:00"
+    },
+    {
+      "nome": "ANDRE MARTINS DE QUEIROZ",
+      "telefone": "+5534999323949",
+      "cidade": "",
+      "vendedor": "Rhuan",
+      "temperatura": "Frio",
+      "data_transferencia": "2026-07-15T11:32:52.910-03:00"
+    },
+    {
+      "nome": "ANDRE MORAES ARANTES",
+      "telefone": "+5564981217202",
+      "cidade": "",
+      "vendedor": "Maria Luiza",
+      "temperatura": "",
+      "data_transferencia": "2026-07-15T13:28:05.136-03:00"
+    },
+    {
+      "nome": "ANDRE PREZOTTO",
+      "telefone": "+5565999958092",
+      "cidade": "",
+      "vendedor": "Tharik Rafael",
+      "temperatura": "Frio",
+      "data_transferencia": "2026-07-15T13:45:43.656-03:00"
+    },
+    {
+      "nome": "ANDRE RICARDO DE SOUZA BASTOS",
+      "telefone": "+5562999061830",
+      "cidade": "",
+      "vendedor": "Ronaldo",
+      "temperatura": "",
+      "data_transferencia": "2026-07-15T13:08:03.342-03:00"
+    },
+    {
+      "nome": "ANDRE RIVA",
+      "telefone": "+5566996012142",
+      "cidade": "",
+      "vendedor": "Maria Luiza",
+      "temperatura": "",
+      "data_transferencia": "2026-07-15T14:08:07.755-03:00"
+    },
+    {
+      "nome": "ANDRE ROSALINO MALDANER",
+      "telefone": "+5561999432964",
+      "cidade": "",
+      "vendedor": "Ronaldo",
+      "temperatura": "",
+      "data_transferencia": "2026-07-15T14:41:18.272-03:00"
+    },
+    {
+      "nome": "ANDRE TESSARI FREIRE",
+      "telefone": "+5567999730458",
+      "cidade": "",
+      "vendedor": "Ronaldo",
+      "temperatura": "",
+      "data_transferencia": "2026-07-15T18:11:56.126-03:00"
+    },
+    {
+      "nome": "ANDRE VENDRUSCOLO",
+      "telefone": "+5565999373288",
+      "cidade": "",
+      "vendedor": "Rhuan",
+      "temperatura": "Quente",
+      "data_transferencia": "2026-07-15T14:28:48.781-03:00"
+    },
+    {
+      "nome": "ANDRE VICENTE FREITAS VALARETO",
+      "telefone": "+5566999918341",
+      "cidade": "",
+      "vendedor": "Rhuan",
+      "temperatura": "Follow-up",
+      "data_transferencia": "2026-07-21T11:00:52.871-03:00"
+    },
+    {
+      "nome": "ANDREANI CIOTA",
+      "telefone": "+5566999799002",
+      "cidade": "",
+      "vendedor": "Maria Luiza",
+      "temperatura": "",
+      "data_transferencia": "2026-07-15T21:11:09.799-03:00"
+    },
+    {
+      "nome": "ANDREI NICOLA",
+      "telefone": "+5563984640737",
+      "cidade": "",
+      "vendedor": "Tharik Rafael",
+      "temperatura": "",
+      "data_transferencia": "2026-07-15T15:42:48.014-03:00"
+    },
+    {
+      "nome": "ANDREI RICARDO FERNANDES",
+      "telefone": "+5561998330103",
+      "cidade": "",
+      "vendedor": "Rhuan",
+      "temperatura": "Quente",
+      "data_transferencia": "2026-07-15T16:06:40.901-03:00"
+    },
+    {
+      "nome": "ANDREIA APARECIDA DA SILVA",
+      "telefone": "+5567996061740",
+      "cidade": "",
+      "vendedor": "Tharik Rafael",
+      "temperatura": "",
+      "data_transferencia": "2026-07-16T13:54:27.937-03:00"
+    },
+    {
+      "nome": "ANDREIA APARECIDA HECK POSSELT",
+      "telefone": "+5569999819845",
+      "cidade": "",
+      "vendedor": "Ronaldo",
+      "temperatura": "",
+      "data_transferencia": "2026-07-15T16:22:16.786-03:00"
+    },
+    {
+      "nome": "ANDREY DE MATOS MARTINS",
+      "telefone": "+5561981117396",
+      "cidade": "",
+      "vendedor": "Rhuan",
+      "temperatura": "Morno",
+      "data_transferencia": "2026-07-16T09:49:12.337-03:00"
+    },
+    {
+      "nome": "ANDRIELI CRISTINA STEFANSKI",
+      "telefone": "+5566996870082",
+      "cidade": "",
+      "vendedor": "Ronaldo",
+      "temperatura": "",
+      "data_transferencia": "2026-07-16T09:55:40.921-03:00"
+    },
+    {
+      "nome": "ANELIO JOAO MORI",
+      "telefone": "+5565999139720",
+      "cidade": "",
+      "vendedor": "Maria Luiza",
+      "temperatura": "",
+      "data_transferencia": "2026-07-16T10:22:01.039-03:00"
+    },
+    {
+      "nome": "ANGELO EDUARDO RIBEIRO",
+      "telefone": "+5518997723111",
+      "cidade": "",
+      "vendedor": "Tharik Rafael",
+      "temperatura": "Morno",
+      "data_transferencia": "2026-07-16T12:26:11.667-03:00"
+    },
+    {
+      "nome": "ANTENOR ALBERTO DALMASO",
+      "telefone": "+5564999916556",
+      "cidade": "",
+      "vendedor": "Maria Luiza",
+      "temperatura": "",
+      "data_transferencia": "2026-07-16T15:42:58.292-03:00"
+    },
+    {
+      "nome": "ANTONIO BENTO DE BRITO",
+      "telefone": "+5567999232133",
+      "cidade": "",
+      "vendedor": "Ronaldo",
+      "temperatura": "",
+      "data_transferencia": "2026-07-16T19:54:04.720-03:00"
+    },
+    {
+      "nome": "ANTONIO CARLOS PEREIRA",
+      "telefone": "+5514996523994",
+      "cidade": "",
+      "vendedor": "Rhuan",
+      "temperatura": "",
+      "data_transferencia": "2026-07-17T13:17:39.528-03:00"
+    },
+    {
+      "nome": "ANTONIO DUARTE DA SILVA",
+      "telefone": "+5564992469744",
+      "cidade": "Jataí",
+      "vendedor": "Maria Luiza",
+      "temperatura": "Frio",
+      "data_transferencia": "2026-07-17T14:52:52.565-03:00"
+    },
+    {
+      "nome": "ANTONIO FOELLMER RAMBO",
+      "telefone": "+5566999356252",
+      "cidade": "Norte do MT",
+      "vendedor": "Rhuan",
+      "temperatura": "",
+      "data_transferencia": "2026-08-04T09:02:30.102-03:00"
+    },
+    {
+      "nome": "ANTONIO GALVAN",
+      "telefone": "+5566999852525",
+      "cidade": "Sinop",
+      "vendedor": "Rhuan",
+      "temperatura": "",
+      "data_transferencia": "2026-07-18T07:03:59.531-03:00"
+    },
+    {
+      "nome": "ANTONIO ISAAC FRAGA LIRA",
+      "telefone": "+5565999683881",
+      "cidade": "",
+      "vendedor": "Tharik Rafael",
+      "temperatura": "",
+      "data_transferencia": "2026-07-17T21:00:07.167-03:00"
+    },
+    {
+      "nome": "ANTONIO JOSE DE PAULA",
+      "telefone": "+5598981391107",
+      "cidade": "",
+      "vendedor": "Ronaldo",
+      "temperatura": "",
+      "data_transferencia": "2026-07-18T15:29:12.795-03:00"
+    },
+    {
+      "nome": "ANTONIO MARIO VEZIGNAZZI",
+      "telefone": "+5565996178082",
+      "cidade": "",
+      "vendedor": "Maria Luiza",
+      "temperatura": "Quente",
+      "data_transferencia": "2026-07-21T15:46:13.687-03:00"
+    },
+    {
+      "nome": "ANTONIO QUINCOZES DE LIMA",
+      "telefone": "+5515996433926",
+      "cidade": "",
+      "vendedor": "Rhuan",
+      "temperatura": "",
+      "data_transferencia": "2026-07-20T10:56:37.172-03:00"
+    },
+    {
+      "nome": "ANTONIO ROBERTO FURLAN ZULETA",
+      "telefone": "+5515998020037",
+      "cidade": "Itaberá",
+      "vendedor": "Ronaldo",
+      "temperatura": "morno",
+      "data_transferencia": "2026-07-20T11:17:58.207-03:00"
+    },
+    {
+      "nome": "ANTONIO SERGIO FAUSTINO DA SILVA",
+      "telefone": "+5566999898534",
+      "cidade": "",
+      "vendedor": "Tharik Rafael",
+      "temperatura": "quente",
+      "data_transferencia": "2026-07-22T15:59:11.190-03:00"
+    },
+    {
+      "nome": "ANTONIO TADAIOSHI MITSUYASU",
+      "telefone": "+5567999991100",
+      "cidade": "",
+      "vendedor": "Tharik Rafael",
+      "temperatura": "",
+      "data_transferencia": "2026-07-20T14:39:42.772-03:00"
+    },
+    {
+      "nome": "ANTONIO TAVARES DOS SANTOS",
+      "telefone": "+5598982961243",
+      "cidade": "",
+      "vendedor": "Tharik Rafael",
+      "temperatura": "",
+      "data_transferencia": "2026-07-22T07:44:39.014-03:00"
+    },
+    {
+      "nome": "ANTONIO VIRGINIO DE OLIVEIRA",
+      "telefone": "+5537998651391",
+      "cidade": "Bambuí",
+      "vendedor": "Maria Luiza",
+      "temperatura": "Morno",
+      "data_transferencia": "2026-07-20T14:24:30.842-03:00"
+    },
+    {
+      "nome": "APARECIDO SIMAO LOPES",
+      "telefone": "+5567992476257",
+      "cidade": "",
+      "vendedor": "Rhuan",
+      "temperatura": "Follow-up",
+      "data_transferencia": "2026-07-20T17:50:47.738-03:00"
+    },
+    {
+      "nome": "APARECIDO VERGILIO DA SILVA",
+      "telefone": "+5567996611401",
+      "cidade": "",
+      "vendedor": "Tharik Rafael",
+      "temperatura": "Follow-up",
+      "data_transferencia": "2026-07-20T19:50:52.796-03:00"
+    },
+    {
+      "nome": "APARECIDO VERONEZ",
+      "telefone": "+5516991948508",
+      "cidade": "",
+      "vendedor": "Maria Luiza",
+      "temperatura": "Follow-up",
+      "data_transferencia": "2026-07-20T17:20:53.406-03:00"
+    },
+    {
+      "nome": "APOLONY KALUGIN",
+      "telefone": "+5541999165614",
+      "cidade": "",
+      "vendedor": "Tharik Rafael",
+      "temperatura": "Follow-up",
+      "data_transferencia": "2026-07-20T17:40:50.885-03:00"
+    },
+    {
+      "nome": "ARACELI MENCATO",
+      "telefone": "+5546991030040",
+      "cidade": "",
+      "vendedor": "Ronaldo",
+      "temperatura": "Follow-up",
+      "data_transferencia": "2026-07-20T18:20:52.875-03:00"
+    },
+    {
+      "nome": "ARCIZIO LUIZ SALVI",
+      "telefone": "+5566999980827",
+      "cidade": "",
+      "vendedor": "Maria Luiza",
+      "temperatura": "Follow-up",
+      "data_transferencia": "2026-07-20T18:40:51.709-03:00"
+    },
+    {
+      "nome": "ARGEMIRA PEDROSA ZAMAR",
+      "telefone": "+5566996786445",
+      "cidade": "",
+      "vendedor": "Maria Luiza",
+      "temperatura": "Follow-up",
+      "data_transferencia": "2026-07-21T09:50:51.204-03:00"
+    },
+    {
+      "nome": "ARI GOBBI",
+      "telefone": "+5566984145159",
+      "cidade": "",
+      "vendedor": "Rhuan",
+      "temperatura": "",
+      "data_transferencia": "2026-07-21T10:24:58.937-03:00"
+    },
+    {
+      "nome": "ARI MACHADO",
+      "telefone": "+5566996174282",
+      "cidade": "",
+      "vendedor": "Ronaldo",
+      "temperatura": "Follow-up",
+      "data_transferencia": "2026-07-21T10:30:47.712-03:00"
+    },
+    {
+      "nome": "ARI VOIGT",
+      "telefone": "+5566996165509",
+      "cidade": "",
+      "vendedor": "Rhuan",
+      "temperatura": "",
+      "data_transferencia": "2026-07-21T09:34:53.515-03:00"
+    },
+    {
+      "nome": "ARIAN REUTOV",
+      "telefone": "+5566999730976",
+      "cidade": "",
+      "vendedor": "Rhuan",
+      "temperatura": "Follow-up",
+      "data_transferencia": "2026-07-21T11:50:48.455-03:00"
+    },
+    {
+      "nome": "ARILSON TOMAZINE",
+      "telefone": "+5566999676908",
+      "cidade": "",
+      "vendedor": "Tharik Rafael",
+      "temperatura": "",
+      "data_transferencia": "2026-07-21T11:35:57.768-03:00"
+    },
+    {
+      "nome": "ARNALDO CATTANI",
+      "telefone": "+5566984321301",
+      "cidade": "Água Boa",
+      "vendedor": "Maria Luiza",
+      "temperatura": "Morno",
+      "data_transferencia": "2026-07-21T20:04:40.070-03:00"
+    },
+    {
+      "nome": "ARNALDO DE CASTRO",
+      "telefone": "+5537999881402",
+      "cidade": "Lagoa da Prata",
+      "vendedor": "Rhuan",
+      "temperatura": "Morno",
+      "data_transferencia": "2026-07-22T12:10:37.624-03:00"
+    },
+    {
+      "nome": "ARNALDO VIEIRA DE LIMA",
+      "telefone": "+5567998236750",
+      "cidade": "",
+      "vendedor": "Rhuan",
+      "temperatura": "",
+      "data_transferencia": "2026-07-22T13:21:06.153-03:00"
+    },
+    {
+      "nome": "ARNO HAHN",
+      "telefone": "+5515997355460",
+      "cidade": "",
+      "vendedor": "Maria Luiza",
+      "temperatura": "",
+      "data_transferencia": "2026-07-22T10:09:36.065-03:00"
+    },
+    {
+      "nome": "ARTHUR DE OLIVEIRA ZANIN",
+      "telefone": "+5577999545666",
+      "cidade": "",
+      "vendedor": "Maria Luiza",
+      "temperatura": "",
+      "data_transferencia": "2026-07-22T11:35:29.303-03:00"
+    },
+    {
+      "nome": "ARTHUR PALOMBO DE OLIVEIRA",
+      "telefone": "+5566984345597",
+      "cidade": "",
+      "vendedor": "Maria Luiza",
+      "temperatura": "",
+      "data_transferencia": "2026-07-22T12:31:46.053-03:00"
+    },
+    {
+      "nome": "ARUARA ALBERTO DE MELLO",
+      "telefone": "+5511999387379",
+      "cidade": "",
+      "vendedor": "Tharik Rafael",
+      "temperatura": "",
+      "data_transferencia": "2026-07-22T14:29:38.511-03:00"
+    },
+    {
+      "nome": "ASSOCIACAO COMUNITARIA DO ASSENTAMENTO RURAL JIBOIA",
+      "telefone": "+5538999958848",
+      "cidade": "",
+      "vendedor": "Ronaldo",
+      "temperatura": "",
+      "data_transferencia": "2026-07-22T17:41:50.343-03:00"
+    },
+    {
+      "nome": "ATAEL MARCIANO RIBEIRO",
+      "telefone": "+5537984010148",
+      "cidade": "",
+      "vendedor": "Ronaldo",
+      "temperatura": "quente",
+      "data_transferencia": "2026-07-22T15:16:17.269-03:00"
+    },
+    {
+      "nome": "ATAIDE XISTO DE MORAES",
+      "telefone": "+5511971170333",
+      "cidade": "Paracatu MG e Morungaba SP",
+      "vendedor": "Maria Luiza",
+      "temperatura": "Quente",
+      "data_transferencia": "2026-07-22T16:17:58.730-03:00"
+    },
+    {
+      "nome": "ATAMIR VANDER DE ALMEIDA",
+      "telefone": "+5569981129481",
+      "cidade": "",
+      "vendedor": "Rhuan",
+      "temperatura": "Morno",
+      "data_transferencia": "2026-07-22T16:42:58.205-03:00"
+    },
+    {
+      "nome": "AUDINEI ARY GONCALVES",
+      "telefone": "+5516996189751",
+      "cidade": "",
+      "vendedor": "Rhuan",
+      "temperatura": "quente",
+      "data_transferencia": "2026-07-22T17:35:00.924-03:00"
+    },
+    {
+      "nome": "AUGUSTO HENRIQUE DOS SANTOS",
+      "telefone": "+5564992901174",
+      "cidade": "",
+      "vendedor": "Maria Luiza",
+      "temperatura": "",
+      "data_transferencia": "2026-07-23T10:35:20.761-03:00"
+    },
+    {
+      "nome": "AURO LUIZ COMIN",
+      "telefone": "+5566999887711",
+      "cidade": "",
+      "vendedor": "Ronaldo",
+      "temperatura": "",
+      "data_transferencia": "2026-07-23T15:15:17.797-03:00"
+    },
+    {
+      "nome": "AVANILTON CELESTINO BATISTA JUNIOR",
+      "telefone": "+5534999607462",
+      "cidade": "",
+      "vendedor": "Maria Luiza",
+      "temperatura": "",
+      "data_transferencia": "2026-07-18T15:32:44.209-03:00"
+    },
+    {
+      "nome": "AVELAR BATISTA NUNES DA COSTA",
+      "telefone": "+5567999244593",
+      "cidade": "",
+      "vendedor": "Maria Luiza",
+      "temperatura": "",
+      "data_transferencia": "2026-07-23T13:58:51.756-03:00"
+    },
+    {
+      "nome": "AVELINO VILSON SOLANO",
+      "telefone": "+5566992239824",
+      "cidade": "",
+      "vendedor": "Ronaldo",
+      "temperatura": "",
+      "data_transferencia": "2026-07-23T13:48:54.260-03:00"
+    },
+    {
+      "nome": "AVILA AGROPECUARIA LTDA",
+      "telefone": "+5555999250257",
+      "cidade": "",
+      "vendedor": "Maria Luiza",
+      "temperatura": "quente",
+      "data_transferencia": "2026-07-23T15:27:06.874-03:00"
+    },
+    {
+      "nome": "BRUNO ANTONIO BECCEGATO",
+      "telefone": "+5567998315877",
+      "cidade": "",
+      "vendedor": "Tharik Rafael",
+      "temperatura": "",
+      "data_transferencia": "2026-07-27T13:37:03.576-03:00"
+    },
+    {
+      "nome": "BRUNO BARBOSA DE TOLEDO",
+      "telefone": "+5566984081459",
+      "cidade": "Confresa",
+      "vendedor": "Tharik Rafael",
+      "temperatura": "",
+      "data_transferencia": "2026-07-27T11:35:06.963-03:00"
+    },
+    {
+      "nome": "BRUNO BEE BRESSAN",
+      "telefone": "+5566981033366",
+      "cidade": "",
+      "vendedor": "Ronaldo",
+      "temperatura": "",
+      "data_transferencia": "2026-07-27T11:46:30.254-03:00"
+    },
+    {
+      "nome": "BRUNO BOEING FILHO",
+      "telefone": "+5566999652080",
+      "cidade": "",
+      "vendedor": "Rhuan",
+      "temperatura": "",
+      "data_transferencia": "2026-07-27T11:40:32.273-03:00"
+    },
+    {
+      "nome": "BRUNO BURKHARDT RADIN",
+      "telefone": "+5566996034484",
+      "cidade": "",
+      "vendedor": "Maria Luiza",
+      "temperatura": "",
+      "data_transferencia": "2026-07-27T11:27:24.523-03:00"
+    },
+    {
+      "nome": "BRUNO CEZAR BASSO",
+      "telefone": "+5566999070776",
+      "cidade": "",
+      "vendedor": "Maria Luiza",
+      "temperatura": "",
+      "data_transferencia": "2026-07-27T13:13:33.085-03:00"
+    },
+    {
+      "nome": "BRUNO MELCHER",
+      "telefone": "+5511999529408",
+      "cidade": "",
+      "vendedor": "Tharik Rafael",
+      "temperatura": "",
+      "data_transferencia": "2026-07-27T17:15:03.653-03:00"
+    },
+    {
+      "nome": "BRUNO RANGEL GERALDO MARTINS",
+      "telefone": "+5516999615373",
+      "cidade": "Guariba",
+      "vendedor": "Rhuan",
+      "temperatura": "morno",
+      "data_transferencia": "2026-07-28T08:17:31.605-03:00"
+    },
+    {
+      "nome": "BRUNO RASSINI DA COSTA",
+      "telefone": "+5517991360380",
+      "cidade": "Monte Azul Paulista",
+      "vendedor": "Tharik Rafael",
+      "temperatura": "morno",
+      "data_transferencia": "2026-07-28T09:31:19.716-03:00"
+    },
+    {
+      "nome": "CAETANO FERREIRA DE REZENDE",
+      "telefone": "+5566996757474",
+      "cidade": "Água Boa",
+      "vendedor": "Rhuan",
+      "temperatura": "Morno",
+      "data_transferencia": "2026-07-28T16:41:56.304-03:00"
+    },
+    {
+      "nome": "CAIO LEANDRO PETROLI",
+      "telefone": "+5511999073899",
+      "cidade": "",
+      "vendedor": "Tharik Rafael",
+      "temperatura": "Quente",
+      "data_transferencia": "2026-07-28T14:29:55.426-03:00"
+    },
+    {
+      "nome": "CAIO MAGNOS SCHAFER",
+      "telefone": "+5566997268084",
+      "cidade": "",
+      "vendedor": "Rhuan",
+      "temperatura": "",
+      "data_transferencia": "2026-07-28T14:47:49.227-03:00"
+    },
+    {
+      "nome": "CALEGARI HOLDING PARTICIPACOES LTDA",
+      "telefone": "+5562999330944",
+      "cidade": "",
+      "vendedor": "Maria Luiza",
+      "temperatura": "",
+      "data_transferencia": "2026-07-28T18:05:58.593-03:00"
+    },
+    {
+      "nome": "CAMPEIRA COMERCIAL AGRICOLA EIRELI - EPP",
+      "telefone": "+5566996557835",
+      "cidade": "",
+      "vendedor": "Ronaldo",
+      "temperatura": "",
+      "data_transferencia": "2026-07-29T09:27:48.405-03:00"
+    },
+    {
+      "nome": "CARDOSO & BATISTA REPRESENTACOES LTDA",
+      "telefone": "+5562996044493",
+      "cidade": "",
+      "vendedor": "Douglas",
+      "temperatura": "",
+      "data_transferencia": "2026-07-29T10:40:22.274-03:00"
+    },
+    {
+      "nome": "CARLOS ALBERTO ANDRINO",
+      "telefone": "+5514997961480",
+      "cidade": "",
+      "vendedor": "Maria Luiza",
+      "temperatura": "",
+      "data_transferencia": "2026-07-29T15:20:14.731-03:00"
+    },
+    {
+      "nome": "CARLOS ANTONIO BARBOSA DE SOUZA",
+      "telefone": "+5562999782379",
+      "cidade": "",
+      "vendedor": "Ronaldo",
+      "temperatura": "",
+      "data_transferencia": "2026-07-30T10:52:37.991-03:00"
+    },
+    {
+      "nome": "CARLOS ANTONIO DA ROSA",
+      "telefone": "+5534999750359",
+      "cidade": "Patos de Minas",
+      "vendedor": "Rhuan",
+      "temperatura": "morno",
+      "data_transferencia": "2026-07-30T10:31:47.825-03:00"
+    },
+    {
+      "nome": "CARLOS ANTONIO DE ARAUJO",
+      "telefone": "+5534999625100",
+      "cidade": "Centralina",
+      "vendedor": "Tharik Rafael",
+      "temperatura": "morno",
+      "data_transferencia": "2026-07-30T11:04:39.548-03:00"
+    },
+    {
+      "nome": "CARLOS ANTONIO PALHARINI",
+      "telefone": "+5518996781537",
+      "cidade": "",
+      "vendedor": "Ronaldo",
+      "temperatura": "",
+      "data_transferencia": "2026-07-30T12:37:53.190-03:00"
+    },
+    {
+      "nome": "CARLOS CESAR TRASFERETI",
+      "telefone": "+5519993453617",
+      "cidade": "",
+      "vendedor": "Tharik Rafael",
+      "temperatura": "",
+      "data_transferencia": "2026-07-30T14:08:06.739-03:00"
+    },
+    {
+      "nome": "CARLOS FERRAZ PORTO",
+      "telefone": "+5514998005150",
+      "cidade": "",
+      "vendedor": "Tharik Rafael",
+      "temperatura": "",
+      "data_transferencia": "2026-07-31T09:30:39.740-03:00"
+    },
+    {
+      "nome": "CARLOS MANFIO",
+      "telefone": "+5566996120937",
+      "cidade": "",
+      "vendedor": "Rhuan",
+      "temperatura": "",
+      "data_transferencia": "2026-08-07T08:14:50.951-03:00"
+    },
+    {
+      "nome": "CARLOS ROBERTO DA SILVA",
+      "telefone": "+5561999856073",
+      "cidade": "",
+      "vendedor": "Tharik Rafael",
+      "temperatura": "",
+      "data_transferencia": "2026-08-01T08:07:00.949-03:00"
+    },
+    {
+      "nome": "CARLOS ROBERTO DIETER",
+      "telefone": "+5562996670467",
+      "cidade": "",
+      "vendedor": "Tharik Rafael",
+      "temperatura": "",
+      "data_transferencia": "2026-07-31T16:45:44.801-03:00"
+    },
+    {
+      "nome": "CARLOS TERUO KOIZUMI",
+      "telefone": "+5515997312109",
+      "cidade": "",
+      "vendedor": "Rhuan",
+      "temperatura": "",
+      "data_transferencia": "2026-08-01T11:36:14.920-03:00"
+    },
+    {
+      "nome": "CARMEM SILVIA DE SOUZA",
+      "telefone": "+5562991274116",
+      "cidade": "",
+      "vendedor": "Ronaldo",
+      "temperatura": "",
+      "data_transferencia": "2026-08-01T14:28:12.266-03:00"
+    },
+    {
+      "nome": "CASSIA ISOLINA DUNDI CARVALHO",
+      "telefone": "+5564999245378",
+      "cidade": "",
+      "vendedor": "Tharik Rafael",
+      "temperatura": "",
+      "data_transferencia": "2026-08-03T10:57:40.984-03:00"
+    },
+    {
+      "nome": "CASSIO HERBERTO SCHNEIDER",
+      "telefone": "+5561999710008",
+      "cidade": "",
+      "vendedor": "Ronaldo",
+      "temperatura": "",
+      "data_transferencia": "2026-08-03T14:12:53.139-03:00"
+    },
+    {
+      "nome": "CATIA MARIA DE MEDEIROS BIF",
+      "telefone": "+5566999128275",
+      "cidade": "Tabaporã",
+      "vendedor": "Tharik Rafael",
+      "temperatura": "Morno",
+      "data_transferencia": "2026-08-03T18:44:54.146-03:00"
+    },
+    {
+      "nome": "CELIO AMANCIO DE OLIVEIRA",
+      "telefone": "+5518997605015",
+      "cidade": "",
+      "vendedor": "Maria Luiza",
+      "temperatura": "",
+      "data_transferencia": "2026-08-04T09:47:42.974-03:00"
+    },
+    {
+      "nome": "CELSO AMORIN DA SILVA",
+      "telefone": "+5567996717526",
+      "cidade": "",
+      "vendedor": "Tharik Rafael",
+      "temperatura": "",
+      "data_transferencia": "2026-08-04T14:43:21.397-03:00"
+    },
+    {
+      "nome": "CELSO FERNANDES DE OLIVEIRA",
+      "telefone": "+5562999397159",
+      "cidade": "",
+      "vendedor": "Ronaldo",
+      "temperatura": "Frio",
+      "data_transferencia": "2026-08-05T11:48:26.673-03:00"
+    },
+    {
+      "nome": "CELSO JERONIMO DE OLIVEIRA",
+      "telefone": "+5564999582067",
+      "cidade": "Edéia",
+      "vendedor": "Tharik Rafael",
+      "temperatura": "quente",
+      "data_transferencia": "2026-08-04T17:29:45.478-03:00"
+    },
+    {
+      "nome": "CELSO JOSE ANDREAZZA",
+      "telefone": "+5541999976036",
+      "cidade": "Vilhena",
+      "vendedor": "Rhuan",
+      "temperatura": "",
+      "data_transferencia": "2026-08-04T19:40:31.297-03:00"
+    },
+    {
+      "nome": "CELSO PARZIANELLO",
+      "telefone": "+5565999433881",
+      "cidade": "",
+      "vendedor": "Tharik Rafael",
+      "temperatura": "",
+      "data_transferencia": "2026-08-05T11:55:40.850-03:00"
+    },
+    {
+      "nome": "CELSO RIBEIRO",
+      "telefone": "+5534998358769",
+      "cidade": "Uberaba",
+      "vendedor": "Maria Luiza",
+      "temperatura": "",
+      "data_transferencia": "2026-08-05T11:52:16.261-03:00"
+    },
+    {
+      "nome": "CELSO ROBERTO ANDREOTTI",
+      "telefone": "+5518996060613",
+      "cidade": "",
+      "vendedor": "Maria Luiza",
+      "temperatura": "",
+      "data_transferencia": "2026-08-05T08:30:25.885-03:00"
+    },
+    {
+      "nome": "CENTROSUL COMERCIO E DISTRIBUICAO DE SEMENTES E INSUMOS AGRICOLAS LTDA",
+      "telefone": "+5554996676237",
+      "cidade": "",
+      "vendedor": "Rhuan",
+      "temperatura": "",
+      "data_transferencia": "2026-08-05T10:29:11.861-03:00"
+    },
+    {
+      "nome": "CESAR ADRIANO SABADIN",
+      "telefone": "+5519998135414",
+      "cidade": "",
+      "vendedor": "Ronaldo",
+      "temperatura": "",
+      "data_transferencia": "2026-08-05T16:08:42.718-03:00"
+    },
+    {
+      "nome": "CESAR AMAURI GUIARO",
+      "telefone": "+5511971256035",
+      "cidade": "",
+      "vendedor": "Tharik Rafael",
+      "temperatura": "",
+      "data_transferencia": "2026-08-05T17:39:08.626-03:00"
+    },
+    {
+      "nome": "CESAR AUGUSTO ROOS",
+      "telefone": "+5567998328750",
+      "cidade": "",
+      "vendedor": "Rhuan",
+      "temperatura": "",
+      "data_transferencia": "2026-08-05T12:16:48.422-03:00"
+    },
+    {
+      "nome": "CEZARIO CAZATTI DONA",
+      "telefone": "+5518997066523",
+      "cidade": "",
+      "vendedor": "Rhuan",
+      "temperatura": "",
+      "data_transferencia": "2026-08-05T17:55:04.337-03:00"
+    },
+    {
+      "nome": "CHARLES ARLAN CRESTANI",
+      "telefone": "+5566999843143",
+      "cidade": "",
+      "vendedor": "Maria Luiza",
+      "temperatura": "",
+      "data_transferencia": "2026-08-05T17:37:24.083-03:00"
+    },
+    {
+      "nome": "CHARLES DE OLIVEIRA BRAGA",
+      "telefone": "+5564999738890",
+      "cidade": "Cristalina",
+      "vendedor": "Ronaldo",
+      "temperatura": "Morno",
+      "data_transferencia": "2026-08-05T17:55:44.208-03:00"
+    },
+    {
+      "nome": "CHESTER ATILA FERREIRA",
+      "telefone": "+5537999572575",
+      "cidade": "",
+      "vendedor": "Maria Luiza",
+      "temperatura": "",
+      "data_transferencia": "2026-08-06T08:34:23.711-03:00"
+    },
+    {
+      "nome": "CIBELE HELENA DAHER",
+      "telefone": "+5511971713532",
+      "cidade": "",
+      "vendedor": "Tharik Rafael",
+      "temperatura": "",
+      "data_transferencia": "2026-08-06T09:36:58.738-03:00"
+    },
+    {
+      "nome": "CILAS DE JESUS PEREIRA",
+      "telefone": "+5562991620861",
+      "cidade": "",
+      "vendedor": "Tharik Rafael",
+      "temperatura": "",
+      "data_transferencia": "2026-08-06T12:02:19.819-03:00"
+    },
+    {
+      "nome": "CILNIO JOSE ARCE FILHO",
+      "telefone": "+5567981430474",
+      "cidade": "Ponta Porã",
+      "vendedor": "Maria Luiza",
+      "temperatura": "Morno",
+      "data_transferencia": "2026-08-06T11:25:39.488-03:00"
+    },
+    {
+      "nome": "CINIRA ROSA DOS SANTOS MATIAS",
+      "telefone": "+5514997792682",
+      "cidade": "Paranapanema",
+      "vendedor": "Maria Luiza",
+      "temperatura": "Morno",
+      "data_transferencia": "2026-08-10T09:01:37.530-03:00"
+    },
+    {
+      "nome": "CINTIA JOELMA DE ALMEIDA",
+      "telefone": "+5564999440023",
+      "cidade": "",
+      "vendedor": "Ronaldo",
+      "temperatura": "",
+      "data_transferencia": "2026-08-06T13:02:43.215-03:00"
+    },
+    {
+      "nome": "CIRO LEMOS BARBARA CONTE",
+      "telefone": "+5535992377744",
+      "cidade": "",
+      "vendedor": "Maria Luiza",
+      "temperatura": "",
+      "data_transferencia": "2026-08-06T15:24:44.091-03:00"
+    },
+    {
+      "nome": "CLADINILSON ROGERIO LEMANSKI",
+      "telefone": "+5596991835783",
+      "cidade": "",
+      "vendedor": "Douglas",
+      "temperatura": "",
+      "data_transferencia": "2026-08-06T15:18:06.335-03:00"
+    },
+    {
+      "nome": "CLALDIMIR MANSANO",
+      "telefone": "+5565999983093",
+      "cidade": "",
+      "vendedor": "Ronaldo",
+      "temperatura": "",
+      "data_transferencia": "2026-08-06T17:15:19.385-03:00"
+    },
+    {
+      "nome": "CLARENIR SCHWARZ",
+      "telefone": "+5566999150101",
+      "cidade": "",
+      "vendedor": "Tharik Rafael",
+      "temperatura": "",
+      "data_transferencia": "2026-08-06T21:02:44.785-03:00"
+    },
+    {
+      "nome": "CLARENITA DE SOUSA SILVA GASPAR",
+      "telefone": "+5599991615753",
+      "cidade": "Castanheira",
+      "vendedor": "Rhuan",
+      "temperatura": "quente",
+      "data_transferencia": "2026-08-06T16:26:08.123-03:00"
+    },
+    {
+      "nome": "CLARINDO DA SILVA NEVES",
+      "telefone": "+5564999871800",
+      "cidade": "",
+      "vendedor": "Maria Luiza",
+      "temperatura": "",
+      "data_transferencia": "2026-08-06T17:28:50.783-03:00"
+    },
+    {
+      "nome": "CLAUDECI DOS SANTOS",
+      "telefone": "+5515997812069",
+      "cidade": "",
+      "vendedor": "Ronaldo",
+      "temperatura": "",
+      "data_transferencia": "2026-08-07T08:20:08.991-03:00"
+    },
+    {
+      "nome": "CLAUDEMIR ANTONIO LOTTI",
+      "telefone": "+5516997120417",
+      "cidade": "",
+      "vendedor": "Maria Luiza",
+      "temperatura": "",
+      "data_transferencia": "2026-08-07T09:29:50.026-03:00"
+    },
+    {
+      "nome": "CLAUDEMIR CASALLI",
+      "telefone": "+5566999733256",
+      "cidade": "",
+      "vendedor": "Ronaldo",
+      "temperatura": "",
+      "data_transferencia": "2026-08-07T10:54:23.688-03:00"
+    },
+    {
+      "nome": "CLAUDIA GISELE ROSSO HIRT",
+      "telefone": "+5562998274424",
+      "cidade": "",
+      "vendedor": "Maria Luiza",
+      "temperatura": "",
+      "data_transferencia": "2026-08-08T09:05:30.716-03:00"
+    },
+    {
+      "nome": "CLAUDINO TIRLONI",
+      "telefone": "+5566999024702",
+      "cidade": "",
+      "vendedor": "Ronaldo",
+      "temperatura": "",
+      "data_transferencia": "2026-08-08T08:41:46.740-03:00"
+    },
+    {
+      "nome": "CLAUDIO ADRIANO CAPPELLESSO",
+      "telefone": "+5561999711326",
+      "cidade": "",
+      "vendedor": "Rhuan",
+      "temperatura": "",
+      "data_transferencia": "2026-08-07T18:36:59.013-03:00"
+    },
+    {
+      "nome": "CLAUDIO ANTONIO BAIOTTO",
+      "telefone": "+5567996376308",
+      "cidade": "Sonora",
+      "vendedor": "Tharik Rafael",
+      "temperatura": "Morno",
+      "data_transferencia": "2026-08-08T09:07:16.111-03:00"
+    },
+    {
+      "nome": "CLAUDIO ANTONIO GONCALVES",
+      "telefone": "+5534988741126",
+      "cidade": "",
+      "vendedor": "Maria Luiza",
+      "temperatura": "",
+      "data_transferencia": "2026-08-08T12:04:22.065-03:00"
+    },
+    {
+      "nome": "CLAUDIO FERREIRA DOS ANJOS",
+      "telefone": "+5566996060740",
+      "cidade": "",
+      "vendedor": "Tharik Rafael",
+      "temperatura": "",
+      "data_transferencia": "2026-08-08T13:11:06.479-03:00"
+    },
+    {
+      "nome": "CLAUDIO JOAO SFREDO",
+      "telefone": "+5565999661155",
+      "cidade": "",
+      "vendedor": "Rhuan",
+      "temperatura": "",
+      "data_transferencia": "2026-08-10T08:27:45.253-03:00"
+    },
+    {
+      "nome": "CLAUDIO JOSE SONEGO",
+      "telefone": "+5565981179095",
+      "cidade": "",
+      "vendedor": "Ronaldo",
+      "temperatura": "",
+      "data_transferencia": "2026-08-10T08:53:11.097-03:00"
+    },
+    {
+      "nome": "CLAUDIO LAERCIO DUFFECK",
+      "telefone": "+5565999858134",
+      "cidade": "",
+      "vendedor": "Rhuan",
+      "temperatura": "",
+      "data_transferencia": "2026-08-10T10:57:20.164-03:00"
+    },
+    {
+      "nome": "CLAUDIO MONARI",
+      "telefone": "+5565999891877",
+      "cidade": "",
+      "vendedor": "Tharik Rafael",
+      "temperatura": "",
+      "data_transferencia": "2026-08-10T12:15:34.789-03:00"
+    },
+    {
+      "nome": "GENIR CELA JUNIOR",
+      "telefone": "+5565996211468",
+      "cidade": "",
+      "vendedor": "Ronaldo",
+      "temperatura": "",
+      "data_transferencia": "2026-07-13T12:35:31.450-03:00"
+    },
+    {
+      "nome": "JOSE LUIZ CADORE",
+      "telefone": "+5564999819982",
+      "cidade": "",
+      "vendedor": "Ronaldo",
+      "temperatura": "",
+      "data_transferencia": "2026-07-28T17:22:14.272-03:00"
+    },
+    {
+      "nome": "MARCIO EBERLE",
+      "telefone": "+5566999123158",
+      "cidade": "",
+      "vendedor": "Ronaldo",
+      "temperatura": "",
+      "data_transferencia": "2026-07-13T10:05:46.764-03:00"
+    },
+    {
+      "nome": "MAURA SIQUEIRA CARVALHO PALUDO",
+      "telefone": "+5564999891179",
+      "cidade": "",
+      "vendedor": "Tharik Rafael",
+      "temperatura": "",
+      "data_transferencia": "2026-07-13T15:31:38.235-03:00"
+    },
+    {
+      "nome": "João",
+      "telefone": "5511981210591",
+      "cidade": "",
+      "vendedor": "Ronaldo",
+      "temperatura": "",
+      "data_transferencia": "2026-07-11T12:06:54.988-03:00"
+    },
+    {
+      "nome": "Laurimar",
+      "telefone": "556796323959",
+      "cidade": "",
+      "vendedor": "Maria Luiza",
+      "temperatura": "",
+      "data_transferencia": "2026-07-13T10:17:01.491-03:00"
+    },
+    {
+      "nome": "Renan Felipe Buss",
+      "telefone": "5577998345095",
+      "cidade": "",
+      "vendedor": "Maria Luiza",
+      "temperatura": "",
+      "data_transferencia": "2026-07-13T15:17:10.249-03:00"
+    },
+    {
+      "nome": "André Busato",
+      "telefone": "5577999712010",
+      "cidade": "",
+      "vendedor": "Maria Luiza",
+      "temperatura": "",
+      "data_transferencia": "2026-07-14T14:08:21.531-03:00"
+    },
+    {
+      "nome": "Pai",
+      "telefone": "553798151092",
+      "cidade": "",
+      "vendedor": "Maria Luiza",
+      "temperatura": "",
+      "data_transferencia": "2026-07-15T08:43:53.037-03:00"
+    },
+    {
+      "nome": "André Zonta",
+      "telefone": "5517996193432",
+      "cidade": "",
+      "vendedor": "Tharik Rafael",
+      "temperatura": "",
+      "data_transferencia": "2026-07-15T14:11:08.695-03:00"
+    },
+    {
+      "nome": "Tato",
+      "telefone": "5567996925113",
+      "cidade": "",
+      "vendedor": "Tharik Rafael",
+      "temperatura": "",
+      "data_transferencia": "2026-07-15T17:35:41.254-03:00"
+    },
+    {
+      "nome": "Rafael Caixeta",
+      "telefone": "553597627641",
+      "cidade": "Machado",
+      "vendedor": "Rhuan",
+      "temperatura": "Quente",
+      "data_transferencia": "2026-07-16T14:36:13.127-03:00"
+    },
+    {
+      "nome": "Anoedio Naves",
+      "telefone": "556499836316",
+      "cidade": "",
+      "vendedor": "Ronaldo",
+      "temperatura": "",
+      "data_transferencia": "2026-07-16T15:20:55.509-03:00"
+    },
+    {
+      "nome": "Matheus Ferreira",
+      "telefone": "556699575320",
+      "cidade": "",
+      "vendedor": "Tharik Rafael",
+      "temperatura": "",
+      "data_transferencia": "2026-07-16T16:32:36.420-03:00"
+    },
+    {
+      "nome": "Antonio Augusto",
+      "telefone": "5594991544223",
+      "cidade": "",
+      "vendedor": "Rhuan",
+      "temperatura": "",
+      "data_transferencia": "2026-07-16T17:41:03.539-03:00"
+    },
+    {
+      "nome": "Ana Carla Grandi",
+      "telefone": "556499967286",
+      "cidade": "",
+      "vendedor": "Maria Luiza",
+      "temperatura": "Frio",
+      "data_transferencia": "2026-07-17T09:10:29.096-03:00"
+    },
+    {
+      "nome": "Antonio Copini",
+      "telefone": "556599957280",
+      "cidade": "",
+      "vendedor": "Tharik Rafael",
+      "temperatura": "",
+      "data_transferencia": "2026-07-17T11:20:25.472-03:00"
+    },
+    {
+      "nome": "Valdeci Miyazaki",
+      "telefone": "553499847337",
+      "cidade": "",
+      "vendedor": "Tharik Rafael",
+      "temperatura": "",
+      "data_transferencia": "2026-07-20T09:05:34.778-03:00"
+    },
+    {
+      "nome": "Diomid Irmao",
+      "telefone": "554291027045",
+      "cidade": "",
+      "vendedor": "Ronaldo",
+      "temperatura": "",
+      "data_transferencia": "2026-07-20T16:30:25.844-03:00"
+    },
+    {
+      "nome": "Andre & Eudiene",
+      "telefone": "556699918341",
+      "cidade": "Querência",
+      "vendedor": "Tharik Rafael",
+      "temperatura": "morno",
+      "data_transferencia": "2026-07-21T09:52:25.263-03:00"
+    },
+    {
+      "nome": "Maridão",
+      "telefone": "556696123466",
+      "cidade": "",
+      "vendedor": "Tharik Rafael",
+      "temperatura": "",
+      "data_transferencia": "2026-07-21T10:41:36.499-03:00"
+    },
+    {
+      "nome": "Aristocles",
+      "telefone": "553499871869",
+      "cidade": "",
+      "vendedor": "Ronaldo",
+      "temperatura": "Frio",
+      "data_transferencia": "2026-07-21T11:22:49.518-03:00"
+    },
+    {
+      "nome": "Camila Bellodi",
+      "telefone": "5516997114150",
+      "cidade": "",
+      "vendedor": "Maria Luiza",
+      "temperatura": "",
+      "data_transferencia": "2026-07-21T11:24:55.531-03:00"
+    },
+    {
+      "nome": "Arlei Favaretto",
+      "telefone": "556599958311",
+      "cidade": "",
+      "vendedor": "Ronaldo",
+      "temperatura": "Frio",
+      "data_transferencia": "2026-07-21T12:16:51.696-03:00"
+    },
+    {
+      "nome": "Arlei Marcos Sandri OK Mi",
+      "telefone": "559988453573",
+      "cidade": "",
+      "vendedor": "Maria Luiza",
+      "temperatura": "",
+      "data_transferencia": "2026-07-21T12:16:59.985-03:00"
+    },
+    {
+      "nome": "Ademir Toniato",
+      "telefone": "5567999618834",
+      "cidade": "",
+      "vendedor": "Rhuan",
+      "temperatura": "",
+      "data_transferencia": "2026-07-21T14:35:58.838-03:00"
+    },
+    {
+      "nome": "Arnildo Lauxen.",
+      "telefone": "556699950807",
+      "cidade": "",
+      "vendedor": "Tharik Rafael",
+      "temperatura": "",
+      "data_transferencia": "2026-07-22T09:26:31.442-03:00"
+    },
+    {
+      "nome": "Camila Obadowski",
+      "telefone": "556599460655",
+      "cidade": "",
+      "vendedor": "Ronaldo",
+      "temperatura": "",
+      "data_transferencia": "2026-07-22T14:35:09.455-03:00"
+    },
+    {
+      "nome": "franciscamarli882",
+      "telefone": "553798724309",
+      "cidade": "",
+      "vendedor": "Rhuan",
+      "temperatura": "quente",
+      "data_transferencia": "2026-07-22T15:15:32.987-03:00"
+    },
+    {
+      "nome": "David (indicado pelo Atamir)",
+      "telefone": "5569992280580",
+      "cidade": "",
+      "vendedor": "Ronaldo",
+      "temperatura": "",
+      "data_transferencia": "2026-07-22T16:44:19.817-03:00"
+    },
+    {
+      "nome": "Audenilto",
+      "telefone": "553499067425",
+      "cidade": "",
+      "vendedor": "Tharik Rafael",
+      "temperatura": "",
+      "data_transferencia": "2026-07-22T17:14:41.257-03:00"
+    },
+    {
+      "nome": "Kiko",
+      "telefone": "556699578413",
+      "cidade": "",
+      "vendedor": "Tharik Rafael",
+      "temperatura": "",
+      "data_transferencia": "2026-07-23T12:12:26.077-03:00"
+    },
+    {
+      "nome": "Júnior Biu",
+      "telefone": "5514996920080",
+      "cidade": "",
+      "vendedor": "Rhuan",
+      "temperatura": "",
+      "data_transferencia": "2026-07-23T13:29:29.428-03:00"
+    },
+    {
+      "nome": "Avenino",
+      "telefone": "556796259814",
+      "cidade": "",
+      "vendedor": "Tharik Rafael",
+      "temperatura": "",
+      "data_transferencia": "2026-07-23T14:02:16.668-03:00"
+    },
+    {
+      "nome": "Claírton da Silva",
+      "telefone": "55811742222",
+      "cidade": "",
+      "vendedor": "Tharik Rafael",
+      "temperatura": "",
+      "data_transferencia": "2026-07-23T15:57:44.726-03:00"
+    },
+    {
+      "nome": "Barbara",
+      "telefone": "556496959628",
+      "cidade": "Montevidiu",
+      "vendedor": "Rhuan",
+      "temperatura": "Morno",
+      "data_transferencia": "2026-07-23T16:20:35.647-03:00"
+    },
+    {
+      "nome": "Francielo Junior",
+      "telefone": "5567999466611",
+      "cidade": "",
+      "vendedor": "Ronaldo",
+      "temperatura": "",
+      "data_transferencia": "2026-07-23T17:38:08.103-03:00"
+    },
+    {
+      "nome": "Roque Luiz",
+      "telefone": "556799017480",
+      "cidade": "",
+      "vendedor": "Maria Luiza",
+      "temperatura": "",
+      "data_transferencia": "2026-07-24T09:13:18.733-03:00"
+    },
+    {
+      "nome": "Olenir",
+      "telefone": "5567999715262",
+      "cidade": "",
+      "vendedor": "Tharik Rafael",
+      "temperatura": "",
+      "data_transferencia": "2026-07-24T11:16:35.431-03:00"
+    },
+    {
+      "nome": "Rafael",
+      "telefone": "5567996092604",
+      "cidade": "",
+      "vendedor": "Rhuan",
+      "temperatura": "",
+      "data_transferencia": "2026-07-24T12:43:53.444-03:00"
+    },
+    {
+      "nome": "Bel",
+      "telefone": "556799760592",
+      "cidade": "",
+      "vendedor": "Ronaldo",
+      "temperatura": "Morno",
+      "data_transferencia": "2026-07-24T12:57:46.639-03:00"
+    },
+    {
+      "nome": "Kich Agro",
+      "telefone": "556599822740",
+      "cidade": "",
+      "vendedor": "Maria Luiza",
+      "temperatura": "",
+      "data_transferencia": "2026-07-24T14:19:16.704-03:00"
+    },
+    {
+      "nome": "",
+      "telefone": "5566999986886",
+      "cidade": "",
+      "vendedor": "Tharik Rafael",
+      "temperatura": "",
+      "data_transferencia": "2026-07-24T15:39:59.591-03:00"
+    },
+    {
+      "nome": "Berto",
+      "telefone": "554491418384",
+      "cidade": "",
+      "vendedor": "Rhuan",
+      "temperatura": "",
+      "data_transferencia": "2026-07-24T16:43:13.333-03:00"
+    },
+    {
+      "nome": "Bom",
+      "telefone": "6634115600",
+      "cidade": "",
+      "vendedor": "Ronaldo",
+      "temperatura": "",
+      "data_transferencia": "2026-07-25T09:51:24.566-03:00"
+    },
+    {
+      "nome": "Breno",
+      "telefone": "556384392441",
+      "cidade": "",
+      "vendedor": "Maria Luiza",
+      "temperatura": "",
+      "data_transferencia": "2026-07-25T11:17:22.388-03:00"
+    },
+    {
+      "nome": "Bruno",
+      "telefone": "553799993951",
+      "cidade": "Moema",
+      "vendedor": "Rhuan",
+      "temperatura": "morno",
+      "data_transferencia": "2026-07-27T15:08:26.966-03:00"
+    },
+    {
+      "nome": "Bruno",
+      "telefone": "553598362603",
+      "cidade": "",
+      "vendedor": "Ronaldo",
+      "temperatura": "",
+      "data_transferencia": "2026-07-27T16:09:39.858-03:00"
+    },
+    {
+      "nome": "Bruno Poli",
+      "telefone": "553191186700",
+      "cidade": "",
+      "vendedor": "Maria Luiza",
+      "temperatura": "",
+      "data_transferencia": "2026-07-27T16:25:46.480-03:00"
+    },
+    {
+      "nome": "Rafael",
+      "telefone": "556599960278",
+      "cidade": "",
+      "vendedor": "Ronaldo",
+      "temperatura": "",
+      "data_transferencia": "2026-07-28T08:19:53.839-03:00"
+    },
+    {
+      "nome": "Tiago Cowboy",
+      "telefone": "553496440131",
+      "cidade": "",
+      "vendedor": "Maria Luiza",
+      "temperatura": "",
+      "data_transferencia": "2026-07-28T09:12:03.630-03:00"
+    },
+    {
+      "nome": "MÁRCIO",
+      "telefone": "556399188893",
+      "cidade": "Tocantins e Mato Grosso",
+      "vendedor": "Rhuan",
+      "temperatura": "",
+      "data_transferencia": "2026-07-28T11:22:34.674-03:00"
+    },
+    {
+      "nome": "Caetano",
+      "telefone": "556696187474",
+      "cidade": "",
+      "vendedor": "Ronaldo",
+      "temperatura": "",
+      "data_transferencia": "2026-07-28T12:24:03.400-03:00"
+    },
+    {
+      "nome": "Caio Henrique",
+      "telefone": "556796623758",
+      "cidade": "",
+      "vendedor": "Maria Luiza",
+      "temperatura": "",
+      "data_transferencia": "2026-07-28T13:46:02.117-03:00"
+    },
+    {
+      "nome": "Clóvis - Essência",
+      "telefone": "556596518096",
+      "cidade": "",
+      "vendedor": "Ronaldo",
+      "temperatura": "",
+      "data_transferencia": "2026-07-28T15:21:25.195-03:00"
+    },
+    {
+      "nome": "Calixto Miziara F",
+      "telefone": "553499744448",
+      "cidade": "",
+      "vendedor": "Maria Luiza",
+      "temperatura": "",
+      "data_transferencia": "2026-07-28T16:06:18.945-03:00"
+    },
+    {
+      "nome": "Alcione S. Barbieri",
+      "telefone": "5566999630505",
+      "cidade": "",
+      "vendedor": "Tharik Rafael",
+      "temperatura": "",
+      "data_transferencia": "2026-07-28T16:26:46.379-03:00"
+    },
+    {
+      "nome": "Camilo Travessini",
+      "telefone": "556699275914",
+      "cidade": "",
+      "vendedor": "Tharik Rafael",
+      "temperatura": "",
+      "data_transferencia": "2026-07-29T09:13:38.728-03:00"
+    },
+    {
+      "nome": "Vanderlam",
+      "telefone": "5566996978749",
+      "cidade": "",
+      "vendedor": "Rhuan",
+      "temperatura": "",
+      "data_transferencia": "2026-07-29T09:18:32.647-03:00"
+    },
+    {
+      "nome": "Carine Ferneda",
+      "telefone": "556796675293",
+      "cidade": "",
+      "vendedor": "Maria Luiza",
+      "temperatura": "",
+      "data_transferencia": "2026-07-29T11:20:44.375-03:00"
+    },
+    {
+      "nome": "Lírio Schuster",
+      "telefone": "556692404219",
+      "cidade": "",
+      "vendedor": "Tharik Rafael",
+      "temperatura": "",
+      "data_transferencia": "2026-07-29T13:56:28.317-03:00"
+    },
+    {
+      "nome": "Carlesso Busanello",
+      "telefone": "556196517258",
+      "cidade": "",
+      "vendedor": "Rhuan",
+      "temperatura": "",
+      "data_transferencia": "2026-07-29T14:22:34.101-03:00"
+    },
+    {
+      "nome": "Carlos Faganello",
+      "telefone": "556699984225",
+      "cidade": "",
+      "vendedor": "Ronaldo",
+      "temperatura": "",
+      "data_transferencia": "2026-07-29T15:07:43.168-03:00"
+    },
+    {
+      "nome": "Carlos",
+      "telefone": "55669999882264",
+      "cidade": "",
+      "vendedor": "Tharik Rafael",
+      "temperatura": "",
+      "data_transferencia": "2026-07-29T15:27:18.760-03:00"
+    },
+    {
+      "nome": "Gustavo",
+      "telefone": "5565999665322",
+      "cidade": "",
+      "vendedor": "Rhuan",
+      "temperatura": "",
+      "data_transferencia": "2026-07-29T15:46:28.282-03:00"
+    },
+    {
+      "nome": "JB🍀🛐🙏🏼",
+      "telefone": "553499578898",
+      "cidade": "",
+      "vendedor": "Ronaldo",
+      "temperatura": "",
+      "data_transferencia": "2026-07-29T16:20:06.140-03:00"
+    },
+    {
+      "nome": "Beto",
+      "telefone": "555496147426",
+      "cidade": "Rondônia",
+      "vendedor": "Tharik Rafael",
+      "temperatura": "Morno",
+      "data_transferencia": "2026-07-29T17:20:34.122-03:00"
+    },
+    {
+      "nome": "Tamara",
+      "telefone": "556584033648",
+      "cidade": "",
+      "vendedor": "Rhuan",
+      "temperatura": "",
+      "data_transferencia": "2026-07-30T08:04:58.206-03:00"
+    },
+    {
+      "nome": "Carlos A.Picorelli Santos",
+      "telefone": "553191536528",
+      "cidade": "",
+      "vendedor": "Ronaldo",
+      "temperatura": "",
+      "data_transferencia": "2026-07-30T08:09:32.812-03:00"
+    },
+    {
+      "nome": "Carlos Alberto Pelisão",
+      "telefone": "556584332306",
+      "cidade": "",
+      "vendedor": "Maria Luiza",
+      "temperatura": "",
+      "data_transferencia": "2026-07-30T08:26:00.864-03:00"
+    },
+    {
+      "nome": "Banci",
+      "telefone": "556199616277",
+      "cidade": "",
+      "vendedor": "Maria Luiza",
+      "temperatura": "",
+      "data_transferencia": "2026-07-30T11:00:01.393-03:00"
+    },
+    {
+      "nome": "Jose Carlos Wagner",
+      "telefone": "55999748498",
+      "cidade": "",
+      "vendedor": "Rhuan",
+      "temperatura": "",
+      "data_transferencia": "2026-07-30T12:12:59.265-03:00"
+    },
+    {
+      "nome": "Marcos Sfredo",
+      "telefone": "556592884741",
+      "cidade": "",
+      "vendedor": "Maria Luiza",
+      "temperatura": "",
+      "data_transferencia": "2026-07-30T12:51:42.775-03:00"
+    },
+    {
+      "nome": "Carlos Diego",
+      "telefone": "556496952686",
+      "cidade": "",
+      "vendedor": "Rhuan",
+      "temperatura": "",
+      "data_transferencia": "2026-07-30T15:58:33.999-03:00"
+    },
+    {
+      "nome": "Carlos Eduardo",
+      "telefone": "556281104344",
+      "cidade": "",
+      "vendedor": "Ronaldo",
+      "temperatura": "",
+      "data_transferencia": "2026-07-30T16:21:29.992-03:00"
+    },
+    {
+      "nome": "👍",
+      "telefone": "556199728141",
+      "cidade": "Cavalcante",
+      "vendedor": "Rhuan",
+      "temperatura": "morno",
+      "data_transferencia": "2026-07-30T16:58:08.409-03:00"
+    },
+    {
+      "nome": "Renato Vieira",
+      "telefone": "5538999481011",
+      "cidade": "",
+      "vendedor": "Ronaldo",
+      "temperatura": "",
+      "data_transferencia": "2026-07-31T08:23:54.805-03:00"
+    },
+    {
+      "nome": "Carlos Eduardo Vilas Boas",
+      "telefone": "556199014900",
+      "cidade": "",
+      "vendedor": "Maria Luiza",
+      "temperatura": "",
+      "data_transferencia": "2026-07-31T08:24:08.718-03:00"
+    },
+    {
+      "nome": "Carlos H.",
+      "telefone": "556699311302",
+      "cidade": "",
+      "vendedor": "Rhuan",
+      "temperatura": "",
+      "data_transferencia": "2026-07-31T11:16:14.355-03:00"
+    },
+    {
+      "nome": "Carlos Manoel Azoia",
+      "telefone": "556696262223",
+      "cidade": "",
+      "vendedor": "Ronaldo",
+      "temperatura": "",
+      "data_transferencia": "2026-07-31T13:22:42.960-03:00"
+    },
+    {
+      "nome": "Carlos",
+      "telefone": "556392928363",
+      "cidade": "",
+      "vendedor": "Maria Luiza",
+      "temperatura": "",
+      "data_transferencia": "2026-07-31T15:12:59.289-03:00"
+    },
+    {
+      "nome": "Carlim",
+      "telefone": "553499996898",
+      "cidade": "",
+      "vendedor": "Rhuan",
+      "temperatura": "",
+      "data_transferencia": "2026-07-31T17:12:55.268-03:00"
+    },
+    {
+      "nome": "Humberto",
+      "telefone": "55999916622",
+      "cidade": "",
+      "vendedor": "Ronaldo",
+      "temperatura": "",
+      "data_transferencia": "2026-07-31T17:27:00.618-03:00"
+    },
+    {
+      "nome": "Noel Jacob Neto",
+      "telefone": "559591124751",
+      "cidade": "",
+      "vendedor": "Maria Luiza",
+      "temperatura": "",
+      "data_transferencia": "2026-07-31T20:19:59.195-03:00"
+    },
+    {
+      "nome": "Guilherme (Escritorio)",
+      "telefone": "5535988635327",
+      "cidade": "",
+      "vendedor": "Maria Luiza",
+      "temperatura": "",
+      "data_transferencia": "2026-08-03T09:54:04.523-03:00"
+    },
+    {
+      "nome": "Cassiano Novo",
+      "telefone": "5566999853438",
+      "cidade": "",
+      "vendedor": "Rhuan",
+      "temperatura": "",
+      "data_transferencia": "2026-08-03T11:18:05.521-03:00"
+    },
+    {
+      "nome": "Celi Machado",
+      "telefone": "556296841166",
+      "cidade": "",
+      "vendedor": "Maria Luiza",
+      "temperatura": "",
+      "data_transferencia": "2026-08-03T17:10:03.527-03:00"
+    },
+    {
+      "nome": "Celia",
+      "telefone": "559388018249",
+      "cidade": "",
+      "vendedor": "Ronaldo",
+      "temperatura": "",
+      "data_transferencia": "2026-08-04T09:05:31.215-03:00"
+    },
+    {
+      "nome": "Celso Fischer",
+      "telefone": "556599287700",
+      "cidade": "",
+      "vendedor": "Maria Luiza",
+      "temperatura": "",
+      "data_transferencia": "2026-08-04T16:12:59.262-03:00"
+    },
+    {
+      "nome": "Celso Batista",
+      "telefone": "556796478779",
+      "cidade": "",
+      "vendedor": "Ronaldo",
+      "temperatura": "",
+      "data_transferencia": "2026-08-05T08:09:45.929-03:00"
+    },
+    {
+      "nome": "Celso Soupinski",
+      "telefone": "559391279701",
+      "cidade": "",
+      "vendedor": "Tharik Rafael",
+      "temperatura": "",
+      "data_transferencia": "2026-08-05T09:21:58.891-03:00"
+    },
+    {
+      "nome": "Cesar Matos",
+      "telefone": "556599571617",
+      "cidade": "",
+      "vendedor": "Ronaldo",
+      "temperatura": "Frio",
+      "data_transferencia": "2026-08-05T12:47:11.169-03:00"
+    },
+    {
+      "nome": "César",
+      "telefone": "556184279736",
+      "cidade": "",
+      "vendedor": "Maria Luiza",
+      "temperatura": "",
+      "data_transferencia": "2026-08-05T13:12:47.269-03:00"
+    },
+    {
+      "nome": "cesar scariot",
+      "telefone": "556799621514",
+      "cidade": "",
+      "vendedor": "Tharik Rafael",
+      "temperatura": "",
+      "data_transferencia": "2026-08-05T14:20:52.737-03:00"
+    },
+    {
+      "nome": "Cezar Lazzari",
+      "telefone": "557799719298",
+      "cidade": "",
+      "vendedor": "Rhuan",
+      "temperatura": "",
+      "data_transferencia": "2026-08-05T15:17:23.677-03:00"
+    },
+    {
+      "nome": "Cidinei🚜🌱🌱",
+      "telefone": "556796052643",
+      "cidade": "",
+      "vendedor": "Rhuan",
+      "temperatura": "",
+      "data_transferencia": "2026-08-06T12:15:16.525-03:00"
+    },
+    {
+      "nome": "Juarez Irmão",
+      "telefone": "556292998243",
+      "cidade": "",
+      "vendedor": "Tharik Rafael",
+      "temperatura": "",
+      "data_transferencia": "2026-08-06T16:24:56.293-03:00"
+    },
+    {
+      "nome": "Claudemir",
+      "telefone": "556796657716",
+      "cidade": "Casa Verde",
+      "vendedor": "Rhuan",
+      "temperatura": "",
+      "data_transferencia": "2026-08-07T10:22:49.395-03:00"
+    },
+    {
+      "nome": "CLAUDIA ALMEIDA",
+      "telefone": "553791042206",
+      "cidade": "",
+      "vendedor": "Rhuan",
+      "temperatura": "",
+      "data_transferencia": "2026-08-07T14:17:12.202-03:00"
+    },
+    {
+      "nome": "Raul Lucas Montoya Pinto",
+      "telefone": "556699015601",
+      "cidade": "",
+      "vendedor": "Ronaldo",
+      "temperatura": "",
+      "data_transferencia": "2026-08-07T14:36:27.553-03:00"
+    },
+    {
+      "nome": "",
+      "telefone": "556599637291",
+      "cidade": "",
+      "vendedor": "Maria Luiza",
+      "temperatura": "",
+      "data_transferencia": "2026-08-07T17:15:58.494-03:00"
+    },
+    {
+      "nome": "Claudino Fank",
+      "telefone": "556592541794",
+      "cidade": "",
+      "vendedor": "Tharik Rafael",
+      "temperatura": "",
+      "data_transferencia": "2026-08-07T17:45:12.836-03:00"
+    },
+    {
+      "nome": "Claudio",
+      "telefone": "556684133893",
+      "cidade": "Querência",
+      "vendedor": "Rhuan",
+      "temperatura": "",
+      "data_transferencia": "2026-08-08T10:16:16.189-03:00"
+    },
+    {
+      "nome": "Tiago Brunetta",
+      "telefone": "559988340518",
+      "cidade": "Balsas",
+      "vendedor": "Ronaldo",
+      "temperatura": "Quente",
+      "data_transferencia": "2026-08-08T10:18:54.019-03:00"
+    },
+    {
+      "nome": "Claudio Machado",
+      "telefone": "556499872962",
+      "cidade": "",
+      "vendedor": "Tharik Rafael",
+      "temperatura": "",
+      "data_transferencia": "2026-08-10T09:28:18.739-03:00"
+    },
+    {
+      "nome": "Yuri",
+      "telefone": "5565999219756",
+      "cidade": "",
+      "vendedor": "Maria Luiza",
+      "temperatura": "",
+      "data_transferencia": "2026-08-10T12:15:25.635-03:00"
+    }
+  ]
+}

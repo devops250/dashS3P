@@ -357,10 +357,159 @@
     </div>
   </div>
 
+  <!-- ========== ÚLTIMOS 30 DIAS ========== -->
+  <div style="background:linear-gradient(135deg,#c2410c 0%,#f97316 100%);color:#fff;border-radius:16px;padding:20px 24px 10px;margin:40px 0 28px">
+    <h2 style="color:#fff;margin:0 0 4px;font-size:1.1rem">&#x1f680; Últimos 30 dias — 11/jul a 10/ago/2026</h2>
+    <p style="color:#fed7aa;font-size:.85rem;margin:0 0 16px">Yara SDR | NocoDB: Disparo Jun26 | Chatwoot: Inbox 18 (Yara API Oficial) | Melhor performance do histórico</p>
+  </div>
+
+  <div class="cards">
+    <div class="card green"><div class="label">Contatados</div><div class="value">6.343</div><div class="detail">disparos únicos no período</div></div>
+    <div class="card blue"><div class="label">Responderam</div><div class="value">504</div><div class="detail">7,95% — melhor taxa do histórico</div></div>
+    <div class="card purple"><div class="label">Transferidos ao Vendedor</div><div class="value">289</div><div class="detail">4,56% — melhor conversão histórica</div></div>
+    <div class="card red"><div class="label">Média por Dia</div><div class="value">9,32</div><div class="detail">transferências/dia (31 dias)</div></div>
+  </div>
+
+  <!-- Breakdown semanal 30d -->
+  <div class="section">
+    <h2>Transferências por Semana (Últimos 30 dias)</h2>
+    <div class="table-wrap">
+      <table>
+        <thead><tr><th>Semana</th><th>Período</th><th>Transferidos</th><th>Média/dia</th><th>Observação</th></tr></thead>
+        <tbody>
+          <tr><td>Sem 13/jul</td><td>13/jul → 19/jul</td><td>84</td><td>12,0</td><td>Semana de pico — ramp-up do warm-up concluído</td></tr>
+          <tr><td>Sem 20/jul</td><td>20/jul → 26/jul</td><td>67</td><td>9,6</td><td>Volume estável em 250/dia</td></tr>
+          <tr><td>Sem 27/jul</td><td>27/jul → 02/ago</td><td>65</td><td>9,3</td><td>Consistência mantida</td></tr>
+          <tr><td>Sem 03/ago</td><td>03/ago → 09/ago</td><td>60</td><td>8,6</td><td>Leve queda — investigar segunda quinzena</td></tr>
+          <tr><td>Sem 10/ago</td><td>10/ago (parcial)</td><td>7</td><td>7,0</td><td>Apenas 1 dia útil no recorte</td></tr>
+          <tr style="font-weight:700;background:#fff7ed"><td>TOTAL</td><td>11/jul → 10/ago</td><td>289</td><td>9,3</td><td>4,56% conversão · 7,95% resposta</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="insight">
+      <p><strong>289 transferidos em 31 dias</strong> — recorde absoluto do projeto. Taxa de conversão de <strong>4,56%</strong> e de resposta de <strong>7,95%</strong> superam todos os períodos anteriores (pico anterior era 3,37% em 22-24/jun).</p>
+      <p>Volume de disparos estabilizado em <strong>250/dia</strong> após conclusão do warm-up (13-16/jul rodou 400/dia). Semana 13/jul teve o maior salto (84 transferências) com o ramp final do warm-up.</p>
+      <p><strong>Queda leve na última semana cheia (03-09/ago):</strong> 60 transferências vs. 67 da semana anterior — monitorar próximo recorte para confirmar se é oscilação ou tendência.</p>
+    </div>
+  </div>
+
+  <!-- Vendedores 30d -->
+  <div class="section">
+    <h2>Leads Transferidos por Vendedor — Últimos 30 dias (289)</h2>
+    <div class="chart2-row">
+      <div class="chart2-box"><canvas id="chartVendedor30d"></canvas></div>
+      <div class="vendedor-cards" style="flex:1">
+        <div class="vendedor-card"><div class="vname">Maria Luiza</div><div class="vcount">74</div><div class="vlabel">leads recebidos (25,6%)</div></div>
+        <div class="vendedor-card"><div class="vname">Rhuan</div><div class="vcount">73</div><div class="vlabel">leads recebidos (25,3%)</div></div>
+        <div class="vendedor-card"><div class="vname">Tharik Rafael</div><div class="vcount">70</div><div class="vlabel">leads recebidos (24,2%)</div></div>
+        <div class="vendedor-card"><div class="vname">Ronaldo</div><div class="vcount">69</div><div class="vlabel">leads recebidos (23,9%)</div></div>
+        <div class="vendedor-card"><div class="vname">Douglas</div><div class="vcount">3</div><div class="vlabel">leads recebidos (1,0%)</div></div>
+      </div>
+    </div>
+    <div class="insight">
+      <p><strong>Round-robin equilibrado</strong> entre Maria Luiza, Rhuan, Tharik e Ronaldo (69-74 leads cada, ~24%-26% cada).</p>
+      <p><strong>Douglas segue com volume muito baixo</strong> (3 leads em 30 dias vs. ~70 dos demais) — regra de roteamento precisa ser revisada; padrão recorrente desde os relatórios de junho.</p>
+    </div>
+  </div>
+
+  <!-- Temperatura 30d -->
+  <div class="section">
+    <h2>Temperatura das Transferências (Últimos 30 dias)</h2>
+    <div class="chart-row">
+      <div class="chart-box"><canvas id="chartTemp30d"></canvas></div>
+      <div class="chart-legend">
+        <div class="legend-item"><div class="legend-dot" style="background:#d1d5db"></div><span class="legend-label">(vazio)</span><span class="legend-value">215</span><span class="legend-pct">74,4%</span></div>
+        <div class="legend-item"><div class="legend-dot" style="background:#f59e0b"></div><span class="legend-label">Quente</span><span class="legend-value">23</span><span class="legend-pct">8,0%</span></div>
+        <div class="legend-item"><div class="legend-dot" style="background:#a78bfa"></div><span class="legend-label">Morno</span><span class="legend-value">25</span><span class="legend-pct">8,7%</span></div>
+        <div class="legend-item"><div class="legend-dot" style="background:#60a5fa"></div><span class="legend-label">Frio</span><span class="legend-value">16</span><span class="legend-pct">5,5%</span></div>
+        <div class="legend-item"><div class="legend-dot" style="background:#22c55e"></div><span class="legend-label">Follow-up</span><span class="legend-value">10</span><span class="legend-pct">3,5%</span></div>
+      </div>
+    </div>
+    <div class="insight">
+      <p><strong>74% dos transferidos chegam ao vendedor sem classificação de temperatura</strong> — degradação vs. os 60% de vazio observados em 22-24/jun. O campo continua opcional no fluxo n8n; tornar obrigatório antes da transferência é o próximo passo mais urgente pra qualidade da entrega.</p>
+    </div>
+  </div>
+
+  <!-- ========== HISTÓRICO GERAL ATUALIZADO ========== -->
+  <div style="background:linear-gradient(135deg,#0f172a 0%,#1e40af 100%);color:#fff;border-radius:16px;padding:20px 24px 10px;margin:40px 0 28px">
+    <h2 style="color:#fff;margin:0 0 4px;font-size:1.1rem">&#x1f4c8; Histórico Geral Atualizado — Jan a 10/ago/2026</h2>
+    <p style="color:#bfdbfe;font-size:.85rem;margin:0 0 16px">Consolidado de todas as campanhas (legado 35 tabelas + era Yara atual Disparo Jun26) | Atualizado em 10/08/2026</p>
+  </div>
+
+  <div class="cards">
+    <div class="card green"><div class="label">Total de Leads</div><div class="value">44.070</div><div class="detail">todas as campanhas (jan-ago/26)</div></div>
+    <div class="card blue"><div class="label">Interagiram (acumulado)</div><div class="value">2.302+</div><div class="detail">1.798 legado + 504 (últ. 30d)</div></div>
+    <div class="card purple"><div class="label">Transferidos ao Vendedor</div><div class="value">797</div><div class="detail">era Yara atual: 433 · legado: 364</div></div>
+    <div class="card red"><div class="label">Melhor Recorte</div><div class="value">4,56%</div><div class="detail">últimos 30 dias — recorde</div></div>
+  </div>
+
+  <!-- Comparativo por fase -->
+  <div class="section">
+    <h2>Comparativo por Fase — Evolução da Yara SDR</h2>
+    <div class="table-wrap">
+      <table>
+        <thead><tr><th>Fase</th><th>Período</th><th>Leads</th><th>Transferidos</th><th>Conversão</th><th>Marco</th></tr></thead>
+        <tbody>
+          <tr><td>Legado inicial</td><td>Jan → Abr/2026</td><td>~27.744</td><td>342</td><td>~1,23%</td><td>35 campanhas em tabelas separadas</td></tr>
+          <tr><td>Disparo mai26</td><td>Mai/2026</td><td>1.646</td><td>22</td><td>1,34%</td><td>Template antigo — pré-refatoração</td></tr>
+          <tr><td>Disparo Jun26 (parcial)</td><td>Jun/2026 até 10/jun</td><td>1.270</td><td>12</td><td>0,94%</td><td>Início da tabela atual</td></tr>
+          <tr><td>Novo template</td><td>22-24/jun/2026</td><td>1.396</td><td>47</td><td>3,37%</td><td>Primeira grande melhoria — +240%</td></tr>
+          <tr><td>Queda de qualidade</td><td>29/jun → 01/jul</td><td>885</td><td>1</td><td>0,11%</td><td>Meta baixou score p/ Low — warm-up iniciado</td></tr>
+          <tr><td>Recuperação</td><td>10-13/jul</td><td>800</td><td>25</td><td>3,13%</td><td>Warm-up funcionando</td></tr>
+          <tr style="font-weight:700;background:#dbeafe"><td>Últimos 30 dias</td><td>11/jul → 10/ago</td><td>6.343</td><td>289</td><td>4,56%</td><td><strong>Recorde absoluto do projeto</strong></td></tr>
+          <tr style="font-weight:700;background:#f0f9ff"><td>ACUMULADO GERAL</td><td>Jan → 10/ago/2026</td><td>44.070</td><td>797</td><td>1,81%</td><td>Consolidado todas as fases</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="insight">
+      <p><strong>Salto de 4× na taxa de conversão</strong> entre a era legada (~1,23%) e os últimos 30 dias (4,56%). O novo template implementado em 22/jun e o warm-up de qualidade do número (jul/2026) explicam a maior parte do ganho.</p>
+      <p><strong>797 transferências acumuladas em ~8 meses.</strong> 54% delas (433) ocorreram só depois de 10/jun, evidenciando que o produto entrou em regime a partir do 3° trimestre.</p>
+      <p><strong>Média mensal desde o warm-up:</strong> ~145 transferências/mês (jul: 226 · ago parcial: 70). Se o ritmo dos últimos 30 dias se mantiver, projeção para os próximos 90 dias fica em ~840 transferências (>2× o volume histórico anterior).</p>
+    </div>
+  </div>
+
+  <!-- Vendedores acumulados atualizado -->
+  <div class="section">
+    <h2>Leads Acumulados por Vendedor — Jan a 10/ago/2026</h2>
+    <div class="chart2-row">
+      <div class="chart2-box"><canvas id="chartVendedorHistAtu"></canvas></div>
+      <div class="vendedor-cards" style="flex:1">
+        <div class="vendedor-card"><div class="vname">Maria Luiza</div><div class="vcount">190</div><div class="vlabel">84 legado + 106 era atual</div></div>
+        <div class="vendedor-card"><div class="vname">Ronaldo</div><div class="vcount">177</div><div class="vlabel">75 legado + 102 era atual</div></div>
+        <div class="vendedor-card"><div class="vname">Tharik Rafael</div><div class="vcount">173</div><div class="vlabel">72 legado + 101 era atual</div></div>
+        <div class="vendedor-card"><div class="vname">Rhuan</div><div class="vcount">112</div><div class="vlabel">5 legado + 107 era atual (crescimento explosivo)</div></div>
+        <div class="vendedor-card"><div class="vname">Maria Izabel</div><div class="vcount">81</div><div class="vlabel">saiu do round-robin em jun/26</div></div>
+        <div class="vendedor-card"><div class="vname">Douglas</div><div class="vcount">38</div><div class="vlabel">32 legado + 6 era atual (roteamento a revisar)</div></div>
+        <div class="vendedor-card"><div class="vname">Fabio</div><div class="vcount">17</div><div class="vlabel">6 legado + 11 era atual</div></div>
+      </div>
+    </div>
+    <div class="insight">
+      <p><strong>Maria Luiza, Ronaldo e Tharik Rafael formam o núcleo do time</strong> — juntos concentram 540 transferências (67,7% do acumulado).</p>
+      <p><strong>Rhuan é o destaque da era atual</strong> (107 em ~3 meses, saindo de 5 no legado). Único vendedor cuja carga cresceu proporcionalmente ao volume da Yara.</p>
+      <p><strong>Maria Izabel foi retirada do round-robin</strong> após mai/2026 — se a decisão foi comercial, ok; se foi bug, precisa voltar.</p>
+    </div>
+  </div>
+
+  <!-- Distribuição mensal transferências era Yara atual -->
+  <div class="section">
+    <h2>Transferências por Mês — Era Yara Atual (Disparo Jun26)</h2>
+    <div class="table-wrap">
+      <table>
+        <thead><tr><th>Mês</th><th>Transferidos</th><th>% do total (433)</th><th>Contexto</th></tr></thead>
+        <tbody>
+          <tr><td>Jun/2026</td><td>137</td><td>31,6%</td><td>Novo template (a partir de 22/jun) + queda 29/jun</td></tr>
+          <tr><td>Jul/2026</td><td>226</td><td>52,2%</td><td>Warm-up + qualidade recuperada — mês pico</td></tr>
+          <tr><td>Ago/2026 (parcial)</td><td>70</td><td>16,2%</td><td>Somente 10 dias — projeção mensal ~217</td></tr>
+          <tr style="font-weight:700;background:#f0f9ff"><td>TOTAL era atual</td><td>433</td><td>100%</td><td>Tabela Disparo Jun26 (16.326 disparos)</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
 <div style="text-align:center;padding:20px 0">
     <a href="/ligacoes" style="display:inline-block;padding:14px 32px;background:linear-gradient(135deg,#5b21b6 0%,#7c3aed 100%);color:#fff;text-decoration:none;border-radius:10px;font-weight:600;font-size:.95rem;box-shadow:0 2px 8px rgba(91,33,182,.2);transition:all .2s">&#x1f4de; Ver Painel de Ligacoes 20-24/04 (57 chamadas)</a>
   </div>
-<div class="footer">Relatorio gerado automaticamente | Cognita AI | Atualizado em 10/06/2026 | Recorte mais recente: Disparo Jun26 (08-10/06)</div>
+<div class="footer">Relatorio gerado automaticamente | Cognita AI | Atualizado em 10/08/2026 | Recorte mais recente: Últimos 30 dias (11/jul → 10/ago)</div>
 </div>
 
 <script>
@@ -403,6 +552,15 @@ function fmtDateMJ(s){if(!s)return'-';const d=new Date(s);if(isNaN(d))return s.s
 function renderMJ(d){document.getElementById('mjBody').innerHTML=d.map(r=>'<tr><td style="white-space:nowrap;font-size:11px;color:#6b7280">'+fmtDateMJ(r.dataTransf)+'</td><td>'+r.vendedor+'</td><td>'+(r.nome||'-')+'</td><td class="phone-col">'+r.telefone+'</td><td>'+tb(r.temperatura)+'</td><td><span style="display:inline-block;padding:2px 8px;border-radius:8px;font-size:10px;font-weight:600;background:'+(r.origem==='Disparo Jun26'?'#dcfce7;color:#15803d':'#dbeafe;color:#1e40af')+'">'+r.origem+'</span></td></tr>').join('');document.getElementById('mjCount').textContent=d.length+' de '+MAIO_JUNHO_DATA.length;}
 function filterMJ(){const q=document.getElementById('searchMJ').value.toLowerCase(),v=document.getElementById('filterVendedorMJ').value,o=document.getElementById('filterOrigemMJ').value;let d=MAIO_JUNHO_DATA;if(v)d=d.filter(r=>r.vendedor===v);if(o)d=d.filter(r=>r.origem===o);if(q)d=d.filter(r=>(r.nome||'').toLowerCase().includes(q)||r.vendedor.toLowerCase().includes(q)||r.telefone.includes(q)||(r.cidade||'').toLowerCase().includes(q));renderMJ(d);}
 renderMJ(MAIO_JUNHO_DATA);
+
+// Últimos 30 dias — vendedor doughnut
+new Chart(document.getElementById('chartVendedor30d').getContext('2d'),{type:'doughnut',data:{labels:['Maria Luiza','Rhuan','Tharik Rafael','Ronaldo','Douglas'],datasets:[{data:[74,73,70,69,3],backgroundColor:['#22c55e','#ec4899','#8b5cf6','#f59e0b','#3b82f6'],borderWidth:0,hoverOffset:6}]},options:{responsive:true,maintainAspectRatio:true,cutout:'60%',plugins:{legend:{display:false},tooltip:{callbacks:{label:c=>' '+c.label+': '+c.raw+' leads ('+(c.raw/289*100).toFixed(1)+'%)'}}}}});
+
+// Últimos 30 dias — temperatura doughnut
+new Chart(document.getElementById('chartTemp30d').getContext('2d'),{type:'doughnut',data:{labels:['(vazio)','Quente','Morno','Frio','Follow-up'],datasets:[{data:[215,23,25,16,10],backgroundColor:['#d1d5db','#f59e0b','#a78bfa','#60a5fa','#22c55e'],borderWidth:0,hoverOffset:6}]},options:{responsive:true,maintainAspectRatio:true,cutout:'65%',plugins:{legend:{display:false},tooltip:{callbacks:{label:c=>' '+c.label+': '+c.raw+' ('+(c.raw/289*100).toFixed(1)+'%)'}}}}});
+
+// Histórico atualizado — vendedor doughnut acumulado Jan→10/ago
+new Chart(document.getElementById('chartVendedorHistAtu').getContext('2d'),{type:'doughnut',data:{labels:['Maria Luiza','Ronaldo','Tharik Rafael','Rhuan','Maria Izabel','Douglas','Fabio'],datasets:[{data:[190,177,173,112,81,38,17],backgroundColor:['#22c55e','#f59e0b','#8b5cf6','#ec4899','#3b82f6','#a855f7','#06b6d4'],borderWidth:0,hoverOffset:6}]},options:{responsive:true,maintainAspectRatio:true,cutout:'60%',plugins:{legend:{display:false},tooltip:{callbacks:{label:c=>' '+c.label+': '+c.raw+' leads ('+(c.raw/788*100).toFixed(1)+'%)'}}}}});
 </script>
 </body>
 </html>
