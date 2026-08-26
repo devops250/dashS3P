@@ -1,0 +1,4329 @@
+{
+  "atualizado_em": "2026-08-25",
+  "fonte_atual": "NocoDB tabela Disparo Jun26 (mp1noylkq6er2jy)",
+  "era_yara_atual": {
+    "disparados_registros": 19027,
+    "disparados_telefones_unicos": 19027,
+    "transferidos_unicos": 535,
+    "por_vendedor": {
+      "Fabio": 11,
+      "Rhuan": 138,
+      "Tharik Rafael": 134,
+      "Ronaldo": 131,
+      "Maria Luiza": 114,
+      "Douglas": 7
+    },
+    "por_mes_transferencia": {
+      "2026-06": 137,
+      "2026-07": 226,
+      "2026-08": 172
+    },
+    "por_temperatura": {
+      "Frio": 33,
+      "(vazio)": 399,
+      "Quente": 20,
+      "Morno": 41,
+      "quente": 17,
+      "morno": 15,
+      "Follow-up": 10
+    }
+  },
+  "legado_pre_10jun": {
+    "fonte": "Dashboard 10/jun/2026 — 35 tabelas legadas (DISPARO LIGACAO + campanhas antigas + mai26 + Jun26 até 10/jun)",
+    "total_leads": 29014,
+    "interagiram": 1798,
+    "transferidos": 376,
+    "pediram_parar": 36,
+    "vendedores_ate_jun": {
+      "Maria Luiza": 90,
+      "Maria Izabel": 81,
+      "Ronaldo": 80,
+      "Tharik Rafael": 79,
+      "Douglas": 32,
+      "Fabio": 6,
+      "Rhuan": 5
+    }
+  },
+  "transferidos_lista": [
+    {
+      "nome": "ABEL DE CASTRO GUIMARAES",
+      "telefone": "+5564996442694",
+      "cidade": "",
+      "vendedor": "Fabio",
+      "temperatura": "Frio",
+      "data_transferencia": "2026-06-09T08:51:31.587-03:00"
+    },
+    {
+      "nome": "ABITIO WEIMER WENDT",
+      "telefone": "+5565999916347",
+      "cidade": "",
+      "vendedor": "Rhuan",
+      "temperatura": "",
+      "data_transferencia": "2026-06-12T10:14:10.605-03:00"
+    },
+    {
+      "nome": "ACIOL PIRES DA ROSA",
+      "telefone": "+5567996330204",
+      "cidade": "Goiás",
+      "vendedor": "Tharik Rafael",
+      "temperatura": "Quente",
+      "data_transferencia": "2026-06-13T19:35:58.068-03:00"
+    },
+    {
+      "nome": "ADELMO PEREIRA JUSTINO",
+      "telefone": "+5566996353976",
+      "cidade": "",
+      "vendedor": "Rhuan",
+      "temperatura": "",
+      "data_transferencia": "2026-06-10T08:32:38.216-03:00"
+    },
+    {
+      "nome": "ADELSON CRUVINEL LEAO",
+      "telefone": "+5564999026697",
+      "cidade": "",
+      "vendedor": "Ronaldo",
+      "temperatura": "",
+      "data_transferencia": "2026-06-10T08:43:16.980-03:00"
+    },
+    {
+      "nome": "ADEMAR FRANCISCO HEMSING",
+      "telefone": "+5565996724962",
+      "cidade": "",
+      "vendedor": "Maria Luiza",
+      "temperatura": "",
+      "data_transferencia": "2026-06-10T12:09:51.500-03:00"
+    },
+    {
+      "nome": "ADEMIR ANTUNES DA ROSA",
+      "telefone": "+5567999468719",
+      "cidade": "",
+      "vendedor": "Fabio",
+      "temperatura": "",
+      "data_transferencia": "2026-06-10T14:21:19.487-03:00"
+    },
+    {
+      "nome": "ADEMIR DERLAM",
+      "telefone": "+5566996647527",
+      "cidade": "",
+      "vendedor": "Rhuan",
+      "temperatura": "Frio",
+      "data_transferencia": "2026-06-10T15:03:47.055-03:00"
+    },
+    {
+      "nome": "ADEMIR DOS SANTOS DIAS",
+      "telefone": "+5535999447791",
+      "cidade": "Minduri",
+      "vendedor": "Ronaldo",
+      "temperatura": "Morno",
+      "data_transferencia": "2026-06-10T15:23:21.201-03:00"
+    },
+    {
+      "nome": "ADEMIR FISCHER",
+      "telefone": "+5565999858052",
+      "cidade": "",
+      "vendedor": "Maria Luiza",
+      "temperatura": "Frio",
+      "data_transferencia": "2026-06-10T15:23:56.732-03:00"
+    },
+    {
+      "nome": "ADEMIR JESUS ALMEIDA DOS SANTOS",
+      "telefone": "+5566997244853",
+      "cidade": "",
+      "vendedor": "Tharik Rafael",
+      "temperatura": "",
+      "data_transferencia": "2026-06-10T17:12:43.068-03:00"
+    },
+    {
+      "nome": "ADEMIR PEREZ FERRUZZI",
+      "telefone": "+5514996853734",
+      "cidade": "",
+      "vendedor": "Fabio",
+      "temperatura": "",
+      "data_transferencia": "2026-06-10T17:16:23.936-03:00"
+    },
+    {
+      "nome": "ADEMIR PRIMAZ",
+      "telefone": "+5569999911131",
+      "cidade": "",
+      "vendedor": "Ronaldo",
+      "temperatura": "",
+      "data_transferencia": "2026-06-11T16:15:35.721-03:00"
+    },
+    {
+      "nome": "ADEMIR ROSA PEREIRA",
+      "telefone": "+5594992330751",
+      "cidade": "",
+      "vendedor": "Tharik Rafael",
+      "temperatura": "",
+      "data_transferencia": "2026-06-11T09:02:02.191-03:00"
+    },
+    {
+      "nome": "ADERVANIL JOAQUIM DE REZENDE",
+      "telefone": "+5564999893285",
+      "cidade": "",
+      "vendedor": "Fabio",
+      "temperatura": "",
+      "data_transferencia": "2026-06-11T10:49:50.364-03:00"
+    },
+    {
+      "nome": "ADIB DAMIAO",
+      "telefone": "+5516997842052",
+      "cidade": "",
+      "vendedor": "Rhuan",
+      "temperatura": "",
+      "data_transferencia": "2026-06-11T11:37:51.170-03:00"
+    },
+    {
+      "nome": "ADILSON ANTONIO MABONI",
+      "telefone": "+5561996403303",
+      "cidade": "",
+      "vendedor": "Ronaldo",
+      "temperatura": "quente",
+      "data_transferencia": "2026-06-11T13:28:22.335-03:00"
+    },
+    {
+      "nome": "ADILSON DE LIMA LEITE",
+      "telefone": "+5567998416685",
+      "cidade": "",
+      "vendedor": "Fabio",
+      "temperatura": "",
+      "data_transferencia": "2026-06-11T13:58:02.497-03:00"
+    },
+    {
+      "nome": "ADILSON PEIXOTO DA COSTA",
+      "telefone": "+5567996478955",
+      "cidade": "",
+      "vendedor": "Rhuan",
+      "temperatura": "",
+      "data_transferencia": "2026-06-11T16:08:40.831-03:00"
+    },
+    {
+      "nome": "ADILSON ROGINSKI",
+      "telefone": "+5567998837545",
+      "cidade": "",
+      "vendedor": "Maria Luiza",
+      "temperatura": "Frio",
+      "data_transferencia": "2026-06-12T08:38:15.793-03:00"
+    },
+    {
+      "nome": "ADMILSON DOVIGO CHAGAS",
+      "telefone": "+5569981206740",
+      "cidade": "Rondônia",
+      "vendedor": "Tharik Rafael",
+      "temperatura": "Morno",
+      "data_transferencia": "2026-06-12T09:32:24.015-03:00"
+    },
+    {
+      "nome": "ADOALDO JUSTINO DE CARVALHO",
+      "telefone": "+5564999694804",
+      "cidade": "",
+      "vendedor": "Fabio",
+      "temperatura": "",
+      "data_transferencia": "2026-06-12T09:58:43.684-03:00"
+    },
+    {
+      "nome": "ADRIAN HENKE",
+      "telefone": "+5577998431435",
+      "cidade": "",
+      "vendedor": "Maria Luiza",
+      "temperatura": "Frio",
+      "data_transferencia": "2026-06-12T13:58:37.002-03:00"
+    },
+    {
+      "nome": "ADRIANO ALFONSO HUNGER",
+      "telefone": "+5565999324527",
+      "cidade": "",
+      "vendedor": "Fabio",
+      "temperatura": "Frio",
+      "data_transferencia": "2026-06-13T10:19:10.607-03:00"
+    },
+    {
+      "nome": "ADRIANO BARROS PACHECO",
+      "telefone": "+5561992757801",
+      "cidade": "",
+      "vendedor": "Tharik Rafael",
+      "temperatura": "",
+      "data_transferencia": "2026-06-13T09:35:36.593-03:00"
+    },
+    {
+      "nome": "ADRIANO DEMETRIO BARZOTTO",
+      "telefone": "+5566996362650",
+      "cidade": "",
+      "vendedor": "Rhuan",
+      "temperatura": "",
+      "data_transferencia": "2026-06-13T10:59:58.130-03:00"
+    },
+    {
+      "nome": "ADRIANO GORDINHO SCHULTZ",
+      "telefone": "+5564996279109",
+      "cidade": "",
+      "vendedor": "Tharik Rafael",
+      "temperatura": "",
+      "data_transferencia": "2026-06-13T12:39:08.007-03:00"
+    },
+    {
+      "nome": "ADRIANO PAULI",
+      "telefone": "+5566996916118",
+      "cidade": "",
+      "vendedor": "Fabio",
+      "temperatura": "Frio",
+      "data_transferencia": "2026-06-15T08:35:28.678-03:00"
+    },
+    {
+      "nome": "AGENOR VICENTE PELISSA",
+      "telefone": "+5566999954101",
+      "cidade": "",
+      "vendedor": "Fabio",
+      "temperatura": "",
+      "data_transferencia": "2026-06-16T14:18:22.522-03:00"
+    },
+    {
+      "nome": "AGNALDO HONORIO DOS SANTOS",
+      "telefone": "+5564993332162",
+      "cidade": "Piracanjuba",
+      "vendedor": "Ronaldo",
+      "temperatura": "Morno",
+      "data_transferencia": "2026-06-15T17:18:54.766-03:00"
+    },
+    {
+      "nome": "AGRICOLA CASTRICUM LTDA",
+      "telefone": "+5514996058744",
+      "cidade": "",
+      "vendedor": "Maria Luiza",
+      "temperatura": "",
+      "data_transferencia": "2026-06-16T09:57:39.630-03:00"
+    },
+    {
+      "nome": "AGRICOLA HIDINEU MOELLER LTDA",
+      "telefone": "+5577998397737",
+      "cidade": "",
+      "vendedor": "Fabio",
+      "temperatura": "",
+      "data_transferencia": "2026-06-16T10:49:31.118-03:00"
+    },
+    {
+      "nome": "AGRO MORETTI LTDA",
+      "telefone": "+5569999847596",
+      "cidade": "",
+      "vendedor": "Ronaldo",
+      "temperatura": "Frio",
+      "data_transferencia": "2026-06-16T13:16:09.345-03:00"
+    },
+    {
+      "nome": "AGRO PORTELA LTDA",
+      "telefone": "+5564996113199",
+      "cidade": "",
+      "vendedor": "Tharik Rafael",
+      "temperatura": "",
+      "data_transferencia": "2026-06-16T14:10:06.898-03:00"
+    },
+    {
+      "nome": "AGRO SANTA MONICA LTDA",
+      "telefone": "+5561999816742",
+      "cidade": "",
+      "vendedor": "Rhuan",
+      "temperatura": "",
+      "data_transferencia": "2026-06-16T16:04:13.998-03:00"
+    },
+    {
+      "nome": "AGRO TRATORES LTDA",
+      "telefone": "+5562999679695",
+      "cidade": "Niquelândia",
+      "vendedor": "Ronaldo",
+      "temperatura": "Morno",
+      "data_transferencia": "2026-06-16T14:34:34.986-03:00"
+    },
+    {
+      "nome": "AGRO TREVISAN LTDA",
+      "telefone": "+5534999111507",
+      "cidade": "",
+      "vendedor": "Maria Luiza",
+      "temperatura": "morno",
+      "data_transferencia": "2026-06-16T15:03:28.139-03:00"
+    },
+    {
+      "nome": "AGROBOM PRODUTOS AGROPECUARIOS LTDA.",
+      "telefone": "+5566984374063",
+      "cidade": "",
+      "vendedor": "Tharik Rafael",
+      "temperatura": "",
+      "data_transferencia": "2026-06-16T15:20:43.790-03:00"
+    },
+    {
+      "nome": "AGROPECUARIA AMORA MARIA LTDA",
+      "telefone": "+5565996000739",
+      "cidade": "",
+      "vendedor": "Maria Luiza",
+      "temperatura": "",
+      "data_transferencia": "2026-06-17T08:14:05.150-03:00"
+    },
+    {
+      "nome": "AGROPECUARIA ANTAS LTDA",
+      "telefone": "+5598991711012",
+      "cidade": "",
+      "vendedor": "Ronaldo",
+      "temperatura": "",
+      "data_transferencia": "2026-06-18T16:18:35.518-03:00"
+    },
+    {
+      "nome": "AGROPECUARIA NAVARINI LTDA.",
+      "telefone": "+5564999049069",
+      "cidade": "",
+      "vendedor": "Tharik Rafael",
+      "temperatura": "",
+      "data_transferencia": "2026-06-17T14:02:29.114-03:00"
+    },
+    {
+      "nome": "AGROPECUARIA ONGHERO LTDA",
+      "telefone": "+5565999661395",
+      "cidade": "",
+      "vendedor": "Rhuan",
+      "temperatura": "Frio",
+      "data_transferencia": "2026-06-17T14:35:45.282-03:00"
+    },
+    {
+      "nome": "AGUINALDO TRENTIN",
+      "telefone": "+5561996812030",
+      "cidade": "Tabatinga",
+      "vendedor": "Rhuan",
+      "temperatura": "quente",
+      "data_transferencia": "2026-06-18T16:49:57.143-03:00"
+    },
+    {
+      "nome": "AGUINALDO TURCATO",
+      "telefone": "+5566984599743",
+      "cidade": "Itanhanga",
+      "vendedor": "Tharik Rafael",
+      "temperatura": "Morno",
+      "data_transferencia": "2026-06-18T16:38:30.128-03:00"
+    },
+    {
+      "nome": "AILTON CAMARGO E OUTRA",
+      "telefone": "+5514998285912",
+      "cidade": "",
+      "vendedor": "Ronaldo",
+      "temperatura": "",
+      "data_transferencia": "2026-06-18T15:18:43.599-03:00"
+    },
+    {
+      "nome": "AILTON NORBEQUE",
+      "telefone": "+5567999456349",
+      "cidade": "",
+      "vendedor": "Rhuan",
+      "temperatura": "",
+      "data_transferencia": "2026-06-18T16:18:23.394-03:00"
+    },
+    {
+      "nome": "AIRTON ANTONIO GOFFI",
+      "telefone": "+5566999142318",
+      "cidade": "",
+      "vendedor": "Ronaldo",
+      "temperatura": "Frio",
+      "data_transferencia": "2026-06-18T17:09:26.802-03:00"
+    },
+    {
+      "nome": "AIRTON PEREIRA DAS NEVES",
+      "telefone": "+5564999997035",
+      "cidade": "",
+      "vendedor": "Douglas",
+      "temperatura": "Morno",
+      "data_transferencia": "2026-06-18T15:52:27.447-03:00"
+    },
+    {
+      "nome": "ALAN ANTUNES PEIXOTO",
+      "telefone": "+5567993043113",
+      "cidade": "",
+      "vendedor": "Maria Luiza",
+      "temperatura": "",
+      "data_transferencia": "2026-06-18T18:14:16.944-03:00"
+    },
+    {
+      "nome": "ALAN JUNIOR CORTEZIA",
+      "telefone": "+5593991700170",
+      "cidade": "",
+      "vendedor": "Tharik Rafael",
+      "temperatura": "",
+      "data_transferencia": "2026-06-20T12:39:24.366-03:00"
+    },
+    {
+      "nome": "ALAN LAWISCH BARON",
+      "telefone": "+5561999871537",
+      "cidade": "MG",
+      "vendedor": "Rhuan",
+      "temperatura": "Quente",
+      "data_transferencia": "2026-06-19T08:49:24.431-03:00"
+    },
+    {
+      "nome": "ALBARI FONSECA",
+      "telefone": "+5566984572966",
+      "cidade": "",
+      "vendedor": "Ronaldo",
+      "temperatura": "quente",
+      "data_transferencia": "2026-06-19T10:57:12.959-03:00"
+    },
+    {
+      "nome": "ALBERTO ALVES VIEIRA",
+      "telefone": "+5564996480028",
+      "cidade": "",
+      "vendedor": "Maria Luiza",
+      "temperatura": "",
+      "data_transferencia": "2026-06-19T12:29:00.747-03:00"
+    },
+    {
+      "nome": "ALBERTO OTAVIO MILLA SANTOS",
+      "telefone": "+5537999959281",
+      "cidade": "Luz",
+      "vendedor": "Tharik Rafael",
+      "temperatura": "quente",
+      "data_transferencia": "2026-06-19T16:02:49.123-03:00"
+    },
+    {
+      "nome": "ALCEU DIAS DE QUADROS",
+      "telefone": "+5564996548889",
+      "cidade": "",
+      "vendedor": "Rhuan",
+      "temperatura": "",
+      "data_transferencia": "2026-06-19T17:01:29.510-03:00"
+    },
+    {
+      "nome": "ALCIR LUIZ ANGHINONI",
+      "telefone": "+5589981245147",
+      "cidade": "",
+      "vendedor": "Ronaldo",
+      "temperatura": "",
+      "data_transferencia": "2026-06-20T12:08:32.597-03:00"
+    },
+    {
+      "nome": "ALDAIR JOSE BATISTA DE MELO",
+      "telefone": "+5567996789549",
+      "cidade": "Douradina",
+      "vendedor": "Rhuan",
+      "temperatura": "quente",
+      "data_transferencia": "2026-06-22T08:33:11.673-03:00"
+    },
+    {
+      "nome": "ALDERINO HENRIQUE DE LACERDA",
+      "telefone": "+5564999778878",
+      "cidade": "",
+      "vendedor": "Ronaldo",
+      "temperatura": "",
+      "data_transferencia": "2026-06-22T10:00:23.249-03:00"
+    },
+    {
+      "nome": "ALDO PEDRO MELO CRUZ",
+      "telefone": "+5514997927574",
+      "cidade": "",
+      "vendedor": "Maria Luiza",
+      "temperatura": "Quente",
+      "data_transferencia": "2026-06-22T11:36:18.274-03:00"
+    },
+    {
+      "nome": "ALESSANDRO ANTONIOLLI DA CRUZ",
+      "telefone": "+5567999724051",
+      "cidade": "Dourados",
+      "vendedor": "Maria Luiza",
+      "temperatura": "Quente",
+      "data_transferencia": "2026-06-22T17:47:55.382-03:00"
+    },
+    {
+      "nome": "ALESSANDRO DE OLIVEIRA MIRANDA",
+      "telefone": "+5534998096922",
+      "cidade": "Monte Carmelo",
+      "vendedor": "Douglas",
+      "temperatura": "",
+      "data_transferencia": "2026-06-23T08:19:11.478-03:00"
+    },
+    {
+      "nome": "ALESSANDRO JOSE DIAZ",
+      "telefone": "+5593991214586",
+      "cidade": "",
+      "vendedor": "Rhuan",
+      "temperatura": "",
+      "data_transferencia": "2026-06-23T09:04:54.281-03:00"
+    },
+    {
+      "nome": "ALESSANDRO PEIXOTO",
+      "telefone": "+5519981802709",
+      "cidade": "",
+      "vendedor": "Ronaldo",
+      "temperatura": "",
+      "data_transferencia": "2026-06-23T12:03:34.192-03:00"
+    },
+    {
+      "nome": "ALESSANDRO PIRES DA SILVA",
+      "telefone": "+5564999598678",
+      "cidade": "",
+      "vendedor": "Maria Luiza",
+      "temperatura": "",
+      "data_transferencia": "2026-06-23T10:24:20.637-03:00"
+    },
+    {
+      "nome": "ALESSANDRO QUINTILIANO SOUSA",
+      "telefone": "+5564992791636",
+      "cidade": "",
+      "vendedor": "Ronaldo",
+      "temperatura": "Frio",
+      "data_transferencia": "2026-06-23T09:55:40.748-03:00"
+    },
+    {
+      "nome": "ALEX BORGES",
+      "telefone": "+5562998281106",
+      "cidade": "Aragoiânia",
+      "vendedor": "Rhuan",
+      "temperatura": "Morno",
+      "data_transferencia": "2026-06-23T11:27:19.042-03:00"
+    },
+    {
+      "nome": "ALEX FRANCISCO DA COSTA",
+      "telefone": "+5534999654708",
+      "cidade": "",
+      "vendedor": "Rhuan",
+      "temperatura": "",
+      "data_transferencia": "2026-06-23T12:25:16.421-03:00"
+    },
+    {
+      "nome": "ALEX HENRIQUE DAVID FREITAS",
+      "telefone": "+5534999627874",
+      "cidade": "Canápolis",
+      "vendedor": "Tharik Rafael",
+      "temperatura": "Morno",
+      "data_transferencia": "2026-06-23T12:23:28.147-03:00"
+    },
+    {
+      "nome": "ALEX JUNIOR EBERHARDT",
+      "telefone": "+5567996171526",
+      "cidade": "",
+      "vendedor": "Ronaldo",
+      "temperatura": "",
+      "data_transferencia": "2026-06-23T12:43:34.496-03:00"
+    },
+    {
+      "nome": "ALEX MARTINS DE MOURA",
+      "telefone": "+5564999577010",
+      "cidade": "",
+      "vendedor": "Ronaldo",
+      "temperatura": "",
+      "data_transferencia": "2026-06-23T13:47:16.884-03:00"
+    },
+    {
+      "nome": "ALEX MONTAGNER MAIER",
+      "telefone": "+5538999561341",
+      "cidade": "",
+      "vendedor": "Maria Luiza",
+      "temperatura": "",
+      "data_transferencia": "2026-06-23T13:12:38.657-03:00"
+    },
+    {
+      "nome": "ALEX MUSSI",
+      "telefone": "+5534999888211",
+      "cidade": "GO e MG",
+      "vendedor": "Ronaldo",
+      "temperatura": "Quente",
+      "data_transferencia": "2026-06-23T14:07:24.037-03:00"
+    },
+    {
+      "nome": "ALEX NATHAN CIDRAL DA COSTA",
+      "telefone": "+5547999478507",
+      "cidade": "",
+      "vendedor": "Maria Luiza",
+      "temperatura": "",
+      "data_transferencia": "2026-06-23T13:55:29.486-03:00"
+    },
+    {
+      "nome": "ALEX NOGUEIRA DE MATOS",
+      "telefone": "+5567999033363",
+      "cidade": "",
+      "vendedor": "Tharik Rafael",
+      "temperatura": "",
+      "data_transferencia": "2026-06-23T13:37:57.418-03:00"
+    },
+    {
+      "nome": "ALEX ROMAN FRANCO",
+      "telefone": "+5567996591097",
+      "cidade": "",
+      "vendedor": "Tharik Rafael",
+      "temperatura": "",
+      "data_transferencia": "2026-06-23T13:56:10.571-03:00"
+    },
+    {
+      "nome": "ALEX WENDLAND",
+      "telefone": "+5518996211380",
+      "cidade": "",
+      "vendedor": "Maria Luiza",
+      "temperatura": "",
+      "data_transferencia": "2026-06-23T16:00:50.169-03:00"
+    },
+    {
+      "nome": "ALEXANDRE ALVES TEODORO",
+      "telefone": "+5534988579821",
+      "cidade": "",
+      "vendedor": "Ronaldo",
+      "temperatura": "quente",
+      "data_transferencia": "2026-06-23T16:28:19.710-03:00"
+    },
+    {
+      "nome": "ALEXANDRE ANDRADE DA SILVA",
+      "telefone": "+5518997026607",
+      "cidade": "",
+      "vendedor": "Tharik Rafael",
+      "temperatura": "Frio",
+      "data_transferencia": "2026-06-23T16:01:23.527-03:00"
+    },
+    {
+      "nome": "ALEXANDRE ANTONIO DA SILVA",
+      "telefone": "+5534999141300",
+      "cidade": "",
+      "vendedor": "Rhuan",
+      "temperatura": "",
+      "data_transferencia": "2026-06-23T16:09:19.848-03:00"
+    },
+    {
+      "nome": "ALEXANDRE BRAGANHOLO",
+      "telefone": "+5564999556818",
+      "cidade": "",
+      "vendedor": "Rhuan",
+      "temperatura": "",
+      "data_transferencia": "2026-06-24T08:19:06.033-03:00"
+    },
+    {
+      "nome": "ALEXANDRE CORRENT",
+      "telefone": "+5544988490555",
+      "cidade": "",
+      "vendedor": "Ronaldo",
+      "temperatura": "Frio",
+      "data_transferencia": "2026-06-24T11:49:59.406-03:00"
+    },
+    {
+      "nome": "ALEXANDRE CURBANI",
+      "telefone": "+5567999383323",
+      "cidade": "Dourados",
+      "vendedor": "Maria Luiza",
+      "temperatura": "",
+      "data_transferencia": "2026-06-24T13:45:58.131-03:00"
+    },
+    {
+      "nome": "ALEXANDRE CUSTODIO MACIEL",
+      "telefone": "+5564996612076",
+      "cidade": "",
+      "vendedor": "Maria Luiza",
+      "temperatura": "",
+      "data_transferencia": "2026-06-24T09:57:56.090-03:00"
+    },
+    {
+      "nome": "ALEXANDRE DALLA COSTA",
+      "telefone": "+5566999887352",
+      "cidade": "",
+      "vendedor": "Tharik Rafael",
+      "temperatura": "",
+      "data_transferencia": "2026-06-24T10:16:20.250-03:00"
+    },
+    {
+      "nome": "ALEXANDRE DE SOUSA VALADARES",
+      "telefone": "+5537999230570",
+      "cidade": "",
+      "vendedor": "Rhuan",
+      "temperatura": "",
+      "data_transferencia": "2026-06-24T11:45:04.045-03:00"
+    },
+    {
+      "nome": "ALEXANDRE FRANCHI",
+      "telefone": "+5534998357303",
+      "cidade": "",
+      "vendedor": "Maria Luiza",
+      "temperatura": "",
+      "data_transferencia": "2026-06-24T12:18:50.696-03:00"
+    },
+    {
+      "nome": "ALEXANDRE GUIDI",
+      "telefone": "+5566992359797",
+      "cidade": "",
+      "vendedor": "Ronaldo",
+      "temperatura": "",
+      "data_transferencia": "2026-06-24T13:18:50.270-03:00"
+    },
+    {
+      "nome": "ALEXANDRE HENRIQUE KESSLER",
+      "telefone": "+5567999273097",
+      "cidade": "",
+      "vendedor": "Tharik Rafael",
+      "temperatura": "Morno",
+      "data_transferencia": "2026-06-24T14:12:18.971-03:00"
+    },
+    {
+      "nome": "ALEXANDRE HOC",
+      "telefone": "+5591992008194",
+      "cidade": "Paragominas",
+      "vendedor": "Maria Luiza",
+      "temperatura": "Morno",
+      "data_transferencia": "2026-06-24T14:56:57.792-03:00"
+    },
+    {
+      "nome": "ALEXANDRE JUSTINO NUNES FERREIRA",
+      "telefone": "+5532998315453",
+      "cidade": "São João del Rei",
+      "vendedor": "Maria Luiza",
+      "temperatura": "Morno",
+      "data_transferencia": "2026-06-24T17:05:32.227-03:00"
+    },
+    {
+      "nome": "ALEXANDRE MARQUES CARVALHO",
+      "telefone": "+5561996047414",
+      "cidade": "",
+      "vendedor": "Ronaldo",
+      "temperatura": "Frio",
+      "data_transferencia": "2026-06-24T17:04:48.929-03:00"
+    },
+    {
+      "nome": "ALEXANDRE MARSARO",
+      "telefone": "+5565981256656",
+      "cidade": "",
+      "vendedor": "Rhuan",
+      "temperatura": "",
+      "data_transferencia": "2026-06-24T16:52:15.171-03:00"
+    },
+    {
+      "nome": "ALEXANDRE NEIS",
+      "telefone": "+5566999889811",
+      "cidade": "",
+      "vendedor": "Tharik Rafael",
+      "temperatura": "Frio",
+      "data_transferencia": "2026-06-24T17:32:51.394-03:00"
+    },
+    {
+      "nome": "ALEXANDRE PALHARINI",
+      "telefone": "+5567981350117",
+      "cidade": "",
+      "vendedor": "Tharik Rafael",
+      "temperatura": "",
+      "data_transferencia": "2026-06-25T10:39:29.082-03:00"
+    },
+    {
+      "nome": "ALEXANDRE PETRI SOLETTI",
+      "telefone": "+5566999856449",
+      "cidade": "",
+      "vendedor": "Rhuan",
+      "temperatura": "",
+      "data_transferencia": "2026-06-25T08:35:30.710-03:00"
+    },
+    {
+      "nome": "ALEXANDRE PIZZOLATO",
+      "telefone": "+5566999950302",
+      "cidade": "",
+      "vendedor": "Tharik Rafael",
+      "temperatura": "",
+      "data_transferencia": "2026-06-26T16:48:44.904-03:00"
+    },
+    {
+      "nome": "ALEXANDRE PRIGOL",
+      "telefone": "+5566984487704",
+      "cidade": "",
+      "vendedor": "Rhuan",
+      "temperatura": "",
+      "data_transferencia": "2026-06-25T10:50:01.122-03:00"
+    },
+    {
+      "nome": "ALEXANDRE ROBERTO PASSOS",
+      "telefone": "+5518996222413",
+      "cidade": "Maracaí",
+      "vendedor": "Tharik Rafael",
+      "temperatura": "Morno",
+      "data_transferencia": "2026-07-01T12:57:13.970-03:00"
+    },
+    {
+      "nome": "ALEXANDRE SCHMIDT",
+      "telefone": "+5566996002083",
+      "cidade": "Canarana",
+      "vendedor": "Ronaldo",
+      "temperatura": "quente",
+      "data_transferencia": "2026-06-25T10:07:18.425-03:00"
+    },
+    {
+      "nome": "ALEXANDRE TOMBINI",
+      "telefone": "+5565999351754",
+      "cidade": "",
+      "vendedor": "Ronaldo",
+      "temperatura": "",
+      "data_transferencia": "2026-06-25T11:14:09.975-03:00"
+    },
+    {
+      "nome": "ALEXANDRE VEDOVATTO",
+      "telefone": "+5564996999421",
+      "cidade": "",
+      "vendedor": "Tharik Rafael",
+      "temperatura": "",
+      "data_transferencia": "2026-06-25T12:02:35.661-03:00"
+    },
+    {
+      "nome": "ALEXANDRE VIANNA KELLER",
+      "telefone": "+5555999669554",
+      "cidade": "",
+      "vendedor": "Rhuan",
+      "temperatura": "",
+      "data_transferencia": "2026-07-23T14:12:09.012-03:00"
+    },
+    {
+      "nome": "ALEXANDRE VILLELA DE BIASSIO",
+      "telefone": "+5566999850944",
+      "cidade": "BR 163",
+      "vendedor": "Douglas",
+      "temperatura": "Morno",
+      "data_transferencia": "2026-06-25T11:45:45.153-03:00"
+    },
+    {
+      "nome": "ALEXANDRE VOLPATO GASPARELLO",
+      "telefone": "+5566999978090",
+      "cidade": "",
+      "vendedor": "Ronaldo",
+      "temperatura": "",
+      "data_transferencia": "2026-06-25T14:12:46.080-03:00"
+    },
+    {
+      "nome": "ALEXANDRE WERBERICH",
+      "telefone": "+5566999840524",
+      "cidade": "",
+      "vendedor": "Maria Luiza",
+      "temperatura": "",
+      "data_transferencia": "2026-06-25T14:32:13.921-03:00"
+    },
+    {
+      "nome": "ALEXANDRE XAVIER",
+      "telefone": "+5511991475043",
+      "cidade": "",
+      "vendedor": "Ronaldo",
+      "temperatura": "",
+      "data_transferencia": "2026-06-25T12:15:08.404-03:00"
+    },
+    {
+      "nome": "ALEXANDRE ZOCCHE",
+      "telefone": "+5561985273557",
+      "cidade": "Cristalina",
+      "vendedor": "Rhuan",
+      "temperatura": "Morno",
+      "data_transferencia": "2026-06-25T12:14:46.063-03:00"
+    },
+    {
+      "nome": "ALEXANDRO NEUHAUS",
+      "telefone": "+5566996349788",
+      "cidade": "",
+      "vendedor": "Rhuan",
+      "temperatura": "quente",
+      "data_transferencia": "2026-06-25T13:44:43.531-03:00"
+    },
+    {
+      "nome": "ALEXON EICHELT",
+      "telefone": "+5593984169421",
+      "cidade": "",
+      "vendedor": "Tharik Rafael",
+      "temperatura": "Frio",
+      "data_transferencia": "2026-06-25T14:35:35.221-03:00"
+    },
+    {
+      "nome": "ALEXSANDER LOSS",
+      "telefone": "+5589994008808",
+      "cidade": "",
+      "vendedor": "Maria Luiza",
+      "temperatura": "Morno",
+      "data_transferencia": "2026-06-26T07:50:14.988-03:00"
+    },
+    {
+      "nome": "ALEXSANDRO RAMALHO SILVA",
+      "telefone": "+5594981123030",
+      "cidade": "Dom Eliseu",
+      "vendedor": "Rhuan",
+      "temperatura": "Quente",
+      "data_transferencia": "2026-06-25T19:11:58.899-03:00"
+    },
+    {
+      "nome": "ALEXSANDRO RIBEIRO DOS PASSOS",
+      "telefone": "+5534999166088",
+      "cidade": "",
+      "vendedor": "Rhuan",
+      "temperatura": "",
+      "data_transferencia": "2026-06-25T16:59:38.028-03:00"
+    },
+    {
+      "nome": "ALEXSANDRO VESTEMBERG",
+      "telefone": "+5569992150269",
+      "cidade": "",
+      "vendedor": "Maria Luiza",
+      "temperatura": "",
+      "data_transferencia": "2026-06-25T16:11:47.402-03:00"
+    },
+    {
+      "nome": "ALGENIR GERALDO BONINI",
+      "telefone": "+5565999842832",
+      "cidade": "",
+      "vendedor": "Rhuan",
+      "temperatura": "",
+      "data_transferencia": "2026-06-26T11:00:38.105-03:00"
+    },
+    {
+      "nome": "ALICE DOS SANTOS VARGAS",
+      "telefone": "+5567999581597",
+      "cidade": "",
+      "vendedor": "Ronaldo",
+      "temperatura": "",
+      "data_transferencia": "2026-06-26T11:33:08.745-03:00"
+    },
+    {
+      "nome": "ALICEO FRANCISCO DA SILVA",
+      "telefone": "+5567996423023",
+      "cidade": "",
+      "vendedor": "Rhuan",
+      "temperatura": "",
+      "data_transferencia": "2026-06-26T18:20:57.293-03:00"
+    },
+    {
+      "nome": "ANA CRISTINA GUERINI",
+      "telefone": "+5564999690085",
+      "cidade": "",
+      "vendedor": "Ronaldo",
+      "temperatura": "",
+      "data_transferencia": "2026-07-10T13:39:44.271-03:00"
+    },
+    {
+      "nome": "ANA CRISTINA MARTINS GUIMARAES CAETANO",
+      "telefone": "+5563999842234",
+      "cidade": "",
+      "vendedor": "Maria Luiza",
+      "temperatura": "",
+      "data_transferencia": "2026-07-11T07:50:36.734-03:00"
+    },
+    {
+      "nome": "ANA CRISTINA ZANQUET",
+      "telefone": "+5538999721309",
+      "cidade": "",
+      "vendedor": "Tharik Rafael",
+      "temperatura": "",
+      "data_transferencia": "2026-07-10T14:21:46.163-03:00"
+    },
+    {
+      "nome": "ANA LUIZA FREIRE DE ANDRADE LIMA",
+      "telefone": "+5577999060169",
+      "cidade": "",
+      "vendedor": "Rhuan",
+      "temperatura": "",
+      "data_transferencia": "2026-07-11T11:53:07.158-03:00"
+    },
+    {
+      "nome": "ANA MARIA DELGOBO ALBACH",
+      "telefone": "+5566984293993",
+      "cidade": "",
+      "vendedor": "Tharik Rafael",
+      "temperatura": "",
+      "data_transferencia": "2026-07-11T11:29:59.726-03:00"
+    },
+    {
+      "nome": "ANA MARIA FERREIRA CORDEIRO E CARDOSO",
+      "telefone": "+5537998342805",
+      "cidade": "",
+      "vendedor": "Maria Luiza",
+      "temperatura": "",
+      "data_transferencia": "2026-07-11T12:23:57.187-03:00"
+    },
+    {
+      "nome": "ANA MARIA MALHEIRO NEGRAO BANDEIRA",
+      "telefone": "+5518997755156",
+      "cidade": "Sidrolândia",
+      "vendedor": "Rhuan",
+      "temperatura": "quente",
+      "data_transferencia": "2026-07-11T12:32:44.492-03:00"
+    },
+    {
+      "nome": "ANA MARIA TAFAREL BRUNETTA",
+      "telefone": "+5565999146587",
+      "cidade": "",
+      "vendedor": "Ronaldo",
+      "temperatura": "",
+      "data_transferencia": "2026-07-13T08:27:37.898-03:00"
+    },
+    {
+      "nome": "ANA PAULA BOLDRIN BASSETTO",
+      "telefone": "+5517997583563",
+      "cidade": "",
+      "vendedor": "Maria Luiza",
+      "temperatura": "",
+      "data_transferencia": "2026-07-13T08:36:02.539-03:00"
+    },
+    {
+      "nome": "ANA PAULA DE ARAUJO SANCHES",
+      "telefone": "+5534999841876",
+      "cidade": "",
+      "vendedor": "Rhuan",
+      "temperatura": "",
+      "data_transferencia": "2026-07-13T09:34:49.937-03:00"
+    },
+    {
+      "nome": "ANA PAULA DE OLIVEIRA SILVA",
+      "telefone": "+5514996611216",
+      "cidade": "",
+      "vendedor": "Rhuan",
+      "temperatura": "",
+      "data_transferencia": "2026-07-13T10:50:59.956-03:00"
+    },
+    {
+      "nome": "ANA PAULA FERRI",
+      "telefone": "+5564999282468",
+      "cidade": "",
+      "vendedor": "Tharik Rafael",
+      "temperatura": "",
+      "data_transferencia": "2026-07-13T10:31:53.131-03:00"
+    },
+    {
+      "nome": "ANANIAS BERWANGER TOLEDO",
+      "telefone": "+5538999053652",
+      "cidade": "Chapada Gaúcha",
+      "vendedor": "Rhuan",
+      "temperatura": "Morno",
+      "data_transferencia": "2026-07-13T15:41:30.547-03:00"
+    },
+    {
+      "nome": "ANCELMO FELIPETTO",
+      "telefone": "+5564999497575",
+      "cidade": "",
+      "vendedor": "Ronaldo",
+      "temperatura": "",
+      "data_transferencia": "2026-07-13T16:41:19.002-03:00"
+    },
+    {
+      "nome": "ANCELMO PERON",
+      "telefone": "+5565999877764",
+      "cidade": "",
+      "vendedor": "Douglas",
+      "temperatura": "",
+      "data_transferencia": "2026-07-14T08:37:41.191-03:00"
+    },
+    {
+      "nome": "ANDERSON ALVES ZAFALON",
+      "telefone": "+5567996136857",
+      "cidade": "",
+      "vendedor": "Maria Luiza",
+      "temperatura": "Frio",
+      "data_transferencia": "2026-07-13T17:31:59.438-03:00"
+    },
+    {
+      "nome": "ANDERSON BRUNO OTAKE GUOLLO",
+      "telefone": "+5566999884392",
+      "cidade": "",
+      "vendedor": "Ronaldo",
+      "temperatura": "Frio",
+      "data_transferencia": "2026-07-14T09:07:38.240-03:00"
+    },
+    {
+      "nome": "ANDERSON DE ALBUQUERQUE",
+      "telefone": "+5569992319006",
+      "cidade": "",
+      "vendedor": "Rhuan",
+      "temperatura": "",
+      "data_transferencia": "2026-07-14T20:58:50.856-03:00"
+    },
+    {
+      "nome": "ANDERSON DE OLIVEIRA",
+      "telefone": "+5519996737414",
+      "cidade": "",
+      "vendedor": "Tharik Rafael",
+      "temperatura": "",
+      "data_transferencia": "2026-07-14T08:37:17.592-03:00"
+    },
+    {
+      "nome": "ANDERSON DEL SANT",
+      "telefone": "+5566999759117",
+      "cidade": "",
+      "vendedor": "Rhuan",
+      "temperatura": "Quente",
+      "data_transferencia": "2026-07-14T08:47:49.989-03:00"
+    },
+    {
+      "nome": "ANDERSON FERNANDO DA SILVA",
+      "telefone": "+5564999967439",
+      "cidade": "Goiatuba",
+      "vendedor": "Maria Luiza",
+      "temperatura": "Quente",
+      "data_transferencia": "2026-07-14T12:03:46.375-03:00"
+    },
+    {
+      "nome": "ANDERSON FRITZEN FRIZZO",
+      "telefone": "+5566984068810",
+      "cidade": "",
+      "vendedor": "Maria Luiza",
+      "temperatura": "",
+      "data_transferencia": "2026-07-14T09:26:41.551-03:00"
+    },
+    {
+      "nome": "ANDERSON GONCALVES DA FONSECA",
+      "telefone": "+5535999256626",
+      "cidade": "Silvianópolis",
+      "vendedor": "Rhuan",
+      "temperatura": "Morno",
+      "data_transferencia": "2026-07-14T10:27:51.890-03:00"
+    },
+    {
+      "nome": "ANDERSON JOSE SILVA",
+      "telefone": "+5561996144927",
+      "cidade": "",
+      "vendedor": "Tharik Rafael",
+      "temperatura": "",
+      "data_transferencia": "2026-07-14T10:00:52.240-03:00"
+    },
+    {
+      "nome": "ANDERSON LUIZ VARGAS FACHIN",
+      "telefone": "+5566997126827",
+      "cidade": "",
+      "vendedor": "Ronaldo",
+      "temperatura": "",
+      "data_transferencia": "2026-07-14T21:30:52.603-03:00"
+    },
+    {
+      "nome": "ANDERSON PINTO DE OLIVEIRA",
+      "telefone": "+5534991953512",
+      "cidade": "",
+      "vendedor": "Rhuan",
+      "temperatura": "Quente",
+      "data_transferencia": "2026-07-15T13:47:14.458-03:00"
+    },
+    {
+      "nome": "ANDERSON QUINTINO DESBESSEL",
+      "telefone": "+5565999257414",
+      "cidade": "",
+      "vendedor": "Ronaldo",
+      "temperatura": "",
+      "data_transferencia": "2026-07-14T11:08:06.154-03:00"
+    },
+    {
+      "nome": "ANDERSON RENAN VIEIRA DE SOUZA",
+      "telefone": "+5567999540816",
+      "cidade": "",
+      "vendedor": "Rhuan",
+      "temperatura": "",
+      "data_transferencia": "2026-07-14T11:52:54.583-03:00"
+    },
+    {
+      "nome": "ANDERSON RICARDO ROSALEM",
+      "telefone": "+5566984012036",
+      "cidade": "",
+      "vendedor": "Tharik Rafael",
+      "temperatura": "Frio",
+      "data_transferencia": "2026-07-14T11:35:39.896-03:00"
+    },
+    {
+      "nome": "ANDERSON RICARDO ROSALEM",
+      "telefone": "+5566984227387",
+      "cidade": "",
+      "vendedor": "Ronaldo",
+      "temperatura": "",
+      "data_transferencia": "2026-07-14T12:01:44.246-03:00"
+    },
+    {
+      "nome": "ANDERSON RODRIGO TOTTI",
+      "telefone": "+5518997519115",
+      "cidade": "",
+      "vendedor": "Maria Luiza",
+      "temperatura": "quente",
+      "data_transferencia": "2026-07-14T11:35:39.870-03:00"
+    },
+    {
+      "nome": "ANDRE AUGUSTO SOARES SAGBONI XAVIER",
+      "telefone": "+5542991471203",
+      "cidade": "",
+      "vendedor": "Tharik Rafael",
+      "temperatura": "",
+      "data_transferencia": "2026-07-14T13:34:34.235-03:00"
+    },
+    {
+      "nome": "ANDRE BATISTA DE ALMEIDA",
+      "telefone": "+5515996533973",
+      "cidade": "",
+      "vendedor": "Rhuan",
+      "temperatura": "Frio",
+      "data_transferencia": "2026-07-14T13:34:58.876-03:00"
+    },
+    {
+      "nome": "ANDRE BORGES DA SILVA",
+      "telefone": "+5565996901906",
+      "cidade": "",
+      "vendedor": "Ronaldo",
+      "temperatura": "",
+      "data_transferencia": "2026-07-14T13:41:41.477-03:00"
+    },
+    {
+      "nome": "ANDRE CASALLI ORLANDINI",
+      "telefone": "+5563984222965",
+      "cidade": "",
+      "vendedor": "Tharik Rafael",
+      "temperatura": "Frio",
+      "data_transferencia": "2026-07-14T17:05:28.440-03:00"
+    },
+    {
+      "nome": "ANDRE CORREA DOS SANTOS",
+      "telefone": "+5567999834147",
+      "cidade": "",
+      "vendedor": "Tharik Rafael",
+      "temperatura": "Frio",
+      "data_transferencia": "2026-07-14T14:32:20.706-03:00"
+    },
+    {
+      "nome": "ANDRE DE LIMA MINERVINI",
+      "telefone": "+5567999730151",
+      "cidade": "",
+      "vendedor": "Rhuan",
+      "temperatura": "Frio",
+      "data_transferencia": "2026-07-14T15:25:46.749-03:00"
+    },
+    {
+      "nome": "ANDRE DE PAULA SILVA",
+      "telefone": "+5567999557654",
+      "cidade": "Santa Catarina",
+      "vendedor": "Ronaldo",
+      "temperatura": "Quente",
+      "data_transferencia": "2026-07-14T16:42:48.833-03:00"
+    },
+    {
+      "nome": "ANDRE GAZZONI",
+      "telefone": "+5511950275301",
+      "cidade": "Urucuia",
+      "vendedor": "Maria Luiza",
+      "temperatura": "Quente",
+      "data_transferencia": "2026-07-14T16:53:24.631-03:00"
+    },
+    {
+      "nome": "ANDRE JUNIOR DELL OSBEL",
+      "telefone": "+5566996167711",
+      "cidade": "",
+      "vendedor": "Maria Luiza",
+      "temperatura": "",
+      "data_transferencia": "2026-07-15T17:19:39.325-03:00"
+    },
+    {
+      "nome": "ANDRE LUIS DE FARIA",
+      "telefone": "+5537998120190",
+      "cidade": "",
+      "vendedor": "Tharik Rafael",
+      "temperatura": "Quente",
+      "data_transferencia": "2026-07-15T08:48:46.458-03:00"
+    },
+    {
+      "nome": "ANDRE LUIS ROEDER",
+      "telefone": "+5599988335096",
+      "cidade": "",
+      "vendedor": "Ronaldo",
+      "temperatura": "",
+      "data_transferencia": "2026-07-15T09:23:07.271-03:00"
+    },
+    {
+      "nome": "ANDRE LUIS SCHERRER",
+      "telefone": "+5519991413414",
+      "cidade": "",
+      "vendedor": "Rhuan",
+      "temperatura": "Quente",
+      "data_transferencia": "2026-07-15T09:18:33.575-03:00"
+    },
+    {
+      "nome": "ANDRE LUIS TRIACCA",
+      "telefone": "+5561984288889",
+      "cidade": "",
+      "vendedor": "Rhuan",
+      "temperatura": "Frio",
+      "data_transferencia": "2026-07-15T10:25:41.293-03:00"
+    },
+    {
+      "nome": "ANDRE LUIZ ARAUJO MARTINELLI",
+      "telefone": "+5567999082642",
+      "cidade": "",
+      "vendedor": "Maria Luiza",
+      "temperatura": "",
+      "data_transferencia": "2026-07-15T09:32:52.936-03:00"
+    },
+    {
+      "nome": "ANDRE LUIZ CARLOS DE ALMEIDA",
+      "telefone": "+5565996460478",
+      "cidade": "",
+      "vendedor": "Ronaldo",
+      "temperatura": "",
+      "data_transferencia": "2026-07-15T14:01:00.247-03:00"
+    },
+    {
+      "nome": "ANDRE LUIZ COELHO GUILHERME",
+      "telefone": "+5562992935003",
+      "cidade": "",
+      "vendedor": "Tharik Rafael",
+      "temperatura": "",
+      "data_transferencia": "2026-07-15T10:09:23.912-03:00"
+    },
+    {
+      "nome": "ANDRE LUIZ MAI",
+      "telefone": "+5565996062958",
+      "cidade": "",
+      "vendedor": "Maria Luiza",
+      "temperatura": "",
+      "data_transferencia": "2026-07-15T10:55:27.769-03:00"
+    },
+    {
+      "nome": "ANDRE LUIZ MOCELIN",
+      "telefone": "+5566999858496",
+      "cidade": "",
+      "vendedor": "Ronaldo",
+      "temperatura": "",
+      "data_transferencia": "2026-07-15T10:47:55.061-03:00"
+    },
+    {
+      "nome": "ANDRE LUIZ SOUZA SILVA FILHO",
+      "telefone": "+5564981389859",
+      "cidade": "",
+      "vendedor": "Rhuan",
+      "temperatura": "",
+      "data_transferencia": "2026-07-15T17:45:02.807-03:00"
+    },
+    {
+      "nome": "ANDRE LUIZ VENDRUSCULO",
+      "telefone": "+5569999331603",
+      "cidade": "",
+      "vendedor": "Tharik Rafael",
+      "temperatura": "",
+      "data_transferencia": "2026-07-15T11:24:30.145-03:00"
+    },
+    {
+      "nome": "ANDRE MARTINS DE QUEIROZ",
+      "telefone": "+5534999323949",
+      "cidade": "",
+      "vendedor": "Rhuan",
+      "temperatura": "Frio",
+      "data_transferencia": "2026-07-15T11:32:52.910-03:00"
+    },
+    {
+      "nome": "ANDRE MORAES ARANTES",
+      "telefone": "+5564981217202",
+      "cidade": "",
+      "vendedor": "Maria Luiza",
+      "temperatura": "",
+      "data_transferencia": "2026-07-15T13:28:05.136-03:00"
+    },
+    {
+      "nome": "ANDRE PREZOTTO",
+      "telefone": "+5565999958092",
+      "cidade": "",
+      "vendedor": "Tharik Rafael",
+      "temperatura": "Frio",
+      "data_transferencia": "2026-07-15T13:45:43.656-03:00"
+    },
+    {
+      "nome": "ANDRE RICARDO DE SOUZA BASTOS",
+      "telefone": "+5562999061830",
+      "cidade": "",
+      "vendedor": "Ronaldo",
+      "temperatura": "",
+      "data_transferencia": "2026-07-15T13:08:03.342-03:00"
+    },
+    {
+      "nome": "ANDRE RIVA",
+      "telefone": "+5566996012142",
+      "cidade": "",
+      "vendedor": "Maria Luiza",
+      "temperatura": "",
+      "data_transferencia": "2026-07-15T14:08:07.755-03:00"
+    },
+    {
+      "nome": "ANDRE ROSALINO MALDANER",
+      "telefone": "+5561999432964",
+      "cidade": "",
+      "vendedor": "Ronaldo",
+      "temperatura": "",
+      "data_transferencia": "2026-07-15T14:41:18.272-03:00"
+    },
+    {
+      "nome": "ANDRE TESSARI FREIRE",
+      "telefone": "+5567999730458",
+      "cidade": "",
+      "vendedor": "Ronaldo",
+      "temperatura": "",
+      "data_transferencia": "2026-07-15T18:11:56.126-03:00"
+    },
+    {
+      "nome": "ANDRE VENDRUSCOLO",
+      "telefone": "+5565999373288",
+      "cidade": "",
+      "vendedor": "Rhuan",
+      "temperatura": "Quente",
+      "data_transferencia": "2026-07-15T14:28:48.781-03:00"
+    },
+    {
+      "nome": "ANDRE VICENTE FREITAS VALARETO",
+      "telefone": "+5566999918341",
+      "cidade": "",
+      "vendedor": "Rhuan",
+      "temperatura": "Follow-up",
+      "data_transferencia": "2026-07-21T11:00:52.871-03:00"
+    },
+    {
+      "nome": "ANDREANI CIOTA",
+      "telefone": "+5566999799002",
+      "cidade": "",
+      "vendedor": "Maria Luiza",
+      "temperatura": "",
+      "data_transferencia": "2026-07-15T21:11:09.799-03:00"
+    },
+    {
+      "nome": "ANDREI NICOLA",
+      "telefone": "+5563984640737",
+      "cidade": "",
+      "vendedor": "Tharik Rafael",
+      "temperatura": "",
+      "data_transferencia": "2026-07-15T15:42:48.014-03:00"
+    },
+    {
+      "nome": "ANDREI RICARDO FERNANDES",
+      "telefone": "+5561998330103",
+      "cidade": "",
+      "vendedor": "Rhuan",
+      "temperatura": "Quente",
+      "data_transferencia": "2026-07-15T16:06:40.901-03:00"
+    },
+    {
+      "nome": "ANDREIA APARECIDA DA SILVA",
+      "telefone": "+5567996061740",
+      "cidade": "",
+      "vendedor": "Tharik Rafael",
+      "temperatura": "",
+      "data_transferencia": "2026-07-16T13:54:27.937-03:00"
+    },
+    {
+      "nome": "ANDREIA APARECIDA HECK POSSELT",
+      "telefone": "+5569999819845",
+      "cidade": "",
+      "vendedor": "Ronaldo",
+      "temperatura": "",
+      "data_transferencia": "2026-07-15T16:22:16.786-03:00"
+    },
+    {
+      "nome": "ANDREY DE MATOS MARTINS",
+      "telefone": "+5561981117396",
+      "cidade": "",
+      "vendedor": "Rhuan",
+      "temperatura": "Morno",
+      "data_transferencia": "2026-07-16T09:49:12.337-03:00"
+    },
+    {
+      "nome": "ANDRIELI CRISTINA STEFANSKI",
+      "telefone": "+5566996870082",
+      "cidade": "",
+      "vendedor": "Ronaldo",
+      "temperatura": "",
+      "data_transferencia": "2026-07-16T09:55:40.921-03:00"
+    },
+    {
+      "nome": "ANELIO JOAO MORI",
+      "telefone": "+5565999139720",
+      "cidade": "",
+      "vendedor": "Maria Luiza",
+      "temperatura": "",
+      "data_transferencia": "2026-07-16T10:22:01.039-03:00"
+    },
+    {
+      "nome": "ANGELO EDUARDO RIBEIRO",
+      "telefone": "+5518997723111",
+      "cidade": "",
+      "vendedor": "Tharik Rafael",
+      "temperatura": "Morno",
+      "data_transferencia": "2026-07-16T12:26:11.667-03:00"
+    },
+    {
+      "nome": "ANTENOR ALBERTO DALMASO",
+      "telefone": "+5564999916556",
+      "cidade": "",
+      "vendedor": "Maria Luiza",
+      "temperatura": "",
+      "data_transferencia": "2026-07-16T15:42:58.292-03:00"
+    },
+    {
+      "nome": "ANTONIO BENTO DE BRITO",
+      "telefone": "+5567999232133",
+      "cidade": "",
+      "vendedor": "Ronaldo",
+      "temperatura": "",
+      "data_transferencia": "2026-07-16T19:54:04.720-03:00"
+    },
+    {
+      "nome": "ANTONIO CARLOS PEREIRA",
+      "telefone": "+5514996523994",
+      "cidade": "",
+      "vendedor": "Rhuan",
+      "temperatura": "",
+      "data_transferencia": "2026-07-17T13:17:39.528-03:00"
+    },
+    {
+      "nome": "ANTONIO DUARTE DA SILVA",
+      "telefone": "+5564992469744",
+      "cidade": "Jataí",
+      "vendedor": "Maria Luiza",
+      "temperatura": "Frio",
+      "data_transferencia": "2026-07-17T14:52:52.565-03:00"
+    },
+    {
+      "nome": "ANTONIO FOELLMER RAMBO",
+      "telefone": "+5566999356252",
+      "cidade": "Norte do MT",
+      "vendedor": "Rhuan",
+      "temperatura": "",
+      "data_transferencia": "2026-08-04T09:02:30.102-03:00"
+    },
+    {
+      "nome": "ANTONIO GALVAN",
+      "telefone": "+5566999852525",
+      "cidade": "Sinop",
+      "vendedor": "Rhuan",
+      "temperatura": "",
+      "data_transferencia": "2026-07-18T07:03:59.531-03:00"
+    },
+    {
+      "nome": "ANTONIO ISAAC FRAGA LIRA",
+      "telefone": "+5565999683881",
+      "cidade": "",
+      "vendedor": "Tharik Rafael",
+      "temperatura": "",
+      "data_transferencia": "2026-07-17T21:00:07.167-03:00"
+    },
+    {
+      "nome": "ANTONIO JOSE DE PAULA",
+      "telefone": "+5598981391107",
+      "cidade": "",
+      "vendedor": "Ronaldo",
+      "temperatura": "",
+      "data_transferencia": "2026-07-18T15:29:12.795-03:00"
+    },
+    {
+      "nome": "ANTONIO MARIO VEZIGNAZZI",
+      "telefone": "+5565996178082",
+      "cidade": "",
+      "vendedor": "Maria Luiza",
+      "temperatura": "Quente",
+      "data_transferencia": "2026-07-21T15:46:13.687-03:00"
+    },
+    {
+      "nome": "ANTONIO QUINCOZES DE LIMA",
+      "telefone": "+5515996433926",
+      "cidade": "",
+      "vendedor": "Rhuan",
+      "temperatura": "",
+      "data_transferencia": "2026-07-20T10:56:37.172-03:00"
+    },
+    {
+      "nome": "ANTONIO ROBERTO FURLAN ZULETA",
+      "telefone": "+5515998020037",
+      "cidade": "Itaberá",
+      "vendedor": "Ronaldo",
+      "temperatura": "morno",
+      "data_transferencia": "2026-07-20T11:17:58.207-03:00"
+    },
+    {
+      "nome": "ANTONIO SERGIO FAUSTINO DA SILVA",
+      "telefone": "+5566999898534",
+      "cidade": "",
+      "vendedor": "Tharik Rafael",
+      "temperatura": "quente",
+      "data_transferencia": "2026-07-22T15:59:11.190-03:00"
+    },
+    {
+      "nome": "ANTONIO TADAIOSHI MITSUYASU",
+      "telefone": "+5567999991100",
+      "cidade": "",
+      "vendedor": "Tharik Rafael",
+      "temperatura": "",
+      "data_transferencia": "2026-07-20T14:39:42.772-03:00"
+    },
+    {
+      "nome": "ANTONIO TAVARES DOS SANTOS",
+      "telefone": "+5598982961243",
+      "cidade": "",
+      "vendedor": "Tharik Rafael",
+      "temperatura": "",
+      "data_transferencia": "2026-07-22T07:44:39.014-03:00"
+    },
+    {
+      "nome": "ANTONIO VIRGINIO DE OLIVEIRA",
+      "telefone": "+5537998651391",
+      "cidade": "Bambuí",
+      "vendedor": "Maria Luiza",
+      "temperatura": "Morno",
+      "data_transferencia": "2026-07-20T14:24:30.842-03:00"
+    },
+    {
+      "nome": "APARECIDO SIMAO LOPES",
+      "telefone": "+5567992476257",
+      "cidade": "",
+      "vendedor": "Rhuan",
+      "temperatura": "Follow-up",
+      "data_transferencia": "2026-07-20T17:50:47.738-03:00"
+    },
+    {
+      "nome": "APARECIDO VERGILIO DA SILVA",
+      "telefone": "+5567996611401",
+      "cidade": "",
+      "vendedor": "Tharik Rafael",
+      "temperatura": "Follow-up",
+      "data_transferencia": "2026-07-20T19:50:52.796-03:00"
+    },
+    {
+      "nome": "APARECIDO VERONEZ",
+      "telefone": "+5516991948508",
+      "cidade": "",
+      "vendedor": "Maria Luiza",
+      "temperatura": "Follow-up",
+      "data_transferencia": "2026-07-20T17:20:53.406-03:00"
+    },
+    {
+      "nome": "APOLONY KALUGIN",
+      "telefone": "+5541999165614",
+      "cidade": "",
+      "vendedor": "Tharik Rafael",
+      "temperatura": "Follow-up",
+      "data_transferencia": "2026-07-20T17:40:50.885-03:00"
+    },
+    {
+      "nome": "ARACELI MENCATO",
+      "telefone": "+5546991030040",
+      "cidade": "",
+      "vendedor": "Ronaldo",
+      "temperatura": "Follow-up",
+      "data_transferencia": "2026-07-20T18:20:52.875-03:00"
+    },
+    {
+      "nome": "ARCIZIO LUIZ SALVI",
+      "telefone": "+5566999980827",
+      "cidade": "",
+      "vendedor": "Maria Luiza",
+      "temperatura": "Follow-up",
+      "data_transferencia": "2026-07-20T18:40:51.709-03:00"
+    },
+    {
+      "nome": "ARGEMIRA PEDROSA ZAMAR",
+      "telefone": "+5566996786445",
+      "cidade": "",
+      "vendedor": "Maria Luiza",
+      "temperatura": "Follow-up",
+      "data_transferencia": "2026-07-21T09:50:51.204-03:00"
+    },
+    {
+      "nome": "ARI GOBBI",
+      "telefone": "+5566984145159",
+      "cidade": "",
+      "vendedor": "Rhuan",
+      "temperatura": "",
+      "data_transferencia": "2026-07-21T10:24:58.937-03:00"
+    },
+    {
+      "nome": "ARI MACHADO",
+      "telefone": "+5566996174282",
+      "cidade": "",
+      "vendedor": "Ronaldo",
+      "temperatura": "Follow-up",
+      "data_transferencia": "2026-07-21T10:30:47.712-03:00"
+    },
+    {
+      "nome": "ARI VOIGT",
+      "telefone": "+5566996165509",
+      "cidade": "",
+      "vendedor": "Rhuan",
+      "temperatura": "",
+      "data_transferencia": "2026-07-21T09:34:53.515-03:00"
+    },
+    {
+      "nome": "ARIAN REUTOV",
+      "telefone": "+5566999730976",
+      "cidade": "",
+      "vendedor": "Rhuan",
+      "temperatura": "Follow-up",
+      "data_transferencia": "2026-07-21T11:50:48.455-03:00"
+    },
+    {
+      "nome": "ARILSON TOMAZINE",
+      "telefone": "+5566999676908",
+      "cidade": "",
+      "vendedor": "Tharik Rafael",
+      "temperatura": "",
+      "data_transferencia": "2026-07-21T11:35:57.768-03:00"
+    },
+    {
+      "nome": "ARNALDO CATTANI",
+      "telefone": "+5566984321301",
+      "cidade": "Água Boa",
+      "vendedor": "Maria Luiza",
+      "temperatura": "Morno",
+      "data_transferencia": "2026-07-21T20:04:40.070-03:00"
+    },
+    {
+      "nome": "ARNALDO DE CASTRO",
+      "telefone": "+5537999881402",
+      "cidade": "Lagoa da Prata",
+      "vendedor": "Rhuan",
+      "temperatura": "Morno",
+      "data_transferencia": "2026-07-22T12:10:37.624-03:00"
+    },
+    {
+      "nome": "ARNALDO VIEIRA DE LIMA",
+      "telefone": "+5567998236750",
+      "cidade": "",
+      "vendedor": "Rhuan",
+      "temperatura": "",
+      "data_transferencia": "2026-07-22T13:21:06.153-03:00"
+    },
+    {
+      "nome": "ARNO HAHN",
+      "telefone": "+5515997355460",
+      "cidade": "",
+      "vendedor": "Maria Luiza",
+      "temperatura": "",
+      "data_transferencia": "2026-07-22T10:09:36.065-03:00"
+    },
+    {
+      "nome": "ARTHUR DE OLIVEIRA ZANIN",
+      "telefone": "+5577999545666",
+      "cidade": "",
+      "vendedor": "Maria Luiza",
+      "temperatura": "",
+      "data_transferencia": "2026-07-22T11:35:29.303-03:00"
+    },
+    {
+      "nome": "ARTHUR PALOMBO DE OLIVEIRA",
+      "telefone": "+5566984345597",
+      "cidade": "",
+      "vendedor": "Maria Luiza",
+      "temperatura": "",
+      "data_transferencia": "2026-07-22T12:31:46.053-03:00"
+    },
+    {
+      "nome": "ARUARA ALBERTO DE MELLO",
+      "telefone": "+5511999387379",
+      "cidade": "",
+      "vendedor": "Tharik Rafael",
+      "temperatura": "",
+      "data_transferencia": "2026-07-22T14:29:38.511-03:00"
+    },
+    {
+      "nome": "ASSOCIACAO COMUNITARIA DO ASSENTAMENTO RURAL JIBOIA",
+      "telefone": "+5538999958848",
+      "cidade": "",
+      "vendedor": "Ronaldo",
+      "temperatura": "",
+      "data_transferencia": "2026-07-22T17:41:50.343-03:00"
+    },
+    {
+      "nome": "ATAEL MARCIANO RIBEIRO",
+      "telefone": "+5537984010148",
+      "cidade": "",
+      "vendedor": "Ronaldo",
+      "temperatura": "quente",
+      "data_transferencia": "2026-07-22T15:16:17.269-03:00"
+    },
+    {
+      "nome": "ATAIDE XISTO DE MORAES",
+      "telefone": "+5511971170333",
+      "cidade": "Paracatu MG e Morungaba SP",
+      "vendedor": "Maria Luiza",
+      "temperatura": "Quente",
+      "data_transferencia": "2026-07-22T16:17:58.730-03:00"
+    },
+    {
+      "nome": "ATAMIR VANDER DE ALMEIDA",
+      "telefone": "+5569981129481",
+      "cidade": "",
+      "vendedor": "Rhuan",
+      "temperatura": "Morno",
+      "data_transferencia": "2026-07-22T16:42:58.205-03:00"
+    },
+    {
+      "nome": "AUDINEI ARY GONCALVES",
+      "telefone": "+5516996189751",
+      "cidade": "",
+      "vendedor": "Rhuan",
+      "temperatura": "quente",
+      "data_transferencia": "2026-07-22T17:35:00.924-03:00"
+    },
+    {
+      "nome": "AUGUSTO HENRIQUE DOS SANTOS",
+      "telefone": "+5564992901174",
+      "cidade": "",
+      "vendedor": "Maria Luiza",
+      "temperatura": "",
+      "data_transferencia": "2026-07-23T10:35:20.761-03:00"
+    },
+    {
+      "nome": "AURO LUIZ COMIN",
+      "telefone": "+5566999887711",
+      "cidade": "",
+      "vendedor": "Ronaldo",
+      "temperatura": "",
+      "data_transferencia": "2026-07-23T15:15:17.797-03:00"
+    },
+    {
+      "nome": "AVANILTON CELESTINO BATISTA JUNIOR",
+      "telefone": "+5534999607462",
+      "cidade": "",
+      "vendedor": "Maria Luiza",
+      "temperatura": "",
+      "data_transferencia": "2026-07-18T15:32:44.209-03:00"
+    },
+    {
+      "nome": "AVELAR BATISTA NUNES DA COSTA",
+      "telefone": "+5567999244593",
+      "cidade": "",
+      "vendedor": "Maria Luiza",
+      "temperatura": "",
+      "data_transferencia": "2026-07-23T13:58:51.756-03:00"
+    },
+    {
+      "nome": "AVELINO VILSON SOLANO",
+      "telefone": "+5566992239824",
+      "cidade": "",
+      "vendedor": "Ronaldo",
+      "temperatura": "",
+      "data_transferencia": "2026-07-23T13:48:54.260-03:00"
+    },
+    {
+      "nome": "AVILA AGROPECUARIA LTDA",
+      "telefone": "+5555999250257",
+      "cidade": "",
+      "vendedor": "Maria Luiza",
+      "temperatura": "quente",
+      "data_transferencia": "2026-07-23T15:27:06.874-03:00"
+    },
+    {
+      "nome": "BENILDA MARSILIA FELIPETTO",
+      "telefone": "+5566999655055",
+      "cidade": "",
+      "vendedor": "Maria Luiza",
+      "temperatura": "",
+      "data_transferencia": "2026-08-14T19:59:05.278-03:00"
+    },
+    {
+      "nome": "BRUNO ANTONIO BECCEGATO",
+      "telefone": "+5567998315877",
+      "cidade": "",
+      "vendedor": "Tharik Rafael",
+      "temperatura": "",
+      "data_transferencia": "2026-07-27T13:37:03.576-03:00"
+    },
+    {
+      "nome": "BRUNO BARBOSA DE TOLEDO",
+      "telefone": "+5566984081459",
+      "cidade": "Confresa",
+      "vendedor": "Tharik Rafael",
+      "temperatura": "",
+      "data_transferencia": "2026-07-27T11:35:06.963-03:00"
+    },
+    {
+      "nome": "BRUNO BEE BRESSAN",
+      "telefone": "+5566981033366",
+      "cidade": "",
+      "vendedor": "Ronaldo",
+      "temperatura": "",
+      "data_transferencia": "2026-07-27T11:46:30.254-03:00"
+    },
+    {
+      "nome": "BRUNO BOEING FILHO",
+      "telefone": "+5566999652080",
+      "cidade": "",
+      "vendedor": "Rhuan",
+      "temperatura": "",
+      "data_transferencia": "2026-07-27T11:40:32.273-03:00"
+    },
+    {
+      "nome": "BRUNO BURKHARDT RADIN",
+      "telefone": "+5566996034484",
+      "cidade": "",
+      "vendedor": "Maria Luiza",
+      "temperatura": "",
+      "data_transferencia": "2026-07-27T11:27:24.523-03:00"
+    },
+    {
+      "nome": "BRUNO CEZAR BASSO",
+      "telefone": "+5566999070776",
+      "cidade": "",
+      "vendedor": "Maria Luiza",
+      "temperatura": "",
+      "data_transferencia": "2026-07-27T13:13:33.085-03:00"
+    },
+    {
+      "nome": "BRUNO MELCHER",
+      "telefone": "+5511999529408",
+      "cidade": "",
+      "vendedor": "Tharik Rafael",
+      "temperatura": "",
+      "data_transferencia": "2026-07-27T17:15:03.653-03:00"
+    },
+    {
+      "nome": "BRUNO RANGEL GERALDO MARTINS",
+      "telefone": "+5516999615373",
+      "cidade": "Guariba",
+      "vendedor": "Rhuan",
+      "temperatura": "morno",
+      "data_transferencia": "2026-07-28T08:17:31.605-03:00"
+    },
+    {
+      "nome": "BRUNO RASSINI DA COSTA",
+      "telefone": "+5517991360380",
+      "cidade": "Monte Azul Paulista",
+      "vendedor": "Tharik Rafael",
+      "temperatura": "morno",
+      "data_transferencia": "2026-07-28T09:31:19.716-03:00"
+    },
+    {
+      "nome": "CAETANO FERREIRA DE REZENDE",
+      "telefone": "+5566996757474",
+      "cidade": "Água Boa",
+      "vendedor": "Rhuan",
+      "temperatura": "Morno",
+      "data_transferencia": "2026-07-28T16:41:56.304-03:00"
+    },
+    {
+      "nome": "CAIO LEANDRO PETROLI",
+      "telefone": "+5511999073899",
+      "cidade": "",
+      "vendedor": "Tharik Rafael",
+      "temperatura": "Quente",
+      "data_transferencia": "2026-07-28T14:29:55.426-03:00"
+    },
+    {
+      "nome": "CAIO MAGNOS SCHAFER",
+      "telefone": "+5566997268084",
+      "cidade": "",
+      "vendedor": "Rhuan",
+      "temperatura": "",
+      "data_transferencia": "2026-07-28T14:47:49.227-03:00"
+    },
+    {
+      "nome": "CALEGARI HOLDING PARTICIPACOES LTDA",
+      "telefone": "+5562999330944",
+      "cidade": "",
+      "vendedor": "Maria Luiza",
+      "temperatura": "",
+      "data_transferencia": "2026-07-28T18:05:58.593-03:00"
+    },
+    {
+      "nome": "CAMPEIRA COMERCIAL AGRICOLA EIRELI - EPP",
+      "telefone": "+5566996557835",
+      "cidade": "",
+      "vendedor": "Ronaldo",
+      "temperatura": "",
+      "data_transferencia": "2026-07-29T09:27:48.405-03:00"
+    },
+    {
+      "nome": "CARDOSO & BATISTA REPRESENTACOES LTDA",
+      "telefone": "+5562996044493",
+      "cidade": "",
+      "vendedor": "Douglas",
+      "temperatura": "",
+      "data_transferencia": "2026-07-29T10:40:22.274-03:00"
+    },
+    {
+      "nome": "CARLOS ALBERTO ANDRINO",
+      "telefone": "+5514997961480",
+      "cidade": "",
+      "vendedor": "Maria Luiza",
+      "temperatura": "",
+      "data_transferencia": "2026-07-29T15:20:14.731-03:00"
+    },
+    {
+      "nome": "CARLOS ANTONIO BARBOSA DE SOUZA",
+      "telefone": "+5562999782379",
+      "cidade": "",
+      "vendedor": "Ronaldo",
+      "temperatura": "",
+      "data_transferencia": "2026-07-30T10:52:37.991-03:00"
+    },
+    {
+      "nome": "CARLOS ANTONIO DA ROSA",
+      "telefone": "+5534999750359",
+      "cidade": "Patos de Minas",
+      "vendedor": "Rhuan",
+      "temperatura": "morno",
+      "data_transferencia": "2026-07-30T10:31:47.825-03:00"
+    },
+    {
+      "nome": "CARLOS ANTONIO DE ARAUJO",
+      "telefone": "+5534999625100",
+      "cidade": "Centralina",
+      "vendedor": "Tharik Rafael",
+      "temperatura": "morno",
+      "data_transferencia": "2026-07-30T11:04:39.548-03:00"
+    },
+    {
+      "nome": "CARLOS ANTONIO PALHARINI",
+      "telefone": "+5518996781537",
+      "cidade": "",
+      "vendedor": "Ronaldo",
+      "temperatura": "",
+      "data_transferencia": "2026-07-30T12:37:53.190-03:00"
+    },
+    {
+      "nome": "CARLOS CESAR TRASFERETI",
+      "telefone": "+5519993453617",
+      "cidade": "",
+      "vendedor": "Tharik Rafael",
+      "temperatura": "",
+      "data_transferencia": "2026-07-30T14:08:06.739-03:00"
+    },
+    {
+      "nome": "CARLOS FERRAZ PORTO",
+      "telefone": "+5514998005150",
+      "cidade": "",
+      "vendedor": "Tharik Rafael",
+      "temperatura": "",
+      "data_transferencia": "2026-07-31T09:30:39.740-03:00"
+    },
+    {
+      "nome": "CARLOS MANFIO",
+      "telefone": "+5566996120937",
+      "cidade": "",
+      "vendedor": "Rhuan",
+      "temperatura": "",
+      "data_transferencia": "2026-08-07T08:14:50.951-03:00"
+    },
+    {
+      "nome": "CARLOS ROBERTO DA SILVA",
+      "telefone": "+5561999856073",
+      "cidade": "",
+      "vendedor": "Tharik Rafael",
+      "temperatura": "",
+      "data_transferencia": "2026-08-01T08:07:00.949-03:00"
+    },
+    {
+      "nome": "CARLOS ROBERTO DIETER",
+      "telefone": "+5562996670467",
+      "cidade": "",
+      "vendedor": "Tharik Rafael",
+      "temperatura": "",
+      "data_transferencia": "2026-07-31T16:45:44.801-03:00"
+    },
+    {
+      "nome": "CARLOS TERUO KOIZUMI",
+      "telefone": "+5515997312109",
+      "cidade": "",
+      "vendedor": "Rhuan",
+      "temperatura": "",
+      "data_transferencia": "2026-08-01T11:36:14.920-03:00"
+    },
+    {
+      "nome": "CARMEM SILVIA DE SOUZA",
+      "telefone": "+5562991274116",
+      "cidade": "",
+      "vendedor": "Ronaldo",
+      "temperatura": "",
+      "data_transferencia": "2026-08-01T14:28:12.266-03:00"
+    },
+    {
+      "nome": "CASSIA ISOLINA DUNDI CARVALHO",
+      "telefone": "+5564999245378",
+      "cidade": "",
+      "vendedor": "Tharik Rafael",
+      "temperatura": "",
+      "data_transferencia": "2026-08-03T10:57:40.984-03:00"
+    },
+    {
+      "nome": "CASSIO HERBERTO SCHNEIDER",
+      "telefone": "+5561999710008",
+      "cidade": "",
+      "vendedor": "Ronaldo",
+      "temperatura": "",
+      "data_transferencia": "2026-08-03T14:12:53.139-03:00"
+    },
+    {
+      "nome": "CATIA MARIA DE MEDEIROS BIF",
+      "telefone": "+5566999128275",
+      "cidade": "Tabaporã",
+      "vendedor": "Tharik Rafael",
+      "temperatura": "Morno",
+      "data_transferencia": "2026-08-03T18:44:54.146-03:00"
+    },
+    {
+      "nome": "CELIO AMANCIO DE OLIVEIRA",
+      "telefone": "+5518997605015",
+      "cidade": "",
+      "vendedor": "Maria Luiza",
+      "temperatura": "",
+      "data_transferencia": "2026-08-04T09:47:42.974-03:00"
+    },
+    {
+      "nome": "CELSO AMORIN DA SILVA",
+      "telefone": "+5567996717526",
+      "cidade": "",
+      "vendedor": "Tharik Rafael",
+      "temperatura": "",
+      "data_transferencia": "2026-08-04T14:43:21.397-03:00"
+    },
+    {
+      "nome": "CELSO FERNANDES DE OLIVEIRA",
+      "telefone": "+5562999397159",
+      "cidade": "",
+      "vendedor": "Ronaldo",
+      "temperatura": "Frio",
+      "data_transferencia": "2026-08-05T11:48:26.673-03:00"
+    },
+    {
+      "nome": "CELSO JERONIMO DE OLIVEIRA",
+      "telefone": "+5564999582067",
+      "cidade": "Edéia",
+      "vendedor": "Tharik Rafael",
+      "temperatura": "quente",
+      "data_transferencia": "2026-08-04T17:29:45.478-03:00"
+    },
+    {
+      "nome": "CELSO JOSE ANDREAZZA",
+      "telefone": "+5541999976036",
+      "cidade": "Vilhena",
+      "vendedor": "Rhuan",
+      "temperatura": "",
+      "data_transferencia": "2026-08-04T19:40:31.297-03:00"
+    },
+    {
+      "nome": "CELSO PARZIANELLO",
+      "telefone": "+5565999433881",
+      "cidade": "",
+      "vendedor": "Tharik Rafael",
+      "temperatura": "",
+      "data_transferencia": "2026-08-05T11:55:40.850-03:00"
+    },
+    {
+      "nome": "CELSO RIBEIRO",
+      "telefone": "+5534998358769",
+      "cidade": "Uberaba",
+      "vendedor": "Maria Luiza",
+      "temperatura": "",
+      "data_transferencia": "2026-08-05T11:52:16.261-03:00"
+    },
+    {
+      "nome": "CELSO ROBERTO ANDREOTTI",
+      "telefone": "+5518996060613",
+      "cidade": "",
+      "vendedor": "Maria Luiza",
+      "temperatura": "",
+      "data_transferencia": "2026-08-05T08:30:25.885-03:00"
+    },
+    {
+      "nome": "CENTROSUL COMERCIO E DISTRIBUICAO DE SEMENTES E INSUMOS AGRICOLAS LTDA",
+      "telefone": "+5554996676237",
+      "cidade": "",
+      "vendedor": "Rhuan",
+      "temperatura": "",
+      "data_transferencia": "2026-08-05T10:29:11.861-03:00"
+    },
+    {
+      "nome": "CESAR ADRIANO SABADIN",
+      "telefone": "+5519998135414",
+      "cidade": "",
+      "vendedor": "Ronaldo",
+      "temperatura": "",
+      "data_transferencia": "2026-08-05T16:08:42.718-03:00"
+    },
+    {
+      "nome": "CESAR AMAURI GUIARO",
+      "telefone": "+5511971256035",
+      "cidade": "",
+      "vendedor": "Tharik Rafael",
+      "temperatura": "",
+      "data_transferencia": "2026-08-05T17:39:08.626-03:00"
+    },
+    {
+      "nome": "CESAR AUGUSTO ROOS",
+      "telefone": "+5567998328750",
+      "cidade": "",
+      "vendedor": "Rhuan",
+      "temperatura": "",
+      "data_transferencia": "2026-08-05T12:16:48.422-03:00"
+    },
+    {
+      "nome": "CEZARIO CAZATTI DONA",
+      "telefone": "+5518997066523",
+      "cidade": "",
+      "vendedor": "Rhuan",
+      "temperatura": "",
+      "data_transferencia": "2026-08-05T17:55:04.337-03:00"
+    },
+    {
+      "nome": "CHARLES ARLAN CRESTANI",
+      "telefone": "+5566999843143",
+      "cidade": "",
+      "vendedor": "Maria Luiza",
+      "temperatura": "",
+      "data_transferencia": "2026-08-05T17:37:24.083-03:00"
+    },
+    {
+      "nome": "CHARLES DE OLIVEIRA BRAGA",
+      "telefone": "+5564999738890",
+      "cidade": "Cristalina",
+      "vendedor": "Ronaldo",
+      "temperatura": "Morno",
+      "data_transferencia": "2026-08-05T17:55:44.208-03:00"
+    },
+    {
+      "nome": "CHESTER ATILA FERREIRA",
+      "telefone": "+5537999572575",
+      "cidade": "",
+      "vendedor": "Maria Luiza",
+      "temperatura": "",
+      "data_transferencia": "2026-08-06T08:34:23.711-03:00"
+    },
+    {
+      "nome": "CIBELE HELENA DAHER",
+      "telefone": "+5511971713532",
+      "cidade": "",
+      "vendedor": "Tharik Rafael",
+      "temperatura": "",
+      "data_transferencia": "2026-08-06T09:36:58.738-03:00"
+    },
+    {
+      "nome": "CILAS DE JESUS PEREIRA",
+      "telefone": "+5562991620861",
+      "cidade": "",
+      "vendedor": "Tharik Rafael",
+      "temperatura": "",
+      "data_transferencia": "2026-08-06T12:02:19.819-03:00"
+    },
+    {
+      "nome": "CILNIO JOSE ARCE FILHO",
+      "telefone": "+5567981430474",
+      "cidade": "Ponta Porã",
+      "vendedor": "Maria Luiza",
+      "temperatura": "Morno",
+      "data_transferencia": "2026-08-06T11:25:39.488-03:00"
+    },
+    {
+      "nome": "CINIRA ROSA DOS SANTOS MATIAS",
+      "telefone": "+5514997792682",
+      "cidade": "Paranapanema",
+      "vendedor": "Maria Luiza",
+      "temperatura": "Morno",
+      "data_transferencia": "2026-08-10T09:01:37.530-03:00"
+    },
+    {
+      "nome": "CINTIA JOELMA DE ALMEIDA",
+      "telefone": "+5564999440023",
+      "cidade": "",
+      "vendedor": "Ronaldo",
+      "temperatura": "",
+      "data_transferencia": "2026-08-06T13:02:43.215-03:00"
+    },
+    {
+      "nome": "CIRO LEMOS BARBARA CONTE",
+      "telefone": "+5535992377744",
+      "cidade": "",
+      "vendedor": "Maria Luiza",
+      "temperatura": "",
+      "data_transferencia": "2026-08-06T15:24:44.091-03:00"
+    },
+    {
+      "nome": "CLADINILSON ROGERIO LEMANSKI",
+      "telefone": "+5596991835783",
+      "cidade": "",
+      "vendedor": "Douglas",
+      "temperatura": "",
+      "data_transferencia": "2026-08-06T15:18:06.335-03:00"
+    },
+    {
+      "nome": "CLALDIMIR MANSANO",
+      "telefone": "+5565999983093",
+      "cidade": "",
+      "vendedor": "Ronaldo",
+      "temperatura": "",
+      "data_transferencia": "2026-08-06T17:15:19.385-03:00"
+    },
+    {
+      "nome": "CLARENIR SCHWARZ",
+      "telefone": "+5566999150101",
+      "cidade": "",
+      "vendedor": "Tharik Rafael",
+      "temperatura": "",
+      "data_transferencia": "2026-08-06T21:02:44.785-03:00"
+    },
+    {
+      "nome": "CLARENITA DE SOUSA SILVA GASPAR",
+      "telefone": "+5599991615753",
+      "cidade": "Castanheira",
+      "vendedor": "Rhuan",
+      "temperatura": "quente",
+      "data_transferencia": "2026-08-06T16:26:08.123-03:00"
+    },
+    {
+      "nome": "CLARINDO DA SILVA NEVES",
+      "telefone": "+5564999871800",
+      "cidade": "",
+      "vendedor": "Maria Luiza",
+      "temperatura": "",
+      "data_transferencia": "2026-08-06T17:28:50.783-03:00"
+    },
+    {
+      "nome": "CLAUDECI DOS SANTOS",
+      "telefone": "+5515997812069",
+      "cidade": "",
+      "vendedor": "Ronaldo",
+      "temperatura": "",
+      "data_transferencia": "2026-08-07T08:20:08.991-03:00"
+    },
+    {
+      "nome": "CLAUDEMIR ANTONIO LOTTI",
+      "telefone": "+5516997120417",
+      "cidade": "",
+      "vendedor": "Maria Luiza",
+      "temperatura": "",
+      "data_transferencia": "2026-08-07T09:29:50.026-03:00"
+    },
+    {
+      "nome": "CLAUDEMIR CASALLI",
+      "telefone": "+5566999733256",
+      "cidade": "",
+      "vendedor": "Ronaldo",
+      "temperatura": "",
+      "data_transferencia": "2026-08-07T10:54:23.688-03:00"
+    },
+    {
+      "nome": "CLAUDIA GISELE ROSSO HIRT",
+      "telefone": "+5562998274424",
+      "cidade": "",
+      "vendedor": "Maria Luiza",
+      "temperatura": "",
+      "data_transferencia": "2026-08-08T09:05:30.716-03:00"
+    },
+    {
+      "nome": "CLAUDINO TIRLONI",
+      "telefone": "+5566999024702",
+      "cidade": "",
+      "vendedor": "Ronaldo",
+      "temperatura": "",
+      "data_transferencia": "2026-08-08T08:41:46.740-03:00"
+    },
+    {
+      "nome": "CLAUDIO ADRIANO CAPPELLESSO",
+      "telefone": "+5561999711326",
+      "cidade": "",
+      "vendedor": "Rhuan",
+      "temperatura": "",
+      "data_transferencia": "2026-08-07T18:36:59.013-03:00"
+    },
+    {
+      "nome": "CLAUDIO ANTONIO BAIOTTO",
+      "telefone": "+5567996376308",
+      "cidade": "Sonora",
+      "vendedor": "Tharik Rafael",
+      "temperatura": "Morno",
+      "data_transferencia": "2026-08-08T09:07:16.111-03:00"
+    },
+    {
+      "nome": "CLAUDIO ANTONIO GONCALVES",
+      "telefone": "+5534988741126",
+      "cidade": "",
+      "vendedor": "Maria Luiza",
+      "temperatura": "",
+      "data_transferencia": "2026-08-08T12:04:22.065-03:00"
+    },
+    {
+      "nome": "CLAUDIO APARECIDO ANTONIASSI",
+      "telefone": "+5567996328868",
+      "cidade": "",
+      "vendedor": "Rhuan",
+      "temperatura": "",
+      "data_transferencia": "2026-08-11T09:29:50.147-03:00"
+    },
+    {
+      "nome": "CLAUDIO FERREIRA DOS ANJOS",
+      "telefone": "+5566996060740",
+      "cidade": "",
+      "vendedor": "Tharik Rafael",
+      "temperatura": "",
+      "data_transferencia": "2026-08-08T13:11:06.479-03:00"
+    },
+    {
+      "nome": "CLAUDIO JOAO SFREDO",
+      "telefone": "+5565999661155",
+      "cidade": "",
+      "vendedor": "Rhuan",
+      "temperatura": "",
+      "data_transferencia": "2026-08-10T08:27:45.253-03:00"
+    },
+    {
+      "nome": "CLAUDIO JOSE SONEGO",
+      "telefone": "+5565981179095",
+      "cidade": "",
+      "vendedor": "Ronaldo",
+      "temperatura": "",
+      "data_transferencia": "2026-08-10T08:53:11.097-03:00"
+    },
+    {
+      "nome": "CLAUDIO LAERCIO DUFFECK",
+      "telefone": "+5565999858134",
+      "cidade": "",
+      "vendedor": "Rhuan",
+      "temperatura": "",
+      "data_transferencia": "2026-08-10T10:57:20.164-03:00"
+    },
+    {
+      "nome": "CLAUDIO MONARI",
+      "telefone": "+5565999891877",
+      "cidade": "",
+      "vendedor": "Tharik Rafael",
+      "temperatura": "",
+      "data_transferencia": "2026-08-10T12:15:34.789-03:00"
+    },
+    {
+      "nome": "CLAUDIR JOSE BALZAN",
+      "telefone": "+5567999621083",
+      "cidade": "",
+      "vendedor": "Maria Luiza",
+      "temperatura": "",
+      "data_transferencia": "2026-08-13T08:37:26.832-03:00"
+    },
+    {
+      "nome": "CLAUS ISENBERG",
+      "telefone": "+5567999411097",
+      "cidade": "",
+      "vendedor": "Ronaldo",
+      "temperatura": "",
+      "data_transferencia": "2026-08-13T09:48:42.674-03:00"
+    },
+    {
+      "nome": "CLEBER WILSON ZANATTA",
+      "telefone": "+5516997039821",
+      "cidade": "Itápolis",
+      "vendedor": "Rhuan",
+      "temperatura": "Morno",
+      "data_transferencia": "2026-08-13T13:19:38.288-03:00"
+    },
+    {
+      "nome": "CLEBERSON DE OLIVEIRA MACHADO",
+      "telefone": "+5514998074741",
+      "cidade": "Taquarituba/SP",
+      "vendedor": "Ronaldo",
+      "temperatura": "morno",
+      "data_transferencia": "2026-08-13T14:10:26.926-03:00"
+    },
+    {
+      "nome": "CLEGISLANE OLIMPIO DE OLIVEIRA",
+      "telefone": "+5567999427811",
+      "cidade": "",
+      "vendedor": "Maria Luiza",
+      "temperatura": "",
+      "data_transferencia": "2026-08-13T14:52:25.143-03:00"
+    },
+    {
+      "nome": "CLEIDEMAR RODRIGUES DE FREITAS",
+      "telefone": "+5517997142866",
+      "cidade": "Orindiúva",
+      "vendedor": "Tharik Rafael",
+      "temperatura": "morno",
+      "data_transferencia": "2026-08-13T16:16:07.899-03:00"
+    },
+    {
+      "nome": "CLEIDIVALDO VENANCIO RODRIGUES",
+      "telefone": "+5564992113630",
+      "cidade": "Doverlândia",
+      "vendedor": "Tharik Rafael",
+      "temperatura": "Morno",
+      "data_transferencia": "2026-08-13T16:44:17.112-03:00"
+    },
+    {
+      "nome": "CLEITON CARLOS CAPOANO",
+      "telefone": "+5567996785003",
+      "cidade": "Caarapó",
+      "vendedor": "Maria Luiza",
+      "temperatura": "Morno",
+      "data_transferencia": "2026-08-14T08:12:55.642-03:00"
+    },
+    {
+      "nome": "CLEOMAR CARLOS BORTOLANZA",
+      "telefone": "+5566996072749",
+      "cidade": "",
+      "vendedor": "Tharik Rafael",
+      "temperatura": "",
+      "data_transferencia": "2026-08-14T09:31:44.157-03:00"
+    },
+    {
+      "nome": "CLESON SCHNEIDER",
+      "telefone": "+5561984051013",
+      "cidade": "",
+      "vendedor": "Rhuan",
+      "temperatura": "",
+      "data_transferencia": "2026-08-14T12:42:21.786-03:00"
+    },
+    {
+      "nome": "CLEVER BENDO DA SILVA",
+      "telefone": "+5563992125441",
+      "cidade": "",
+      "vendedor": "Ronaldo",
+      "temperatura": "",
+      "data_transferencia": "2026-08-14T14:47:38.838-03:00"
+    },
+    {
+      "nome": "CLEYTON DA SILVA BARBOSA",
+      "telefone": "+5562991054720",
+      "cidade": "",
+      "vendedor": "Rhuan",
+      "temperatura": "",
+      "data_transferencia": "2026-08-14T15:44:15.591-03:00"
+    },
+    {
+      "nome": "CLOVES LUIS FRASSETO",
+      "telefone": "+5565999681766",
+      "cidade": "",
+      "vendedor": "Ronaldo",
+      "temperatura": "",
+      "data_transferencia": "2026-08-14T18:20:06.891-03:00"
+    },
+    {
+      "nome": "CLOVIS PETERS",
+      "telefone": "+5589988110395",
+      "cidade": "",
+      "vendedor": "Tharik Rafael",
+      "temperatura": "",
+      "data_transferencia": "2026-08-15T08:45:56.325-03:00"
+    },
+    {
+      "nome": "CONCEICAO APARECIDA ARANTES",
+      "telefone": "+5516999964464",
+      "cidade": "",
+      "vendedor": "Rhuan",
+      "temperatura": "",
+      "data_transferencia": "2026-08-15T10:27:42.231-03:00"
+    },
+    {
+      "nome": "CONEEX BRAZIL LTDA",
+      "telefone": "+5565999368811",
+      "cidade": "",
+      "vendedor": "Douglas",
+      "temperatura": "",
+      "data_transferencia": "2026-08-18T15:43:34.638-03:00"
+    },
+    {
+      "nome": "CORIOLANO CAIXETA RAMOS",
+      "telefone": "+5562996280680",
+      "cidade": "",
+      "vendedor": "Maria Luiza",
+      "temperatura": "",
+      "data_transferencia": "2026-08-17T09:08:20.730-03:00"
+    },
+    {
+      "nome": "CRISTIAN ALEX GUNTZEL",
+      "telefone": "+5566996308049",
+      "cidade": "",
+      "vendedor": "Maria Luiza",
+      "temperatura": "",
+      "data_transferencia": "2026-08-17T11:47:46.660-03:00"
+    },
+    {
+      "nome": "CRISTIANE DA COSTA DELLA MEA",
+      "telefone": "+5565996242319",
+      "cidade": "Nova Mutum",
+      "vendedor": "Rhuan",
+      "temperatura": "Morno",
+      "data_transferencia": "2026-08-17T13:39:03.671-03:00"
+    },
+    {
+      "nome": "CRISTIANO DE OLIVEIRA",
+      "telefone": "+5565999877438",
+      "cidade": "",
+      "vendedor": "Ronaldo",
+      "temperatura": "",
+      "data_transferencia": "2026-08-17T20:58:15.907-03:00"
+    },
+    {
+      "nome": "CRISTIANO VALERI",
+      "telefone": "+5514996502905",
+      "cidade": "Ribeirão do Sul",
+      "vendedor": "Ronaldo",
+      "temperatura": "Morno",
+      "data_transferencia": "2026-08-18T12:04:24.987-03:00"
+    },
+    {
+      "nome": "CRUZEIRO DO SUL AGRONEGOCIOS S.A.",
+      "telefone": "+5565999825655",
+      "cidade": "",
+      "vendedor": "Tharik Rafael",
+      "temperatura": "",
+      "data_transferencia": "2026-08-18T09:35:29.829-03:00"
+    },
+    {
+      "nome": "DALTON RAMBO SCHAFER",
+      "telefone": "+5566999280824",
+      "cidade": "",
+      "vendedor": "Ronaldo",
+      "temperatura": "",
+      "data_transferencia": "2026-08-18T21:40:22.215-03:00"
+    },
+    {
+      "nome": "DANIEL CARDOSO MACIEL",
+      "telefone": "+5535998100255",
+      "cidade": "",
+      "vendedor": "Ronaldo",
+      "temperatura": "",
+      "data_transferencia": "2026-08-19T12:44:54.811-03:00"
+    },
+    {
+      "nome": "DANIEL CESAR NEPOMUCENO",
+      "telefone": "+5567981152555",
+      "cidade": "",
+      "vendedor": "Ronaldo",
+      "temperatura": "",
+      "data_transferencia": "2026-08-19T11:40:05.153-03:00"
+    },
+    {
+      "nome": "DANIEL DE JESUS NANTES",
+      "telefone": "+5567999082008",
+      "cidade": "",
+      "vendedor": "Rhuan",
+      "temperatura": "",
+      "data_transferencia": "2026-08-19T11:27:52.334-03:00"
+    },
+    {
+      "nome": "DANIEL DEMORI DE ANDRADE",
+      "telefone": "+5564981248032",
+      "cidade": "",
+      "vendedor": "Tharik Rafael",
+      "temperatura": "",
+      "data_transferencia": "2026-08-19T13:49:14.604-03:00"
+    },
+    {
+      "nome": "DANIEL FOCHESATO ZINNE",
+      "telefone": "+5567998111827",
+      "cidade": "",
+      "vendedor": "Rhuan",
+      "temperatura": "",
+      "data_transferencia": "2026-08-19T13:55:16.203-03:00"
+    },
+    {
+      "nome": "DANIEL LIEBERKNECHT",
+      "telefone": "+5567999732061",
+      "cidade": "",
+      "vendedor": "Rhuan",
+      "temperatura": "",
+      "data_transferencia": "2026-08-19T16:11:50.174-03:00"
+    },
+    {
+      "nome": "DANIEL NAVES BARBOSA",
+      "telefone": "+5535999750967",
+      "cidade": "",
+      "vendedor": "Tharik Rafael",
+      "temperatura": "",
+      "data_transferencia": "2026-08-20T07:55:56.702-03:00"
+    },
+    {
+      "nome": "DANIEL RICARDO GORGEN",
+      "telefone": "+5577998575353",
+      "cidade": "",
+      "vendedor": "Rhuan",
+      "temperatura": "",
+      "data_transferencia": "2026-08-19T18:02:10.684-03:00"
+    },
+    {
+      "nome": "DANIEL SEGALLA PIVETTA",
+      "telefone": "+5515996195776",
+      "cidade": "",
+      "vendedor": "Rhuan",
+      "temperatura": "",
+      "data_transferencia": "2026-08-20T08:13:02.110-03:00"
+    },
+    {
+      "nome": "DANIEL SPERANDIO LETIERI",
+      "telefone": "+5566996040765",
+      "cidade": "",
+      "vendedor": "Ronaldo",
+      "temperatura": "",
+      "data_transferencia": "2026-08-20T09:18:18.316-03:00"
+    },
+    {
+      "nome": "DANIELA BOEIRA",
+      "telefone": "+5554991879811",
+      "cidade": "",
+      "vendedor": "Rhuan",
+      "temperatura": "",
+      "data_transferencia": "2026-08-21T18:18:43.739-03:00"
+    },
+    {
+      "nome": "DANILO HORACIO MILANI",
+      "telefone": "+5565984211657",
+      "cidade": "",
+      "vendedor": "Ronaldo",
+      "temperatura": "",
+      "data_transferencia": "2026-08-20T15:30:45.640-03:00"
+    },
+    {
+      "nome": "DANILO INACIO PADOVANI",
+      "telefone": "+5534991051496",
+      "cidade": "Sacramento",
+      "vendedor": "Tharik Rafael",
+      "temperatura": "Morno",
+      "data_transferencia": "2026-08-20T18:35:16.431-03:00"
+    },
+    {
+      "nome": "DARCI LUIZ GATTO",
+      "telefone": "+5561999750248",
+      "cidade": "",
+      "vendedor": "Ronaldo",
+      "temperatura": "",
+      "data_transferencia": "2026-08-21T08:56:26.349-03:00"
+    },
+    {
+      "nome": "DARCI PRIMON",
+      "telefone": "+5566996384425",
+      "cidade": "",
+      "vendedor": "Tharik Rafael",
+      "temperatura": "",
+      "data_transferencia": "2026-08-21T10:00:03.205-03:00"
+    },
+    {
+      "nome": "DARIO FERREIRA DE SOUZA",
+      "telefone": "+5519997548452",
+      "cidade": "",
+      "vendedor": "Ronaldo",
+      "temperatura": "",
+      "data_transferencia": "2026-08-21T11:40:54.754-03:00"
+    },
+    {
+      "nome": "DAUER FABER LERRI SIKORA",
+      "telefone": "+5519992562340",
+      "cidade": "",
+      "vendedor": "Rhuan",
+      "temperatura": "",
+      "data_transferencia": "2026-08-21T12:17:57.559-03:00"
+    },
+    {
+      "nome": "DAURO ALBERTO RODRIGUES GUIMARAES",
+      "telefone": "+5561998329808",
+      "cidade": "",
+      "vendedor": "Ronaldo",
+      "temperatura": "",
+      "data_transferencia": "2026-08-21T14:12:16.050-03:00"
+    },
+    {
+      "nome": "DAVI DE OLIVEIRA",
+      "telefone": "+5518997260530",
+      "cidade": "",
+      "vendedor": "Rhuan",
+      "temperatura": "",
+      "data_transferencia": "2026-08-21T13:09:13.167-03:00"
+    },
+    {
+      "nome": "DAVID GONCALVES ROSA NETO",
+      "telefone": "+5516996308565",
+      "cidade": "",
+      "vendedor": "Tharik Rafael",
+      "temperatura": "",
+      "data_transferencia": "2026-08-21T14:33:20.930-03:00"
+    },
+    {
+      "nome": "DAVILSON BERNARDO",
+      "telefone": "+5515997976780",
+      "cidade": "",
+      "vendedor": "Rhuan",
+      "temperatura": "",
+      "data_transferencia": "2026-08-21T16:12:57.953-03:00"
+    },
+    {
+      "nome": "DAYANA REGINA FUECHTER",
+      "telefone": "+5566984357282",
+      "cidade": "",
+      "vendedor": "Ronaldo",
+      "temperatura": "",
+      "data_transferencia": "2026-08-24T10:17:17.343-03:00"
+    },
+    {
+      "nome": "DELMAR SCHULZ",
+      "telefone": "+5563992940021",
+      "cidade": "",
+      "vendedor": "Rhuan",
+      "temperatura": "",
+      "data_transferencia": "2026-08-24T08:41:22.469-03:00"
+    },
+    {
+      "nome": "DENNIS FLAVIO PERES ALVES BARBOSA",
+      "telefone": "+5564996000145",
+      "cidade": "",
+      "vendedor": "Rhuan",
+      "temperatura": "",
+      "data_transferencia": "2026-08-25T10:08:40.194-03:00"
+    },
+    {
+      "nome": "DEONESIO ANTONIO ORTOLAN",
+      "telefone": "+5565999179309",
+      "cidade": "",
+      "vendedor": "Tharik Rafael",
+      "temperatura": "",
+      "data_transferencia": "2026-08-25T08:20:49.400-03:00"
+    },
+    {
+      "nome": "DEONIR SARI",
+      "telefone": "+5566999067851",
+      "cidade": "",
+      "vendedor": "Ronaldo",
+      "temperatura": "",
+      "data_transferencia": "2026-08-24T22:03:32.703-03:00"
+    },
+    {
+      "nome": "DEUSDETE GONCALVES DOS SANTOS",
+      "telefone": "+5517991411614",
+      "cidade": "Campo Grande",
+      "vendedor": "Ronaldo",
+      "temperatura": "Morno",
+      "data_transferencia": "2026-08-25T11:03:04.739-03:00"
+    },
+    {
+      "nome": "EDUARDO DAVI MILANESI SEGATTO",
+      "telefone": "+5566999867024",
+      "cidade": "",
+      "vendedor": "Rhuan",
+      "temperatura": "",
+      "data_transferencia": "2026-08-13T16:17:18.332-03:00"
+    },
+    {
+      "nome": "FABULO CIRINEU ISOTON",
+      "telefone": "+5561996483638",
+      "cidade": "",
+      "vendedor": "Tharik Rafael",
+      "temperatura": "",
+      "data_transferencia": "2026-06-10T13:07:26.685-03:00"
+    },
+    {
+      "nome": "GENIR CELA JUNIOR",
+      "telefone": "+5565996211468",
+      "cidade": "",
+      "vendedor": "Ronaldo",
+      "temperatura": "",
+      "data_transferencia": "2026-07-13T12:35:31.450-03:00"
+    },
+    {
+      "nome": "JORGE LUIZ QUISTE",
+      "telefone": "+5564996411278",
+      "cidade": "",
+      "vendedor": "Maria Luiza",
+      "temperatura": "",
+      "data_transferencia": "2026-06-25T10:31:38.878-03:00"
+    },
+    {
+      "nome": "JOSE LUIZ CADORE",
+      "telefone": "+5564999819982",
+      "cidade": "",
+      "vendedor": "Ronaldo",
+      "temperatura": "",
+      "data_transferencia": "2026-07-28T17:22:14.272-03:00"
+    },
+    {
+      "nome": "JOSE SILVA MATOS",
+      "telefone": "+5515997751067",
+      "cidade": "",
+      "vendedor": "Ronaldo",
+      "temperatura": "",
+      "data_transferencia": "2026-08-21T10:43:13.495-03:00"
+    },
+    {
+      "nome": "MARCIO EBERLE",
+      "telefone": "+5566999123158",
+      "cidade": "",
+      "vendedor": "Ronaldo",
+      "temperatura": "",
+      "data_transferencia": "2026-07-13T10:05:46.764-03:00"
+    },
+    {
+      "nome": "MAURA SIQUEIRA CARVALHO PALUDO",
+      "telefone": "+5564999891179",
+      "cidade": "",
+      "vendedor": "Tharik Rafael",
+      "temperatura": "",
+      "data_transferencia": "2026-07-13T15:31:38.235-03:00"
+    },
+    {
+      "nome": "RONALDO CAMOLEZI",
+      "telefone": "+5518997352817",
+      "cidade": "",
+      "vendedor": "Rhuan",
+      "temperatura": "",
+      "data_transferencia": "2026-08-20T16:41:25.087-03:00"
+    },
+    {
+      "nome": "Adroaldo Tierry Rizzarde",
+      "telefone": "556492524053",
+      "cidade": "",
+      "vendedor": "Ronaldo",
+      "temperatura": "",
+      "data_transferencia": "2026-06-12T13:28:42.217-03:00"
+    },
+    {
+      "nome": "Cláudio Lobato",
+      "telefone": "5537991042143",
+      "cidade": "",
+      "vendedor": "Rhuan",
+      "temperatura": "",
+      "data_transferencia": "2026-06-15T09:31:18.592-03:00"
+    },
+    {
+      "nome": "Davi Lucas",
+      "telefone": "5519971696812",
+      "cidade": "",
+      "vendedor": "Maria Luiza",
+      "temperatura": "",
+      "data_transferencia": "2026-06-16T13:40:41.868-03:00"
+    },
+    {
+      "nome": "Henrique Agromotores",
+      "telefone": "556999486655",
+      "cidade": "",
+      "vendedor": "Ronaldo",
+      "temperatura": "",
+      "data_transferencia": "2026-06-16T17:01:28.626-03:00"
+    },
+    {
+      "nome": "Luciano Menegatti",
+      "telefone": "5567999764003",
+      "cidade": "",
+      "vendedor": "Fabio",
+      "temperatura": "",
+      "data_transferencia": "2026-06-17T14:10:13.590-03:00"
+    },
+    {
+      "nome": "",
+      "telefone": "556196174530",
+      "cidade": "",
+      "vendedor": "Tharik Rafael",
+      "temperatura": "",
+      "data_transferencia": "2026-06-18T16:12:09.991-03:00"
+    },
+    {
+      "nome": "Clayto",
+      "telefone": "5564998888888",
+      "cidade": "",
+      "vendedor": "Tharik Rafael",
+      "temperatura": "",
+      "data_transferencia": "2026-06-22T14:17:42.833-03:00"
+    },
+    {
+      "nome": "Donizete",
+      "telefone": "5516997098638",
+      "cidade": "",
+      "vendedor": "Rhuan",
+      "temperatura": "",
+      "data_transferencia": "2026-06-22T15:57:20.000-03:00"
+    },
+    {
+      "nome": "Alex",
+      "telefone": "64984481769",
+      "cidade": "",
+      "vendedor": "Maria Luiza",
+      "temperatura": "",
+      "data_transferencia": "2026-06-23T12:05:14.822-03:00"
+    },
+    {
+      "nome": "",
+      "telefone": "553499351008",
+      "cidade": "",
+      "vendedor": "Maria Luiza",
+      "temperatura": "",
+      "data_transferencia": "2026-06-23T16:30:43.079-03:00"
+    },
+    {
+      "nome": "Silvio Faz",
+      "telefone": "5564981253347",
+      "cidade": "",
+      "vendedor": "Tharik Rafael",
+      "temperatura": "",
+      "data_transferencia": "2026-06-23T17:08:29.997-03:00"
+    },
+    {
+      "nome": "Jurandir",
+      "telefone": "556196895849",
+      "cidade": "",
+      "vendedor": "Maria Luiza",
+      "temperatura": "",
+      "data_transferencia": "2026-06-23T19:10:13.588-03:00"
+    },
+    {
+      "nome": "Adson",
+      "telefone": "5569984154924",
+      "cidade": "",
+      "vendedor": "Tharik Rafael",
+      "temperatura": "",
+      "data_transferencia": "2026-06-24T08:16:17.926-03:00"
+    },
+    {
+      "nome": "Alexandre",
+      "telefone": "64999831108",
+      "cidade": "",
+      "vendedor": "Ronaldo",
+      "temperatura": "",
+      "data_transferencia": "2026-06-24T09:18:23.813-03:00"
+    },
+    {
+      "nome": "",
+      "telefone": "5534999301167",
+      "cidade": "",
+      "vendedor": "Tharik Rafael",
+      "temperatura": "",
+      "data_transferencia": "2026-06-24T13:02:19.510-03:00"
+    },
+    {
+      "nome": "",
+      "telefone": "556681069178",
+      "cidade": "",
+      "vendedor": "Rhuan",
+      "temperatura": "",
+      "data_transferencia": "2026-06-24T13:17:11.666-03:00"
+    },
+    {
+      "nome": "Carlão",
+      "telefone": "556784083515",
+      "cidade": "",
+      "vendedor": "Maria Luiza",
+      "temperatura": "",
+      "data_transferencia": "2026-06-25T11:56:59.599-03:00"
+    },
+    {
+      "nome": "Vanclei",
+      "telefone": "556233701118",
+      "cidade": "Rio Claro",
+      "vendedor": "Maria Luiza",
+      "temperatura": "Morno",
+      "data_transferencia": "2026-06-25T12:19:06.382-03:00"
+    },
+    {
+      "nome": "Fernando Mano",
+      "telefone": "5565992827814",
+      "cidade": "",
+      "vendedor": "Rhuan",
+      "temperatura": "",
+      "data_transferencia": "2026-06-25T15:21:10.711-03:00"
+    },
+    {
+      "nome": "Katia Edler",
+      "telefone": "556299747005",
+      "cidade": "",
+      "vendedor": "Ronaldo",
+      "temperatura": "",
+      "data_transferencia": "2026-06-25T19:43:52.487-03:00"
+    },
+    {
+      "nome": "Alexandre Pizzolato",
+      "telefone": "5566999959837",
+      "cidade": "",
+      "vendedor": "Maria Luiza",
+      "temperatura": "",
+      "data_transferencia": "2026-06-26T16:48:32.304-03:00"
+    },
+    {
+      "nome": "Wim",
+      "telefone": "5564992386333",
+      "cidade": "",
+      "vendedor": "Rhuan",
+      "temperatura": "",
+      "data_transferencia": "2026-07-10T13:16:23.897-03:00"
+    },
+    {
+      "nome": "Jagnei",
+      "telefone": "5567998500984",
+      "cidade": "",
+      "vendedor": "Maria Luiza",
+      "temperatura": "",
+      "data_transferencia": "2026-07-10T14:11:46.291-03:00"
+    },
+    {
+      "nome": "Ronaldo Zanon",
+      "telefone": "5566999651346",
+      "cidade": "",
+      "vendedor": "Rhuan",
+      "temperatura": "",
+      "data_transferencia": "2026-07-10T16:09:29.528-03:00"
+    },
+    {
+      "nome": "José Renato",
+      "telefone": "5543996935530",
+      "cidade": "",
+      "vendedor": "Ronaldo",
+      "temperatura": "",
+      "data_transferencia": "2026-07-10T17:51:29.817-03:00"
+    },
+    {
+      "nome": "João",
+      "telefone": "5511981210591",
+      "cidade": "",
+      "vendedor": "Ronaldo",
+      "temperatura": "",
+      "data_transferencia": "2026-07-11T12:06:54.988-03:00"
+    },
+    {
+      "nome": "Laurimar",
+      "telefone": "556796323959",
+      "cidade": "",
+      "vendedor": "Maria Luiza",
+      "temperatura": "",
+      "data_transferencia": "2026-07-13T10:17:01.491-03:00"
+    },
+    {
+      "nome": "Renan Felipe Buss",
+      "telefone": "5577998345095",
+      "cidade": "",
+      "vendedor": "Maria Luiza",
+      "temperatura": "",
+      "data_transferencia": "2026-07-13T15:17:10.249-03:00"
+    },
+    {
+      "nome": "André Busato",
+      "telefone": "5577999712010",
+      "cidade": "",
+      "vendedor": "Maria Luiza",
+      "temperatura": "",
+      "data_transferencia": "2026-07-14T14:08:21.531-03:00"
+    },
+    {
+      "nome": "Pai",
+      "telefone": "553798151092",
+      "cidade": "",
+      "vendedor": "Maria Luiza",
+      "temperatura": "",
+      "data_transferencia": "2026-07-15T08:43:53.037-03:00"
+    },
+    {
+      "nome": "André Zonta",
+      "telefone": "5517996193432",
+      "cidade": "",
+      "vendedor": "Tharik Rafael",
+      "temperatura": "",
+      "data_transferencia": "2026-07-15T14:11:08.695-03:00"
+    },
+    {
+      "nome": "Tato",
+      "telefone": "5567996925113",
+      "cidade": "",
+      "vendedor": "Tharik Rafael",
+      "temperatura": "",
+      "data_transferencia": "2026-07-15T17:35:41.254-03:00"
+    },
+    {
+      "nome": "Rafael Caixeta",
+      "telefone": "553597627641",
+      "cidade": "Machado",
+      "vendedor": "Rhuan",
+      "temperatura": "Quente",
+      "data_transferencia": "2026-07-16T14:36:13.127-03:00"
+    },
+    {
+      "nome": "Anoedio Naves",
+      "telefone": "556499836316",
+      "cidade": "",
+      "vendedor": "Ronaldo",
+      "temperatura": "",
+      "data_transferencia": "2026-07-16T15:20:55.509-03:00"
+    },
+    {
+      "nome": "Matheus Ferreira",
+      "telefone": "556699575320",
+      "cidade": "",
+      "vendedor": "Tharik Rafael",
+      "temperatura": "",
+      "data_transferencia": "2026-07-16T16:32:36.420-03:00"
+    },
+    {
+      "nome": "Antonio Augusto",
+      "telefone": "5594991544223",
+      "cidade": "",
+      "vendedor": "Rhuan",
+      "temperatura": "",
+      "data_transferencia": "2026-07-16T17:41:03.539-03:00"
+    },
+    {
+      "nome": "Ana Carla Grandi",
+      "telefone": "556499967286",
+      "cidade": "",
+      "vendedor": "Maria Luiza",
+      "temperatura": "Frio",
+      "data_transferencia": "2026-07-17T09:10:29.096-03:00"
+    },
+    {
+      "nome": "Antonio Copini",
+      "telefone": "556599957280",
+      "cidade": "",
+      "vendedor": "Tharik Rafael",
+      "temperatura": "",
+      "data_transferencia": "2026-07-17T11:20:25.472-03:00"
+    },
+    {
+      "nome": "Valdeci Miyazaki",
+      "telefone": "553499847337",
+      "cidade": "",
+      "vendedor": "Tharik Rafael",
+      "temperatura": "",
+      "data_transferencia": "2026-07-20T09:05:34.778-03:00"
+    },
+    {
+      "nome": "Diomid Irmao",
+      "telefone": "554291027045",
+      "cidade": "",
+      "vendedor": "Ronaldo",
+      "temperatura": "",
+      "data_transferencia": "2026-07-20T16:30:25.844-03:00"
+    },
+    {
+      "nome": "Andre & Eudiene",
+      "telefone": "556699918341",
+      "cidade": "Querência",
+      "vendedor": "Tharik Rafael",
+      "temperatura": "morno",
+      "data_transferencia": "2026-07-21T09:52:25.263-03:00"
+    },
+    {
+      "nome": "Maridão",
+      "telefone": "556696123466",
+      "cidade": "",
+      "vendedor": "Tharik Rafael",
+      "temperatura": "",
+      "data_transferencia": "2026-07-21T10:41:36.499-03:00"
+    },
+    {
+      "nome": "Aristocles",
+      "telefone": "553499871869",
+      "cidade": "",
+      "vendedor": "Ronaldo",
+      "temperatura": "Frio",
+      "data_transferencia": "2026-07-21T11:22:49.518-03:00"
+    },
+    {
+      "nome": "Camila Bellodi",
+      "telefone": "5516997114150",
+      "cidade": "",
+      "vendedor": "Maria Luiza",
+      "temperatura": "",
+      "data_transferencia": "2026-07-21T11:24:55.531-03:00"
+    },
+    {
+      "nome": "Arlei Favaretto",
+      "telefone": "556599958311",
+      "cidade": "",
+      "vendedor": "Ronaldo",
+      "temperatura": "Frio",
+      "data_transferencia": "2026-07-21T12:16:51.696-03:00"
+    },
+    {
+      "nome": "Arlei Marcos Sandri OK Mi",
+      "telefone": "559988453573",
+      "cidade": "",
+      "vendedor": "Maria Luiza",
+      "temperatura": "",
+      "data_transferencia": "2026-07-21T12:16:59.985-03:00"
+    },
+    {
+      "nome": "Ademir Toniato",
+      "telefone": "5567999618834",
+      "cidade": "",
+      "vendedor": "Rhuan",
+      "temperatura": "",
+      "data_transferencia": "2026-07-21T14:35:58.838-03:00"
+    },
+    {
+      "nome": "Arnildo Lauxen.",
+      "telefone": "556699950807",
+      "cidade": "",
+      "vendedor": "Tharik Rafael",
+      "temperatura": "",
+      "data_transferencia": "2026-07-22T09:26:31.442-03:00"
+    },
+    {
+      "nome": "Camila Obadowski",
+      "telefone": "556599460655",
+      "cidade": "",
+      "vendedor": "Ronaldo",
+      "temperatura": "",
+      "data_transferencia": "2026-07-22T14:35:09.455-03:00"
+    },
+    {
+      "nome": "franciscamarli882",
+      "telefone": "553798724309",
+      "cidade": "",
+      "vendedor": "Rhuan",
+      "temperatura": "quente",
+      "data_transferencia": "2026-07-22T15:15:32.987-03:00"
+    },
+    {
+      "nome": "David (indicado pelo Atamir)",
+      "telefone": "5569992280580",
+      "cidade": "",
+      "vendedor": "Ronaldo",
+      "temperatura": "",
+      "data_transferencia": "2026-07-22T16:44:19.817-03:00"
+    },
+    {
+      "nome": "Audenilto",
+      "telefone": "553499067425",
+      "cidade": "",
+      "vendedor": "Tharik Rafael",
+      "temperatura": "",
+      "data_transferencia": "2026-07-22T17:14:41.257-03:00"
+    },
+    {
+      "nome": "Kiko",
+      "telefone": "556699578413",
+      "cidade": "",
+      "vendedor": "Tharik Rafael",
+      "temperatura": "",
+      "data_transferencia": "2026-07-23T12:12:26.077-03:00"
+    },
+    {
+      "nome": "Júnior Biu",
+      "telefone": "5514996920080",
+      "cidade": "",
+      "vendedor": "Rhuan",
+      "temperatura": "",
+      "data_transferencia": "2026-07-23T13:29:29.428-03:00"
+    },
+    {
+      "nome": "Avenino",
+      "telefone": "556796259814",
+      "cidade": "",
+      "vendedor": "Tharik Rafael",
+      "temperatura": "",
+      "data_transferencia": "2026-07-23T14:02:16.668-03:00"
+    },
+    {
+      "nome": "Claírton da Silva",
+      "telefone": "55811742222",
+      "cidade": "",
+      "vendedor": "Tharik Rafael",
+      "temperatura": "",
+      "data_transferencia": "2026-07-23T15:57:44.726-03:00"
+    },
+    {
+      "nome": "Barbara",
+      "telefone": "556496959628",
+      "cidade": "Montevidiu",
+      "vendedor": "Rhuan",
+      "temperatura": "Morno",
+      "data_transferencia": "2026-07-23T16:20:35.647-03:00"
+    },
+    {
+      "nome": "Francielo Junior",
+      "telefone": "5567999466611",
+      "cidade": "",
+      "vendedor": "Ronaldo",
+      "temperatura": "",
+      "data_transferencia": "2026-07-23T17:38:08.103-03:00"
+    },
+    {
+      "nome": "Roque Luiz",
+      "telefone": "556799017480",
+      "cidade": "",
+      "vendedor": "Maria Luiza",
+      "temperatura": "",
+      "data_transferencia": "2026-07-24T09:13:18.733-03:00"
+    },
+    {
+      "nome": "Olenir",
+      "telefone": "5567999715262",
+      "cidade": "",
+      "vendedor": "Tharik Rafael",
+      "temperatura": "",
+      "data_transferencia": "2026-07-24T11:16:35.431-03:00"
+    },
+    {
+      "nome": "Rafael",
+      "telefone": "5567996092604",
+      "cidade": "",
+      "vendedor": "Rhuan",
+      "temperatura": "",
+      "data_transferencia": "2026-07-24T12:43:53.444-03:00"
+    },
+    {
+      "nome": "Bel",
+      "telefone": "556799760592",
+      "cidade": "",
+      "vendedor": "Ronaldo",
+      "temperatura": "Morno",
+      "data_transferencia": "2026-07-24T12:57:46.639-03:00"
+    },
+    {
+      "nome": "Kich Agro",
+      "telefone": "556599822740",
+      "cidade": "",
+      "vendedor": "Maria Luiza",
+      "temperatura": "",
+      "data_transferencia": "2026-07-24T14:19:16.704-03:00"
+    },
+    {
+      "nome": "",
+      "telefone": "5566999986886",
+      "cidade": "",
+      "vendedor": "Tharik Rafael",
+      "temperatura": "",
+      "data_transferencia": "2026-07-24T15:39:59.591-03:00"
+    },
+    {
+      "nome": "Berto",
+      "telefone": "554491418384",
+      "cidade": "",
+      "vendedor": "Rhuan",
+      "temperatura": "",
+      "data_transferencia": "2026-07-24T16:43:13.333-03:00"
+    },
+    {
+      "nome": "Bom",
+      "telefone": "6634115600",
+      "cidade": "",
+      "vendedor": "Ronaldo",
+      "temperatura": "",
+      "data_transferencia": "2026-07-25T09:51:24.566-03:00"
+    },
+    {
+      "nome": "Breno",
+      "telefone": "556384392441",
+      "cidade": "",
+      "vendedor": "Maria Luiza",
+      "temperatura": "",
+      "data_transferencia": "2026-07-25T11:17:22.388-03:00"
+    },
+    {
+      "nome": "Bruno",
+      "telefone": "553799993951",
+      "cidade": "Moema",
+      "vendedor": "Rhuan",
+      "temperatura": "morno",
+      "data_transferencia": "2026-07-27T15:08:26.966-03:00"
+    },
+    {
+      "nome": "Bruno",
+      "telefone": "553598362603",
+      "cidade": "",
+      "vendedor": "Ronaldo",
+      "temperatura": "",
+      "data_transferencia": "2026-07-27T16:09:39.858-03:00"
+    },
+    {
+      "nome": "Bruno Poli",
+      "telefone": "553191186700",
+      "cidade": "",
+      "vendedor": "Maria Luiza",
+      "temperatura": "",
+      "data_transferencia": "2026-07-27T16:25:46.480-03:00"
+    },
+    {
+      "nome": "Rafael",
+      "telefone": "556599960278",
+      "cidade": "",
+      "vendedor": "Ronaldo",
+      "temperatura": "",
+      "data_transferencia": "2026-07-28T08:19:53.839-03:00"
+    },
+    {
+      "nome": "Tiago Cowboy",
+      "telefone": "553496440131",
+      "cidade": "",
+      "vendedor": "Maria Luiza",
+      "temperatura": "",
+      "data_transferencia": "2026-07-28T09:12:03.630-03:00"
+    },
+    {
+      "nome": "MÁRCIO",
+      "telefone": "556399188893",
+      "cidade": "Tocantins e Mato Grosso",
+      "vendedor": "Rhuan",
+      "temperatura": "",
+      "data_transferencia": "2026-07-28T11:22:34.674-03:00"
+    },
+    {
+      "nome": "Caetano",
+      "telefone": "556696187474",
+      "cidade": "",
+      "vendedor": "Ronaldo",
+      "temperatura": "",
+      "data_transferencia": "2026-07-28T12:24:03.400-03:00"
+    },
+    {
+      "nome": "Caio Henrique",
+      "telefone": "556796623758",
+      "cidade": "",
+      "vendedor": "Maria Luiza",
+      "temperatura": "",
+      "data_transferencia": "2026-07-28T13:46:02.117-03:00"
+    },
+    {
+      "nome": "Clóvis - Essência",
+      "telefone": "556596518096",
+      "cidade": "",
+      "vendedor": "Ronaldo",
+      "temperatura": "",
+      "data_transferencia": "2026-07-28T15:21:25.195-03:00"
+    },
+    {
+      "nome": "Calixto Miziara F",
+      "telefone": "553499744448",
+      "cidade": "",
+      "vendedor": "Maria Luiza",
+      "temperatura": "",
+      "data_transferencia": "2026-07-28T16:06:18.945-03:00"
+    },
+    {
+      "nome": "Alcione S. Barbieri",
+      "telefone": "5566999630505",
+      "cidade": "",
+      "vendedor": "Tharik Rafael",
+      "temperatura": "",
+      "data_transferencia": "2026-07-28T16:26:46.379-03:00"
+    },
+    {
+      "nome": "Camilo Travessini",
+      "telefone": "556699275914",
+      "cidade": "",
+      "vendedor": "Tharik Rafael",
+      "temperatura": "",
+      "data_transferencia": "2026-07-29T09:13:38.728-03:00"
+    },
+    {
+      "nome": "Vanderlam",
+      "telefone": "5566996978749",
+      "cidade": "",
+      "vendedor": "Rhuan",
+      "temperatura": "",
+      "data_transferencia": "2026-07-29T09:18:32.647-03:00"
+    },
+    {
+      "nome": "Carine Ferneda",
+      "telefone": "556796675293",
+      "cidade": "",
+      "vendedor": "Maria Luiza",
+      "temperatura": "",
+      "data_transferencia": "2026-07-29T11:20:44.375-03:00"
+    },
+    {
+      "nome": "Lírio Schuster",
+      "telefone": "556692404219",
+      "cidade": "",
+      "vendedor": "Tharik Rafael",
+      "temperatura": "",
+      "data_transferencia": "2026-07-29T13:56:28.317-03:00"
+    },
+    {
+      "nome": "Carlesso Busanello",
+      "telefone": "556196517258",
+      "cidade": "",
+      "vendedor": "Rhuan",
+      "temperatura": "",
+      "data_transferencia": "2026-07-29T14:22:34.101-03:00"
+    },
+    {
+      "nome": "Carlos Faganello",
+      "telefone": "556699984225",
+      "cidade": "",
+      "vendedor": "Ronaldo",
+      "temperatura": "",
+      "data_transferencia": "2026-07-29T15:07:43.168-03:00"
+    },
+    {
+      "nome": "Carlos",
+      "telefone": "55669999882264",
+      "cidade": "",
+      "vendedor": "Tharik Rafael",
+      "temperatura": "",
+      "data_transferencia": "2026-07-29T15:27:18.760-03:00"
+    },
+    {
+      "nome": "Gustavo",
+      "telefone": "5565999665322",
+      "cidade": "",
+      "vendedor": "Rhuan",
+      "temperatura": "",
+      "data_transferencia": "2026-07-29T15:46:28.282-03:00"
+    },
+    {
+      "nome": "JB🍀🛐🙏🏼",
+      "telefone": "553499578898",
+      "cidade": "",
+      "vendedor": "Ronaldo",
+      "temperatura": "",
+      "data_transferencia": "2026-07-29T16:20:06.140-03:00"
+    },
+    {
+      "nome": "Beto",
+      "telefone": "555496147426",
+      "cidade": "Rondônia",
+      "vendedor": "Tharik Rafael",
+      "temperatura": "Morno",
+      "data_transferencia": "2026-07-29T17:20:34.122-03:00"
+    },
+    {
+      "nome": "Tamara",
+      "telefone": "556584033648",
+      "cidade": "",
+      "vendedor": "Rhuan",
+      "temperatura": "",
+      "data_transferencia": "2026-07-30T08:04:58.206-03:00"
+    },
+    {
+      "nome": "Carlos A.Picorelli Santos",
+      "telefone": "553191536528",
+      "cidade": "",
+      "vendedor": "Ronaldo",
+      "temperatura": "",
+      "data_transferencia": "2026-07-30T08:09:32.812-03:00"
+    },
+    {
+      "nome": "Carlos Alberto Pelisão",
+      "telefone": "556584332306",
+      "cidade": "",
+      "vendedor": "Maria Luiza",
+      "temperatura": "",
+      "data_transferencia": "2026-07-30T08:26:00.864-03:00"
+    },
+    {
+      "nome": "Banci",
+      "telefone": "556199616277",
+      "cidade": "",
+      "vendedor": "Maria Luiza",
+      "temperatura": "",
+      "data_transferencia": "2026-07-30T11:00:01.393-03:00"
+    },
+    {
+      "nome": "Jose Carlos Wagner",
+      "telefone": "55999748498",
+      "cidade": "",
+      "vendedor": "Rhuan",
+      "temperatura": "",
+      "data_transferencia": "2026-07-30T12:12:59.265-03:00"
+    },
+    {
+      "nome": "Marcos Sfredo",
+      "telefone": "556592884741",
+      "cidade": "",
+      "vendedor": "Maria Luiza",
+      "temperatura": "",
+      "data_transferencia": "2026-07-30T12:51:42.775-03:00"
+    },
+    {
+      "nome": "Carlos Diego",
+      "telefone": "556496952686",
+      "cidade": "",
+      "vendedor": "Rhuan",
+      "temperatura": "",
+      "data_transferencia": "2026-07-30T15:58:33.999-03:00"
+    },
+    {
+      "nome": "Carlos Eduardo",
+      "telefone": "556281104344",
+      "cidade": "",
+      "vendedor": "Ronaldo",
+      "temperatura": "",
+      "data_transferencia": "2026-07-30T16:21:29.992-03:00"
+    },
+    {
+      "nome": "👍",
+      "telefone": "556199728141",
+      "cidade": "Cavalcante",
+      "vendedor": "Rhuan",
+      "temperatura": "morno",
+      "data_transferencia": "2026-07-30T16:58:08.409-03:00"
+    },
+    {
+      "nome": "Renato Vieira",
+      "telefone": "5538999481011",
+      "cidade": "",
+      "vendedor": "Ronaldo",
+      "temperatura": "",
+      "data_transferencia": "2026-07-31T08:23:54.805-03:00"
+    },
+    {
+      "nome": "Carlos Eduardo Vilas Boas",
+      "telefone": "556199014900",
+      "cidade": "",
+      "vendedor": "Maria Luiza",
+      "temperatura": "",
+      "data_transferencia": "2026-07-31T08:24:08.718-03:00"
+    },
+    {
+      "nome": "Carlos H.",
+      "telefone": "556699311302",
+      "cidade": "",
+      "vendedor": "Rhuan",
+      "temperatura": "",
+      "data_transferencia": "2026-07-31T11:16:14.355-03:00"
+    },
+    {
+      "nome": "Carlos Manoel Azoia",
+      "telefone": "556696262223",
+      "cidade": "",
+      "vendedor": "Ronaldo",
+      "temperatura": "",
+      "data_transferencia": "2026-07-31T13:22:42.960-03:00"
+    },
+    {
+      "nome": "Carlos",
+      "telefone": "556392928363",
+      "cidade": "",
+      "vendedor": "Maria Luiza",
+      "temperatura": "",
+      "data_transferencia": "2026-07-31T15:12:59.289-03:00"
+    },
+    {
+      "nome": "Carlim",
+      "telefone": "553499996898",
+      "cidade": "",
+      "vendedor": "Rhuan",
+      "temperatura": "",
+      "data_transferencia": "2026-07-31T17:12:55.268-03:00"
+    },
+    {
+      "nome": "Humberto",
+      "telefone": "55999916622",
+      "cidade": "",
+      "vendedor": "Ronaldo",
+      "temperatura": "",
+      "data_transferencia": "2026-07-31T17:27:00.618-03:00"
+    },
+    {
+      "nome": "Noel Jacob Neto",
+      "telefone": "559591124751",
+      "cidade": "",
+      "vendedor": "Maria Luiza",
+      "temperatura": "",
+      "data_transferencia": "2026-07-31T20:19:59.195-03:00"
+    },
+    {
+      "nome": "Guilherme (Escritorio)",
+      "telefone": "5535988635327",
+      "cidade": "",
+      "vendedor": "Maria Luiza",
+      "temperatura": "",
+      "data_transferencia": "2026-08-03T09:54:04.523-03:00"
+    },
+    {
+      "nome": "Cassiano Novo",
+      "telefone": "5566999853438",
+      "cidade": "",
+      "vendedor": "Rhuan",
+      "temperatura": "",
+      "data_transferencia": "2026-08-03T11:18:05.521-03:00"
+    },
+    {
+      "nome": "Celi Machado",
+      "telefone": "556296841166",
+      "cidade": "",
+      "vendedor": "Maria Luiza",
+      "temperatura": "",
+      "data_transferencia": "2026-08-03T17:10:03.527-03:00"
+    },
+    {
+      "nome": "Celia",
+      "telefone": "559388018249",
+      "cidade": "",
+      "vendedor": "Ronaldo",
+      "temperatura": "",
+      "data_transferencia": "2026-08-04T09:05:31.215-03:00"
+    },
+    {
+      "nome": "Celso Fischer",
+      "telefone": "556599287700",
+      "cidade": "",
+      "vendedor": "Maria Luiza",
+      "temperatura": "",
+      "data_transferencia": "2026-08-04T16:12:59.262-03:00"
+    },
+    {
+      "nome": "Celso Batista",
+      "telefone": "556796478779",
+      "cidade": "",
+      "vendedor": "Ronaldo",
+      "temperatura": "",
+      "data_transferencia": "2026-08-05T08:09:45.929-03:00"
+    },
+    {
+      "nome": "Celso Soupinski",
+      "telefone": "559391279701",
+      "cidade": "",
+      "vendedor": "Tharik Rafael",
+      "temperatura": "",
+      "data_transferencia": "2026-08-05T09:21:58.891-03:00"
+    },
+    {
+      "nome": "Cesar Matos",
+      "telefone": "556599571617",
+      "cidade": "",
+      "vendedor": "Ronaldo",
+      "temperatura": "Frio",
+      "data_transferencia": "2026-08-05T12:47:11.169-03:00"
+    },
+    {
+      "nome": "César",
+      "telefone": "556184279736",
+      "cidade": "",
+      "vendedor": "Maria Luiza",
+      "temperatura": "",
+      "data_transferencia": "2026-08-05T13:12:47.269-03:00"
+    },
+    {
+      "nome": "cesar scariot",
+      "telefone": "556799621514",
+      "cidade": "",
+      "vendedor": "Tharik Rafael",
+      "temperatura": "",
+      "data_transferencia": "2026-08-05T14:20:52.737-03:00"
+    },
+    {
+      "nome": "Cezar Lazzari",
+      "telefone": "557799719298",
+      "cidade": "",
+      "vendedor": "Rhuan",
+      "temperatura": "",
+      "data_transferencia": "2026-08-05T15:17:23.677-03:00"
+    },
+    {
+      "nome": "Cidinei🚜🌱🌱",
+      "telefone": "556796052643",
+      "cidade": "",
+      "vendedor": "Rhuan",
+      "temperatura": "",
+      "data_transferencia": "2026-08-06T12:15:16.525-03:00"
+    },
+    {
+      "nome": "Juarez Irmão",
+      "telefone": "556292998243",
+      "cidade": "",
+      "vendedor": "Tharik Rafael",
+      "temperatura": "",
+      "data_transferencia": "2026-08-06T16:24:56.293-03:00"
+    },
+    {
+      "nome": "Claudemir",
+      "telefone": "556796657716",
+      "cidade": "Casa Verde",
+      "vendedor": "Rhuan",
+      "temperatura": "",
+      "data_transferencia": "2026-08-07T10:22:49.395-03:00"
+    },
+    {
+      "nome": "CLAUDIA ALMEIDA",
+      "telefone": "553791042206",
+      "cidade": "",
+      "vendedor": "Rhuan",
+      "temperatura": "",
+      "data_transferencia": "2026-08-07T14:17:12.202-03:00"
+    },
+    {
+      "nome": "Raul Lucas Montoya Pinto",
+      "telefone": "556699015601",
+      "cidade": "",
+      "vendedor": "Ronaldo",
+      "temperatura": "",
+      "data_transferencia": "2026-08-07T14:36:27.553-03:00"
+    },
+    {
+      "nome": "",
+      "telefone": "556599637291",
+      "cidade": "",
+      "vendedor": "Maria Luiza",
+      "temperatura": "",
+      "data_transferencia": "2026-08-07T17:15:58.494-03:00"
+    },
+    {
+      "nome": "Claudino Fank",
+      "telefone": "556592541794",
+      "cidade": "",
+      "vendedor": "Tharik Rafael",
+      "temperatura": "",
+      "data_transferencia": "2026-08-07T17:45:12.836-03:00"
+    },
+    {
+      "nome": "Claudio",
+      "telefone": "556684133893",
+      "cidade": "Querência",
+      "vendedor": "Rhuan",
+      "temperatura": "",
+      "data_transferencia": "2026-08-08T10:16:16.189-03:00"
+    },
+    {
+      "nome": "Tiago Brunetta",
+      "telefone": "559988340518",
+      "cidade": "Balsas",
+      "vendedor": "Ronaldo",
+      "temperatura": "Quente",
+      "data_transferencia": "2026-08-08T10:18:54.019-03:00"
+    },
+    {
+      "nome": "Claudio Machado",
+      "telefone": "556499872962",
+      "cidade": "",
+      "vendedor": "Tharik Rafael",
+      "temperatura": "",
+      "data_transferencia": "2026-08-10T09:28:18.739-03:00"
+    },
+    {
+      "nome": "Yuri",
+      "telefone": "5565999219756",
+      "cidade": "",
+      "vendedor": "Maria Luiza",
+      "temperatura": "",
+      "data_transferencia": "2026-08-10T12:15:25.635-03:00"
+    },
+    {
+      "nome": "Claudir Ceola",
+      "telefone": "553899990447",
+      "cidade": "",
+      "vendedor": "Ronaldo",
+      "temperatura": "",
+      "data_transferencia": "2026-08-13T08:17:11.474-03:00"
+    },
+    {
+      "nome": "Eder Faz Verde",
+      "telefone": "5566999696602",
+      "cidade": "",
+      "vendedor": "Tharik Rafael",
+      "temperatura": "",
+      "data_transferencia": "2026-08-13T09:15:36.804-03:00"
+    },
+    {
+      "nome": "Claudir",
+      "telefone": "556699277371",
+      "cidade": "",
+      "vendedor": "Rhuan",
+      "temperatura": "",
+      "data_transferencia": "2026-08-13T09:16:37.321-03:00"
+    },
+    {
+      "nome": "Cleber Mariani",
+      "telefone": "556796128521",
+      "cidade": "",
+      "vendedor": "Maria Luiza",
+      "temperatura": "",
+      "data_transferencia": "2026-08-13T12:25:07.873-03:00"
+    },
+    {
+      "nome": "Claudionor",
+      "telefone": "556799641041",
+      "cidade": "",
+      "vendedor": "Tharik Rafael",
+      "temperatura": "",
+      "data_transferencia": "2026-08-13T13:02:58.705-03:00"
+    },
+    {
+      "nome": "Gustavo Marin",
+      "telefone": "556399413170",
+      "cidade": "",
+      "vendedor": "Maria Luiza",
+      "temperatura": "",
+      "data_transferencia": "2026-08-13T16:29:35.498-03:00"
+    },
+    {
+      "nome": "Cleiton",
+      "telefone": "556798520128",
+      "cidade": "",
+      "vendedor": "Rhuan",
+      "temperatura": "",
+      "data_transferencia": "2026-08-13T17:09:03.913-03:00"
+    },
+    {
+      "nome": "Pedro Brid",
+      "telefone": "556499650858",
+      "cidade": "",
+      "vendedor": "Tharik Rafael",
+      "temperatura": "",
+      "data_transferencia": "2026-08-14T15:44:15.708-03:00"
+    },
+    {
+      "nome": "Alvaro Guedes Cooperoeste",
+      "telefone": "556692224405",
+      "cidade": "",
+      "vendedor": "Ronaldo",
+      "temperatura": "",
+      "data_transferencia": "2026-08-17T08:14:48.266-03:00"
+    },
+    {
+      "nome": "Cornélia Zancanella",
+      "telefone": "556384628458",
+      "cidade": "",
+      "vendedor": "Tharik Rafael",
+      "temperatura": "",
+      "data_transferencia": "2026-08-17T09:09:12.474-03:00"
+    },
+    {
+      "nome": "Agroveterinaria Arinos",
+      "telefone": "553898101992",
+      "cidade": "",
+      "vendedor": "Ronaldo",
+      "temperatura": "",
+      "data_transferencia": "2026-08-17T09:22:33.934-03:00"
+    },
+    {
+      "nome": "Paulo Henrique",
+      "telefone": "553898796636",
+      "cidade": "",
+      "vendedor": "Tharik Rafael",
+      "temperatura": "",
+      "data_transferencia": "2026-08-17T12:57:26.393-03:00"
+    },
+    {
+      "nome": "Cristiano Costa",
+      "telefone": "556696697313",
+      "cidade": "Querência",
+      "vendedor": "Ronaldo",
+      "temperatura": "Morno",
+      "data_transferencia": "2026-08-17T14:17:22.887-03:00"
+    },
+    {
+      "nome": "Tiago Claro",
+      "telefone": "556392578923",
+      "cidade": "",
+      "vendedor": "Tharik Rafael",
+      "temperatura": "",
+      "data_transferencia": "2026-08-17T15:27:57.705-03:00"
+    },
+    {
+      "nome": "Cristiano",
+      "telefone": "556699949991",
+      "cidade": "",
+      "vendedor": "Rhuan",
+      "temperatura": "",
+      "data_transferencia": "2026-08-17T16:10:25.049-03:00"
+    },
+    {
+      "nome": "Cassiano Zoller",
+      "telefone": "554491061007",
+      "cidade": "",
+      "vendedor": "Rhuan",
+      "temperatura": "",
+      "data_transferencia": "2026-08-18T10:09:19.525-03:00"
+    },
+    {
+      "nome": "Agrofritzen",
+      "telefone": "558981180034",
+      "cidade": "",
+      "vendedor": "Ronaldo",
+      "temperatura": "",
+      "data_transferencia": "2026-08-18T10:11:16.096-03:00"
+    },
+    {
+      "nome": "Cyro Queiroz",
+      "telefone": "557791991952",
+      "cidade": "",
+      "vendedor": "Tharik Rafael",
+      "temperatura": "",
+      "data_transferencia": "2026-08-18T11:08:36.566-03:00"
+    },
+    {
+      "nome": "Dagner",
+      "telefone": "556696629056",
+      "cidade": "",
+      "vendedor": "Rhuan",
+      "temperatura": "",
+      "data_transferencia": "2026-08-18T11:17:00.801-03:00"
+    },
+    {
+      "nome": "Dalírio",
+      "telefone": "5562999732875",
+      "cidade": "",
+      "vendedor": "Tharik Rafael",
+      "temperatura": "",
+      "data_transferencia": "2026-08-18T15:04:07.201-03:00"
+    },
+    {
+      "nome": "Dalila",
+      "telefone": "556299744215",
+      "cidade": "",
+      "vendedor": "Rhuan",
+      "temperatura": "",
+      "data_transferencia": "2026-08-18T15:28:41.785-03:00"
+    },
+    {
+      "nome": "João Pedro Petró",
+      "telefone": "556799611449",
+      "cidade": "",
+      "vendedor": "Tharik Rafael",
+      "temperatura": "",
+      "data_transferencia": "2026-08-19T10:59:06.765-03:00"
+    },
+    {
+      "nome": "André Fazenda",
+      "telefone": "5514996516159",
+      "cidade": "",
+      "vendedor": "Tharik Rafael",
+      "temperatura": "",
+      "data_transferencia": "2026-08-19T12:03:47.745-03:00"
+    },
+    {
+      "nome": "Daniel",
+      "telefone": "553492123536",
+      "cidade": "Serra do Salitre",
+      "vendedor": "Rhuan",
+      "temperatura": "morno",
+      "data_transferencia": "2026-08-19T12:15:15.904-03:00"
+    },
+    {
+      "nome": "Riquinho",
+      "telefone": "553499426866",
+      "cidade": "",
+      "vendedor": "Ronaldo",
+      "temperatura": "",
+      "data_transferencia": "2026-08-19T14:11:44.452-03:00"
+    },
+    {
+      "nome": "Daniel Konageski",
+      "telefone": "556199680744",
+      "cidade": "",
+      "vendedor": "Tharik Rafael",
+      "temperatura": "",
+      "data_transferencia": "2026-08-19T14:26:59.674-03:00"
+    },
+    {
+      "nome": "Rudinei delalibera",
+      "telefone": "65699435320",
+      "cidade": "",
+      "vendedor": "Tharik Rafael",
+      "temperatura": "",
+      "data_transferencia": "2026-08-19T17:58:14.201-03:00"
+    },
+    {
+      "nome": "Danielson Filho",
+      "telefone": "556697163898",
+      "cidade": "Mato Grosso",
+      "vendedor": "Ronaldo",
+      "temperatura": "",
+      "data_transferencia": "2026-08-19T21:41:16.730-03:00"
+    },
+    {
+      "nome": "Danilo Rocha",
+      "telefone": "556496449745",
+      "cidade": "Bom Jardim de Goiás",
+      "vendedor": "Tharik Rafael",
+      "temperatura": "morno",
+      "data_transferencia": "2026-08-20T12:22:12.980-03:00"
+    },
+    {
+      "nome": "Danilo Novo",
+      "telefone": "556481398757",
+      "cidade": "",
+      "vendedor": "Tharik Rafael",
+      "temperatura": "",
+      "data_transferencia": "2026-08-20T12:28:12.904-03:00"
+    },
+    {
+      "nome": "danilo gomes da Silva",
+      "telefone": "553599887127",
+      "cidade": "",
+      "vendedor": "Rhuan",
+      "temperatura": "",
+      "data_transferencia": "2026-08-20T14:22:17.427-03:00"
+    },
+    {
+      "nome": "Diego",
+      "telefone": "5562984345802",
+      "cidade": "",
+      "vendedor": "Tharik Rafael",
+      "temperatura": "",
+      "data_transferencia": "2026-08-20T16:33:35.853-03:00"
+    },
+    {
+      "nome": "Débora Carvalho",
+      "telefone": "556699732370",
+      "cidade": "",
+      "vendedor": "Ronaldo",
+      "temperatura": "",
+      "data_transferencia": "2026-08-20T17:27:48.893-03:00"
+    },
+    {
+      "nome": "daneskafonseca",
+      "telefone": "553288873916",
+      "cidade": "São João del Rei",
+      "vendedor": "Rhuan",
+      "temperatura": "morno",
+      "data_transferencia": "2026-08-20T21:21:01.344-03:00"
+    },
+    {
+      "nome": "Dario Queiroz",
+      "telefone": "553496751773",
+      "cidade": "",
+      "vendedor": "Rhuan",
+      "temperatura": "",
+      "data_transferencia": "2026-08-21T10:08:09.615-03:00"
+    },
+    {
+      "nome": "Cristiano",
+      "telefone": "5516992334558",
+      "cidade": "",
+      "vendedor": "Tharik Rafael",
+      "temperatura": "",
+      "data_transferencia": "2026-08-22T11:17:20.601-03:00"
+    },
+    {
+      "nome": "Derick",
+      "telefone": "5563999840699",
+      "cidade": "",
+      "vendedor": "Rhuan",
+      "temperatura": "",
+      "data_transferencia": "2026-08-21T11:34:46.600-03:00"
+    },
+    {
+      "nome": "Daiane...mana",
+      "telefone": "557798432752",
+      "cidade": "",
+      "vendedor": "Tharik Rafael",
+      "temperatura": "",
+      "data_transferencia": "2026-08-21T12:17:09.310-03:00"
+    },
+    {
+      "nome": "Gayola",
+      "telefone": "5518997777766",
+      "cidade": "",
+      "vendedor": "Tharik Rafael",
+      "temperatura": "",
+      "data_transferencia": "2026-08-21T12:45:09.970-03:00"
+    },
+    {
+      "nome": "Cadu Projetos",
+      "telefone": "553599052612",
+      "cidade": "",
+      "vendedor": "Ronaldo",
+      "temperatura": "",
+      "data_transferencia": "2026-08-21T16:18:27.545-03:00"
+    },
+    {
+      "nome": "",
+      "telefone": "5543999169911",
+      "cidade": "",
+      "vendedor": "Tharik Rafael",
+      "temperatura": "",
+      "data_transferencia": "2026-08-21T17:14:11.156-03:00"
+    },
+    {
+      "nome": "Papito",
+      "telefone": "5565984649211",
+      "cidade": "",
+      "vendedor": "Ronaldo",
+      "temperatura": "",
+      "data_transferencia": "2026-08-22T10:12:29.863-03:00"
+    },
+    {
+      "nome": "Cristiano",
+      "telefone": "929824243379",
+      "cidade": "",
+      "vendedor": "Ronaldo",
+      "temperatura": "",
+      "data_transferencia": "2026-08-22T11:18:39.910-03:00"
+    },
+    {
+      "nome": "dede",
+      "telefone": "556799496159",
+      "cidade": "Sidrolândia",
+      "vendedor": "Tharik Rafael",
+      "temperatura": "morno",
+      "data_transferencia": "2026-08-24T08:13:22.180-03:00"
+    },
+    {
+      "nome": "Denes",
+      "telefone": "556696141521",
+      "cidade": "",
+      "vendedor": "Tharik Rafael",
+      "temperatura": "",
+      "data_transferencia": "2026-08-24T13:19:09.598-03:00"
+    },
+    {
+      "nome": "Elivelton",
+      "telefone": "5562999240323",
+      "cidade": "",
+      "vendedor": "Rhuan",
+      "temperatura": "",
+      "data_transferencia": "2026-08-24T13:20:57.423-03:00"
+    },
+    {
+      "nome": "Diego",
+      "telefone": "555491432225",
+      "cidade": "",
+      "vendedor": "Tharik Rafael",
+      "temperatura": "Frio",
+      "data_transferencia": "2026-08-25T14:59:59.830-03:00"
+    }
+  ]
+}
